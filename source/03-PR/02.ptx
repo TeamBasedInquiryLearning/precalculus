@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="PR2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quadratic Models and Meanings (PR2) </title>
+    <objectives>
+    <ul>
+      <li>
+        <xi:include href="outcomes/02.ptx" />
+      </li>
+    </ul>
+    </objectives>
+    <subsection>
+    <title>Activities</title>
+    
+    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+
+    <activity xml:id="activity-2-1">
+        <introduction>
+          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+        </introduction>
+        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        </task>
+        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        </task>
+      </activity>
+    </subsection>
+    
+    <subsection>
+        <title>Videos</title>
+        <p>It would be great to include videos down here, like in the Calculus book!</p>
+    </subsection>
+</section>

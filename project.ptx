@@ -7,7 +7,7 @@
 -->
 <project ptx-version="2">
   <targets>
-    <target name="web" format="html"/>
+    <target name="web" format="html" deploy-dir="2024"/>
     <target name="print" format="pdf"/>
     <target name="print-latex" format="latex"/>
   </targets>

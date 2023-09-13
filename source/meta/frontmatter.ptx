@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This frontmatter division will contain all content before the -->
+<!-- first chapter. Fill in and comment/uncomment to see how this -->
+<!-- works. -->
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  <titlepage>
+    <author>
+      <personname>TBIL Fellows</personname>
+
+    </author>
+    <date>
+      <today />
+    </date>
+  </titlepage>
+
+  <colophon xml:id="colophon">
+    <website>
+        <url href="https://teambasedinquirylearning.github.io/precalculus/">Precalculus for Team-Based Inquiry Learning</url>
+    </website>
+    <xi:include href="./copyright.ptx" />
+      
+  </colophon>
+<!--
+    <colophon xml:id="tbil-rl">
+      <title>TBIL Resource Library</title>
+      <p>
+This work is made available as part of the
+<url href="https://sites.google.com/southalabama.edu/tbil/tbil-resource-library" visual="sites.google.com/southalabama.edu/tbil/tbil-resource-library">TBIL Resource Library</url>,
+a product of <url href="https://nsf.gov/awardsearch/showAward?AWD_ID=2011807" visual="nsf.gov/awardsearch/showAward?AWD_ID=2011807">NSF DUE Award #2011807</url>.
+      </p>
+  </colophon>
+-->
+</frontmatter>
+

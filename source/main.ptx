@@ -5,18 +5,18 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Precalculus for Team-Based Inquiry Learning</title>
+    <subtitle>2024 Development Edition</subtitle>
 
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="meta/frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="03-PR/main.ptx" />
 
 
     <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <xi:include href="meta/backmatter.ptx" />
 
   </book>
 </pretext>
