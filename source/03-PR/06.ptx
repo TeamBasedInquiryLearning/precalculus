@@ -11,20 +11,86 @@
     </objectives>
     <subsection>
     <title>Activities</title>
-    
-    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
 
     <activity xml:id="activity-6-1">
         <introduction>
           <p>Consider the following six graphs of rational functions:</p>
-          <figure xml:id="fig-six-rational-functions">
-            <image width="75%" source="six-rational-functions.png">
+          <sbsgroup>
+            <sidebyside width="30%">
+            <image>
+              <sageplot>
+              f(x) = 2*x/(x^2-2*x-8)
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((4,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+              p+=text('Graph A', (0, 8), fontsize=18, color='black')
+              p
+              </sageplot>
             </image>
-          </figure>
+            <image>
+              <sageplot>
+              f(x) = (x^2+3)/(2*x^2-8)-1
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((2,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((x,-1),(x,-7,7),color='red',linestyle="--")
+              p+=text('Graph B', (0, 8), fontsize=18, color='black')
+              p
+              </sageplot>
+            </image>
+            <image>
+              <sageplot>
+              f(x) = 1-(x^2+3)/(2*x^2-8)
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((2,x),(x,-8,8),color='red',linestyle="--")
+              p+=parametric_plot((x,1),(x,-7,7),color='red',linestyle="--")
+              p+=text('Graph C', (0, 8), fontsize=18, color='black')
+              p
+              </sageplot>
+            </image>
+            </sidebyside>
+            <sidebyside width="30%">
+              <image>
+                <sageplot>
+                f(x) = 2*x/(x^2-2*x-8)-3
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,-3),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph D', (0, 8), fontsize=18, color='black')
+                p
+                </sageplot>
+              </image>
+              <image>
+                <sageplot>
+                f(x) = (x^2+3)/(2*x^2-8)
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((2,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph E', (0, 8), fontsize=18, color='black')
+                p
+                </sageplot>
+              </image>
+              <image>
+                <sageplot>
+                f(x) = -2*x/(x^2-2*x-8)
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph F', (0, 8), fontsize=18, color='black')
+                p
+                </sageplot>
+              </image>
+              </sidebyside>
+        </sbsgroup>
         </introduction>
-        <task> <p>Which of the graphs above represents the function <m>f(x)=\frac{3x}{x^2-2x-8}</m>?</p>
+        <task> <p>Which of the graphs above represents the function <m>f(x)=\frac{2x}{x^2-2x-8}</m>?</p>
         </task>
-        <task> <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+2}{2x^2-8}</m>?</p>
+        <task> <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+3}{2x^2-8}</m>?</p>
         </task>
       </activity>
     </subsection>
