@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Properties of Graphs of Rational Functions (PR6)",
-  "body": " Properties of Graphs of Rational Functions (PR6)     Use the formula of a rational function to find the domain and range, vertical and horizontal asymptotes, and intercepts. I can use this i nformation along with a sign chart to sketch the graph of a given rational function.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Properties of Graphs of Rational Functions (PR6)     Use the formula of a rational function to find the domain and range, vertical and horizontal asymptotes, and intercepts. I can use this i nformation along with a sign chart to sketch the graph of a given rational function.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Consider the following six graphs of rational functions:       Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-7",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.6.1",
   "title": "",
-  "body": "  Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .  "
+  "body": "  Consider the following six graphs of rational functions:       Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
 },
 {
   "id": "colophon-2",
