@@ -16,11 +16,15 @@
 
     <activity xml:id="activity-6-1">
         <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>Consider the following six graphs of rational functions:</p>
+          <figure xml:id="fig-six-rational-functions">
+            <image width="75%" source="six-rational-functions.png">
+            </image>
+          </figure>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <task> <p>Which of the graphs above represents the function <m>f(x)=\frac{3x}{x^2-2x-8}</m>?</p>
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task> <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+2}{2x^2-8}</m>?</p>
         </task>
       </activity>
     </subsection>
