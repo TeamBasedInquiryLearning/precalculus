@@ -12,10 +12,6 @@ funded in part by the National Science Foundation
 [Drew Lewis](http://drew-lewis.com) are the maintainers
 of this project.
 
-## Copyright and Licensing
-
-See [source/meta/copyright.ptx](source/meta/copyright.ptx).
-
 ## Contributing
 
 Contributing guidelines are maintained in our organization [wiki](https://github.com/TeamBasedInquiryLearning/wiki/wiki).
