@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Polynomial Long Division (PR3)",
-  "body": " Polynomial Long Division (PR3)     Use polynomial long division to rewrite a rational function as a polynomial plus a proper rational function.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-4",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.3",
   "title": "",
-  "body": "   Use polynomial long division to rewrite a rational function as a polynomial plus a proper rational function.    "
+  "body": "   Rewrite a rational function as a polynomial plus a proper rational function.    "
 },
 {
   "id": "activity-3-1",
@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Graphs of Polynomial Functions (PR5)",
-  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts and end behavior of a polynomial function, and use this information to sketch its graph. I can use this information along with a sign chart to solve polynomial inequalities.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-6",
@@ -133,7 +133,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.5",
   "title": "",
-  "body": "   Find the intercepts and end behavior of a polynomial function, and use this information to sketch its graph. I can use this information along with a sign chart to solve polynomial inequalities.    "
+  "body": "   Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.    "
 },
 {
   "id": "activity-5-1",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Properties of Graphs of Rational Functions (PR6)",
-  "body": " Properties of Graphs of Rational Functions (PR6)     Use the formula of a rational function to find the domain and range, vertical and horizontal asymptotes, and intercepts. I can use this i nformation along with a sign chart to sketch the graph of a given rational function.      Activities    Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Properties of Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-7",
@@ -160,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.6",
   "title": "",
-  "body": "   Use the formula of a rational function to find the domain and range, vertical and horizontal asymptotes, and intercepts. I can use this i nformation along with a sign chart to sketch the graph of a given rational function.    "
+  "body": "   Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.    "
 },
 {
   "id": "activity-6-1",
@@ -186,6 +186,7 @@ var ptx_lunr_idx = lunr(function () {
   this.ref('id')
   this.field('title')
   this.field('body')
+  this.metadataWhitelist = ['position']
 
   ptx_lunr_docs.forEach(function (doc) {
     this.add(doc)
