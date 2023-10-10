@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <section xml:id="PR2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Quadratic Models and Meanings (PR2) </title>
+    <title>Quadratic Models and Meanings</title>
     <objectives>
     <ul>
       <li>
@@ -13,16 +13,36 @@
     <title>Activities</title>
     
     <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+    <p>That's right.</p>
 
     <activity xml:id="activity-2-1">
         <introduction>
           <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>For a less than: <me>x&lt; \frac{y}{2}</me>.</p>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <task>
+          <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task>
+          <p>Here's a second <c>&lt;task&gt;</c>.</p>
         </task>
-      </activity>
+    </activity>
+
+    <remark>
+      <p>
+        And aside to make sure your
+        students know something...
+      </p>
+    </remark>
+
+    <definition>
+      <p>
+        A <term>sequence</term> is
+        a list of numbers...
+      </p>
+    </definition>
+
+
     </subsection>
     
     <subsection>
