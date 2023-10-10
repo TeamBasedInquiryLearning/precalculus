@@ -7,8 +7,17 @@
 -->
 <project ptx-version="2">
   <targets>
-    <target name="web" format="html" deploy-dir="2024"/>
-    <target name="print" format="pdf"/>
-    <target name="print-latex" format="latex"/>
+    <target name="web" format="html" deploy-dir="2024">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
+    <target name="print" format="pdf" output-filename="TBIL-Precalculus-2024.pdf" deploy-dir="2024/pdf">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
+    <target name="slides" format="pdf" xsl="slides.xsl" output-filename="TBIL-Precalculus-2024-slides.pdf" deploy-dir="2024/pdf">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
+    <target name="print-latex" format="latex">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
   </targets>
 </project>
