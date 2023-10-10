@@ -1,6 +1,6 @@
 # Copyright and Licensing
 
-All contents of this repository are copyright 2021-2023 Steven Clontz and Drew Lewis.
+All contents of this repository are copyright 2023 Steven Clontz and Drew Lewis.
 By contributing to this repository, you agree to transfer any intellectual property
 rights for your contributions to these owners.
 
