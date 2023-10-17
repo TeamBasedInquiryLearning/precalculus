@@ -17,6 +17,14 @@
     <activity xml:id="activity-1">
         <introduction>
           <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+        <figure width="100%" xml:id="PR1-quadratic">
+          <image xml:id="PR1-quadratic-image">
+            <description>Quadratic function that opens downward</description>
+            <sageplot>
+              plot(-x^2)
+            </sageplot>
+          </image>
+        </figure>
         </introduction>
         <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
         </task>
