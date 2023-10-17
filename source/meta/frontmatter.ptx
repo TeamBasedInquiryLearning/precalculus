@@ -19,7 +19,22 @@
         <url href="https://teambasedinquirylearning.github.io/precalculus/">Precalculus for Team-Based Inquiry Learning</url>
     </website>
     <xi:include href="./copyright.ptx" />
-      
+    <p>
+      This work includes materials used under license from the following works:
+            </p>
+            <ul>
+                <li>
+                    <p><pubtitle>Active Prelude to Calculus</pubtitle></p>
+                    <ul>
+                        <li>
+                            <p><url href="https://activecalculus.org/prelude/"/></p>
+                        </li>
+                        <li>
+                            <p>CC BY-SA 4.0</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul> 
   </colophon>
 <!--
     <colophon xml:id="tbil-rl">

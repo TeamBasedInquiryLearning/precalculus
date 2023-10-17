@@ -16,11 +16,68 @@
 
     <activity xml:id="activity-2-1">
         <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>A water balloon is tossed vertically from a fifth story window. It's height <m>h(t)</m>, in meters, at a time <m>t</m>, in seconds, is modeled by the function
+            <md>
+              <mrow>h(t)=-5t^2+20t+25 \amp </mrow>
+            </md>
+          </p>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <task> <p>Complete the following table.
+          <table>
+            <tabular>
+              <row header="yes" bottom="minor" >
+                <cell><m>t</m></cell> 
+                <cell><m>h(t)</m></cell>
+              </row>
+              <row>
+                <cell>0</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+              </row>
+            </tabular>
+          </table>
+        </p>
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task> <p>Explain why <m>h(t)</m> is not a linear function.</p>
+        </task>
+        <task><p> What is the meaning of <m>h(0)=25</m>?</p>
+          <ol marker="A." cols="1">
+            <li><p> the initial height of the water balloon is 25 meters.</p></li>
+            <li><p> the water balloon reaches a maximum height of 25 meters. </p></li>
+            <li><p> the water balloon hits the ground after 25 seconds.</p></li>
+            <li><p> the water balloon travels 25 meters before hitting the ground.</p></li>
+        </ol> </task>
+        <task>
+          <p> Find the vertex of the quadratic function.
+            <ol marker="A." cols="2">
+              <li><p><m>(0,25)</m> </p></li>
+              <li><p> <m>(2,45)</m> </p></li>
+              <li><p> <m>(5,0)</m> </p></li>
+              <li><p> <m>(1,40)</m></p></li>
+          </ol>     
+          </p>
+        </task>
+        <task> <p>What is the meaning of the vertex?
+          <ol marker="A." cols="1">
+            <li><p> The water balloon reaches a maximum height of 25 meters at the start.</p></li>
+            <li><p> After 2 seconds, the water balloon reaches a maximum height of 45 meters. </p></li>
+            <li><p>After 5 seconds, the water balloon reaches a maximum height. </p></li>
+            <li><p> After 1 second, the water balloon reaches a maximum height of 40 meters.</p></li>
+        </ol>     
+        </p>
         </task>
       </activity>
     </subsection>
