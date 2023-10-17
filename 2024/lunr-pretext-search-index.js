@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "  Precalculus for Team-Based Inquiry Learning   copyright  "
+  "body": "  Precalculus for Team-Based Inquiry Learning   copyright  This work includes materials used under license from the following works:    Active Prelude to Calculus       CC BY-SA 4.0      "
 },
 {
   "id": "PR1",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Properties of Graphs of Rational Functions (PR6)",
-  "body": " Properties of Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Properties of Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-7",
@@ -161,6 +161,15 @@ var ptx_lunr_docs = [
   "number": "1.6",
   "title": "",
   "body": "   Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.    "
+},
+{
+  "id": "def-rational-func",
+  "level": "2",
+  "url": "PR6.html#def-rational-func",
+  "type": "Definition",
+  "number": "1.6.1",
+  "title": "",
+  "body": "  A function is rational provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have    "
 },
 {
   "id": "activity-6-1",
