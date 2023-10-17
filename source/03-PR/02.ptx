@@ -11,7 +11,7 @@
     </objectives>
     <subsection>
     <title>Activities</title>
-    
+    <p>Test</p>
     <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
 
     <activity xml:id="activity-2-1">
