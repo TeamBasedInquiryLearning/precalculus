@@ -12,16 +12,33 @@
     <subsection>
     <title>Activities</title>
     
-    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+    <p> Different characteristics that define functions can be determined from a graph.  The factored form of the function can show these characteristics that create the graph.</p>
 
     <activity xml:id="activity-4-1">
         <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>Write the polynomial function in factored form using information from the graph below.</p>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <figure>
+          <image>
+              <sageplot>
+              f(x)=(((1/80)(x-3))((x+4)^3)(x^2))
+              p=plot(f,(x,-8,8),ymin=-20,ymax=20,color='blue',thickness=3,detect_poles=True)
+              p
+              </sageplot>
+          </image>
+      </figure>
+        <task> <p>Using the given graph, what are the real zeros of this function?</p>
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task> <p>What are the multiplicities for each zero? </p>
         </task>
+      <task><p>What is the least degree of the function? </p>
+    </task>
+    <task><p>Describe the end behavior of the graph.</p>
+    </task>
+    <task><p>Combining this information with the degree of the function, will the leading coefficient be positive or negative? </p>
+    </task>
+    <task><p>Using the information in parts a-e, write the function for the graph above in factored form.</p>
+    </task>
       </activity>
     </subsection>
     
