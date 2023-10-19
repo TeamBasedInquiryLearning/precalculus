@@ -9,6 +9,46 @@
       <personname>TBIL Fellows</personname>
 
     </author>
+    <credit>
+      <title>Editors</title>
+        <author>
+          <personname>Steven Clontz</personname>
+          <department>Department of Mathematics and Statistics</department>
+          <institution>University of South Alabama</institution>
+          <email>sclontz@southalabama.edu</email>
+        </author>
+        <author>
+          <personname>Drew Lewis</personname>
+          <email>drew.lewis@gmail.com</email>
+        </author>
+    </credit>
+    <credit>
+      <title>Contributing Authors</title>
+      <author>
+        <personname>Tonya DeGeorge</personname>
+        <department>Department of Mathematics</department>
+        <institution>Georgia Gwinnett College</institution>
+        <email>tdegeorge@ggc.edu</email>
+      </author>
+      <author>
+        <personname>Abby Noble</personname>
+        <department>Department of Mathematics and Statistics</department>
+        <institution>Middle Georgia State University</institution>
+        <email>abby.noble@mga.edu</email>
+      </author>
+      <author>
+        <personname>Kathy Pinzon</personname>
+        <department>Department of Mathematics</department>
+        <institution>Georgia Gwinnett College</institution>
+        <email>kpinzon@ggc.edu</email>
+      </author>
+      <author>
+        <personname>Wendy Sheppard</personname>
+        <department>Department of Mathematics</department>
+        <institution>College of Charleston</institution>
+        <email>sheppardw@cofc.edu</email>
+      </author>
+    </credit>
     <date>
       <today />
     </date>
