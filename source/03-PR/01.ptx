@@ -12,26 +12,46 @@
     <subsection>
     <title>Activities</title>
     
-    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+    <p>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. </p>
 
     <activity xml:id="activity-1">
         <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>Use the graph of the quadratic function <m>f(x)=3(x-2)^2-4</m> to fill in the table shown below.</p>
         <figure width="100%" xml:id="PR1-quadratic">
           <image xml:id="PR1-quadratic-image">
             <description>Quadratic function that opens downward</description>
             <sageplot>
-              plot(-x^2)
+              f(x) = (3*(x-2)^2-4)
+                p=plot(f, (x, -1, 5), ymin=-7, ymax=10, color='blue', thickness=3, detect_poles=True)
             </sageplot>
           </image>
         </figure>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <task> <p> How would you describe the behavior of this function? What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns in the <m>y</m>-values of the table?</p>
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task> <p>At which point <m>(x,y)</m> does the graph reach it’s maximum or minimum value? How can you tell from the graph that this is the maximum or minimum value?</p>
+        </task>
+        <task> <p> Look at the function given and the graph of the function. What do you notice? Is there a faster way to find the maximum or minimum value from the given function? </p>
         </task>
     </activity>
     </subsection>
+    
+    <definition xml:id="vertex form of a quadratic function">
+      <statement>
+        <p> The vertex form of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the vertex of the parabola and <m>x = h</m> is the axis of symmetry.
+        </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="activity-1">
+      <introduction>
+        <p> Use the given the quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
+      </introduction>
+      <task> <p> Apply the definition to find the vertex of the parabola and the axis of symmetry.</p>
+      </task>
+      <task> <p>Compare what you got in part <m>a</m> with the values you found in the previous activity. What do you notice? </p>
+      </task>
+  </activity>
 
     <subsection>
         <title>Videos</title>
