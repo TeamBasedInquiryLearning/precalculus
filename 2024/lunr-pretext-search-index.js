@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Quadratic Models and Meanings (PR2)",
-  "body": " Quadratic Models and Meanings (PR2)     Use quadratic models to solve an application problem and establish conclusions.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Quadratic Models and Meanings (PR2)     Use quadratic models to solve an application problem and establish conclusions.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    A water balloon is tossed vertically from a fifth story window. It's height , in meters, at a time , in seconds, is modeled by the function    Complete the following table.        0    1    2    3    4    5      Explain why is not a linear function.  What is the meaning of ?  the initial height of the water balloon is 25 meters.  the water balloon reaches a maximum height of 25 meters.  the water balloon hits the ground after 25 seconds.  the water balloon travels 25 meters before hitting the ground.   Find the vertex of the quadratic function.              What is the meaning of the vertex?  The water balloon reaches a maximum height of 25 meters at the start.  After 2 seconds, the water balloon reaches a maximum height of 45 meters.  After 5 seconds, the water balloon reaches a maximum height.  After 1 second, the water balloon reaches a maximum height of 40 meters.       Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-3",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.2.1",
   "title": "",
-  "body": "  Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .  "
+  "body": "  A water balloon is tossed vertically from a fifth story window. It's height , in meters, at a time , in seconds, is modeled by the function    Complete the following table.        0    1    2    3    4    5      Explain why is not a linear function.  What is the meaning of ?  the initial height of the water balloon is 25 meters.  the water balloon reaches a maximum height of 25 meters.  the water balloon hits the ground after 25 seconds.  the water balloon travels 25 meters before hitting the ground.   Find the vertex of the quadratic function.              What is the meaning of the vertex?  The water balloon reaches a maximum height of 25 meters at the start.  After 2 seconds, the water balloon reaches a maximum height of 45 meters.  After 5 seconds, the water balloon reaches a maximum height.  After 1 second, the water balloon reaches a maximum height of 40 meters.    "
 },
 {
   "id": "PR3",
@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Polynomial Long Division (PR3)",
-  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities    Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-4",
@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
-  "body": "  Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .  "
+  "body": "  Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
 },
 {
   "id": "PR4",
@@ -176,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#activity-6-1",
   "type": "Activity",
-  "number": "1.6.1",
+  "number": "1.6.2",
   "title": "",
   "body": "  Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
 },
