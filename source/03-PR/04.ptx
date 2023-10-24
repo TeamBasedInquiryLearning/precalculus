@@ -10,19 +10,49 @@
     </ul>
     </objectives>
     <subsection>
+       <theorem>
+        <title>Factor Theorem</title> 
+        <statement> 
+          <p> A number c is a zero of a polynomial function f(x) if and only if 
+             x-c  is a factor of f(x).</p>
+        </statement>
+      </theorem>
+      <theorem>
+        <title>Fundamental Theorem of Algebra</title> 
+        <statement> 
+          <p> A polynomial function f of degree n > 0 has at least one zero.</p>
+        </statement>
+      </theorem>
     <title>Activities</title>
-    
-    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+  
 
     <activity xml:id="activity-4-1">
-        <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
-        </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
-        </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
-        </task>
-      </activity>
+      <introduction>
+        <p>Write the polynomial function in factored form using information from the graph below.</p>
+      </introduction>
+      <figure xml:id="fig-sage-graph">
+        <image>
+            <sageplot>
+            f(x)=(((1/80)*(x-3))*((x+4)^3)*(x^2))
+            p=plot(f,(x,-8,8),ymin=-20,ymax=20,color='blue',thickness=3)
+            p
+            </sageplot>
+        </image>
+    </figure>
+      <task> <p>Using the given graph, what are the real zeros of this function?</p>
+      </task>
+      <task> <p>What are the multiplicities for each zero? </p>
+      </task>
+    <task><p>What is the least degree of the function? </p>
+  </task>
+  <task><p>Describe the end behavior of the graph.</p>
+  </task>
+  <task><p>Combining this information with the degree of the function, will the leading coefficient be positive or negative? </p>
+  </task>
+  <task><p>Using the information in parts a-e, write the function for the graph above in factored form.</p>
+  </task>
+    </activity>
+
     </subsection>
     
     <subsection>
