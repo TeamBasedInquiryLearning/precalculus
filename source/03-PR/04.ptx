@@ -29,16 +29,17 @@
     <activity xml:id="activity-4-1">
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
-      </introduction>
+     
       <figure xml:id="fig-sage-graph">
         <image>
             <sageplot>
             f(x)=(((1/80)*(x-3))*((x+4)^3)*(x^2))
-            p=plot(f,(x,-8,8),ymin=-20,ymax=20,color='blue',thickness=3)
+            p=plot(f,(x,-6,6),ymin=-20,ymax=20,color='blue',thickness=3)
             p
             </sageplot>
         </image>
     </figure>
+  </introduction>
       <task> <p>Using the given graph, what are the real zeros of this function?</p>
       </task>
       <task> <p>What are the multiplicities for each zero? </p>
