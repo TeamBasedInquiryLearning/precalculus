@@ -29,7 +29,6 @@
     <activity xml:id="activity-4-1">
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
-     
       <figure xml:id="fig-sage-graph">
         <image>
             <sageplot>
@@ -39,7 +38,7 @@
             </sageplot>
         </image>
     </figure>
-  </introduction>
+      </introduction>
       <task> <p>Using the given graph, what are the real zeros of this function?</p>
       </task>
       <task> <p>What are the multiplicities for each zero? </p>
