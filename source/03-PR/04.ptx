@@ -29,6 +29,7 @@
     <activity xml:id="activity-4-1">
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
+     
       <figure xml:id="fig-sage-graph">
         <image>
             <sageplot>
@@ -38,18 +39,38 @@
             </sageplot>
         </image>
     </figure>
-      </introduction>
-      <task> <p>Using the given graph, what are the real zeros of this function?</p>
+  </introduction>
+      <task> <p>Using the given graph, what are the real zeros of this function? Select all that apply.
+       <ol marker= "A."><li> 0</li>
+        <li> 1</li>
+        <li> -3</li>
+        <li> 3</li>
+        <li> 4</li>
+        <li> -4</li></ol>
+      </p>
       </task>
-      <task> <p>What are the multiplicities for each zero? </p>
+      <task> <p>What are the least possible multiplicities for each zero? 
+      </p>
       </task>
-    <task><p>What is the least degree of the function? </p>
+    <task><p>What is the least degree of the function?
+      <ol marker= "A."><li> 3</li>
+        <li> 4</li>
+        <li> 5</li>
+        <li> 6</li></ol> </p>
   </task>
-  <task><p>Describe the end behavior of the graph.</p>
+  <task><p>Describe the end behavior of the graph.
+    <ol marker= "A.">  <li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m></li>
+    <li> As <m>x \to -\infty</m>, <m>f(x)\to\infty</m></li>
+    <li>As <m>x \to \infty</m>, <m>f(x)\to-\infty</m></li>
+    <li> As <m>x \to -\infty</m>, <m>f(x)\to-\infty</m></li></ol>
+  </p>
   </task>
-  <task><p>Combining this information with the degree of the function, will the leading coefficient be positive or negative? </p>
+  <task><p>Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative? 
+    <ol marker= "A.">  <li>positive</li>
+    <li> negative</li></ol>
+  </p>
   </task>
-  <task><p>Using the information in parts a-e, write the function for the graph above in factored form.</p>
+  <task><p>Given the point (2,<m>\frac{-54}{5}</m>) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.</p>
   </task>
     </activity>
 
