@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Zeroes of Polynomial Functions (PR4)",
-  "body": " Zeroes of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Zeroes of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.       Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).     Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.    Activities    Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-5",
@@ -109,13 +109,31 @@ var ptx_lunr_docs = [
   "body": "   Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.    "
 },
 {
+  "id": "theorem-1",
+  "level": "2",
+  "url": "PR4.html#theorem-1",
+  "type": "Theorem",
+  "number": "1.4.1",
+  "title": "Factor Theorem.",
+  "body": " Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).   "
+},
+{
+  "id": "theorem-2",
+  "level": "2",
+  "url": "PR4.html#theorem-2",
+  "type": "Theorem",
+  "number": "1.4.2",
+  "title": "Fundamental Theorem of Algebra.",
+  "body": " Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.   "
+},
+{
   "id": "activity-4-1",
   "level": "2",
   "url": "PR4.html#activity-4-1",
   "type": "Activity",
-  "number": "1.4.1",
+  "number": "1.4.3",
   "title": "",
-  "body": "  Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .  "
+  "body": "  Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.  "
 },
 {
   "id": "PR5",
