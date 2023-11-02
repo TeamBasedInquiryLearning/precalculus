@@ -12,18 +12,209 @@
     <subsection>
     <title>Activities</title>
     
-    <p>Activities go here! Don't forget to put text in <c>&lt;p&gt;</c> tags or it won't show up.</p>
+    <p>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. </p>
 
     <activity xml:id="activity-1">
         <introduction>
-          <p>Activities may start with an <c>&lt;introduction&gt;</c>.</p>
+          <p>Use the graph of the quadratic function <m>f(x)=3(x-2)^2-4</m> to answer the questions below.</p>
+        <figure width="100%" xml:id="PR1-quadratic">
+          <image xml:id="PR1-quadratic-image">
+            <description>Quadratic function that opens downward</description>
+            <sageplot>
+              f(x) = (3*(x-2)^2-4)
+                p=plot(f, (x, -1, 5), ymin=-7, ymax=10, color='blue', thickness=3, detect_poles=True)
+            </sageplot>
+          </image>
+        </figure>
         </introduction>
-        <task> <p>Then we can ask students to do some <c>&lt;task&gt;</c>s.</p>
+        <task> <p> How would you describe the behavior of this function? What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns of the <m>y</m>-values of the table?</p>
+          <table>
+            <tabular>
+                   <row header="yes" bottom="minor" >
+                       <cell><m>x</m></cell> 
+                       <cell><m>f(x)</m></cell>
+                   </row>
+                   <row>
+                       <cell>0</cell>
+                   </row>
+                   <row>
+                       <cell>1</cell>
+                   </row>
+                   <row>
+                       <cell>2</cell>
+                   </row>
+                   <row>
+                       <cell>3</cell>
+                   </row>
+                   <row>
+                       <cell>4</cell>
+                   </row>
+                   <row>
+                       <cell>5</cell>
+                   </row>
+               </tabular>
+       </table>
+       
         </task>
-        <task> <p>Here's a second <c>&lt;task&gt;</c>.</p>
+        <task> <p>At which point <m>(x,y)</m> does the graph reach it’s maximum or minimum value? How can you tell from the graph that this is the maximum or minimum value?</p>
+        </task>
+        <task> <p> Look at the function given and the graph of the function. What do you notice? Is there a faster way to find the maximum or minimum value from the given function? </p>
         </task>
     </activity>
     </subsection>
+    
+    <definition xml:id="vertex-form-of-a-quadratic-function">
+      <statement>
+        <p> The vertex form of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the vertex of the parabola and <m>x = h</m> is the axis of symmetry.
+        </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="activity-2">
+      <introduction>
+        <p> Use the given the quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
+      </introduction>
+      <task> <p> Apply the definition to find the vertex of the parabola and the axis of symmetry.</p>
+      </task>
+      <task> <p>Compare what you got in part <m>a</m> with the values you found in the previous activity. What do you notice? </p>
+      </task>
+  </activity>
+
+  <definition xml:id="standard-form-of-a-quadratic-function">
+    <statement>
+      <p> Given the standard form of a quadratic function, <m>f(x)=ax^2+bx+c</m>, with real coefficients <m>a, b </m>, and <m> c </m>, the axis of symmetry is defined as <m> x=\frac {-b}{2a}</m> and has a vertex at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <activity xml:id="activity-3">
+    <introduction>
+      <p>Use the graph of the quadratic function to answer the questions below.</p>
+    <figure width="100%" xml:id="PR1-quadratic-function-2">
+      <image xml:id="PR1-quadratic-image-2">
+        <description>Quadratic function that opens downward with vertex (-1,4)</description>
+        <sageplot>
+          f(x) = (-x^2-2*x+3)
+          p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True)
+        </sageplot>
+      </image>
+    </figure>
+    </introduction>
+    <task> <p> Which of the following quadratic functions matches the graph shown in the figure?
+      <ol marker="A." cols="1">
+        <li><p><m>f(x)=x^2+2x+3</m> </p></li>
+        <li><p> <m>f(x)=-(x+1)^2+4</m> </p></li>
+        <li><p> <m>f(x)=-x^2-2x+3</m> </p></li>
+        <li><p> <m>f(x)=-(x+1)^2+4</m></p></li>
+    </ol>     
+    </p>
+    </task>
+    <task> <p> What is the maximum or minimum value? <ol marker="A." cols="2">
+      <li><p><m>-1</m> </p></li>
+      <li><p> <m>4</m> </p></li>
+      <li><p> <m>-3</m> </p></li>
+      <li><p> <m>1</m></p></li>
+  </ol>     
+  </p>
+  </task>
+</activity>
+
+  <activity xml:id="activity-4">
+    <introduction>
+      <p>Consider the following four graphs of quadratic functions:</p>
+      <sbsgroup>
+        <sidebyside width="50%">
+          <image>
+            <sageplot>
+              f(x) = -2*(x+3)^2+1
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True) 
+              p+=text('Graph A', (0, 8), fontsize=18, color='black')
+              p
+            </sageplot>
+          </image>
+          <image>
+            <sageplot>
+              f(x) = (x+3)^2+2
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=text('Graph B', (0, 8), fontsize=18, color='black')
+              p
+            </sageplot>
+          </image>
+        </sidebyside>
+        <sidebyside width="50%">
+          <image>
+            <sageplot>
+              f(x) = 1*(x-2)^2-3
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=text('Graph C', (0, 8), fontsize=18, color='black')
+              p
+            </sageplot>
+          </image>
+          <image>
+            <sageplot>
+              f(x) = -1*(x-2)^2+4
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p+=text('Graph D', (0, 8), fontsize=18, color='black')
+              p
+            </sageplot>
+          </image>
+        </sidebyside>
+      </sbsgroup>
+    </introduction>
+    <task>
+      <p>Which of the graphs above have a maximum?<ol marker="A." cols="2">
+        <li><p> Graph A </p></li>
+        <li><p> Graph B </p></li>
+        <li><p> Graph C </p></li>
+        <li><p> Graph D </p></li>
+    </ol>
+  </p>
+    </task>
+    <task>
+      <p>Which of the graphs above have an axis of symmetry of <m>x=2</m>? <ol marker="A." cols="2">
+        <li><p> Graph A </p></li>
+        <li><p> Graph B </p></li>
+        <li><p> Graph C </p></li>
+        <li><p> Graph D </p></li>
+    </ol>
+  </p>
+</task>
+  <task> <p>Which of the graphs above represents the function <m>f(x)=-(x-2)^2+4</m>?
+    <ol marker="A." cols="2">
+      <li><p> Graph A </p></li>
+      <li><p> Graph B </p></li>
+      <li><p> Graph C </p></li>
+      <li><p> Graph D </p></li>
+  </ol>
+</p>
+    </task>
+    <task> <p>Which of the graphs above represents the function <m>f(x)=x^2-4x+1</m>?
+      <ol marker="A." cols="2">
+        <li><p> Graph A </p></li>
+        <li><p> Graph B </p></li>
+        <li><p> Graph C </p></li>
+        <li><p> Graph D </p></li>
+    </ol>
+  </p>
+    </task>
+  </activity>
+
+  <remark xml:id="remark-vertex-form-of-a-quadratic-function">
+    <statement>
+      <p> Notice that the maximum or minimum value of the quadratic function is the vertex. How can you determine if the vertex is a maximum or minimum?
+      </p>
+    </statement>
+  </remark>
+  
+  <activity xml:id="activity-5">
+    <introduction>
+      <p> Sketch the graph of a function <m> f(x) </m> that meets the following criteria: </p>
+    </introduction>
+        <ol marker="1." cols="1">
+          <li><p> The function <m> f(x) </m> has a maximum at 7.</p></li>
+          <li><p> The axis of symmetry is at <m>x=-2</m>. </p></li>
+      </ol>     
+</activity>
 
     <subsection>
         <title>Videos</title>
