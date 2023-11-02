@@ -95,7 +95,7 @@
         <description>Quadratic function that opens downward with vertex (-1,4)</description>
         <sageplot>
           f(x) = (-x^2-2*x+3)
-            p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True)
+          p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True)
         </sageplot>
       </image>
     </figure>
