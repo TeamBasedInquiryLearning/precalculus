@@ -240,8 +240,8 @@ var ptx_lunr_docs = [
   "url": "PR6.html",
   "type": "Section",
   "number": "1.6",
-  "title": "Properties of Graphs of Rational Functions (PR6)",
-  "body": " Properties of Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "title": "Properties and Graphs of Rational Functions (PR6)",
+  "body": " Properties and Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Consider the rational function    Find , , and .  One answer above gave us some information about the domain of . Which one? Why?  Another answer gave us some information about the zeros of . Which one? Why?  Another answer gave us some information about a point on the graph of that is not a zero. Which one? Why?     Let and be polynomial functions so that is a rational function. The domain domain of a rational function of is the set of all real numbers except those for which .      Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-7",
@@ -259,14 +259,32 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.6.1",
   "title": "",
-  "body": "  A function is rational provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have    "
+  "body": "  A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have    "
 },
 {
-  "id": "activity-6-1",
+  "id": "activity-rf-domain-and-zeros",
   "level": "2",
-  "url": "PR6.html#activity-6-1",
+  "url": "PR6.html#activity-rf-domain-and-zeros",
   "type": "Activity",
   "number": "1.6.2",
+  "title": "",
+  "body": "  Consider the rational function    Find , , and .  One answer above gave us some information about the domain of . Which one? Why?  Another answer gave us some information about the zeros of . Which one? Why?  Another answer gave us some information about a point on the graph of that is not a zero. Which one? Why?  "
+},
+{
+  "id": "def-rf-domain",
+  "level": "2",
+  "url": "PR6.html#def-rf-domain",
+  "type": "Definition",
+  "number": "1.6.3",
+  "title": "",
+  "body": "  Let and be polynomial functions so that is a rational function. The domain domain of a rational function of is the set of all real numbers except those for which .   "
+},
+{
+  "id": "activity-rf-matching",
+  "level": "2",
+  "url": "PR6.html#activity-rf-matching",
+  "type": "Activity",
+  "number": "1.6.4",
   "title": "",
   "body": "  Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
 },
