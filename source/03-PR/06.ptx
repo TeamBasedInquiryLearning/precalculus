@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <section xml:id="PR6" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Properties of Graphs of Rational Functions (PR6) </title>
+  <title>Properties and Graphs of Rational Functions (PR6) </title>
   <objectives>
     <ul>
       <li>
@@ -14,14 +14,44 @@
 
     <definition xml:id="def-rational-func">
       <statement>
-        <p> A function <m>r</m> is rational provided that it is possible to write <m>r</m> as the ratio of two polynomials, <m>p</m> and <m>q</m>. That is, <m>r</m> is rational provided that for some polynomial functions <m>p</m> and <m>q</m>, we have <me>
+        <p> A function <m>r</m> is <term>rational</term><idx>rational function</idx> provided that it is possible to write <m>r</m> as the ratio of two polynomials, <m>p</m> and <m>q</m>. That is, <m>r</m> is rational provided that for some polynomial functions <m>p</m> and <m>q</m>, we have <me>
           r(x) = \frac{p(x)}{q(x)}\text{.}</me>
         
         </p>
       </statement>
     </definition>
 
-    <activity xml:id="activity-6-1">
+    <activity xml:id="activity-rf-domain-and-zeros">
+      <introduction>
+        <p>Consider the rational function <me>
+          r(x) = \frac{x^2-4x-5}{x^2+x-6}\text{.}</me> </p>
+        
+      </introduction>
+      <task>
+        <p>Find <m>r(1) </m>, <m>r(2) </m>, and <m>r(3)</m>.  </p>
+      </task>
+      <task>
+        <p>One answer above gave us some information about the domain of <m>r(x)</m>. Which one? Why?</p>
+      </task>
+      <task>
+        <p>Another answer gave us some information about the zeros of <m>r(x)</m>. Which one? Why?</p>
+      </task>
+      <task>
+        <p>Another answer gave us some information about a point on the graph of <m>r(x)</m> that is not a zero. Which one? Why?</p>
+      </task>
+    </activity>
+
+    <definition xml:id="def-rf-domain">
+      <statement>
+        <p>
+          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx>domain of a rational function</idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+        </p>
+       
+      </statement>
+    </definition>
+   
+  
+    <activity xml:id="activity-rf-matching">
       <introduction>
         <p>Consider the following six graphs of rational functions:</p>
         <sbsgroup>
@@ -104,6 +134,7 @@
         <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+3}{2x^2-8}</m>?</p>
       </task>
     </activity>
+    
   </subsection>
 
   <subsection>
