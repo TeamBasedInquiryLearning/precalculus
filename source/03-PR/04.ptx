@@ -65,15 +65,37 @@
     <li> As <m>x \to -\infty</m>, <m>f(x)\to-\infty</m></li></ol>
   </p>
   </task>
-  <task><p>Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative? 
+  <task><p>Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative? 
     <ol marker= "A.">  <li>positive</li>
     <li> negative</li></ol>
   </p>
-  </task>
+</task>
+  
   <task><p>Given the point (2,<m>\frac{-54}{5}</m>) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.</p>
   </task>
     </activity>
-
+    <activity xml:id="activity-4-1">
+      <introduction>
+        <p>Given the function <m>f(x)=x^6-3x^4-2x^3</m>,</p>
+      </introduction>
+      <task> <p> Find all the zeros and their corresponding multiplicities.</p>
+  
+      </task>
+      <task> <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
+  
+      </task>
+    </activity>
+    <activity xml:id="activity-4-1">
+      <introduction>
+        <p>Given the function <m>f(x)=x^4-2x^3+5x^2-8x+4</m>,</p>
+      </introduction>
+      <task> <p> Find all the zeros and their corresponding multiplicities.</p>
+  
+      </task>
+      <task> <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
+  
+      </task>
+    </activity>
     </subsection>
     
     <subsection>
