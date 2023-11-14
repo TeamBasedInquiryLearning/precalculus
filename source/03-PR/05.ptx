@@ -150,7 +150,8 @@
     </task>
     <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at -5 and another at -16. </p>
     </task>
-    <task> <p> The end behavior of <m> f(x)</m> is given as: As <m> x\to \infty</m>, <m>f(x)\to\infty</m>  As <m> x\to \infty</m>, <m>f(x)\to-\infty</m> </p>
+    <task> <p> The end behavior of <m> f(x)</m> is given as: 
+      <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
     </task>
 </activity>
     <subsection>
