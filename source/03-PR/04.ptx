@@ -26,11 +26,11 @@
     <title>Activities</title>
   
 
-    <activity xml:id="activity-4-1">
+    <activity xml:id="poly-graph">
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
      
-      <figure xml:id="fig-sage-graph">
+      <figure xml:id="fig-sage-poly-graph">
         <image>
             <sageplot>
             f(x)=(((1/80)*(x-3))*((x+4)^3)*(x^2))
@@ -65,15 +65,46 @@
     <li> As <m>x \to -\infty</m>, <m>f(x)\to-\infty</m></li></ol>
   </p>
   </task>
-  <task><p>Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative? 
+  <task><p>Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative? 
     <ol marker= "A.">  <li>positive</li>
     <li> negative</li></ol>
   </p>
-  </task>
+</task>
+  
   <task><p>Given the point (2,<m>\frac{-54}{5}</m>) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.</p>
   </task>
     </activity>
+    <activity xml:id="poly-degree-6">
+      <introduction>
+        <p>Given the function <m>f(x)=x^6-3x^4-2x^3</m>,</p>
+      </introduction>
+      <task> <p> Find all the zeros and their corresponding multiplicities.</p>
+  
+      </task>
+      <task> <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
+  
+      </task>
+    </activity>
+    <activity xml:id="poly-degree-4">
+      <introduction>
+        <p>Given the function <m>f(x)=2x^4-4x^3+10x^2-16x+8</m>,</p>
+      </introduction>
+      <task> <p> Find all the zeros and their corresponding multiplicities.</p>
+  
+      </task>
+      <task> <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
+  
+      </task>
+    </activity>
+    <activity xml:id="poly-create">
+    <introduction>
+      <p>The zeros of a function are x=2, with multiplicity 1, x=-1, with multiplicity 2 and x=i. </p>
+    </introduction>
+    <task> <p> Given the information above, find a polynomial function with real coefficients of least degree. </p>
 
+    </task>
+    
+  </activity>
     </subsection>
     
     <subsection>
