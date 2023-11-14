@@ -30,7 +30,7 @@
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
      
-      <figure xml:id="fig-sage-graph">
+      <figure xml:id="fig-sage-poly-graph">
         <image>
             <sageplot>
             f(x)=(((1/80)*(x-3))*((x+4)^3)*(x^2))
