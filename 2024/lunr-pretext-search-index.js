@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Zeroes of Polynomial Functions (PR4)",
-  "body": " Zeroes of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.       Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).     Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.    Activities    Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Zeroes of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.       Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).     Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.    Activities    Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.     Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.     Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.     The zeros of a function are x=2, with multiplicity 1, x=-1, with multiplicity 2 and x=i.   Given the information above, find a polynomial function with real coefficients of least degree.     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-5",
@@ -199,13 +199,40 @@ var ptx_lunr_docs = [
   "body": " Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.   "
 },
 {
-  "id": "activity-4-1",
+  "id": "poly-graph",
   "level": "2",
-  "url": "PR4.html#activity-4-1",
+  "url": "PR4.html#poly-graph",
   "type": "Activity",
   "number": "1.4.3",
   "title": "",
-  "body": "  Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information in part (d) with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.  "
+  "body": "  Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.  "
+},
+{
+  "id": "poly-degree-6",
+  "level": "2",
+  "url": "PR4.html#poly-degree-6",
+  "type": "Activity",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.  "
+},
+{
+  "id": "poly-degree-4",
+  "level": "2",
+  "url": "PR4.html#poly-degree-4",
+  "type": "Activity",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.  "
+},
+{
+  "id": "poly-create",
+  "level": "2",
+  "url": "PR4.html#poly-create",
+  "type": "Activity",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  The zeros of a function are x=2, with multiplicity 1, x=-1, with multiplicity 2 and x=i.   Given the information above, find a polynomial function with real coefficients of least degree.  "
 },
 {
   "id": "PR5",
@@ -214,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Graphs of Polynomial Functions (PR5)",
-  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.      Activities  Activities go here! Don't forget to put text in <p> tags or it won't show up.    Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.      Activities  A polynomial function is a function that can be expressed in the form of a polynomial. Just like other functions, polynomial functions have many different features. Before we can begin to look at how polynomial functions can be used, we must first be able to identify what makes a polynomial function and what typical characteristics they have.    Some of the graphs shown below are polynomial functions and some are not. Use the following graphs to explore the charactertistics of polynomials.                     By looking at the graphs that are labeled \"NOT a Polynomial Function,\" what type of characteristics do you notice? How are these different from the graphs labeled as being polynomial functions?  Can you make any conjectures about what characteristics all polynomials have based on what you see on these graphs?      There are two primary characteristics we use to distinguish polynomial functions from other functions. Polynomial functions have graphs that are smooth and continuous. Smooth functions are functions that contain only rounded curves (no sharp corners). Continuous functions are functions that can be drawn without lifting your pencil (no breaks).      Now that we know what polynomial functions look like, we should be able to determine some characteristics. Use the graph below to find the given charactertistics.    Polynomial Function      What are the -intercept(s) of the polynomial function? Select all that apply.              What are the -intercept(s) of the polynomial function?             How many zeros does this polynomial function have?  0  1  2  3   At what point is the local minimum located?                  At what point is the local maximum located?                  How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity      How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity         Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are 0, 2, and 5.  has one maximum at 0. has one minimum at -5 and another at -16.  The end behavior of is given as: As ,  As ,     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-6",
@@ -226,13 +253,40 @@ var ptx_lunr_docs = [
   "body": "   Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.    "
 },
 {
-  "id": "activity-5-1",
+  "id": "activity-Identify-PF-from-graph",
   "level": "2",
-  "url": "PR5.html#activity-5-1",
+  "url": "PR5.html#activity-Identify-PF-from-graph",
   "type": "Activity",
   "number": "1.5.1",
   "title": "",
-  "body": "  Activities may start with an <introduction> .   Then we can ask students to do some <task> s.  Here's a second <task> .  "
+  "body": "  Some of the graphs shown below are polynomial functions and some are not. Use the following graphs to explore the charactertistics of polynomials.                     By looking at the graphs that are labeled \"NOT a Polynomial Function,\" what type of characteristics do you notice? How are these different from the graphs labeled as being polynomial functions?  Can you make any conjectures about what characteristics all polynomials have based on what you see on these graphs?  "
+},
+{
+  "id": "characteristics-of-polynomial-graphs",
+  "level": "2",
+  "url": "PR5.html#characteristics-of-polynomial-graphs",
+  "type": "Remark",
+  "number": "1.5.2",
+  "title": "",
+  "body": "  There are two primary characteristics we use to distinguish polynomial functions from other functions. Polynomial functions have graphs that are smooth and continuous. Smooth functions are functions that contain only rounded curves (no sharp corners). Continuous functions are functions that can be drawn without lifting your pencil (no breaks).   "
+},
+{
+  "id": "activity-characteristics-from-polynomial-graph",
+  "level": "2",
+  "url": "PR5.html#activity-characteristics-from-polynomial-graph",
+  "type": "Activity",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  Now that we know what polynomial functions look like, we should be able to determine some characteristics. Use the graph below to find the given charactertistics.    Polynomial Function      What are the -intercept(s) of the polynomial function? Select all that apply.              What are the -intercept(s) of the polynomial function?             How many zeros does this polynomial function have?  0  1  2  3   At what point is the local minimum located?                  At what point is the local maximum located?                  How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity      How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity      "
+},
+{
+  "id": "use-information-to-sketch-graph-of-polynomial",
+  "level": "2",
+  "url": "PR5.html#use-information-to-sketch-graph-of-polynomial",
+  "type": "Activity",
+  "number": "1.5.5",
+  "title": "",
+  "body": "  Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are 0, 2, and 5.  has one maximum at 0. has one minimum at -5 and another at -16.  The end behavior of is given as: As ,  As ,   "
 },
 {
   "id": "PR6",
