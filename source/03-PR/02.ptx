@@ -120,6 +120,33 @@
       </ol>   </p>
         </task>
       </activity>
+      <activity>
+        <introduction>
+          <p>The unit price of an item affects its supply and demand. That is, if the unit price goes up, the demand for the item will usually decrease. For example, an online streaming service currently has 84 million subscribers at a monthly charge of $6. Market research has suggested that if the owners raise the price to $8, they would lose 4 million subscribers. Assume that subscriptions are linearly related to the price.
+            
+          </p>
+        </introduction>
+        \<task>
+          <p> Which of the following represents a linear function which relates the price of the streaming service <m>p</m> to the number of subscribers <m>Q</m>?
+            <ol marker="A." cols="2">
+              <li><p><m>Q(p)=-2p</m> </p></li>
+              <li><p> <m>Q(p)=-2p+84</m> </p></li>
+              <li><p> <m>Q(p)=-2p-4</m> </p></li>
+              <li><p> <m>Q(p)=-2p+96</m></p></li>
+          </ol> </p>
+        </task>
+        <task>
+            <p> Using the fact that Revenue <m>=pQ</m>, which of the following represents the Revenue <m>R</m> in terms of the price <m>p</m>.
+              <ol marker="A." cols="2">
+              <li><p><m>R(p)=-2p^2</m> </p></li>
+              <li><p> <m>R(p)=-2p^2+84p</m> </p></li>
+              <li><p> <m>R(p)=-2p^2-4p</m> </p></li>
+              <li><p> <m>R(p)=-2p^2+96p</m></p></li>
+          </ol>      
+            </p>
+        </task>
+       
+      </activity>
     </subsection>
     
     <subsection>
