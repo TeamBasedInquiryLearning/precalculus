@@ -81,6 +81,36 @@
       </activity>
       <activity>
         <introduction>
+          <p>The population of a small city is given by the function <m>P(t)=-50t^2+1200t+32000</m>, where <m>t</m> is the number of years after 2015.
+            
+          </p>
+        </introduction>
+        \<task>
+          <p> When will the population of the city reach a maximum?
+            <ol marker="A." cols="2">
+              <li><p><m>2020</m> </p></li>
+              <li><p> <m>2022</m> </p></li>
+              <li><p> <m>2025</m> </p></li>
+              <li><p> <m>2027</m></p></li>
+          </ol> </p>
+        </task>
+        <task>
+            <p> Determine when the population of the city is increasing and when it is decreasing.    
+            </p>
+        </task>
+        <task>
+          <p> When will the population of the city reach 40,000 people?
+            <ol marker="A." cols="2">
+              <li><p><m>2019</m> </p></li>
+              <li><p> <m>2025</m> </p></li>
+              <li><p> <m>2027</m> </p></li>
+              <li><p> <m>2035</m></p></li>
+          </ol> </p>
+        </task>
+       
+      </activity>
+      <activity>
+        <introduction>
           <p>The unit price of an item affects its supply and demand. That is, if the unit price goes up, the demand for the item will usually decrease. For example, an online streaming service currently has 84 million subscribers at a monthly charge of $6. Market research has suggested that if the owners raise the price to $8, they would lose 4 million subscribers. Assume that subscriptions are linearly related to the price.
             
           </p>
@@ -120,6 +150,7 @@
       </ol>   </p>
         </task>
       </activity>
+
     </subsection>
     
     <subsection>
