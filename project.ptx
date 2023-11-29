@@ -29,10 +29,14 @@
       deploy-dir="2024/pdf">
       <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
+    <!-- use `python scripts/bank.py` for this target -->
     <target
-      name="print-latex"
-      format="latex">
-      <stringparams debug.project.number="the-way-it-should-be"/>
+      name="checkit"
+      format="custom"
+      output-dir="../exercises/docs"
+      deploy-dir="2024/exercises">
+      <!-- built by checkit, not pretext -->
+      <!-- everything except output-dir and deploy-dir is unused -->
     </target>
   </targets>
 </project>
