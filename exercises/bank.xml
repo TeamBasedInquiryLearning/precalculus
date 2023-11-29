@@ -4,33 +4,6 @@
     <slug>tbil-precalc</slug>
     <url>http://tbil.org</url>
     <outcomes>
-        <!-- <outcome>
-            <title>Solving Linear Equations and Inequalities</title>
-            <slug>EQ1</slug>
-            <path>outcomes/EQ/EQ1</path>
-            <description>
-I can solve linear equations and inequalities in one variable, and I can express these answers graphically and using interval notation.
-            </description>
-        </outcome>
-        
-        <outcome>
-            <title>Absolute Value Equations and Inequalities</title>
-            <slug>EQ2</slug>
-            <path>outcomes/EQ/EQ2</path>
-            <description>
-I can solve linear equations and inequalities involving absolute values, and I can express these answers graphically and using interval notation.            </description>
-        </outcome>
-        
-        <outcome>
-            <title>Distance, Midpoint, and Slope</title>
-            <slug>EQ3</slug>
-            <path>outcomes/EQ/EQ3</path>
-            <description>
-Given two points, I can determine the distance between them, the midpoint of the line segment connecting them, and the slope of the line passing through them.
-            </description>
-        </outcome>
-        
-         -->
         
         
         <outcome>
@@ -42,7 +15,7 @@ I can graph quadratic functions and identify their axis of symmetry and maximum 
             </description>
         </outcome>
         
-        <!-- <outcome>
+        <outcome>
             <title>Quadratic Models and Meanings</title>
             <slug>PR2</slug>
             <path>outcomes/PR/PR2</path>
@@ -89,7 +62,7 @@ I can rewrite a rational function as a polynomial plus a proper rational functio
 
             </description>
         </outcome>
-         -->
+        
         
     </outcomes>
 </bank>
