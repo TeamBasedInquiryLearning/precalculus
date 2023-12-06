@@ -12,6 +12,7 @@
   <subsection>
     <title>Activities</title>
 
+
     <definition xml:id="def-rational-func">
       <statement>
         <p> A function <m>r</m> is <term>rational</term><idx>rational function</idx> provided that it is possible to write <m>r</m> as the ratio of two polynomials, <m>p</m> and <m>q</m>. That is, <m>r</m> is rational provided that for some polynomial functions <m>p</m> and <m>q</m>, we have <me>
@@ -21,25 +22,48 @@
       </statement>
     </definition>
 
+<p>Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.</p>
+
     <activity xml:id="activity-rf-domain-and-zeros">
       <introduction>
         <p>Consider the rational function <me>
-          r(x) = \frac{x^2-4x-5}{x^2+x-6}\text{.}</me> </p>
+          r(x) = \frac{x^2-3x+2}{x^2-4x+3}\text{.}</me> </p>
         
       </introduction>
       <task>
-        <p>Find <m>r(1) </m>, <m>r(2) </m>, and <m>r(3)</m>.  </p>
+        <p>Find <m>r(1) </m>, <m>r(2) </m>, <m>r(3)</m>, and <m>r(4)</m>.  </p>
       </task>
       <task>
-        <p>One answer above gave us some information about the domain of <m>r(x)</m>. Which one? Why?</p>
+      <p> Some of these answers gave us information about the domain of <m> r(x)</m>. Which one(s)? What did they tell us?  
+        <ol marker="A." cols="2">
+          <li><p><m>r(1)</m> </p></li>
+          <li><p> <m>r(2)</m> </p></li>
+          <li><p> <m>r(3)</m> </p></li>
+          <li><p> <m>r(4)</m></p></li>
+      </ol>     
+      </p>
+    </task>
+      <task>
+        <p>Another answer gave us some information about the zeros of <m>r(x)</m>. Which one? Why?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
       </task>
       <task>
-        <p>Another answer gave us some information about the zeros of <m>r(x)</m>. Which one? Why?</p>
-      </task>
-      <task>
-        <p>Another answer gave us some information about a point on the graph of <m>r(x)</m> that is not a zero. Which one? Why?</p>
+        <p>Another answer gave us some information about a point on the graph of <m>r(x)</m> that is not a zero. Which one? How do you know?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
       </task>
     </activity>
+
+
 
     <definition xml:id="def-rf-domain">
       <statement>
@@ -50,6 +74,167 @@
       </statement>
     </definition>
    
+    <activity xml:id="activity-rf-domain">
+      <introduction>
+        <p><p>  Let's investigate the domain of <m>r(x)</m> more closely. We will be using the same function from the previous activity:</p> <me>
+          r(x) = \frac{x^2-3x+2}{x^2-4x+3}\text{.}</me> </p>
+        
+      </introduction>
+      <task>
+        <p>Rewrite <m>r(x)</m> by factoring the numerator and denominator, but do not try to simplify any further. What do you notice about the relationship between the values that are not in the domain and how the function is now written? </p>
+      </task>
+      
+      <task>
+        <p> The function was not defined for <m>x=3</m>. Make a table for values of <m>r(x)</m> near <m>x=3</m>. 
+          <table>
+            <tabular>
+              <row header="yes" bottom="minor" >
+                <cell><m>x</m></cell> 
+                <cell><m>r(x)</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>2</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>2.9</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>2.99</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>2.999</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>3</m></cell>
+                <cell>undefined</cell>
+              </row>
+              <row halign="center">
+                <cell><m>3.001</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>3.01</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>3.1</m></cell>
+              </row>
+            </tabular>
+          </table> </p>
+      </task>
+      <task><p>Which of the following describe the behavior of the graph near <m>x=3</m>?
+        <ol marker= "A.">  
+        <li> As <m> x\to 3</m>, <m>r(x)</m> approaches a finite number</li>
+        <li> As <m> x\to 3</m> from the left, <m>r(x)\to\infty</m></li>
+        <li> As <m>x \to 3</m> from the left, <m>r(x)\to -\infty</m></li>
+        <li> As <m>x \to 3</m> from the right, <m>r(x)\to \infty</m></li>
+        <li> As <m>x \to 3</m> from the right, <m>r(x)\to -\infty</m></li></ol>
+      </p>
+      </task>
+      <task>
+        <p> The function was also not defined for <m>x=1</m>. Make a table for values of <m>r(x)</m> near <m>x=1</m>. 
+          <table>
+            <tabular>
+              <row header="yes" bottom="minor" >
+                <cell><m>x</m></cell> 
+                <cell><m>r(x)</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>0</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>0.9</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>0.99</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>0.999</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>1</m></cell>
+                <cell>undefined</cell>
+              </row>
+              <row halign="center">
+                <cell><m>1.001</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>1.01</m></cell>
+              </row>
+              <row halign="center">
+                <cell><m>1.1</m></cell>
+              </row>
+            </tabular>
+          </table> </p>
+      </task>
+      <task><p>Which of the following describe the behavior of the graph near <m>x=1</m>?
+        <ol marker= "A.">  
+        <li> As <m> x\to 1</m>, <m>r(x)</m> approaches a finite number</li>
+        <li> As <m> x\to 1</m> from the left, <m>r(x)\to\infty</m></li>
+        <li> As <m>x \to 1</m> from the left, <m>r(x)\to -\infty</m></li>
+        <li> As <m>x \to 1</m> from the right, <m>r(x)\to \infty</m></li>
+        <li> As <m>x \to 1</m> from the right, <m>r(x)\to -\infty</m></li></ol>
+      </p>
+      </task>
+      <task>
+        <p>The function is behaving differently near <m>x=1</m> that it is near <m>x=3</m>. Can you see anything in the factored form of <m>r(x)</m> that may help you account for the difference? </p>
+      </task>
+    </activity>
+
+    <definition xml:id="def-rf-va">
+      <statement>
+        <p>
+          DEFINITION OF VA WILL GO HERE
+        </p>
+       
+      </statement>
+    </definition>
+    
+    <p>
+      
+      In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term>.  <idx><h>rational function</h><h>hole</h></idx> 
+    </p>
+
+    <definition xml:id="def-rf-hole">
+      <statement>
+        <p>
+         DEFINITION OF HOLE WILL GO HERE
+        </p>
+       
+      </statement>
+    </definition>
+
+      
+  
+      <remark xml:id="rf-zeros-asymptotes-holes">
+        <title>Features of a rational function</title>
+       <p>
+         Let <m>r(x) = \frac{p(x)}{q(x)}</m> be a rational function.
+       </p>
+  
+       <p>
+         <ul>
+           <li>
+             <p>
+               If <m>p(a) = 0</m> and <m>q(a) \ne 0</m>, then <m>r(a) = 0</m>, so <m>r</m> has a zero at <m>x = a</m>.
+             </p>
+           </li>
+           <li>
+             <p>
+               If <m>q(a) = 0</m> and <m>p(a) \ne 0</m>, then <m>r(a)</m> is undefined and <m>r</m> has a vertical asymptote at <m>x = a</m>.
+             </p>
+           </li>
+           <li>
+             <p>
+               If <m>p(a) = 0</m> and <m>q(a) = 0</m> and we can show that there is a finite number <m>L</m> such that
+               <m>
+                 r(x) \to L
+               </m>,
+               then <m>r(a)</m> is not defined and <m>r</m> has a hole at the point <m>(a,L)</m>.
+             </p>
+           </li>
+         </ul>
+       </p>
+      </remark>
+    
   
     <activity xml:id="activity-rf-matching">
       <introduction>
@@ -134,6 +319,16 @@
         <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+3}{2x^2-8}</m>?</p>
       </task>
     </activity>
+
+    <activity xml:id="activity-rf-domain-and-zeros">
+      <introduction>
+        <p>FLUENCY ACTIVITY TO MATCH CHECKIT</p>
+        
+      </introduction>
+      <task>
+        <p>QUESTIONS HERE! </p>
+      </task>
+    </activity> 
     
   </subsection>
 
