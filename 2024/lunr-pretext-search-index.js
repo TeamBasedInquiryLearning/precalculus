@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Properties and Graphs of Rational Functions (PR6)",
-  "body": " Properties and Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Consider the rational function    Find , , and .  One answer above gave us some information about the domain of . Which one? Why?  Another answer gave us some information about the zeros of . Which one? Why?  Another answer gave us some information about a point on the graph of that is not a zero. Which one? Why?     Let and be polynomial functions so that is a rational function. The domain domain of a rational function of is the set of all real numbers except those for which .      Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Properties and Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have     Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.    Consider the rational function    Find , , , and .  Some of these answers gave us information about the domain of . Which one(s)? What did they tell us?              Another answer gave us some information about the zeros of . Which one? Why?              Another answer gave us some information about a point on the graph of that is not a zero. Which one? How do you know?                 Let and be polynomial functions so that is a rational function. The domain domain of a rational function of is the set of all real numbers except those for which .      Let's investigate the domain of more closely. We will be using the same function from the previous activity:     Rewrite by factoring the numerator and denominator, but do not try to simplify any further. What do you notice about the relationship between the values that are not in the domain and how the function is now written?  The function was not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function was also not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function is behaving differently near that it is near . Can you see anything in the factored form of that may help you account for the difference?     DEFINITION OF VA WILL GO HERE    In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a hole . rational function hole     DEFINITION OF HOLE WILL GO HERE     Features of a rational function  Let be a rational function.     If and , then , so has a zero at .    If and , then is undefined and has a vertical asymptote at .    If and and we can show that there is a finite number such that , then is not defined and has a hole at the point .        Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     FLUENCY ACTIVITY TO MATCH CHECKIT   QUESTIONS HERE!     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-7",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.6.2",
   "title": "",
-  "body": "  Consider the rational function    Find , , and .  One answer above gave us some information about the domain of . Which one? Why?  Another answer gave us some information about the zeros of . Which one? Why?  Another answer gave us some information about a point on the graph of that is not a zero. Which one? Why?  "
+  "body": "  Consider the rational function    Find , , , and .  Some of these answers gave us information about the domain of . Which one(s)? What did they tell us?              Another answer gave us some information about the zeros of . Which one? Why?              Another answer gave us some information about a point on the graph of that is not a zero. Which one? How do you know?              "
 },
 {
   "id": "def-rf-domain",
@@ -343,13 +343,67 @@ var ptx_lunr_docs = [
   "body": "  Let and be polynomial functions so that is a rational function. The domain domain of a rational function of is the set of all real numbers except those for which .   "
 },
 {
+  "id": "activity-rf-domain",
+  "level": "2",
+  "url": "PR6.html#activity-rf-domain",
+  "type": "Activity",
+  "number": "1.6.4",
+  "title": "",
+  "body": "  Let's investigate the domain of more closely. We will be using the same function from the previous activity:     Rewrite by factoring the numerator and denominator, but do not try to simplify any further. What do you notice about the relationship between the values that are not in the domain and how the function is now written?  The function was not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function was also not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function is behaving differently near that it is near . Can you see anything in the factored form of that may help you account for the difference?  "
+},
+{
+  "id": "def-rf-va",
+  "level": "2",
+  "url": "PR6.html#def-rf-va",
+  "type": "Definition",
+  "number": "1.6.7",
+  "title": "",
+  "body": "  DEFINITION OF VA WILL GO HERE   "
+},
+{
+  "id": "p-198",
+  "level": "2",
+  "url": "PR6.html#p-198",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "hole "
+},
+{
+  "id": "def-rf-hole",
+  "level": "2",
+  "url": "PR6.html#def-rf-hole",
+  "type": "Definition",
+  "number": "1.6.8",
+  "title": "",
+  "body": "  DEFINITION OF HOLE WILL GO HERE   "
+},
+{
+  "id": "rf-zeros-asymptotes-holes",
+  "level": "2",
+  "url": "PR6.html#rf-zeros-asymptotes-holes",
+  "type": "Remark",
+  "number": "1.6.9",
+  "title": "Features of a rational function.",
+  "body": " Features of a rational function  Let be a rational function.     If and , then , so has a zero at .    If and , then is undefined and has a vertical asymptote at .    If and and we can show that there is a finite number such that , then is not defined and has a hole at the point .     "
+},
+{
   "id": "activity-rf-matching",
   "level": "2",
   "url": "PR6.html#activity-rf-matching",
   "type": "Activity",
-  "number": "1.6.4",
+  "number": "1.6.10",
   "title": "",
   "body": "  Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
+},
+{
+  "id": "activity-rf-domain-and-zeros-fluency",
+  "level": "2",
+  "url": "PR6.html#activity-rf-domain-and-zeros-fluency",
+  "type": "Activity",
+  "number": "1.6.11",
+  "title": "",
+  "body": "  FLUENCY ACTIVITY TO MATCH CHECKIT   QUESTIONS HERE!  "
 },
 {
   "id": "colophon-2",
