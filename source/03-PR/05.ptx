@@ -154,6 +154,11 @@
       <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
     </task>
 </activity>
+
+<exercises>
+  <p>Exercises available at <url href="https://teambasedinquirylearning.github.io/precalculus/2024/exercises/#/bank/PR5/"/>.</p>
+</exercises>
+
     <subsection>
         <title>Videos</title>
         <p>It would be great to include videos down here, like in the Calculus book!</p>
