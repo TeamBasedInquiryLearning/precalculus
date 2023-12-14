@@ -12,8 +12,10 @@
     <subsection>
     <title>Activities</title>
     
-    <p> Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both <m> x </m> and <m> y </m>-intercepts and then explore other characteristics polynomial functions can have.
-    </p>
+    <observation> 
+      <p>Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both <m> x </m> and <m> y </m>-intercepts and then explore other characteristics polynomial functions can have.
+      </p>
+    </observation>
 
     <remark
     xml:id="zeros-and-x-intercepts">
