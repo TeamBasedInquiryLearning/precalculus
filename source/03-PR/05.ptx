@@ -12,7 +12,305 @@
     <subsection>
     <title>Activities</title>
     
-    <p>A polynomial function is a function that can be expressed in the form of a polynomial. Just like other functions, polynomial functions have many different features. Before we can begin to look at how polynomial functions can be used, we must first be able to identify what makes a polynomial function and what typical characteristics they have. </p>
+    <observation> 
+      <p>Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both <m> x </m> and <m> y </m>-intercepts and then explore other characteristics polynomial functions can have.
+      </p>
+    </observation>
+
+    <remark
+    xml:id="zeros-and-x-intercepts">
+      <statement>
+        <p> Recall that the <term>zeros</term> of a function are the <term><m>x</m>-intercepts </term> - i.e., the values of <m>x</m> that cross or touch the <m>x</m>-axis. Just like with quadratic functions, we can find the zeros of a function by setting the function equal to <m>0</m> and solving for <m>x</m>.</p>
+      </statement>
+    </remark>
+    
+    <activity
+    xml:id="PR5-activity-1">
+      <introduction>
+    <p> Given the function, <m> f(x)=(x-2)(x+1)(x-3)^2 </m>, determine the following characteristics.
+    </p>
+    </introduction>
+<task> <p> How many zeros does <m> f(x) </m> have?
+  <ol marker= "A." cols="2">
+    <li> <m> 1 </m> </li>
+    <li> <m> 2 </m> </li>
+    <li> <m> 3 </m> </li>
+    <li> <m> 4 </m>  </li></ol></p>
+</task>
+<task> 
+  <p> What are the zeros of <m> f(x) </m>?
+    <ol marker= "A." cols="2">
+      <li> <m> 1, 2, 3 </m> </li>
+      <li> <m> -1, 2, 3 </m> </li>
+      <li> <m> 1, -2, -3 </m> </li>
+      <li> <m> -1, 2, -3 </m>  </li></ol></p>
+    </task>
+<task> 
+      <p> What is the <m>y</m>-intercept of <m> f(x) </m>?
+        <ol marker= "A." cols="2">
+          <li> <m> -1 </m> </li>
+          <li> <m> -6 </m> </li>
+          <li> <m> 6 </m> </li>
+          <li> <m> -18 </m>  </li></ol></p>
+        </task>
+<task> <p> Now that we have found both the <m>x</m> and <m>y</m>-intercepts of <m>f(x)</m>, do we have enough information to draw a possible sketch of <m>f(x)</m>? What other characteristics would be useful to help us draw an accurate sketch of <m> f(x) </m>?</p>
+</task>
+</activity>
+
+<activity
+xml:id="PR5-activity-2">
+  <introduction>
+    <p>Let's now look at the graph of <m>f(x)=(x-2)(x+1)(x-3)^2</m> to answer the questions below.</p>
+  <figure width="100%" xml:id="PR5-polynomial-function">
+    <image xml:id="PR5-polynomial-image">
+      <description>A polynomial function with different multiplicities</description>
+      <sageplot>
+        f(x) = (x-2)*(x+1)*(x-3)^2
+          p=plot(f, (x, -5, 5), ymin=-20, ymax=10, color='blue', thickness=3, detect_poles=True)
+      </sageplot>
+    </image>
+  </figure>
+  </introduction>
+  <task>
+      <p> What are the zeros of <m> f(x) </m>?
+        <ol marker= "A." cols="2">
+          <li> <m> 1, 2, 3 </m> </li>
+          <li> <m> -1, 2, 3 </m> </li>
+          <li> <m> 1, -2, -3 </m> </li>
+          <li> <m> -1, 2, -3 </m>  </li></ol></p>
+  </task>
+  <task>
+      <p>
+        Describe the behavior at each zero. What do you notice?
+      </p>
+  </task>
+</activity>
+
+<definition xml:id="the-multiplicity-of-a-polynomial-function">
+  <statement>
+    <p> The <term>multiplicity</term> <idx><h>polynomial function</h><h>multiplicity</h></idx> of a polynomial function is the number of times a given factor appears in the factored form of the equation of a polynomial.
+    </p>
+    <p>The zero, <m>x=3</m> in <xref ref="PR5-activity-2"/> has multiplicity <m>2</m> because the factor <m>(x−3)</m> occurs twice (the exponent is a <m>2</m>). 
+    </p>
+  </statement>
+</definition>
+
+<p> NEED ANOTHER MULTIPLICITY ACTIVITY and need to address max/min.</p>
+
+<definition xml:id="end-behavior-of-a-polynomial-function">
+  <statement>
+    <p> The <term>end behavior</term> <idx><h>polynomial function</h><h>end behavior</h></idx> of a polynomial function describes the behavior of the graph at the "ends" of the function. In other words, as we move to the right of the graph (as the <m>x</m> values increase), what happens to the <m> y </m> values? Similarly, as we move to the left of the graph (as the <m>x</m> values decrease), what happens to the <m> y </m> values?
+    </p>
+  </statement>
+</definition>
+
+<activity
+    xml:id="PR5-activity-3">
+      <introduction>
+Use the graphs of the following polynomial functions to answer the questions below.
+<sbsgroup>
+  <sidebyside width="50%">
+    <image>
+      <sageplot>
+        f(x) = x^4-11*x^3+42*x^2-64*x+32
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p+=text('Graph A', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+    <image>
+      <sageplot>
+        f(x) = -4*x^3+2*x^2+3
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p+=text('Graph B', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+  </sidebyside>
+  <sidebyside width="50%">
+    <image>
+      <sageplot>
+        f(x) = x^7+2*x^3-5*x^2+2
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p+=text('Graph C', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+    <image>
+      <sageplot>
+        f(x) = -2*x^4+3*x^2-5
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p+=text('Graph D', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+  </sidebyside>
+</sbsgroup>
+      </introduction>
+<task>
+<p> How would you describe the behavior of Graph A as you approach the ends? 
+  <ol marker= "A." cols="1">
+    <li> Graph A rises on the left and on the right. </li>
+    <li> Graph A rises on the left, but falls on the right. </li>
+    <li> Graph A rises on the right, but falls on the left. </li>
+    <li> Graph A falls on the left and on the right.  </li></ol></p>
+</task>
+<task>
+  <p> How would you describe the behavior of Graph B as you approach the ends? 
+    <ol marker= "A." cols="1">
+      <li> Graph B rises on the left and on the right. </li>
+      <li> Graph B rises on the left, but falls on the right. </li>
+      <li> Graph B rises on the right, but falls on the left. </li>
+      <li> Graph B falls on the left and on the right.  </li></ol></p>
+  </task>
+  <task>
+    <p> How would you describe the behavior of Graph C as you approach the ends? 
+      <ol marker= "A." cols="1">
+        <li> Graph C rises on the left and on the right. </li>
+        <li> Graph C rises on the left, but falls on the right. </li>
+        <li> Graph C rises on the right, but falls on the left. </li>
+        <li> Graph C falls on the left and on the right.  </li></ol></p>
+    </task>
+    <task>
+      <p> How would you describe the behavior of Graph D as you approach the ends? 
+        <ol marker= "A." cols="1">
+          <li> Graph D rises on the left and on the right. </li>
+          <li> Graph D rises on the left, but falls on the right. </li>
+          <li> Graph D rises on the right, but falls on the left. </li>
+          <li> Graph D falls on the left and on the right.  </li></ol></p>
+      </task>
+    </activity>
+
+<definition xml:id="degree-and-leading-coefficient">
+  <statement>
+    <p> Typically, when given an equation of a polynomial function, we look at the <term>degree</term> and <term> leading coefficient</term> to help us determine the behavior of the ends. The <term> degree </term> is the highest exponential power in the polynomial. The <term> leading coefficient </term> is the number written in front of the variable with the highest exponential power.
+    </p>
+  </statement>
+</definition>
+
+<activity
+    xml:id="PR5-activity-4">
+      <introduction>
+Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the equations of those polynomial functions. Let's apply <xref ref="degree-and-leading-coefficient"/> to see if we can determine how the degree and leading coefficients of those graphs affect their end behavior.
+<ul><li> Graph A: <m>f(x)=-11x^3+32+42x^2+x^4-64x</m> </li>
+  <li> Graph B: <m>g(x)=2x^2+3-4x^3</m></li>
+  <li> Graph C: <m>h(x)=x^7+2x^3-5x^2+2</m></li>
+  <li> Graph D: <m>j(x)=3x^2-2x^4-5</m></li>
+</ul>
+<sbsgroup>
+  <sidebyside width="50%">
+    <image>
+      <sageplot>
+        f(x) = x^4-11*x^3+42*x^2-64*x+32
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p+=text('Graph A', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+    <image>
+      <sageplot>
+        f(x) = -4*x^3+2*x^2+3
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p+=text('Graph B', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+  </sidebyside>
+  <sidebyside width="50%">
+    <image>
+      <sageplot>
+        f(x) = x^7+2*x^3-5*x^2+2
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p+=text('Graph C', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+    <image>
+      <sageplot>
+        f(x) = -2*x^4+3*x^2-5
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p+=text('Graph D', (0, 8), fontsize=18, color='black')
+        p
+      </sageplot>
+    </image>
+  </sidebyside>
+</sbsgroup>
+      </introduction>
+<task>
+<p> What is the degree and leading coefficient of Graph A? 
+  <ol marker= "A." cols="1">
+    <li> Degree: <m>-64</m>; Leading Coefficient: <m>4</m> </li>
+    <li> Degree: <m>4</m>; Leading Coefficient: <m>0</m> </li>
+    <li> Degree: <m>1</m>; Leading Coefficient: <m>-64</m> </li>
+    <li> Degree: <m>4</m>; Leading Coefficient: <m>1</m>  </li></ol></p>
+</task>
+<task>
+  <p> What is the degree and leading coefficient of Graph B? 
+    <ol marker= "A." cols="1">
+      <li> Degree: <m>3</m>; Leading Coefficient: <m>-4</m> </li>
+      <li> Degree: <m>-4</m>; Leading Coefficient: <m>3</m> </li>
+      <li> Degree: <m>2</m>; Leading Coefficient: <m>3</m> </li>
+      <li> Degree: <m>3</m>; Leading Coefficient: <m>4</m>  </li></ol></p>
+  </task>
+  <task>
+    <p> What is the degree and leading coefficient of Graph C? 
+      <ol marker= "A." cols="1">
+        <li> Degree: <m>-5</m>; Leading Coefficient: <m>2</m> </li>
+        <li> Degree: <m>0</m>; Leading Coefficient: <m>7</m> </li>
+        <li> Degree: <m>-5</m>; Leading Coefficient: <m>3</m> </li>
+        <li> Degree: <m>7</m>; Leading Coefficient: <m>1</m>  </li></ol></p>
+    </task>
+    <task>
+      <p> What is the degree and leading coefficient of Graph D? 
+        <ol marker= "A." cols="1">
+          <li> Degree: <m>-2</m>; Leading Coefficient: <m>4</m> </li>
+          <li> Degree: <m>3</m>; Leading Coefficient: <m>2</m> </li>
+          <li> Degree: <m>-2</m>; Leading Coefficient: <m>4</m> </li>
+          <li> Degree: <m>-5</m>; Leading Coefficient: <m>4</m>  </li></ol></p>
+      </task>
+    <task>
+        <p> Notice that Graph A and Graph D have their ends going in the same direction. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?
+        </p>
+    </task>
+    <task>
+      <p> Notice that Graph B and Graph C have their ends going in opposite directions. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?
+      </p>
+  </task>
+    </activity>
+
+    <remark xml:id="remark-end-behavior-chart">
+      <statement>
+        <p> From <xref ref="PR5-activity-4"/>, we saw that the degree and leading coefficient of a polynomial function can give us more clues about the behavior of the function. In summary, we know: 
+          <ul><li>If the degree is even, the ends of the polynomial function will be going in the same direction. If the leading coefficient is positive, both ends will be pointing up. If the leading coefficient is negative, both ends will be pointing down. </li>
+          <li> If the degree is odd, the ends of the polynomial function will be going in opposite directions. If the leading coefficient is positive, the left end will fall and the right end will rise. If the leading coefficient is negative, the left end will rise and the right end will fall.</li></ul>
+        </p>
+      </statement>
+    </remark>
+
+    <definition xml:id="arrow-notation">
+      <statement>
+        <p> When describing end behavior, mathematicians typically use <term>arrow notation</term>. Just as the name suggests, arrows are used to indicate the behavior of certain values on a graph.
+        </p>
+        <p> For end behavior, students are often asked to determine the behavior of <m>y</m>-values as <m>x</m>-values either increase or decrease. The statement "As <m> x\to \infty</m>, <m>f(x)\to -\infty</m>" can be translated to "As <m>x</m> approaches infinity (or as <m>x</m> increases), <m>f(x)</m> (or the <m>y</m>-values) go to negative infinity (i.e., it decreases)." </p>
+      </statement>
+    </definition>
+
+    <activity
+    xml:id="PR5-activity-5">
+      <introduction>
+    <p> Sketch the function, <m> f(x)=(x-2)(x+1)(x-3)^2 </m>, by first finding the given characteristics.
+    </p>
+    </introduction>
+    <p>
+      <ul><li> Find the zeros of <m>f(x)</m>. </li>
+        <li> Find the <m>y</m>-intercept of <m>f(x)</m>.</li>
+      <li> Describe the end behavior of <m>f(x)</m>.</li>
+    <li> Identify where any local maximums and minimums may occur.</li></ul>
+    </p>
+  </activity>
+
+    <p>***DOES THIS GO HERE???****
+      A polynomial function is a function that can be expressed in the form of a polynomial. Just like other functions, polynomial functions have many different features. Before we can begin to look at how polynomial functions can be used, we must first be able to identify what makes a polynomial function and what typical characteristics they have. </p>
 
     <activity xml:id="activity-Identify-PF-from-graph">
         <introduction>
@@ -56,6 +354,25 @@
                 </sageplot>
               </image>
             </sidebyside>
+            <sidebyside width="50%">
+              <image>
+                <sageplot>
+                  f(x) = 1*x^3
+                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
+                  p+=text('Polynomial Function', (0, 8), fontsize=18, color='black')
+                  p
+                </sageplot>
+              </image>
+              <image>
+                <sageplot>
+                  f(x) = exp(x)-2
+                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
+                  p+=parametric_plot((x,-2),(x,-7,7),color='red',linestyle="--")
+                  p+=text('NOT a Polynomial Function', (0, 8), fontsize=18, color='black')
+                  p
+                </sageplot>
+            </image>
+          </sidebyside>
           </sbsgroup>
         </introduction>
         <task> <p> By looking at the graphs that are labeled "NOT a Polynomial Function," what type of characteristics do you notice? How are these different from the graphs labeled as being polynomial functions? </p>   
@@ -68,8 +385,8 @@
     <remark
     xml:id="characteristics-of-polynomial-graphs">
       <statement>
-        <p> There are two primary characteristics we use to distinguish polynomial functions from other functions. Polynomial functions have graphs that are smooth and continuous. Smooth functions are functions that contain only rounded curves (no sharp corners). Continuous functions are functions that can be drawn without lifting your pencil (no breaks). 
-        </p>
+        <p> There are two primary characteristics we typically use to distinguish polynomial functions from other functions. Polynomial functions have graphs that are smooth and continuous. <term>Smooth functions</term> are functions that contain only rounded curves (no sharp corners). <term>Continuous functions </term> are functions that can be drawn without lifting your pencil (no breaks). </p>
+        <p> Notice that although exponential functions, as one example, appear to be smooth and continuous, these are NOT considered polynomial functions because they have asymptotes that affect the behavior of their graphs. Can you think of other functions which might have similar properties but are not considered polynomial functions? </p>
       </statement>
     </remark>
 
@@ -101,10 +418,10 @@
           <li> <m> (0, -2) </m>  </li></ol></p>
       </task><task> <p> How many zeros does this polynomial function have? 
         <ol marker= "A." cols="2">
-          <li> 0 </li>
-          <li> 1 </li>
-          <li> 2 </li>
-          <li> 3 </li></ol>
+          <li> <m> 0 </m> </li>
+          <li> <m> 1 </m>  </li>
+          <li> <m> 2 </m> </li>
+          <li> <m> 3 </m> </li></ol>
       </p>
       </task>
       <task> <p> At what point is the local minimum located?
@@ -146,9 +463,9 @@
     <introduction>
       <p> Sketch the graph of a function <m>f(x) </m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph. </p>
     </introduction>
-    <task> <p> The <m> x</m>-intercepts of <m> f(x)</m> are 0, 2, and 5. </p>
+    <task> <p> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </p>
     </task>
-    <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at -5 and another at -16. </p>
+    <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </p>
     </task>
     <task> <p> The end behavior of <m> f(x)</m> is given as: 
       <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
