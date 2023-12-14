@@ -12,14 +12,14 @@
     <subsection>
     <title>Activities</title>
     
-    <p>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. </p>
+    <observation>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. </observation>
 
-    <activity xml:id="activity-1">
+    <activity xml:id="PR1-activity-1">
         <introduction>
           <p>Use the graph of the quadratic function <m>f(x)=3(x-2)^2-4</m> to answer the questions below.</p>
         <figure width="100%" xml:id="PR1-quadratic">
           <image xml:id="PR1-quadratic-image">
-            <description>Quadratic function that opens downward</description>
+            <description>Quadratic function that opens upward</description>
             <sageplot>
               f(x) = (3*(x-2)^2-4)
                 p=plot(f, (x, -1, 5), ymin=-7, ymax=10, color='blue', thickness=3, detect_poles=True)
@@ -27,7 +27,7 @@
           </image>
         </figure>
         </introduction>
-        <task> <p> How would you describe the behavior of this function? What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns of the <m>y</m>-values of the table?</p>
+        <task> <p> Make a table for values of <m>f(x) </m> corresponding to the given <m>x </m>-values. What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns of the <m>y</m>-values of the table?</p>
           <table>
             <tabular>
                    <row header="yes" bottom="minor" >
@@ -35,6 +35,12 @@
                        <cell><m>f(x)</m></cell>
                    </row>
                    <row>
+                    <cell>-2</cell>
+                </row>
+                <row>
+                  <cell>-1</cell>
+              </row>
+              <row>
                        <cell>0</cell>
                    </row>
                    <row>
@@ -56,38 +62,60 @@
        </table>
        
         </task>
-        <task> <p>At which point <m>(x,y)</m> does the graph reach it’s maximum or minimum value? How can you tell from the graph that this is the maximum or minimum value?</p>
+        <task> <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a minimum value? That is, is there a point on the graph that is lower than all other points?
+        
+          <ol marker="A." cols="1">
+            <li><p> The minimum value appears to occur near <m> (0, 8) </m>. </p></li>
+            <li><p> The minimum value appears to occur near <m> (-\frac {1}{5}, 10) </m>. </p></li>
+            <li><p> The minimum value appears to occur near <m> (2, -4) </m>. </p></li>
+            <li><p> There is no minimum value of this function.</p></li>
+        </ol>
+      </p>
         </task>
-        <task> <p> Look at the function given and the graph of the function. What do you notice? Is there a faster way to find the maximum or minimum value from the given function? </p>
+        <task> <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a maximum value? That is, is there a point on the graph that is higher than all other points?
+        
+          <ol marker="A." cols="1">
+            <li><p> The maximum value appears to occur near <m> (-2, 44) </m>. </p></li>
+            <li><p> The maximum value appears to occur near <m> (-\frac {1}{5}, 10) </m>. </p></li>
+            <li><p> The maximum value appears to occur near <m> (2, -4) </m>. </p></li>
+            <li><p> There is no maximum value of this function.</p></li>
+        </ol>
+      </p>
         </task>
     </activity>
     </subsection>
     
     <definition xml:id="vertex-form-of-a-quadratic-function">
       <statement>
-        <p> The vertex form of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the vertex of the parabola and <m>x = h</m> is the axis of symmetry.
+        <p> The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola and <m>x = h</m> is the <term>axis of symmetry.</term> <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
         </p>
       </statement>
     </definition>
 
-    <activity xml:id="activity-2">
+    <activity xml:id="PR1-activity-2">
       <introduction>
         <p> Use the given the quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
       </introduction>
-      <task> <p> Apply the definition to find the vertex of the parabola and the axis of symmetry.</p>
+      <task> <p> Applying <xref ref="vertex-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
+        <ol marker="A." cols="1">
+          <li><p> vertex: <m>(2,-4)</m>; axis of symmetry: <m>x=2</m> </p></li>
+          <li><p> vertex: <m>(-2,4)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+          <li><p> vertex: <m>(-2,-4)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+          <li><p> vertex: <m>(2,4)</m>; axis of symmetry: <m>x=2</m></p></li>
+      </ol>
       </task>
-      <task> <p>Compare what you got in part <m>a</m> with the values you found in the previous activity. What do you notice? </p>
+      <task> <p>Compare what you got in part <m>a</m> with the values you found in <xref ref="PR1-activity-1"/>. What do you notice? </p>
       </task>
   </activity>
 
   <definition xml:id="standard-form-of-a-quadratic-function">
     <statement>
-      <p> Given the standard form of a quadratic function, <m>f(x)=ax^2+bx+c</m>, with real coefficients <m>a, b </m>, and <m> c </m>, the axis of symmetry is defined as <m> x=\frac {-b}{2a}</m> and has a vertex at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
+      <p> Given the <term>standard form</term> <idx><h>quadratic function</h><h>standard form</h></idx> of a quadratic function, <m>f(x)=ax^2+bx+c</m>, with real coefficients <m>a, b </m>, and <m> c </m>, the <term>axis of symmetry</term> <idx><h>quadratic function</h><h>axis of symmetry from standard form</h></idx> is defined as <m> x=\frac {-b}{2a}</m> and has a <term>vertex</term> <idx><h>quadratic function</h><h>vertex from standard form</h></idx> at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
       </p>
     </statement>
   </definition>
 
-  <activity xml:id="activity-3">
+  <activity xml:id="PR1-activity-3">
     <introduction>
       <p>Use the graph of the quadratic function to answer the questions below.</p>
     <figure width="100%" xml:id="PR1-quadratic-function-2">
@@ -100,12 +128,12 @@
       </image>
     </figure>
     </introduction>
-    <task> <p> Which of the following quadratic functions matches the graph shown in the figure?
+    <task> <p> Which of the following quadratic functions could be the graph shown in the figure?
       <ol marker="A." cols="1">
         <li><p><m>f(x)=x^2+2x+3</m> </p></li>
         <li><p> <m>f(x)=-(x+1)^2+4</m> </p></li>
         <li><p> <m>f(x)=-x^2-2x+3</m> </p></li>
-        <li><p> <m>f(x)=-(x+1)^2+4</m></p></li>
+        <li><p> <m>f(x)=(x+1)^2+4</m></p></li>
     </ol>     
     </p>
     </task>
@@ -119,7 +147,7 @@
   </task>
 </activity>
 
-  <activity xml:id="activity-4">
+  <activity xml:id="PR1-activity-4">
     <introduction>
       <p>Consider the following four graphs of quadratic functions:</p>
       <sbsgroup>
@@ -171,7 +199,16 @@
   </p>
     </task>
     <task>
-      <p>Which of the graphs above have an axis of symmetry of <m>x=2</m>? <ol marker="A." cols="2">
+      <p>Which of the graphs above have a minimum?<ol marker="A." cols="2">
+        <li><p> Graph A </p></li>
+        <li><p> Graph B </p></li>
+        <li><p> Graph C </p></li>
+        <li><p> Graph D </p></li>
+    </ol>
+  </p>
+    </task>
+    <task>
+      <p>Which of the graphs above have an axis of symmetry at <m>x=2</m>? <ol marker="A." cols="2">
         <li><p> Graph A </p></li>
         <li><p> Graph B </p></li>
         <li><p> Graph C </p></li>
@@ -206,14 +243,53 @@
     </statement>
   </remark>
   
-  <activity xml:id="activity-5">
+  <activity xml:id="PR1-activity-5">
     <introduction>
-      <p> Sketch the graph of a function <m> f(x) </m> that meets the following criteria: </p>
-    </introduction>
-        <ol marker="1." cols="1">
-          <li><p> The function <m> f(x) </m> has a maximum at 7.</p></li>
-          <li><p> The axis of symmetry is at <m>x=-2</m>. </p></li>
-      </ol>     
+      <p> A function <m>f(x)</m> has a maximum value at 7 and its axis of symmetry at <m>x=-2</m>.</p>
+      </introduction>
+
+        <task> <p> Sketch a graph of a function that meets the criteria for <m>f(x)</m>. </p>
+        </task>
+        <task> <p> Was your graph the only possible answer? Try to sketch another graph that meets this criteria. </p>
+        </task> 
+</activity>
+
+<remark xml:id="remark-using-zeros-to-graph-accurately">
+  <statement>
+    <p> Other points, such as zeros (i.e., <m>x</m>-intercepts), may be helpful in sketching a more accurate graph of a quadratic function. 
+    </p>
+  </statement>
+</remark>
+
+<activity xml:id="PR1-activity-6">
+  <introduction>
+    <p>Consider the following two quadratic functions <m>f(x)=x^2-4x+12</m> and <m>g(x)=2x^2+8x-10</m> and answer the following questions:</p>
+  </introduction>
+  
+  <task> <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
+    <ol marker="A." cols="1">
+      <li><p> vertex: <m>(2,-16)</m>; axis of symmetry: <m>x=2</m> </p></li>
+      <li><p> vertex: <m>(-2,16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+      <li><p> vertex: <m>(-2,-16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+      <li><p> vertex: <m>(2,16)</m>; axis of symmetry: <m>x=2</m></p></li>
+  </ol>
+  </task>
+
+  <task> <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> g(x)</m>?</p>
+    <ol marker="A." cols="1">
+      <li><p> vertex: <m>(2,-16)</m>; axis of symmetry: <m>x=2</m> </p></li>
+      <li><p> vertex: <m>(-2,16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+      <li><p> vertex: <m>(-2,-16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
+      <li><p> vertex: <m>(2,16)</m>; axis of symmetry: <m>x=2</m></p></li>
+  </ol>
+  </task>
+  
+<task> <p>What do you notice about <m>f(x)</m> and <m>g(x)</m>? 
+</p>
+  </task>
+  <task> <p> Now graph both <m>f(x)</m> and <m> g(x)</m> and draw a sketch of each graph on one coordinate plane. How are they similar/different?
+</p>
+  </task>
 </activity>
 
     <subsection>
