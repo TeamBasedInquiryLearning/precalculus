@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Graphing Quadratic Functions (PR1)",
-  "body": " Graphing Quadratic Functions (PR1)     Graph quadratic functions and identify their axis of symmetry, and maximum or minimum point.      Activities  Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values.    Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward      How would you describe the behavior of this function? What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        0    1    2    3    4    5     At which point does the graph reach it’s maximum or minimum value? How can you tell from the graph that this is the maximum or minimum value?  Look at the function given and the graph of the function. What do you notice? Is there a faster way to find the maximum or minimum value from the given function?      The vertex form of a quadratic function is given by , where is the vertex of the parabola and is the axis of symmetry.      Use the given the quadratic function, , to answer the following:   Apply the definition to find the vertex of the parabola and the axis of symmetry.  Compare what you got in part with the values you found in the previous activity. What do you notice?     Given the standard form of a quadratic function, , with real coefficients , and , the axis of symmetry is defined as and has a vertex at the point .      Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions matches the graph shown in the figure?              What is the maximum or minimum value?                 Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry of ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D       Notice that the maximum or minimum value of the quadratic function is the vertex. How can you determine if the vertex is a maximum or minimum?      Sketch the graph of a function that meets the following criteria:    The function has a maximum at 7.  The axis of symmetry is at .     Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Graphing Quadratic Functions (PR1)     Graph quadratic functions and identify their axis of symmetry, and maximum or minimum point.      Activities  Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values.    Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens upward      Make a table for values of corresponding to the given -values. What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        -2    -1    0    1    2    3    4    5     At which point does have a minimum value? That is, is there a point on the graph that is lower than all other points?  The minimum value appears to occur near .  The minimum value appears to occur near .  The minimum value appears to occur near .  There is no minimum value of this function.    At which point does have a maximum value? That is, is there a point on the graph that is higher than all other points?  The maximum value appears to occur near .  The maximum value appears to occur near .  The maximum value appears to occur near .  There is no maximum value of this function.        The vertex form  quadratic function vertex form of a quadratic function is given by , where is the vertex  quadratic function vertex from vertex form of the parabola and is the axis of symmetry.  quadratic function axis of symmetry from vertex form       Use the given the quadratic function, , to answer the following:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Compare what you got in part with the values you found in . What do you notice?     Given the standard form  quadratic function standard form of a quadratic function, , with real coefficients , and , the axis of symmetry  quadratic function axis of symmetry from standard form is defined as and has a vertex  quadratic function vertex from standard form at the point .      Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions could be the graph shown in the figure?              What is the maximum or minimum value?                 Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have a minimum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry at ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D       Notice that the maximum or minimum value of the quadratic function is the vertex. How can you determine if the vertex is a maximum or minimum?      A function has a maximum value at 7 and its axis of symmetry at .   Sketch a graph of a function that meets the criteria for .  Was your graph the only possible answer? Try to sketch another graph that meets this criteria.     Other points, such as zeros (i.e., -intercepts), may be helpful in sketching a more accurate graph of a quadratic function.      Consider the following two quadratic functions and and answer the following questions:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   What do you notice about and ?  Now graph both and and draw a sketch of each graph on one coordinate plane. How are they similar\/different?    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "objectives-2",
@@ -28,76 +28,103 @@ var ptx_lunr_docs = [
   "body": "   Graph quadratic functions and identify their axis of symmetry, and maximum or minimum point.    "
 },
 {
-  "id": "activity-1",
+  "id": "observation-1",
   "level": "2",
-  "url": "PR1.html#activity-1",
-  "type": "Activity",
+  "url": "PR1.html#observation-1",
+  "type": "Observation",
   "number": "1.1.1",
   "title": "",
-  "body": "  Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward      How would you describe the behavior of this function? What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        0    1    2    3    4    5     At which point does the graph reach it’s maximum or minimum value? How can you tell from the graph that this is the maximum or minimum value?  Look at the function given and the graph of the function. What do you notice? Is there a faster way to find the maximum or minimum value from the given function?  "
+  "body": "Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. "
+},
+{
+  "id": "PR1-activity-1",
+  "level": "2",
+  "url": "PR1.html#PR1-activity-1",
+  "type": "Activity",
+  "number": "1.1.2",
+  "title": "",
+  "body": "  Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens upward      Make a table for values of corresponding to the given -values. What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        -2    -1    0    1    2    3    4    5     At which point does have a minimum value? That is, is there a point on the graph that is lower than all other points?  The minimum value appears to occur near .  The minimum value appears to occur near .  The minimum value appears to occur near .  There is no minimum value of this function.    At which point does have a maximum value? That is, is there a point on the graph that is higher than all other points?  The maximum value appears to occur near .  The maximum value appears to occur near .  The maximum value appears to occur near .  There is no maximum value of this function.    "
 },
 {
   "id": "vertex-form-of-a-quadratic-function",
   "level": "2",
   "url": "PR1.html#vertex-form-of-a-quadratic-function",
   "type": "Definition",
-  "number": "1.1.4",
-  "title": "",
-  "body": "  The vertex form of a quadratic function is given by , where is the vertex of the parabola and is the axis of symmetry.   "
-},
-{
-  "id": "activity-2",
-  "level": "2",
-  "url": "PR1.html#activity-2",
-  "type": "Activity",
   "number": "1.1.5",
   "title": "",
-  "body": "  Use the given the quadratic function, , to answer the following:   Apply the definition to find the vertex of the parabola and the axis of symmetry.  Compare what you got in part with the values you found in the previous activity. What do you notice?  "
+  "body": "  The vertex form  quadratic function vertex form of a quadratic function is given by , where is the vertex  quadratic function vertex from vertex form of the parabola and is the axis of symmetry.  quadratic function axis of symmetry from vertex form    "
+},
+{
+  "id": "PR1-activity-2",
+  "level": "2",
+  "url": "PR1.html#PR1-activity-2",
+  "type": "Activity",
+  "number": "1.1.6",
+  "title": "",
+  "body": "  Use the given the quadratic function, , to answer the following:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Compare what you got in part with the values you found in . What do you notice?  "
 },
 {
   "id": "standard-form-of-a-quadratic-function",
   "level": "2",
   "url": "PR1.html#standard-form-of-a-quadratic-function",
   "type": "Definition",
-  "number": "1.1.6",
-  "title": "",
-  "body": "  Given the standard form of a quadratic function, , with real coefficients , and , the axis of symmetry is defined as and has a vertex at the point .   "
-},
-{
-  "id": "activity-3",
-  "level": "2",
-  "url": "PR1.html#activity-3",
-  "type": "Activity",
   "number": "1.1.7",
   "title": "",
-  "body": "  Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions matches the graph shown in the figure?              What is the maximum or minimum value?              "
+  "body": "  Given the standard form  quadratic function standard form of a quadratic function, , with real coefficients , and , the axis of symmetry  quadratic function axis of symmetry from standard form is defined as and has a vertex  quadratic function vertex from standard form at the point .   "
 },
 {
-  "id": "activity-4",
+  "id": "PR1-activity-3",
   "level": "2",
-  "url": "PR1.html#activity-4",
+  "url": "PR1.html#PR1-activity-3",
   "type": "Activity",
-  "number": "1.1.9",
+  "number": "1.1.8",
   "title": "",
-  "body": "  Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry of ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    "
+  "body": "  Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions could be the graph shown in the figure?              What is the maximum or minimum value?              "
+},
+{
+  "id": "PR1-activity-4",
+  "level": "2",
+  "url": "PR1.html#PR1-activity-4",
+  "type": "Activity",
+  "number": "1.1.10",
+  "title": "",
+  "body": "  Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have a minimum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry at ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    "
 },
 {
   "id": "remark-vertex-form-of-a-quadratic-function",
   "level": "2",
   "url": "PR1.html#remark-vertex-form-of-a-quadratic-function",
   "type": "Remark",
-  "number": "1.1.10",
+  "number": "1.1.11",
   "title": "",
   "body": "  Notice that the maximum or minimum value of the quadratic function is the vertex. How can you determine if the vertex is a maximum or minimum?   "
 },
 {
-  "id": "activity-5",
+  "id": "PR1-activity-5",
   "level": "2",
-  "url": "PR1.html#activity-5",
+  "url": "PR1.html#PR1-activity-5",
   "type": "Activity",
-  "number": "1.1.11",
+  "number": "1.1.12",
   "title": "",
-  "body": "  Sketch the graph of a function that meets the following criteria:    The function has a maximum at 7.  The axis of symmetry is at .   "
+  "body": "  A function has a maximum value at 7 and its axis of symmetry at .   Sketch a graph of a function that meets the criteria for .  Was your graph the only possible answer? Try to sketch another graph that meets this criteria.  "
+},
+{
+  "id": "remark-using-zeros-to-graph-accurately",
+  "level": "2",
+  "url": "PR1.html#remark-using-zeros-to-graph-accurately",
+  "type": "Remark",
+  "number": "1.1.13",
+  "title": "",
+  "body": "  Other points, such as zeros (i.e., -intercepts), may be helpful in sketching a more accurate graph of a quadratic function.   "
+},
+{
+  "id": "PR1-activity-6",
+  "level": "2",
+  "url": "PR1.html#PR1-activity-6",
+  "type": "Activity",
+  "number": "1.1.14",
+  "title": "",
+  "body": "  Consider the following two quadratic functions and and answer the following questions:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   What do you notice about and ?  Now graph both and and draw a sketch of each graph on one coordinate plane. How are they similar\/different?  "
 },
 {
   "id": "PR2",
@@ -127,18 +154,18 @@ var ptx_lunr_docs = [
   "body": "  A water balloon is tossed vertically from a fifth story window. It's height , in meters, at a time , in seconds, is modeled by the function    Complete the following table.        0    1    2    3    4    5      Explain why is not a linear function.  What is the meaning of ?  the initial height of the water balloon is 25 meters.  the water balloon reaches a maximum height of 25 meters.  the water balloon hits the ground after 25 seconds.  the water balloon travels 25 meters before hitting the ground.   Find the vertex of the quadratic function.              What is the meaning of the vertex?  The water balloon reaches a maximum height of 25 meters at the start.  After 2 seconds, the water balloon reaches a maximum height of 45 meters.  After 5 seconds, the water balloon reaches a maximum height.  After 1 second, the water balloon reaches a maximum height of 40 meters.    "
 },
 {
-  "id": "activity-7",
+  "id": "activity-8",
   "level": "2",
-  "url": "PR2.html#activity-7",
+  "url": "PR2.html#activity-8",
   "type": "Activity",
   "number": "1.2.3",
   "title": "",
   "body": "  The population of a small city is given by the function , where is the number of years after 2015.  \\ When will the population of the city reach a maximum?              Determine when the population of the city is increasing and when it is decreasing.  When will the population of the city reach 36,000 people?              "
 },
 {
-  "id": "activity-8",
+  "id": "activity-9",
   "level": "2",
-  "url": "PR2.html#activity-8",
+  "url": "PR2.html#activity-9",
   "type": "Activity",
   "number": "1.2.4",
   "title": "",
@@ -361,9 +388,9 @@ var ptx_lunr_docs = [
   "body": "  DEFINITION OF VA WILL GO HERE   "
 },
 {
-  "id": "p-198",
+  "id": "p-228",
   "level": "2",
-  "url": "PR6.html#p-198",
+  "url": "PR6.html#p-228",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
