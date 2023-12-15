@@ -22,7 +22,9 @@
       </statement>
     </definition>
 
-<p>Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.</p>
+<observation>
+  <p>Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.</p>
+</observation>
 
     <activity xml:id="activity-rf-domain-and-zeros">
       <introduction>
@@ -44,7 +46,7 @@
       </p>
     </task>
       <task>
-        <p>Another answer gave us some information about the zeros of <m>r(x)</m>. Which one? Why?
+        <p>Which one(s) gave us information about the zeros of <m>r(x)</m>. Why?
           <ol marker="A." cols="2">
             <li><p><m>r(1)</m> </p></li>
             <li><p> <m>r(2)</m> </p></li>
@@ -53,7 +55,7 @@
         </ol> </p>
       </task>
       <task>
-        <p>Another answer gave us some information about a point on the graph of <m>r(x)</m> that is not a zero. Which one? How do you know?
+        <p>Which one(s) gave us some information about point(s) on the graph of <m>r(x)</m> that are not a zero? How do you know?
           <ol marker="A." cols="2">
             <li><p><m>r(1)</m> </p></li>
             <li><p> <m>r(2)</m> </p></li>
@@ -68,7 +70,7 @@
     <definition xml:id="def-rf-domain">
       <statement>
         <p>
-          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx>domain of a rational function</idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
         </p>
        
       </statement>
@@ -175,32 +177,36 @@
       </p>
       </task>
       <task>
-        <p>The function is behaving differently near <m>x=1</m> that it is near <m>x=3</m>. Can you see anything in the factored form of <m>r(x)</m> that may help you account for the difference? </p>
+        <p>The function is behaving differently near <m>x=1</m> than it is near <m>x=3</m>. Can you see anything in the factored form of <m>r(x)</m> that may help you account for the difference? </p>
       </task>
     </activity>
-
+<!-- 
     <definition xml:id="def-rf-va">
       <statement>
         <p>
           DEFINITION OF VA WILL GO HERE
+          <term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx>
         </p>
        
       </statement>
-    </definition>
+    </definition> -->
     
-    <p>
+    <!-- <observation>
+      <p>
       
-      In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term>.  <idx><h>rational function</h><h>hole</h></idx> 
+      In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx>.
     </p>
+    </observation>  -->
 
-    <definition xml:id="def-rf-hole">
+    <!-- <definition xml:id="def-rf-hole">
       <statement>
         <p>
          DEFINITION OF HOLE WILL GO HERE
+         <term>hole</term><idx><h>rational function</h><h>hole</h></idx>
         </p>
        
       </statement>
-    </definition>
+    </definition> -->
 
       
   
@@ -214,12 +220,12 @@
          <ul>
            <li>
              <p>
-               If <m>p(a) = 0</m> and <m>q(a) \ne 0</m>, then <m>r(a) = 0</m>, so <m>r</m> has a zero at <m>x = a</m>.
+               If <m>p(a) = 0</m> and <m>q(a) \ne 0</m>, then <m>r(a) = 0</m>, so <m>r</m> has a <term>zero</term><idx><h>rational function</h><h>zero</h></idx> at <m>x = a</m>.
              </p>
            </li>
            <li>
              <p>
-               If <m>q(a) = 0</m> and <m>p(a) \ne 0</m>, then <m>r(a)</m> is undefined and <m>r</m> has a vertical asymptote at <m>x = a</m>.
+               If <m>q(a) = 0</m> and <m>p(a) \ne 0</m>, then <m>r(a)</m> is undefined and <m>r</m> has a <term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx> at <m>x = a</m>.
              </p>
            </li>
            <li>
@@ -228,13 +234,22 @@
                <m>
                  r(x) \to L
                </m>,
-               then <m>r(a)</m> is not defined and <m>r</m> has a hole at the point <m>(a,L)</m>.
+               then <m>r(a)</m> is not defined and <m>r</m> has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx> at the point <m>(a,L)</m>.
              </p>
            </li>
          </ul>
        </p>
       </remark>
     
+      <activity xml:id="activity-rf-ha">
+        <introduction>
+          <p>HORIZONTAL ASYMPTOTE ACTIVITY </p>
+          
+        </introduction>
+        <task>
+          <p>QUESTIONS HERE! </p>
+        </task>
+      </activity> 
   
     <activity xml:id="activity-rf-matching">
       <introduction>
@@ -320,6 +335,18 @@
       </task>
     </activity>
 
+
+
+    <activity xml:id="activity-rf-graphs-with-holes">
+      <introduction>
+        <p>MATCHING ACTIVITY INCLUDING GRAPHS WITH HOLES </p>
+        
+      </introduction>
+      <task>
+        <p>QUESTIONS HERE! </p>
+      </task>
+    </activity> 
+ 
     <activity xml:id="activity-rf-domain-and-zeros-fluency">
       <introduction>
         <p>FLUENCY ACTIVITY TO MATCH CHECKIT</p>
@@ -329,7 +356,67 @@
         <p>QUESTIONS HERE! </p>
       </task>
     </activity> 
-    
+
+    <activity xml:id="activity-rf-holes-extension">
+      <introduction>
+        <p>EXTENSION ACTIVITY ABOUT HOLES </p>
+        
+      </introduction>
+      <task>
+        <p>QUESTIONS HERE! </p>
+      </task>
+    </activity> 
+
+    <!-- Extension question regarding holes -->
+    <!-- <exercise xml:id="ez-poly-rational-features-multiplicities">
+      <statement>
+        <p>
+          For each of the following rational functions, identify the location of any potential hole in the graph.  Then, create a table of function values for input values near where the hole should be located.  Use your work to decide whether or not the graph indeed has a hole, with written justification.
+        </p>
+  
+        <p>
+          <ol marker="a.">
+            <li>
+              <p>
+                  <m>\displaystyle r(x) = \frac{x^2-16}{x+4}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\displaystyle s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x - 6}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\displaystyle u(x) = \frac{(x-2)^3(x+3)}{(x^2 - 5x - 6)(x-7)}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\displaystyle w(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                True or false:  given <m>r(x) = \frac{p(x)}{q(x)}</m>, if <m>p(a) = 0</m> and <m>q(a) = 0</m>, then <m>r</m> has a hole at <m>x = a</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Exercise Answer
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Exercise Solution
+        </p>
+      </solution> 
+    </exercise>-->
+
+
   </subsection>
 
   <subsection>
