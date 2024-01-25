@@ -23,7 +23,9 @@
     </definition>
 
 <observation>
+  <observation>
   <p>Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.</p>
+</observation>
 </observation>
 
     <activity xml:id="activity-rf-domain-and-zeros">
@@ -36,14 +38,45 @@
         <p>Find <m>r(1) </m>, <m>r(2) </m>, <m>r(3)</m>, and <m>r(4)</m>.  </p>
       </task>
       <task>
-      <p>  Label each of these four points as giving us information about the DOMAIN of <m>r(x)</m>, information about the ZEROES of <m>r(x)</m>, or NEITHER.    
+      <p> Some of these answers gave us information about the domain of <m> r(x)</m>. Which one(s)? What did they tell us?  
+        <ol marker="A." cols="2">
+          <li><p><m>r(1)</m> </p></li>
+          <li><p> <m>r(2)</m> </p></li>
+          <li><p> <m>r(3)</m> </p></li>
+          <li><p> <m>r(4)</m></p></li>
+      </ol>     
       </p>
     </task>
+      <task>
+        <p>Which one(s) gave us information about the zeros of <m>r(x)</m>. Why?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
+      </task>
+      <task>
+        <p>Which one(s) gave us some information about point(s) on the graph of <m>r(x)</m> that are not a zero? How do you know?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
+      </task>
     </activity>
 
 
 
-
+    <definition xml:id="def-rf-domain">
+      <statement>
+        <p>
+          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+        </p>
+       
+      </statement>
+    </definition>
    
     <activity xml:id="activity-rf-domain">
       <introduction>
@@ -149,7 +182,7 @@
         <p>The function is behaving differently near <m>x=1</m> than it is near <m>x=3</m>. Can you see anything in the factored form of <m>r(x)</m> that may help you account for the difference? </p>
       </task>
     </activity>
-
+<!-- 
     <observation xml:id="obs-rf-domain">
       <statement>
         <p>
@@ -164,27 +197,32 @@
         <p>
           DEFINITION OF VA WILL GO HERE
           <term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx>
+          <term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx>
         </p>
        
       </statement>
-    </definition> -->
+    </definition> --> -->
     
     <!-- <observation>
+      <!-- <observation>
       <p>
       
       In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx>.
+      In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx>.
     </p>
     </observation>  -->
+    </observation>  -->
 
-    <!-- <definition xml:id="def-rf-hole">
+    <!-- <!-- <definition xml:id="def-rf-hole">
       <statement>
         <p>
          DEFINITION OF HOLE WILL GO HERE
          <term>hole</term><idx><h>rational function</h><h>hole</h></idx>
+         <term>hole</term><idx><h>rational function</h><h>hole</h></idx>
         </p>
        
       </statement>
-    </definition> -->
+    </definition> --> -->
 
       
   
@@ -198,12 +236,12 @@
          <ul>
            <li>
              <p>
-               If <m>p(a) = 0</m> and <m>q(a) \ne 0</m>, then <m>r(a) = 0</m>, so <m>r</m> has a <term>zero</term><idx><h>rational function</h><h>zero</h></idx> at <m>x = a</m>.
+               If <m>p(a) = 0</m> and <m>q(a) \ne 0</m>, then <m>r(a) = 0</m>, so <m>r</m> has a <term>zero</term><idx><h>rational function</h><h><term>zero</term><idx><h>rational function</h><h>zero</h></idx></h></idx> at <m>x = a</m>.
              </p>
            </li>
            <li>
              <p>
-               If <m>q(a) = 0</m> and <m>p(a) \ne 0</m>, then <m>r(a)</m> is undefined and <m>r</m> has a <term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx> at <m>x = a</m>.
+               If <m>q(a) = 0</m> and <m>p(a) \ne 0</m>, then <m>r(a)</m> is undefined and <m>r</m> has a <term>vertical asymptote</term><idx><h>rational function</h><h><term>vertical asymptote</term><idx><h>rational function</h><h>vertical asymptote</h></idx></h></idx> at <m>x = a</m>.
              </p>
            </li>
            <li>
@@ -212,7 +250,7 @@
                <m>
                  r(x) \to L
                </m>,
-               then <m>r(a)</m> is not defined and <m>r</m> has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx> at the point <m>(a,L)</m>.
+               then <m>r(a)</m> is not defined and <m>r</m> has a <term>hole</term><idx><h>rational function</h><h><term>hole</term><idx><h>rational function</h><h>hole</h></idx></h></idx> at the point <m>(a,L)</m>.
              </p>
            </li>
          </ul>
@@ -427,6 +465,15 @@
         </p>
       </task>
     </activity>  
+      <activity xml:id="activity-rf-ha">
+        <introduction>
+          <p>HORIZONTAL ASYMPTOTE ACTIVITY </p>
+          
+        </introduction>
+        <task>
+          <p>QUESTIONS HERE! </p>
+        </task>
+      </activity> 
 
     <activity xml:id="activity-rf-matching">
       <introduction>
@@ -576,6 +623,16 @@
       </task>
     </activity> 
 
+    <activity xml:id="activity-rf-holes-extension">
+      <introduction>
+        <p>EXTENSION ACTIVITY ABOUT HOLES </p>
+        
+      </introduction>
+      <task>
+        <p>QUESTIONS HERE! </p>
+      </task>
+    </activity> 
+
     <!-- Extension question regarding holes -->
     <!-- <exercise xml:id="ez-poly-rational-features-multiplicities">
       <statement>
@@ -628,6 +685,10 @@
 
   </subsection>
 
+  <exercises>
+    <p>Exercises available at <url href="https://teambasedinquirylearning.github.io/precalculus/2024/exercises/#/bank/PR6/"/>.</p>
+  </exercises>
+  
   <subsection>
     <title>Videos</title>
     <p>It would be great to include videos down here, like in the Calculus book!</p>
