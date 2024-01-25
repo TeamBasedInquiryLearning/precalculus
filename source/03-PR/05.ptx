@@ -95,7 +95,37 @@ xml:id="PR5-activity-2">
   </statement>
 </definition>
 
-<p> NEED ANOTHER MULTIPLICITY ACTIVITY and need to address max/min.</p>
+<activity
+    xml:id="PR5-finding-multiplicity-from-equation-and-graph">
+      <introduction> 
+        <p> Use the function, <m> f(x)=(x-3)^2(x-1)</m> to answer the following questions:</p>
+        </introduction>
+        <task>
+          <p> What are the zeros of <m> f(x) </m>? 
+            <ol marker= "A." cols="2">
+              <li> <m> -1, -3 </m> </li>
+              <li> <m> -1, 3 </m> </li>
+              <li> <m> 1, -3 </m> </li>
+              <li> <m> 1, 3 </m>  </li></ol></p>
+        </task>
+        <task>
+          <p> Using <xref ref="the-multiplicity-of-a-polynomial-function"/>, determine the multiplicities of the zeros you found in part <m> a </m>.</p>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now graph <m> f(x) </m> and look at the zeros on the graph. What do you notice about the behavior of the graph at each zero?
+              </p>
+            </statement>
+          </task>
+      </activity>
+
+<remark
+  xml:id="zeros-and-multiplicities">
+        <statement>
+          <p> Refer back to <xref ref="PR5-activity-2"/> and <xref ref="PR5-finding-multiplicity-from-equation-and-graph"/>. Notice that when the graph crosses the <m> x </m>-axis at the zero, the mulitplicity of that zero is odd. When the graph touches the <m> x </m>-axis at the zero, the multiplicity is even. In other words, factors of <m> f(x)</m> with odd exponents will cross the <m> x </m>-axis and factors of <m> f(x)</m> with even exponents will touch the <m> x</m>-axis. </p>
+        </statement>
+</remark>
 
 <definition xml:id="end-behavior-of-a-polynomial-function">
   <statement>
@@ -295,6 +325,117 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
       </statement>
     </definition>
 
+    <activity xml:id="using-arrow-notation">
+      <introduction>
+        <p>Use the graph of <m>f(x)</m> to answer the questions below.</p>
+      <figure width="100%" xml:id="PR5-polynomial-function-2">
+        <image xml:id="PR5-polynomial-image-2">
+          <description>A polynomial function with one even and one odd multiplicity</description>
+          <sageplot>
+            f(x) = (x-5)*(x+1)^2
+              p=plot(f, (x, -10, 10), ymin=-40, ymax=20, color='blue', thickness=3, detect_poles=True)
+          </sageplot>
+        </image>
+      </figure>
+      </introduction>
+    <task>
+          <p> How would you describe the end behavior of <m> f(x) </m>? 
+            <ol marker= "A." cols="1">
+              <li> <m> f(x) </m> rises on the left and on the right. </li>
+              <li> <m> f(x) </m> rises on the left, but falls on the right. </li>
+              <li> <m> f(x) </m> rises on the right, but falls on the left. </li>
+              <li> <m> f(x) </m> falls on the left and on the right.  </li></ol></p>
+    </task>
+    <task>
+      <statement>
+        <p> How would you describe the end behavior of <m> f(x) </m> using arrow notation?
+          <ol marker= "A." cols="1">
+            <li> <p> As <m> x\to -\infty</m>, <m>f(x)\to -\infty</m> </p>
+              <p> As <m> x\to \infty</m>, <m>f(x)\to -\infty</m> </p> </li>
+            <li> <p> As <m> x\to -\infty</m>, <m>f(x)\to -\infty</m> </p>
+              <p> As <m> x\to \infty</m>, <m>f(x)\to \infty</m> </p> </li>
+            <li> <p> As <m> x\to -\infty</m>, <m>f(x)\to \infty</m> </p>
+              <p> As <m> x\to \infty</m>, <m>f(x)\to -\infty</m> </p> </li>
+            <li> <p> As <m> x\to -\infty</m>, <m>f(x)\to \infty</m> </p>
+              <p> As <m> x\to \infty</m>, <m>f(x)\to \infty</m> </p>  </li></ol>
+        </p>
+      </statement>
+    </task>
+    </activity>
+
+    <definition xml:id="max-and-min">
+      <statement>
+        <p> When graphing polynomial functions, you may notice that these functions have some "hills" and "valleys." These characteristics of the graph are known as the <term> local maxima </term> and <term> local minima </term> of the graph. The <term> maximum value </term> of a graph is the point where the <m>y </m>-coordinate has the largest value. The <term> minimum value </term> is the point on the graph where the <m>y </m>-coordinate has the smallest value. The local maxima is the highest <m>y</m>-value in that region of the graph. The local minima is the lowest <m>y</m>-value in that region of the graph.A graph, therefore, can have many local maxima/minima.</p>
+        
+        <p> We can estimate where these local maxima and minima occur by looking at other characteristics, such as multiplicities and end behavior.
+        </p>
+      </statement>
+    </definition>
+
+    <activity
+    xml:id="PR5-finding-max-and-min">
+      <introduction>
+    <p> Use the given function, <m> f(x)=(x+1)^2(x-5) </m>, to answer the following questions.
+    </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> What are the zeros of <m> f(x) </m>? 
+          <ol marker= "A." cols="2">
+            <li> <m> -1, -5 </m> </li>
+            <li> <m> -1, 5 </m> </li>
+            <li> <m> 1, -5 </m> </li>
+            <li> <m> 1, 5 </m>  </li></ol></p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p> What are the multiplicities at each zero? 
+          <ol marker= "A." cols="1">
+            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
+            <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
+              <p> At <m> x=5</m>, the mulitplicity is odd. </p></li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
+              <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
+              <p> At <m> x=5</m>, the mulitplicity is odd. </p>  </li></ol>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p> What is the end behavior of <m> f(x) </m>? 
+          <ol marker= "A." cols="1">
+            <li> <m> f(x) </m> rises on the left and on the right. </li>
+              <li> <m> f(x) </m> rises on the left, but falls on the right. </li>
+              <li> <m> f(x) </m> rises on the right, but falls on the left. </li>
+              <li> <m> f(x) </m> falls on the left and on the right.  </li></ol></p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Using what you know about the zeros, multiplicities, and end behavior, where on the graph can we estimate the local maxima and minima to be?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now look at the graph of <m> f(x)</m>. At which zero does a local maximum or local minimum occur? Explain how you know.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <remark xml:id="remark-estimating-max-and-min-values">
+    <statement>
+      <p> From <xref ref="PR5-finding-max-and-min"/>, we saw that when the function touches the <m>x</m>-axis at a zero, then that zero could be either a local maximum or a local minimum of the graph. When the function crosses the <m>x</m>-axis, however, the local maximum or local minimum occurs between the zeros. 
+      </p>
+    </statement>
+  </remark>
+
     <activity
     xml:id="PR5-activity-5">
       <introduction>
@@ -303,9 +444,10 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     </introduction>
     <p>
       <ul><li> Find the zeros of <m>f(x)</m>. </li>
+        <li> Find the multiplicities at each zero.</li>
         <li> Find the <m>y</m>-intercept of <m>f(x)</m>.</li>
       <li> Describe the end behavior of <m>f(x)</m>.</li>
-    <li> Identify where any local maximums and minimums may occur.</li></ul>
+    <li> Estimate where any local maximums and minimums may occur.</li></ul>
     </p>
   </activity>
 
