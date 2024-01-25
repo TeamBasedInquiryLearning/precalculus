@@ -191,7 +191,6 @@
        
       </statement>
     </observation>
-<!-- 
     <definition xml:id="def-rf-va">
       <statement>
         <p>
@@ -201,19 +200,16 @@
         </p>
        
       </statement>
-    </definition> --> -->
-    
-    <!-- <observation>
-      <!-- <observation>
+    </definition> 
+     <observation>
       <p>
       
       In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx>.
       In the situation where a rational function is undefined at a point but does not have a vertical asymptote there, we'll say that the graph of the function has a <term>hole</term><idx><h>rational function</h><h>hole</h></idx>.
     </p>
     </observation>  -->
-    </observation>  -->
 
-    <!-- <!-- <definition xml:id="def-rf-hole">
+    <!--<definition xml:id="def-rf-hole">
       <statement>
         <p>
          DEFINITION OF HOLE WILL GO HERE
@@ -222,7 +218,7 @@
         </p>
        
       </statement>
-    </definition> --> -->
+    </definition> -->
 
       
   
@@ -465,15 +461,6 @@
         </p>
       </task>
     </activity>  
-      <activity xml:id="activity-rf-ha">
-        <introduction>
-          <p>HORIZONTAL ASYMPTOTE ACTIVITY </p>
-          
-        </introduction>
-        <task>
-          <p>QUESTIONS HERE! </p>
-        </task>
-      </activity> 
 
     <activity xml:id="activity-rf-matching">
       <introduction>
@@ -613,15 +600,6 @@
    
     </activity> 
 
-    <activity xml:id="activity-rf-holes-extension">
-      <introduction>
-        <p>EXTENSION ACTIVITY ABOUT HOLES </p>
-        
-      </introduction>
-      <task>
-        <p>QUESTIONS HERE! </p>
-      </task>
-    </activity> 
 
     <activity xml:id="activity-rf-holes-extension">
       <introduction>
