@@ -39,10 +39,38 @@
       <p>  Label each of these four points as giving us information about the DOMAIN of <m>r(x)</m>, information about the ZEROES of <m>r(x)</m>, or NEITHER.    
       </p>
     </task>
+
+      <task>
+        <p>Which one(s) gave us information about the zeros of <m>r(x)</m>. Why?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
+      </task>
+      <task>
+        <p>Which one(s) gave us some information about point(s) on the graph of <m>r(x)</m> that are not a zero? How do you know?
+          <ol marker="A." cols="2">
+            <li><p><m>r(1)</m> </p></li>
+            <li><p> <m>r(2)</m> </p></li>
+            <li><p> <m>r(3)</m> </p></li>
+            <li><p> <m>r(4)</m></p></li>
+        </ol> </p>
+      </task>
+
     </activity>
 
 
 
+    <definition xml:id="def-rf-domain">
+      <statement>
+        <p>
+          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+        </p>
+       
+      </statement>
+    </definition>
 
    
     <activity xml:id="activity-rf-domain">
@@ -158,6 +186,7 @@
        
       </statement>
     </observation>
+
 <!-- 
     <definition xml:id="def-rf-va">
       <statement>
@@ -221,6 +250,7 @@
     
       <activity xml:id="activity-rf-ha">
         <introduction>
+
           <p>Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function <m>r(x)</m> when <m>x</m> goes toward positive infinity or negative infinity. </p>
           
         </introduction>
@@ -248,6 +278,14 @@
           </p>
         </task>
       
+
+
+          <p>HORIZONTAL ASYMPTOTE ACTIVITY </p>
+          
+        </introduction>
+        <task>
+          <p>QUESTIONS HERE! </p>
+        </task>
 
       </activity> 
   
@@ -576,6 +614,18 @@
       </task>
     </activity> 
 
+
+    <activity xml:id="activity-rf-holes-extension">
+      <introduction>
+        <p>EXTENSION ACTIVITY ABOUT HOLES </p>
+        
+      </introduction>
+      <task>
+        <p>QUESTIONS HERE! </p>
+      </task>
+    </activity> 
+
+
     <!-- Extension question regarding holes -->
     <!-- <exercise xml:id="ez-poly-rational-features-multiplicities">
       <statement>
@@ -628,6 +678,10 @@
 
   </subsection>
 
+  <exercises>
+    <p>Exercises available at <url href="https://teambasedinquirylearning.github.io/precalculus/2024/exercises/#/bank/PR6/"/>.</p>
+  </exercises>
+  
   <subsection>
     <title>Videos</title>
     <p>It would be great to include videos down here, like in the Calculus book!</p>
