@@ -263,7 +263,7 @@
 
 <activity xml:id="PR1-activity-6">
   <introduction>
-    <p>Consider the following two quadratic functions <m>f(x)=x^2-4x+12</m> and <m>g(x)=2x^2+8x-10</m> and answer the following questions:</p>
+    <p>Consider the following two quadratic functions <m>f(x)=x^2-4x+20</m> and <m>g(x)=2x^2-8x+24</m> and answer the following questions:</p>
   </introduction>
   
   <task> <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
