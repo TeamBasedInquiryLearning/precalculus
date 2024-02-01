@@ -23,9 +23,11 @@
     </definition>
 
 <observation>
-  <observation>
-  <p>Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.</p>
-</observation>
+  <statement>
+    <p>
+      Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.
+    </p>
+  </statement>>
 </observation>
 
     <activity xml:id="activity-rf-domain-and-zeros">
@@ -38,33 +40,10 @@
         <p>Find <m>r(1) </m>, <m>r(2) </m>, <m>r(3)</m>, and <m>r(4)</m>.  </p>
       </task>
       <task>
-      <p> Some of these answers gave us information about the domain of <m> r(x)</m>. Which one(s)? What did they tell us?  
-        <ol marker="A." cols="2">
-          <li><p><m>r(1)</m> </p></li>
-          <li><p> <m>r(2)</m> </p></li>
-          <li><p> <m>r(3)</m> </p></li>
-          <li><p> <m>r(4)</m></p></li>
-      </ol>     
+      <p> Label each of these four points as giving us information about the DOMAIN of <m>r(x)</m>, information about the ZEROES of <m>r(x)</m>, or NEITHER.    
       </p>
     </task>
-      <task>
-        <p>Which one(s) gave us information about the zeros of <m>r(x)</m>. Why?
-          <ol marker="A." cols="2">
-            <li><p><m>r(1)</m> </p></li>
-            <li><p> <m>r(2)</m> </p></li>
-            <li><p> <m>r(3)</m> </p></li>
-            <li><p> <m>r(4)</m></p></li>
-        </ol> </p>
-      </task>
-      <task>
-        <p>Which one(s) gave us some information about point(s) on the graph of <m>r(x)</m> that are not a zero? How do you know?
-          <ol marker="A." cols="2">
-            <li><p><m>r(1)</m> </p></li>
-            <li><p> <m>r(2)</m> </p></li>
-            <li><p> <m>r(3)</m> </p></li>
-            <li><p> <m>r(4)</m></p></li>
-        </ol> </p>
-      </task>
+      
     </activity>
 
 
