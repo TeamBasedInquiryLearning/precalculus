@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<introduction xml:id="EQ-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <paragraphs xml:id="EQ-readiness">
+    <title>Readiness Assurance</title>
+    <p>
+        Before beginning this chapter, you should be able to...
+    </p>
+    <ol marker="a">
+        <li>
+            <p>Readiness Outcome 1</p>
+            <ul>
+                <li>
+                    <p>Review: </p>
+                </li>
+                <li>
+                    <p>Practice:</p>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <p>Readiness Outcome 2 </p>
+            <ul>
+                <li>
+                    <p>Review:</p>
+                </li>
+                <li>
+                    <p>Practice: </p>
+                </li>
+             </ul>
+        </li>
+ 
+    </ol>
+    </paragraphs>
+</introduction>

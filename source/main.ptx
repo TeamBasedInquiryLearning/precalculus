@@ -12,7 +12,10 @@
     <xi:include href="meta/frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="03-PR/main.ptx" />
+    <xi:include href="01-EQ/main.ptx" />
+    <xi:include href="02-FN/main.ptx" />
+    <xi:include href="03-LF/main.ptx" />
+    <xi:include href="04-PR/main.ptx" />
 
 
     <!-- Include backmatter -->
