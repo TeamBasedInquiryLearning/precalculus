@@ -12,120 +12,12 @@
     <subsection>
     <title>Activities</title>
     
-    <observation> 
-      <p>Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both <m> x </m> and <m> y </m>-intercepts and then explore other characteristics polynomial functions can have.
-      </p>
-    </observation>
-
     <remark
     xml:id="zeros-and-x-intercepts">
       <statement>
-        <p> Recall that the <term>zeros</term> of a function are the <term><m>x</m>-intercepts </term> - i.e., the values of <m>x</m> that cross or touch the <m>x</m>-axis. Just like with quadratic functions, we can find the zeros of a function by setting the function equal to <m>0</m> and solving for <m>x</m>.</p>
+        <p>Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both <m> x </m> and <m> y </m>-intercepts and then explore other characteristics polynomial functions can have. Recall that the <term>zeros</term> of a function are the <term><m>x</m>-intercepts </term> - i.e., the values of <m>x</m> that cross or touch the <m>x</m>-axis. Just like with quadratic functions, we can find the zeros of a function by setting the function equal to <m>0</m> and solving for <m>x</m>.</p>
       </statement>
     </remark>
-    
-    <activity
-    xml:id="PR5-activity-1">
-      <introduction>
-    <p> Given the function, <m> f(x)=(x-2)(x+1)(x-3)^2 </m>, determine the following characteristics.
-    </p>
-    </introduction>
-<task> <p> How many zeros does <m> f(x) </m> have?
-  <ol marker= "A." cols="2">
-    <li> <m> 1 </m> </li>
-    <li> <m> 2 </m> </li>
-    <li> <m> 3 </m> </li>
-    <li> <m> 4 </m>  </li></ol></p>
-</task>
-<task> 
-  <p> What are the zeros of <m> f(x) </m>?
-    <ol marker= "A." cols="2">
-      <li> <m> 1, 2, 3 </m> </li>
-      <li> <m> -1, 2, 3 </m> </li>
-      <li> <m> 1, -2, -3 </m> </li>
-      <li> <m> -1, 2, -3 </m>  </li></ol></p>
-    </task>
-<task> 
-      <p> What is the <m>y</m>-intercept of <m> f(x) </m>?
-        <ol marker= "A." cols="2">
-          <li> <m> -1 </m> </li>
-          <li> <m> -6 </m> </li>
-          <li> <m> 6 </m> </li>
-          <li> <m> -18 </m>  </li></ol></p>
-        </task>
-<task> <p> Now that we have found both the <m>x</m> and <m>y</m>-intercepts of <m>f(x)</m>, do we have enough information to draw a possible sketch of <m>f(x)</m>? What other characteristics would be useful to help us draw an accurate sketch of <m> f(x) </m>?</p>
-</task>
-</activity>
-
-<activity
-xml:id="PR5-activity-2">
-  <introduction>
-    <p>Let's now look at the graph of <m>f(x)=(x-2)(x+1)(x-3)^2</m> to answer the questions below.</p>
-  <figure width="100%" xml:id="PR5-polynomial-function">
-    <image xml:id="PR5-polynomial-image">
-      <description>A polynomial function with different multiplicities</description>
-      <sageplot>
-        f(x) = (x-2)*(x+1)*(x-3)^2
-          p=plot(f, (x, -5, 5), ymin=-20, ymax=10, color='blue', thickness=3, detect_poles=True)
-      </sageplot>
-    </image>
-  </figure>
-  </introduction>
-  <task>
-      <p> What are the zeros of <m> f(x) </m>?
-        <ol marker= "A." cols="2">
-          <li> <m> 1, 2, 3 </m> </li>
-          <li> <m> -1, 2, 3 </m> </li>
-          <li> <m> 1, -2, -3 </m> </li>
-          <li> <m> -1, 2, -3 </m>  </li></ol></p>
-  </task>
-  <task>
-      <p>
-        Describe the behavior at each zero. What do you notice?
-      </p>
-  </task>
-</activity>
-
-<definition xml:id="the-multiplicity-of-a-polynomial-function">
-  <statement>
-    <p> The <term>multiplicity</term> <idx><h>polynomial function</h><h>multiplicity</h></idx> of a polynomial function is the number of times a given factor appears in the factored form of the equation of a polynomial.
-    </p>
-    <p>The zero, <m>x=3</m> in <xref ref="PR5-activity-2"/> has multiplicity <m>2</m> because the factor <m>(x−3)</m> occurs twice (the exponent is a <m>2</m>). 
-    </p>
-  </statement>
-</definition>
-
-<activity
-    xml:id="PR5-finding-multiplicity-from-equation-and-graph">
-      <introduction> 
-        <p> Use the function, <m> f(x)=(x-3)^2(x-1)</m> to answer the following questions:</p>
-        </introduction>
-        <task>
-          <p> What are the zeros of <m> f(x) </m>? 
-            <ol marker= "A." cols="2">
-              <li> <m> -1, -3 </m> </li>
-              <li> <m> -1, 3 </m> </li>
-              <li> <m> 1, -3 </m> </li>
-              <li> <m> 1, 3 </m>  </li></ol></p>
-        </task>
-        <task>
-          <p> Using <xref ref="the-multiplicity-of-a-polynomial-function"/>, determine the multiplicities of the zeros you found in part <m> a </m>.</p>
-          </task>
-          <task>
-            <statement>
-              <p>
-                Now graph <m> f(x) </m> and look at the zeros on the graph. What do you notice about the behavior of the graph at each zero?
-              </p>
-            </statement>
-          </task>
-      </activity>
-
-<remark
-  xml:id="zeros-and-multiplicities">
-        <statement>
-          <p> Refer back to <xref ref="PR5-activity-2"/> and <xref ref="PR5-finding-multiplicity-from-equation-and-graph"/>. Notice that when the graph crosses the <m> x </m>-axis at the zero, the mulitplicity of that zero is odd. When the graph touches the <m> x </m>-axis at the zero, the multiplicity is even. In other words, factors of <m> f(x)</m> with odd exponents will cross the <m> x </m>-axis and factors of <m> f(x)</m> with even exponents will touch the <m> x</m>-axis. </p>
-        </statement>
-</remark>
 
 <definition xml:id="end-behavior-of-a-polynomial-function">
   <statement>
@@ -365,76 +257,9 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
 
     <definition xml:id="max-and-min">
       <statement>
-        <p> When graphing polynomial functions, you may notice that these functions have some "hills" and "valleys." These characteristics of the graph are known as the <term> local maxima </term> and <term> local minima </term> of the graph. The <term> maximum value </term> of a graph is the point where the <m>y </m>-coordinate has the largest value. The <term> minimum value </term> is the point on the graph where the <m>y </m>-coordinate has the smallest value. The local maxima is the highest <m>y</m>-value in that region of the graph. The local minima is the lowest <m>y</m>-value in that region of the graph.A graph, therefore, can have many local maxima/minima.</p>
-        
-        <p> We can estimate where these local maxima and minima occur by looking at other characteristics, such as multiplicities and end behavior.
-        </p>
+        <p> When graphing polynomial functions, you may notice that these functions have some "hills" and "valleys." These characteristics of the graph are known as the <term> local maxima </term> and <term> local minima </term> of the graph - similar to what we've already seen with quadratic functions. Unlike quadratic functions, however, a polynomial graph can have many local maxima/minima (quadratic functions only have one).</p>
       </statement>
     </definition>
-
-    <activity
-    xml:id="PR5-finding-max-and-min">
-      <introduction>
-    <p> Use the given function, <m> f(x)=(x+1)^2(x-5) </m>, to answer the following questions.
-    </p>
-    </introduction>
-    <task>
-      <statement>
-        <p> What are the zeros of <m> f(x) </m>? 
-          <ol marker= "A." cols="2">
-            <li> <m> -1, -5 </m> </li>
-            <li> <m> -1, 5 </m> </li>
-            <li> <m> 1, -5 </m> </li>
-            <li> <m> 1, 5 </m>  </li></ol></p>
-      </statement>
-    </task>
-    <task>
-      <statement>
-        <p> What are the multiplicities at each zero? 
-          <ol marker= "A." cols="1">
-            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
-            <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
-            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
-              <p> At <m> x=5</m>, the mulitplicity is odd. </p></li>
-            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
-              <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
-            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
-              <p> At <m> x=5</m>, the mulitplicity is odd. </p>  </li></ol>
-        </p>
-      </statement>
-    </task>
-    <task>
-      <statement>
-        <p> What is the end behavior of <m> f(x) </m>? 
-          <ol marker= "A." cols="1">
-            <li> <m> f(x) </m> rises on the left and on the right. </li>
-              <li> <m> f(x) </m> rises on the left, but falls on the right. </li>
-              <li> <m> f(x) </m> rises on the right, but falls on the left. </li>
-              <li> <m> f(x) </m> falls on the left and on the right.  </li></ol></p>
-      </statement>
-    </task>
-    <task>
-      <statement>
-        <p>
-          Using what you know about the zeros, multiplicities, and end behavior, where on the graph can we estimate the local maxima and minima to be?
-        </p>
-      </statement>
-    </task>
-    <task>
-      <statement>
-        <p>
-          Now look at the graph of <m> f(x)</m>. At which zero does a local maximum or local minimum occur? Explain how you know.
-        </p>
-      </statement>
-    </task>
-  </activity>
-
-  <remark xml:id="remark-estimating-max-and-min-values">
-    <statement>
-      <p> From <xref ref="PR5-finding-max-and-min"/>, we saw that when the function touches the <m>x</m>-axis at a zero, then that zero could be either a local maximum or a local minimum of the graph. When the function crosses the <m>x</m>-axis, however, the local maximum or local minimum occurs between the zeros. 
-      </p>
-    </statement>
-  </remark>
 
     <activity
     xml:id="PR5-activity-5">
@@ -451,90 +276,22 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     </p>
   </activity>
 
-    <p>***DOES THIS GO HERE???****
-      A polynomial function is a function that can be expressed in the form of a polynomial. Just like other functions, polynomial functions have many different features. Before we can begin to look at how polynomial functions can be used, we must first be able to identify what makes a polynomial function and what typical characteristics they have. </p>
+  <activity xml:id="use-information-to-sketch-graph-of-polynomial">
+    <introduction>
+      <p> Sketch the graph of a function <m>f(x) </m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph. </p>
+    </introduction>
+    <task> <p> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </p>
+    </task>
+    <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </p>
+    </task>
+    <task> <p> The end behavior of <m> f(x)</m> is given as: 
+      <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
+    </task>
+</activity>
 
-    <activity xml:id="activity-Identify-PF-from-graph">
-        <introduction>
-          <p>Some of the graphs shown below are polynomial functions and some are not. Use the following graphs to explore the charactertistics of polynomials. </p>
-          <sbsgroup>
-            <sidebyside width="50%">
-              <image>
-                <sageplot>
-                  f(x) = 1*(x+2)*(x+1)*(x-1)^3
-                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True) 
-                  p+=text('Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-              </image>
-              <image>
-                <sageplot>
-                  f(x) = 3*abs(x+1)-2
-                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  p+=text('NOT a Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-              </image>
-            </sidebyside>
-            <sidebyside width="50%">
-              <image>
-                <sageplot>
-                  f(x) = -1*x^3+3*x^2-2
-                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  p+=text('Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-              </image>
-              <image>
-                <sageplot>
-                  f(x) = 1*x^2
-                  p=plot(f, (x, -5, 1), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  g(x) = (1/2)*x+2
-                  p+=plot(g, (x, 1, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  p+=text('NOT a Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-              </image>
-            </sidebyside>
-            <sidebyside width="50%">
-              <image>
-                <sageplot>
-                  f(x) = 1*x^3
-                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  p+=text('Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-              </image>
-              <image>
-                <sageplot>
-                  f(x) = exp(x)-2
-                  p=plot(f, (x, -5, 5), ymin=-5, ymax=7, color='blue', thickness=3, detect_poles=True)
-                  p+=parametric_plot((x,-2),(x,-7,7),color='red',linestyle="--")
-                  p+=text('NOT a Polynomial Function', (0, 8), fontsize=18, color='black')
-                  p
-                </sageplot>
-            </image>
-          </sidebyside>
-          </sbsgroup>
-        </introduction>
-        <task> <p> By looking at the graphs that are labeled "NOT a Polynomial Function," what type of characteristics do you notice? How are these different from the graphs labeled as being polynomial functions? </p>   
-        </task>
-        <task> <p> Can you make any conjectures about what characteristics all polynomials have based on what you see on these graphs? </p>
-        </task>
-    </activity>
-    </subsection>
-    
-    <remark
-    xml:id="characteristics-of-polynomial-graphs">
-      <statement>
-        <p> There are two primary characteristics we typically use to distinguish polynomial functions from other functions. Polynomial functions have graphs that are smooth and continuous. <term>Smooth functions</term> are functions that contain only rounded curves (no sharp corners). <term>Continuous functions </term> are functions that can be drawn without lifting your pencil (no breaks). </p>
-        <p> Notice that although exponential functions, as one example, appear to be smooth and continuous, these are NOT considered polynomial functions because they have asymptotes that affect the behavior of their graphs. Can you think of other functions which might have similar properties but are not considered polynomial functions? </p>
-      </statement>
-    </remark>
-
-    <activity xml:id="activity-characteristics-from-polynomial-graph">
+<activity xml:id="activity-characteristics-from-polynomial-graph">
       <introduction>
-        <p> Now that we know what polynomial functions look like, we should be able to determine some characteristics. Use the graph below to find the given charactertistics. </p>
+        <p> Now that we know all the different characterisitics of polynomials, we should also be able to identify them from a graph. Use the graph below to find the given charactertistics. </p>
         <figure width="100%" xml:id="PR1-polynomial">
           <image xml:id="PR1-polynomial-image">
             <description>Polynomial Function</description>
@@ -601,18 +358,73 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
         </ol></p>
       </task>
   </activity>
-  <activity xml:id="use-information-to-sketch-graph-of-polynomial">
-    <introduction>
-      <p> Sketch the graph of a function <m>f(x) </m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph. </p>
+
+  <activity
+    xml:id="PR5-finding-max-and-min">
+      <introduction>
+    <p> Use the given function, <m> f(x)=(x+1)^2(x-5) </m>, to answer the following questions.
+    </p>
     </introduction>
-    <task> <p> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </p>
+    <task>
+      <statement>
+        <p> What are the zeros of <m> f(x) </m>? 
+          <ol marker= "A." cols="2">
+            <li> <m> -1, -5 </m> </li>
+            <li> <m> -1, 5 </m> </li>
+            <li> <m> 1, -5 </m> </li>
+            <li> <m> 1, 5 </m>  </li></ol></p>
+      </statement>
     </task>
-    <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </p>
+    <task>
+      <statement>
+        <p> What are the multiplicities at each zero? 
+          <ol marker= "A." cols="1">
+            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
+            <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is even. </p>
+              <p> At <m> x=5</m>, the mulitplicity is odd. </p></li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
+              <p> At <m> x=5</m>, the mulitplicity is even. </p> </li>
+            <li> <p> At <m> x=-1</m>, the mulitplicity is odd. </p>
+              <p> At <m> x=5</m>, the mulitplicity is odd. </p>  </li></ol>
+        </p>
+      </statement>
     </task>
-    <task> <p> The end behavior of <m> f(x)</m> is given as: 
-      <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
+    <task>
+      <statement>
+        <p> What is the end behavior of <m> f(x) </m>? 
+          <ol marker= "A." cols="1">
+            <li> <m> f(x) </m> rises on the left and on the right. </li>
+              <li> <m> f(x) </m> rises on the left, but falls on the right. </li>
+              <li> <m> f(x) </m> rises on the right, but falls on the left. </li>
+              <li> <m> f(x) </m> falls on the left and on the right.  </li></ol></p>
+      </statement>
     </task>
-</activity>
+    <task>
+      <statement>
+        <p>
+          Using what you know about the zeros, multiplicities, and end behavior, where on the graph can we estimate the local maxima and minima to be?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now look at the graph of <m> f(x)</m>. At which zero does a local maximum or local minimum occur? Explain how you know.
+        </p>
+      </statement>
+    </task>
+  </activity>
+
+  <remark xml:id="remark-estimating-max-and-min-values">
+    <statement>
+      <p> We can estimate where these local maxima and minima occur by looking at other characteristics, such as multiplicities and end behavior.
+      </p>
+      
+      <p> From <xref ref="PR5-finding-max-and-min"/>, we saw that when the function touches the <m>x</m>-axis at a zero, then that zero could be either a local maximum or a local minimum of the graph. When the function crosses the <m>x</m>-axis, however, the local maximum or local minimum occurs between the zeros. 
+      </p>
+    </statement>
+  </remark>
 
 <exercises>
   <p>Exercises available at <url href="https://teambasedinquirylearning.github.io/precalculus/2024/exercises/#/bank/PR5/"/>.</p>
