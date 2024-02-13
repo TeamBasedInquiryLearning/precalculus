@@ -60,7 +60,6 @@
                    </row>
                </tabular>
        </table>
-       
         </task>
         <task> <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a minimum value? That is, is there a point on the graph that is lower than all other points?
         
@@ -87,7 +86,7 @@
     
     <definition xml:id="vertex-form-of-a-quadratic-function">
       <statement>
-        <p> The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola and <m>x = h</m> is the <term>axis of symmetry.</term> <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
+        <p> The maximum or minimum of a quadratic function is also known as its <term>vertex</term>. The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola and <m>x = h</m> is the <term>axis of symmetry.</term> <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
         </p>
       </statement>
     </definition>
@@ -238,14 +237,14 @@
 
   <remark xml:id="remark-vertex-form-of-a-quadratic-function">
     <statement>
-      <p> Notice that the maximum or minimum value of the quadratic function is the vertex. How can you determine if the vertex is a maximum or minimum?
+      <p> Notice that the maximum or minimum value of the quadratic function is the <m>y</m>-value of the vertex. How can you determine if the vertex is a maximum or minimum?
       </p>
     </statement>
   </remark>
   
   <activity xml:id="PR1-activity-5">
     <introduction>
-      <p> A function <m>f(x)</m> has a maximum value at 7 and its axis of symmetry at <m>x=-2</m>.</p>
+      <p> A function <m>f(x)</m> has a maximum value at <m>7</m> and its axis of symmetry at <m>x=-2</m>.</p>
       </introduction>
 
         <task> <p> Sketch a graph of a function that meets the criteria for <m>f(x)</m>. </p>
@@ -256,7 +255,7 @@
 
 <remark xml:id="remark-using-zeros-to-graph-accurately">
   <statement>
-    <p> Other points, such as zeros (i.e., <m>x</m>-intercepts), may be helpful in sketching a more accurate graph of a quadratic function. 
+    <p> Other points, such as <m>x</m>- and <m>y</m>-intercepts, may be helpful in sketching a more accurate graph of a quadratic function. 
     </p>
   </statement>
 </remark>
