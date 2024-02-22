@@ -233,7 +233,155 @@ window.MathJax = {
 <article class="objectives goal-like" id="EQ3-2"><h3 class="heading"><span class="type">Objectives</span></h3>
 <ul class="disc"><li id="EQ3-2-1-1"><div class="para" id="EQ3-2-1-1-1">Given two points, determine the distance between them and the midpoint of the line segment connecting them.</div></li></ul></article><section class="subsection" id="EQ3-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Activities</span>
-</h3></section><section class="subsection" id="EQ3-4"><h3 class="heading hide-type">
+</h3>
+<article class="activity project-like" id="calculating-distance-using-Pythagorean-Theorem"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="calculating-distance-using-Pythagorean-Theorem-1">
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-1-1">The points <span class="process-math">\(A \)</span> and <span class="process-math">\(B \)</span> are shown in the graph below. Use the graph to answer the following questions:</div> <figure class="figure figure-like" id="line-segment"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/line-segment-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-2-1-1">Draw a right triangle so that the hypotenuse is the line segment between points <span class="process-math">\(A\)</span> and <span class="process-math">\(B \text{.}\)</span> Label the third point of the triangle <span class="process-math">\(C\text{.}\)</span>
+</div></article><article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-3-1-1">Find the lengths of line segments <span class="process-math">\(AC \)</span> and <span class="process-math">\(BC \text{.}\)</span>
+</div></article><article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-4-1-1">Now that you know the lengths of <span class="process-math">\(AC \)</span> and <span class="process-math">\(BC \text{,}\)</span> how can you find the length of <span class="process-math">\(AB \text{?}\)</span> Find the length of <span class="process-math">\(AB\text{.}\)</span>
+</div></article></article><article class="remark remark-like" id="EQ3-3-3"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="EQ3-3-3-1">Using the <dfn class="terminology">Pythagorean Theorem</dfn> can be helpful in finding the distance of a line segment (as long as you create a right triangle!).</div></article><article class="activity project-like" id="calculating-distance-using-Pythagorean-Theorem-from-two-points"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-1"><div class="para" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-1-1">Suppose you are given two points <span class="process-math">\((x_{1},y_{1})\)</span> and <span class="process-math">\((x_{2},y_{2})\text{.}\)</span> Let’s investigate how to find the length of the line segment that connects these two points!</div></div>
+<article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-2-1-1">Draw a sketch of a right triangle so that the hypotenuse is the line segment between the two points.</div></article><article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-3-1-1">Find the lengths of the legs of the right triangle in terms of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span>
+</div></article><article class="task exercise-like" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="calculating-distance-using-Pythagorean-Theorem-from-two-points-4-1-1">Find the length of the line segment that connects the two original points in terms of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span>
+</div></article></article><article class="definition definition-like" id="def-distance-formula"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-distance-formula-1-1">The distance, <span class="process-math">\(d\text{,}\)</span> between two points, <span class="process-math">\((x_{1},y_{1})\)</span> and <span class="process-math">\((x_{2}, y_{2})\text{,}\)</span> can be found by using the <dfn class="terminology">distance formula</dfn>: <div class="para" id="def-distance-formula-1-1-5"><span class="process-math">\(d=\sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}.\)</span></div> <div class="para" id="def-distance-formula-1-1-6">Notice that the distance formula is an application of the Phythagorean Theorem!</div>
+</div></article><article class="activity project-like" id="calculating-distance-practice"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="calculating-distance-practice-1"><div class="para" id="calculating-distance-practice-1-1">Apply the <a href="" class="xref" data-knowl="./knowl/xref/def-distance-formula.html" title="Definition 1.3.5">Definition 1.3.5</a> to calculate the distance between the given points.</div></div>
+<article class="task exercise-like" id="calculating-distance-practice-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="calculating-distance-practice-2-1">
+<div class="para">What is the distance between <span class="process-math">\((4,6)\)</span> and <span class="process-math">\((9,15)\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-distance-practice-2-1-3-1"><div class="para" id="p-derived-calculating-distance-practice-2-1-3-1"><span class="process-math">\(\displaystyle 10.2\)</span></div></li>
+<li id="calculating-distance-practice-2-1-3-2"><div class="para" id="p-derived-calculating-distance-practice-2-1-3-2"><span class="process-math">\(\displaystyle 10.3\)</span></div></li>
+<li id="calculating-distance-practice-2-1-3-3"><div class="para" id="p-derived-calculating-distance-practice-2-1-3-3"><span class="process-math">\(\displaystyle \sqrt{106}\)</span></div></li>
+<li id="calculating-distance-practice-2-1-3-4"><div class="para" id="p-derived-calculating-distance-practice-2-1-3-4"><span class="process-math">\(\displaystyle \sqrt{56}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="calculating-distance-practice-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="calculating-distance-practice-3-1">
+<div class="para">What is the distance between <span class="process-math">\((-2,5)\)</span> and <span class="process-math">\((-7,-1)\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-distance-practice-3-1-3-1"><div class="para" id="p-derived-calculating-distance-practice-3-1-3-1"><span class="process-math">\(\displaystyle \sqrt{11}\)</span></div></li>
+<li id="calculating-distance-practice-3-1-3-2"><div class="para" id="p-derived-calculating-distance-practice-3-1-3-2"><span class="process-math">\(\displaystyle 7.8\)</span></div></li>
+<li id="calculating-distance-practice-3-1-3-3"><div class="para" id="p-derived-calculating-distance-practice-3-1-3-3"><span class="process-math">\(\displaystyle 3.3\)</span></div></li>
+<li id="calculating-distance-practice-3-1-3-4"><div class="para" id="p-derived-calculating-distance-practice-3-1-3-4"><span class="process-math">\(\displaystyle \sqrt{61}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="calculating-distance-practice-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="calculating-distance-practice-4-1">
+<div class="para">Suppose the line segment <span class="process-math">\(AB\)</span> has one endpoint, <span class="process-math">\(A\text{,}\)</span> at the origin. For which coordinate of <span class="process-math">\(B\)</span> would make the line segment <span class="process-math">\(AB\)</span> the longest?</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-distance-practice-4-1-5-1"><div class="para" id="p-derived-calculating-distance-practice-4-1-5-1"><span class="process-math">\(\displaystyle (3,7)\)</span></div></li>
+<li id="calculating-distance-practice-4-1-5-2"><div class="para" id="p-derived-calculating-distance-practice-4-1-5-2"><span class="process-math">\(\displaystyle (2,-8)\)</span></div></li>
+<li id="calculating-distance-practice-4-1-5-3"><div class="para" id="p-derived-calculating-distance-practice-4-1-5-3"><span class="process-math">\(\displaystyle (-6,4)\)</span></div></li>
+<li id="calculating-distance-practice-4-1-5-4"><div class="para" id="p-derived-calculating-distance-practice-4-1-5-4"><span class="process-math">\(\displaystyle (-5,-5)\)</span></div></li>
+</ol>
+</div></article></article><article class="remark remark-like" id="EQ3-3-7"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="EQ3-3-7-1">A <dfn class="terminology">midpoint</dfn> refers to the point that is located in the middle of a line segment. In other words, the midpoint is the point that is halfway between the two endpoints of a given line segment.</div></article><article class="activity project-like" id="finding-midpoint"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="finding-midpoint-1">
+<div class="para" id="finding-midpoint-1-1">Two line segments are shown in the graph below. Use the graph to answer the following questions:</div> <figure class="figure figure-like" id="two-line-segments"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/sageplot/two-line-segments-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="finding-midpoint-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="finding-midpoint-2-1">
+<div class="para">What is the midpoint of the line segment <span class="process-math">\(AB\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="finding-midpoint-2-1-2-1"><div class="para" id="p-derived-finding-midpoint-2-1-2-1"><span class="process-math">\(\displaystyle (16,4)\)</span></div></li>
+<li id="finding-midpoint-2-1-2-2"><div class="para" id="p-derived-finding-midpoint-2-1-2-2"><span class="process-math">\(\displaystyle (8,4)\)</span></div></li>
+<li id="finding-midpoint-2-1-2-3"><div class="para" id="p-derived-finding-midpoint-2-1-2-3"><span class="process-math">\(\displaystyle (8,8)\)</span></div></li>
+<li id="finding-midpoint-2-1-2-4"><div class="para" id="p-derived-finding-midpoint-2-1-2-4"><span class="process-math">\(\displaystyle (10,2)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="finding-midpoint-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="finding-midpoint-3-1">
+<div class="para">What is the midpoint of the line segment <span class="process-math">\(AC\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="finding-midpoint-3-1-2-1"><div class="para" id="p-derived-finding-midpoint-3-1-2-1"><span class="process-math">\(\displaystyle (6,0)\)</span></div></li>
+<li id="finding-midpoint-3-1-2-2"><div class="para" id="p-derived-finding-midpoint-3-1-2-2"><span class="process-math">\(\displaystyle (4,4)\)</span></div></li>
+<li id="finding-midpoint-3-1-2-3"><div class="para" id="p-derived-finding-midpoint-3-1-2-3"><span class="process-math">\(\displaystyle (6,4)\)</span></div></li>
+<li id="finding-midpoint-3-1-2-4"><div class="para" id="p-derived-finding-midpoint-3-1-2-4"><span class="process-math">\(\displaystyle (5,2)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="finding-midpoint-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="finding-midpoint-4-1">
+<div class="para">Suppose we connect the two endpoints of the two line segments together, to create the new line segment, <span class="process-math">\(BC\text{.}\)</span> Can you make an educated guess to where the midpoint of <span class="process-math">\(BC\)</span> is?</div>
+<ol class="upper-alpha cols2">
+<li id="finding-midpoint-4-1-3-1"><div class="para" id="p-derived-finding-midpoint-4-1-3-1"><span class="process-math">\(\displaystyle (10,8)\)</span></div></li>
+<li id="finding-midpoint-4-1-3-2"><div class="para" id="p-derived-finding-midpoint-4-1-3-2"><span class="process-math">\(\displaystyle (6,4)\)</span></div></li>
+<li id="finding-midpoint-4-1-3-3"><div class="para" id="p-derived-finding-midpoint-4-1-3-3"><span class="process-math">\(\displaystyle (5,4)\)</span></div></li>
+<li id="finding-midpoint-4-1-3-4"><div class="para" id="p-derived-finding-midpoint-4-1-3-4"><span class="process-math">\(\displaystyle (5,2)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="finding-midpoint-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="finding-midpoint-5-1-1">How can you test your conjecture? Is there a mathematical way to find the midpoint of any line segment?</div></article></article><article class="definition definition-like" id="def-midpoint-formula"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-midpoint-formula-1-1">The midpoint of a line segment with endpoints <span class="process-math">\((x_{1},y_{1})\)</span> and <span class="process-math">\((x_{2}, y_{2})\text{,}\)</span> can be found by taking the average of the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> values. Mathematically, the <dfn class="terminology">midpoint formula</dfn> states that the midpoint of a line segment can be found by: <div class="para" id="def-midpoint-formula-1-1-6"><span class="process-math">\((\frac{x_{1}+x_{2}}{2},\frac{y_{1}+y_{2}}{2}).\)</span></div>
+</div></article><article class="activity project-like" id="calculating-midpoint-practice"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="calculating-midpoint-practice-1"><div class="para" id="calculating-midpoint-practice-1-1">Apply the <a href="" class="xref" data-knowl="./knowl/xref/def-midpoint-formula.html" title="Definition 1.3.10">Definition 1.3.10</a> to calculate the midpoint of the following line segments.</div></div>
+<article class="task exercise-like" id="calculating-midpoint-practice-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="calculating-midpoint-practice-2-1">
+<div class="para">What is the midpoint of the line segment with endpoints <span class="process-math">\((2,6)\)</span> and <span class="process-math">\((-6,-8)\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-midpoint-practice-2-1-3-1"><div class="para" id="p-derived-calculating-midpoint-practice-2-1-3-1"><span class="process-math">\(\displaystyle (3,1)\)</span></div></li>
+<li id="calculating-midpoint-practice-2-1-3-2"><div class="para" id="p-derived-calculating-midpoint-practice-2-1-3-2"><span class="process-math">\(\displaystyle (1,1)\)</span></div></li>
+<li id="calculating-midpoint-practice-2-1-3-3"><div class="para" id="p-derived-calculating-midpoint-practice-2-1-3-3"><span class="process-math">\(\displaystyle (10,4)\)</span></div></li>
+<li id="calculating-midpoint-practice-2-1-3-4"><div class="para" id="p-derived-calculating-midpoint-practice-2-1-3-4"><span class="process-math">\(\displaystyle (4,4)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="calculating-midpoint-practice-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="calculating-midpoint-practice-3-1">
+<div class="para">What is the midpoint of the line segment with endpoints <span class="process-math">\((2,6)\)</span> and <span class="process-math">\((-6,-8)\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-midpoint-practice-3-1-3-1"><div class="para" id="p-derived-calculating-midpoint-practice-3-1-3-1"><span class="process-math">\(\displaystyle (-3,-1)\)</span></div></li>
+<li id="calculating-midpoint-practice-3-1-3-2"><div class="para" id="p-derived-calculating-midpoint-practice-3-1-3-2"><span class="process-math">\(\displaystyle (-2,0)\)</span></div></li>
+<li id="calculating-midpoint-practice-3-1-3-3"><div class="para" id="p-derived-calculating-midpoint-practice-3-1-3-3"><span class="process-math">\(\displaystyle (-2,-1)\)</span></div></li>
+<li id="calculating-midpoint-practice-3-1-3-4"><div class="para" id="p-derived-calculating-midpoint-practice-3-1-3-4"><span class="process-math">\(\displaystyle (-3,0)\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="calculating-midpoint-practice-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="calculating-midpoint-practice-4-1">
+<div class="para">Suppose <span class="process-math">\(C\)</span> is the midpoint of <span class="process-math">\(AB\text{.}\)</span> The coordinates of <span class="process-math">\(A\)</span> are <span class="process-math">\((10,10)\text{.}\)</span> What are the coordinates of <span class="process-math">\(B\text{?}\)</span>
+</div>
+<ol class="upper-alpha cols2">
+<li id="calculating-midpoint-practice-4-1-6-1"><div class="para" id="p-derived-calculating-midpoint-practice-4-1-6-1"><span class="process-math">\(\displaystyle (9.5,9)\)</span></div></li>
+<li id="calculating-midpoint-practice-4-1-6-2"><div class="para" id="p-derived-calculating-midpoint-practice-4-1-6-2"><span class="process-math">\(\displaystyle (11,12)\)</span></div></li>
+<li id="calculating-midpoint-practice-4-1-6-3"><div class="para" id="p-derived-calculating-midpoint-practice-4-1-6-3"><span class="process-math">\(\displaystyle (18,16)\)</span></div></li>
+<li id="calculating-midpoint-practice-4-1-6-4"><div class="para" id="p-derived-calculating-midpoint-practice-4-1-6-4"><span class="process-math">\(\displaystyle (8,6)\)</span></div></li>
+</ol>
+</div></article></article><article class="activity project-like" id="distance-and-midpoint-application"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="distance-and-midpoint-application-1"><div class="para" id="distance-and-midpoint-application-1-1">On a map, your friend Sarah’s house is located at <span class="process-math">\((-2, 5)\)</span> and your other friend Austin’s house is at <span class="process-math">\((6,-2)\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="distance-and-midpoint-application-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="distance-and-midpoint-application-2-1-1">How long is the direct path from Sarah’s house to Austin’s house?</div></article><article class="task exercise-like" id="distance-and-midpoint-application-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="distance-and-midpoint-application-3-1-1">Suppose your other friend, Micah, lives in the middle between Sarah and Austin. What is the location of Micah’s house on the map?</div></article></article></section><section class="subsection" id="EQ3-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Videos</span>
 </h3>
 <div class="para" id="EQ3-4-2">It would be great to include videos down here, like in the Calculus book!</div></section></section></div>

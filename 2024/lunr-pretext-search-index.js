@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Distance and Midpoint (EQ3)",
-  "body": " Distance and Midpoint (EQ3)     Given two points, determine the distance between them and the midpoint of the line segment connecting them.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Distance and Midpoint (EQ3)     Given two points, determine the distance between them and the midpoint of the line segment connecting them.      Activities    The points and are shown in the graph below. Use the graph to answer the following questions:       Draw a right triangle so that the hypotenuse is the line segment between points and . Label the third point of the triangle .    Find the lengths of line segments and .    Now that you know the lengths of and , how can you find the length of ? Find the length of .     Using the Pythagorean Theorem can be helpful in finding the distance of a line segment (as long as you create a right triangle!).     Suppose you are given two points and . Let's investigate how to find the length of the line segment that connects these two points!    Draw a sketch of a right triangle so that the hypotenuse is the line segment between the two points.    Find the lengths of the legs of the right triangle in terms of and .    Find the length of the line segment that connects the two original points in terms of and .      The distance, , between two points, and , can be found by using the distance formula :  Notice that the distance formula is an application of the Phythagorean Theorem!       Apply the to calculate the distance between the given points.   What is the distance between and ?              What is the distance between and ?              Suppose the line segment has one endpoint, , at the origin. For which coordinate of would make the line segment the longest?                A midpoint refers to the point that is located in the middle of a line segment. In other words, the midpoint is the point that is halfway between the two endpoints of a given line segment.     Two line segments are shown in the graph below. Use the graph to answer the following questions:      What is the midpoint of the line segment ?              What is the midpoint of the line segment ?              Suppose we connect the two endpoints of the two line segments together, to create the new line segment, . Can you make an educated guess to where the midpoint of is?               How can you test your conjecture? Is there a mathematical way to find the midpoint of any line segment?      The midpoint of a line segment with endpoints and , can be found by taking the average of the and values. Mathematically, the midpoint formula states that the midpoint of a line segment can be found by:        Apply the to calculate the midpoint of the following line segments.   What is the midpoint of the line segment with endpoints and ?              What is the midpoint of the line segment with endpoints and ?              Suppose is the midpoint of . The coordinates of are . What are the coordinates of ?                 On a map, your friend Sarah's house is located at and your other friend Austin's house is at .    How long is the direct path from Sarah's house to Austin's house?    Suppose your other friend, Micah, lives in the middle between Sarah and Austin. What is the location of Micah's house on the map?      Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ3-2",
@@ -161,6 +161,96 @@ var ptx_lunr_docs = [
   "number": "1.3",
   "title": "",
   "body": "   Given two points, determine the distance between them and the midpoint of the line segment connecting them.    "
+},
+{
+  "id": "calculating-distance-using-Pythagorean-Theorem",
+  "level": "2",
+  "url": "EQ3.html#calculating-distance-using-Pythagorean-Theorem",
+  "type": "Activity",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  The points and are shown in the graph below. Use the graph to answer the following questions:       Draw a right triangle so that the hypotenuse is the line segment between points and . Label the third point of the triangle .    Find the lengths of line segments and .    Now that you know the lengths of and , how can you find the length of ? Find the length of .   "
+},
+{
+  "id": "EQ3-3-3",
+  "level": "2",
+  "url": "EQ3.html#EQ3-3-3",
+  "type": "Remark",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Using the Pythagorean Theorem can be helpful in finding the distance of a line segment (as long as you create a right triangle!).  "
+},
+{
+  "id": "calculating-distance-using-Pythagorean-Theorem-from-two-points",
+  "level": "2",
+  "url": "EQ3.html#calculating-distance-using-Pythagorean-Theorem-from-two-points",
+  "type": "Activity",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Suppose you are given two points and . Let's investigate how to find the length of the line segment that connects these two points!    Draw a sketch of a right triangle so that the hypotenuse is the line segment between the two points.    Find the lengths of the legs of the right triangle in terms of and .    Find the length of the line segment that connects the two original points in terms of and .   "
+},
+{
+  "id": "def-distance-formula",
+  "level": "2",
+  "url": "EQ3.html#def-distance-formula",
+  "type": "Definition",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  The distance, , between two points, and , can be found by using the distance formula :  Notice that the distance formula is an application of the Phythagorean Theorem!    "
+},
+{
+  "id": "calculating-distance-practice",
+  "level": "2",
+  "url": "EQ3.html#calculating-distance-practice",
+  "type": "Activity",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  Apply the to calculate the distance between the given points.   What is the distance between and ?              What is the distance between and ?              Suppose the line segment has one endpoint, , at the origin. For which coordinate of would make the line segment the longest?              "
+},
+{
+  "id": "EQ3-3-7",
+  "level": "2",
+  "url": "EQ3.html#EQ3-3-7",
+  "type": "Remark",
+  "number": "1.3.7",
+  "title": "",
+  "body": " A midpoint refers to the point that is located in the middle of a line segment. In other words, the midpoint is the point that is halfway between the two endpoints of a given line segment.  "
+},
+{
+  "id": "finding-midpoint",
+  "level": "2",
+  "url": "EQ3.html#finding-midpoint",
+  "type": "Activity",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  Two line segments are shown in the graph below. Use the graph to answer the following questions:      What is the midpoint of the line segment ?              What is the midpoint of the line segment ?              Suppose we connect the two endpoints of the two line segments together, to create the new line segment, . Can you make an educated guess to where the midpoint of is?               How can you test your conjecture? Is there a mathematical way to find the midpoint of any line segment?   "
+},
+{
+  "id": "def-midpoint-formula",
+  "level": "2",
+  "url": "EQ3.html#def-midpoint-formula",
+  "type": "Definition",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  The midpoint of a line segment with endpoints and , can be found by taking the average of the and values. Mathematically, the midpoint formula states that the midpoint of a line segment can be found by:     "
+},
+{
+  "id": "calculating-midpoint-practice",
+  "level": "2",
+  "url": "EQ3.html#calculating-midpoint-practice",
+  "type": "Activity",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  Apply the to calculate the midpoint of the following line segments.   What is the midpoint of the line segment with endpoints and ?              What is the midpoint of the line segment with endpoints and ?              Suppose is the midpoint of . The coordinates of are . What are the coordinates of ?              "
+},
+{
+  "id": "distance-and-midpoint-application",
+  "level": "2",
+  "url": "EQ3.html#distance-and-midpoint-application",
+  "type": "Activity",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  On a map, your friend Sarah's house is located at and your other friend Austin's house is at .    How long is the direct path from Sarah's house to Austin's house?    Suppose your other friend, Micah, lives in the middle between Sarah and Austin. What is the location of Micah's house on the map?   "
 },
 {
   "id": "EQ4",
