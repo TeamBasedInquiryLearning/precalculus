@@ -18,12 +18,10 @@
         </p>
         <figure xml:id="line-segment"><image>
         <sageplot>
-          A = point((2,6))+text('A',(2,6),horizontal_alignment="left")
-          B = point((4,2))+text('B',(4,2),horizontal_alignment="left")
-          show(A+B,xmin=0,ymin=0)
-          
+          A = point((2,6),size=40)+text('A',(2.05,6),horizontal_alignment="left")
+          B = point((4,2),size=40)+text('B',(4.05,2),horizontal_alignment="left")
           L=line([(2,6),(4,2)],color="purple")
-          show(A+B+L,xmin=0,ymin=0)
+          A+B+L
         </sageplot>
       </image></figure>
       </introduction>
@@ -137,15 +135,12 @@
       </p>
       <figure xml:id="two-line-segments"><image>
       <sageplot>
-        A = point((8,2))+text('A',(8,2),horizontal_alignment="left")
-        B = point((8,6))+text('B',(8,6),horizontal_alignment="left")
-        C = point ((2,2))+text('C',(2,2),horizontal_alignment="left")
-        show(A+B+C,xmin=0,ymin=0)
-        
-        L=line([(8,2),(8,6)],color="purple")
-        show(A+B+L,xmin=0,ymin=0)
+        A = point((8,2),size=40)+text('A',(8.1,2),horizontal_alignment="left")
+        B = point((8,6),size=40)+text('B',(8.1,6),horizontal_alignment="left")
+        C = point ((2,2),size=40)+text('C',(2,2.1),horizontal_alignment="center")
         L=line([(8,2),(2,2)],color="black")
-        show(A+C+L,xmin=0,ymin=0)
+        M=line([(8,2),(8,6)],color="purple")
+        A+B+C+L+M
       </sageplot>
     </image></figure>
     </introduction>
