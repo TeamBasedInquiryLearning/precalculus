@@ -92,15 +92,6 @@
     <p> What is the solution to the linear equation <m>3x-1=5</m>?</p>
   </task>
   \<task>
-    <p> Which of these values is a solution of the inequality <m>3x-1 \le 5</m>?
-      <ol marker="A." cols="2">
-        <li><p> <m>x=-1</m> </p></li>
-        <li><p><m>x=0</m> </p></li>
-        <li><p> <m>x=2</m> </p></li>
-        <li><p> <m>x=4</m> </p></li>
-    </ol> </p>
-  </task>
-  \<task>
     <p> Which of these values is a solution of the inequality <m>3x-1 \ge 5</m>?
       <ol marker="A." cols="2">
         <li><p><m>x=0</m> </p></li>
@@ -173,7 +164,38 @@
 </task>
   
 </activity>
-
+<definition xml:id="def-compound_ineq">
+  <statement>
+    <p>
+      A <term>compound inequality</term> includes multiple inequalities in one statement.
+    </p>
+  </statement>
+</definition>
+<activity>
+  
+  <introduction>
+    <p>Consider the statement <m>3 \le x \lt 8</m>. This really means that <m>3 \le x</m> and <m>x \lt 8</m>.
+    </p>
+  </introduction>
+  \<task>
+    <p>
+      Which of the following inequalities are equivalent to the compound inequality <m>3 \le 2x-3 \lt 8 </m>?
+      <ol marker="A." cols="2">
+        <li><p> <m>3 \le 2x-3</m> </p></li>
+        <li><p><m>3 \ge 2x-3</m> </p></li>
+        <li><p> <m>2x-3 \lt 8</m> </p></li>
+        <li><p> <m>2x-3 \gt 8</m> </p></li>
+    </ol> </p>
+  </task>
+  \<task>
+    <p> How do the solutions overlap?
+     </p>
+  </task>
+  
+</activity>
+<remark>
+  Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately.
+</remark>
 
     <subsection>
         <title>Videos</title>
