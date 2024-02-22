@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Polynomial Long Division (PR3)",
-  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities    Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities   Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 20, remainder 6  quotient 6, remainder 20  quotient 6, remainder 3   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?    Simplify the following rational expression using factoring.             Now use long division to find the quotient and remainder.  What is the quotient?           What is the remainder?              Repeat this process, using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer at the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?          Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using long division, find the quotient and remainder for the given rational function, .   What is the quotient?  What is the remainder?  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and drop the 1st coefficient down from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to Activity 4.3.2?     Now use synthetic division, to find the quotient and remainder for the given rational function.   What is the quotient?            What is the remainder?              Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR3-2",
@@ -358,7 +358,61 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "4.3.1",
   "title": "",
+  "body": " Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 20, remainder 6  quotient 6, remainder 20  quotient 6, remainder 3   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?  "
+},
+{
+  "id": "activity-3-2",
+  "level": "2",
+  "url": "PR3.html#activity-3-2",
+  "type": "Activity",
+  "number": "4.3.2",
+  "title": "",
+  "body": " Simplify the following rational expression using factoring.             Now use long division to find the quotient and remainder.  What is the quotient?           What is the remainder?           "
+},
+{
+  "id": "activity-3-3",
+  "level": "2",
+  "url": "PR3.html#activity-3-3",
+  "type": "Activity",
+  "number": "4.3.3",
+  "title": "",
+  "body": "  Repeat this process, using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer at the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?          Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
+},
+{
+  "id": "activity-3-4",
+  "level": "2",
+  "url": "PR3.html#activity-3-4",
+  "type": "Activity",
+  "number": "4.3.4",
+  "title": "",
   "body": "  Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
+},
+{
+  "id": "activity-3-5",
+  "level": "2",
+  "url": "PR3.html#activity-3-5",
+  "type": "Activity",
+  "number": "4.3.5",
+  "title": "",
+  "body": "  Using long division, find the quotient and remainder for the given rational function, .   What is the quotient?  What is the remainder?  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
+},
+{
+  "id": "activity-3-6",
+  "level": "2",
+  "url": "PR3.html#activity-3-6",
+  "type": "Activity",
+  "number": "4.3.6",
+  "title": "",
+  "body": "  Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and drop the 1st coefficient down from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to Activity 4.3.2?  "
+},
+{
+  "id": "activity-3-7",
+  "level": "2",
+  "url": "PR3.html#activity-3-7",
+  "type": "Activity",
+  "number": "4.3.7",
+  "title": "",
+  "body": "  Now use synthetic division, to find the quotient and remainder for the given rational function.   What is the quotient?            What is the remainder?           "
 },
 {
   "id": "PR4",
