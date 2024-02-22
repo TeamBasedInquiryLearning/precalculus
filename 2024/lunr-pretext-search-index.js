@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Linear Equations and Inequalities (EQ1)",
-  "body": " Linear Equations and Inequalities (EQ1)     Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Linear Equations and Inequalities (EQ1)     Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.      Activities   Recall that when solving a linear equation, you use addition, subtraction, multiplication and division to isolate the variable.    Solve the linear equations.  \\                                     The following linear equations appear similar, but their solutions are very different.  \\ Which of these equations has one unique solution?           \\ Which of these equations has many solutions?           \\ Which of these equations has no solutions?           \\ What happens when solving a linear equation when it has no solution? when it has many solutions?   A linear equation with one unique solution is a conditional equation. A linear equation that is true for all values of the variable is an identity equation. . A linear equation with no solutions is an inconsistent equation.     An inequality is a relationship between two values that are not equal.  \\ What is the solution to the linear equation ? \\ Which of these values is a solution of the inequality ?              \\ Express the solution of the inequality in interval notation.             \\ Draw the solution to the inequality on a number line.   \\ Which of these values is a solution of the inequality ?              \\ Solve the linear inequality . How does your solution compare to the values chosen in part (a)? \\ Expression the solution of the inequality in interval notation.                You can treat solving linear inequalities, just like solving an equation. The one exception is when you multiply or divide by a negative value, reverse the inequality symbol.    Solve the following inequalities. Express your solution in interval notation and graphically on a number line.               A compound inequality includes multiple inequalities in one statement.      Consider the statement . This really means that and .  \\ Which of the following inequalities are equivalent to the compound inequality ?              \\ How do the solutions overlap?   Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately.   Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ1-2",
@@ -26,6 +26,105 @@ var ptx_lunr_docs = [
   "number": "1.1",
   "title": "",
   "body": "   Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.    "
+},
+{
+  "id": "EQ1-4",
+  "level": "2",
+  "url": "EQ1.html#EQ1-4",
+  "type": "Remark",
+  "number": "1.1.1",
+  "title": "",
+  "body": "Recall that when solving a linear equation, you use addition, subtraction, multiplication and division to isolate the variable. "
+},
+{
+  "id": "EQ1-5",
+  "level": "2",
+  "url": "EQ1.html#EQ1-5",
+  "type": "Activity",
+  "number": "1.1.2",
+  "title": "",
+  "body": "  Solve the linear equations.  \\                                  "
+},
+{
+  "id": "EQ1-6",
+  "level": "2",
+  "url": "EQ1.html#EQ1-6",
+  "type": "Activity",
+  "number": "1.1.3",
+  "title": "",
+  "body": "  The following linear equations appear similar, but their solutions are very different.  \\ Which of these equations has one unique solution?           \\ Which of these equations has many solutions?           \\ Which of these equations has no solutions?           \\ What happens when solving a linear equation when it has no solution? when it has many solutions?  "
+},
+{
+  "id": "EQ1-7",
+  "level": "2",
+  "url": "EQ1.html#EQ1-7",
+  "type": "Definition",
+  "number": "1.1.4",
+  "title": "",
+  "body": "A linear equation with one unique solution is a conditional equation. A linear equation that is true for all values of the variable is an identity equation. . A linear equation with no solutions is an inconsistent equation.  "
+},
+{
+  "id": "EQ1-8",
+  "level": "2",
+  "url": "EQ1.html#EQ1-8",
+  "type": "Activity",
+  "number": "1.1.5",
+  "title": "",
+  "body": "  An inequality is a relationship between two values that are not equal.  \\ What is the solution to the linear equation ? \\ Which of these values is a solution of the inequality ?              \\ Express the solution of the inequality in interval notation.             \\ Draw the solution to the inequality on a number line.  "
+},
+{
+  "id": "EQ1-9",
+  "level": "2",
+  "url": "EQ1.html#EQ1-9",
+  "type": "Activity",
+  "number": "1.1.6",
+  "title": "",
+  "body": "\\ Which of these values is a solution of the inequality ?              \\ Solve the linear inequality . How does your solution compare to the values chosen in part (a)? \\ Expression the solution of the inequality in interval notation.               "
+},
+{
+  "id": "EQ1-10",
+  "level": "2",
+  "url": "EQ1.html#EQ1-10",
+  "type": "Remark",
+  "number": "1.1.7",
+  "title": "",
+  "body": "You can treat solving linear inequalities, just like solving an equation. The one exception is when you multiply or divide by a negative value, reverse the inequality symbol. "
+},
+{
+  "id": "EQ1-11",
+  "level": "2",
+  "url": "EQ1.html#EQ1-11",
+  "type": "Activity",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  Solve the following inequalities. Express your solution in interval notation and graphically on a number line.            "
+},
+{
+  "id": "def-compound_ineq",
+  "level": "2",
+  "url": "EQ1.html#def-compound_ineq",
+  "type": "Definition",
+  "number": "1.1.9",
+  "title": "",
+  "body": "  A compound inequality includes multiple inequalities in one statement.   "
+},
+{
+  "id": "EQ1-13",
+  "level": "2",
+  "url": "EQ1.html#EQ1-13",
+  "type": "Activity",
+  "number": "1.1.10",
+  "title": "",
+  "body": "  Consider the statement . This really means that and .  \\ Which of the following inequalities are equivalent to the compound inequality ?              \\ How do the solutions overlap?  "
+},
+{
+  "id": "EQ1-14",
+  "level": "2",
+  "url": "EQ1.html#EQ1-14",
+  "type": "Remark",
+  "number": "1.1.11",
+  "title": "",
+  "body": "Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately. "
 },
 {
   "id": "EQ2",
