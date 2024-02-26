@@ -12,6 +12,250 @@
     <subsection>
     <title>Activities</title>
     
+    <observation>
+      <statement>
+        <p>
+          Linear equations can be used to solve many types of real-world applications.  We'll investigate some of those in this section.
+        </p>
+      </statement>
+    </observation>
+
+    <remark>
+      <p>
+        Distance, rate, and time problems are a standard example of an application of a linear equation. For these, it's important to remember that <me>
+          d=rt
+        </me> where <m>d</m> is distance, <m>r</m> is the rate (or speed), and <m>t</m> is time.
+      </p>
+      <p>
+        Often we will have more than one moving object, so it is helpful to denote which object's distance, rate, or time we are referring to. One way we can do this is by using a subscript. For example, if we are describing an eastbound train (as we will in the first example), it may be helpful to denote its distance, rate, and time as <m>d_E</m>, <m>r_E</m>, and <m>t_E</m> respectively. Notice that the subscript <m>E</m> is a label reminding us that we are referring to the eastbound train.
+      </p>
+        
+        
+      
+    </remark>
+    
+    <activity xml:id="activity-la-trains1">
+      <introduction>
+        <p>Two trains leave a station at the same time. One is heading east at a speed of 75 mph, while the other is heading west at a speed of 85 mph. After how long will the trains be 400 miles apart? </p>
+        
+      </introduction>
+      <!-- <task>
+        <p>The following are values we are given or will need to find to solve the problem we've been asked. State the values of the ones we have been given
+          <ul>  
+
+            <li> <m>d_N</m>,  the distance the northbound train has traveled</li>
+            <li> <m>d_S</m>, the distance the southbound train has traveled</li>
+            <li> <m>r_N</m>, the speed of the northbound train</li>
+            <li> <m>r_S</m>, the speed of the southbound train</li>
+            <li> <m>t_N</m>, the total time the northbound train has traveled</li>
+            <li> <m>t_S</m>, the total time the southbound train has traveled</li>
+            <li> <m>d</m> the distance between the two trains</li>
+
+          </ul> 
+        </p>
+      </task> -->
+
+      <task>
+        <statement>
+          <p>
+            How fast is each train traveling? 
+            <ol marker= "A.">  
+              <li><m>r_E=85</m> mph, <m>r_W=75</m> mph </li>
+              <li><m>r_E=75</m> mph, <m>r_W=85</m> mph </li>
+              <li><m>r_E=400</m> mph, <m>r_W=400</m> mph </li>
+              <li><m>r_E=75</m> mph, <m>r_W=400</m> mph </li>
+              <li><m>r_E=400</m> mph, <m>r_W=85</m> mph </li>
+    
+            </ol>
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Write an equation relating <m>t_E</m> and <m>t_W</m>.
+            <ol marker= "A.">  
+              <li>The eastbound train is slower than the westbound train, so <m>75+t_E=85+t_W</m>. </li>
+              <li>The eastbound train left an hour before the westbound train, so if we let <m>t_E=t</m>, then <m>t_W=t-1</m>. </li>
+              <li>Both trains have been traveling the same amount of time, so <m>t_E=t_W</m>. Since they are the same, we can just call them both <m>t</m>.</li>
+              <li>We don't know how the times relate to each other, so we must denote them separately as <m>t_E</m> and <m>t_W</m>. </li>
+              <li>Since the trains are traveling at different speeds, we need the proportion <m>\frac{r_E}{r_W}=\frac{t_E}{t_W}</m>. </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the following table using the information you've just determined about the trains' rates and times since they left the station. Then fill in the distance column based on how distance relates to rate and time.
+
+            <table>
+              <tabular>
+                <row header="yes" bottom="minor" >
+                  <cell> </cell> 
+                  <cell>rate</cell>
+                  <cell>time</cell>
+                  <cell>distance from station</cell>
+                </row>
+                <row>
+                  <cell> eastbound train </cell> 
+                </row>
+                <row>
+                  <cell> westbound train </cell> 
+                </row>
+              </tabular>
+            </table> 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            At the moment in question, the trains are 400 miles apart. How does that total distance relate to the distance each train has traveled? 
+            <ol marker= "A.">  
+              <li>The 400 miles is irrelevant. They've been traveling the same amount of time so they must be the same distance away from the station. That tells us  <m>d_E = d_W </m>. </li>
+              <li>The 400 miles is the difference between the distance each train traveled, so <m>d_E - d_W = 400</m>. </li>
+              <li>The 400 miles represents the sum of the distances that each train has traveled, so <m>d_E + d_W = 400</m>. </li>
+              <li>The 400 miles is the product of the distance each train traveled, so <m>(d_E)( d_W) = 400</m>. </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now plug in the expressions from your table for <m>d_E</m> and <m>d_W </m> into the equation you just found. Notice that it is a linear equation in one variable, <m>t</m>. Solve for <m>t</m>, and put that answer in context of the problem.
+            <ol marker= "A.">  
+              <li>The trains are 400 miles apart after 2 hours. </li>
+              <li>The trains are 400 miles apart after 2.5 hours. </li>
+              <li>The trains are 400 miles apart after 3 hours. </li>
+              <li>The trains are 400 miles apart after 3.5 hours. </li>
+              <li>The trains are 400 miles apart after 4 hours. </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+    </activity> 
+
+    <remark>
+     In <xref ref="activity-la-trains1" /> we examined the motion of two objects moving at the same time in opposite directions. In <xref ref="activity-la-walkbike"/> we will examine a different perspective, but still apply <m>d=rt</m> to solve. 
+    </remark>
+
+    <activity xml:id="activity-la-walkbike">
+      <introduction>
+        <p> Jalen needs groceries, so rides his bike to the store and it takes him half an hour. After finishing his shopping, he sees his friend Alex who offers him a ride home. He takes the same route home as he did to the store, but this time it only takes one-fifth of an hour. If his average rate was <m>18</m> mph faster on the way home, how far away does Jalen live from the grocery store? </p>
+
+        <p>
+          We'll use the subscript <m>b</m> to refer to variables relating to Jalen's trip to the store while riding his <m>b</m>ike and the subscript <m>c</m> to refer to variables relating to Jalen's trip home while riding in his friend's <m>c</m>ar. 
+        </p>
+        
+      </introduction>
+
+      <task>
+        <statement>
+          <p> How long does his bike trip from home to the store and his car trip from the store back home take?
+           
+            <ol marker= "A.">  
+              <li><m>t_b=18</m> hours, <m>t_c=18</m> hours </li>
+              <li><m>t_b=\frac{1}{5}</m> of an hour, <m>t_c=\frac{1}{2}</m> of an hour </li>
+              <li><m>t_b=\frac{1}{2}</m> of an hour, <m>t_c=\frac{1}{5}</m> of an hour </li>
+              <li><m>t_b=2</m> hours, <m>t_c=5</m> hours </li>
+              <li><m>t_b=5</m> hours, <m>t_c=2</m> hours </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Write an equation relating <m>r_b</m> and <m>r_c</m>.
+            <ol marker= "A.">  
+
+              <li>Both the trip to the store and the trip home covered the same distance, so <m>r_b=r_c</m>. Since they are the same, we can just call them both <m>r</m>.</li>
+              <li>We don't know how the two rates relate to each other, so cannot write an equation comparing them and must leave them as separate variables <m>r_b</m> and <m>r_c</m>. </li>
+              <li>Jalen's rate on the trip home in the car was <m>18</m> mph faster than his trip to the store on his bike, so if we let <m>r_b=r</m>, then <m>r_c=r-18</m>. </li>
+              <li>Jalen's rate on the trip home in the car was <m>18</m> mph faster than his trip to the store on his bike, so if we let <m>r_b=r</m>, then <m>r_c=r+18</m>. </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the following table using the information you've just determined about the Jalen's rates and times on each leg of his grocery store trip. Then fill in the distance column based on how distance relates to rate and time in each case.
+
+            <table>
+              <tabular>
+                <row header="yes" bottom="minor" >
+                  <cell> </cell> 
+                  <cell>rate</cell>
+                  <cell>time</cell>
+                  <cell>distance covered</cell>
+                </row>
+                <row>
+                  <cell> bike trip (to the store) </cell> 
+                </row>
+                <row>
+                  <cell> car trip (going back home) </cell> 
+                </row>
+              </tabular>
+            </table> 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+           Our goal is to figure out how far away Jalen lives from the store. To help us get there, write an equation relating <m>d_b</m> and <m>d_c</m>. 
+            <ol marker= "A.">  
+              <li>The distance he traveled by bike is the same as the distance he traveled by car, so <m>d_b = d_c</m></li>
+              <li>The distance he traveled by bike took longer than the distance he traveled by car, so <m>d_b + \frac{1}{2} = d_c + \frac{1}{5}</m></li>
+              <li>The distance, <m>d</m>, between his house and the grocery store is sum of the distance he traveled on his bike and the distance he traveled in the car, so <m>d_b + d_c = d</m>. </li>
+              <li>The distance, <m>d</m>, between his house and the grocery store is sum of the difference he traveled on his bike and the distance he traveled in the car, so <m>d_b - d_c = d</m>. </li>
+
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Now plug in the expressions from your table for <m>d_b</m> and <m>d_c</m> into the equation you just found. Notice that it is a linear equation in one variable, <m>r</m>. Solve for <m>r</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Our goal was to determine the distance between Jalen's house and the grocery store. Solving for <m>r</m> did not tell us that distance, but it did get us one step closer. Use that value to help you determine the distance between his house and the store, and write your answer using the context of the problem. (Hint: can you find an expression involving <m>r</m> that we made that represents that distance? )
+            <ol marker= "A.">  
+              <li>The grocery store is 6 miles away from Jalen's house. </li>
+              <li>The grocery store is 8 miles away from Jalen's house. </li>
+              <li>The grocery store is 10 miles away from Jalen's house. </li>
+              <li>The grocery store is 12 miles away from Jalen's house. </li>
+              <li>The grocery store is 14 miles away from Jalen's house. </li>
+              
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+    </activity> 
+
+    <remark>
+      Another type of application of linear equations is called a mixture problem. In these we will mix together two things, like two types of candy in a candy store or two solutions of different concentrations of alcohol.
+    </remark>
+
     </subsection>
 
     <subsection>
