@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Rational Equations (EQ6)",
-  "body": " Rational Equations (EQ6)     Solve a rational equation.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Rational Equations (EQ6)     Solve a rational equation.      Activities    An algebraic expression is called a rational expression rational expression if it can be written as the ratio of two polynomials, and .  An equation is called a rational equation rational equation if it consists of only rational expressions and constants.      Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is . We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator.      Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominator equal to zero. Which value(s) should be exclude as possible solutions to the following rational equations? Select all that apply.                                  Consider the rational equation    What value should be excluded as a possible solution?              To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?              Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     Consider the rational equation    What values should be excluded as possible solutions?   and   and   and   and   and    To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   and   and   and   and   and    Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     In , you may have noticed that the resulting linear equation looked like the result of cross-multiplying. This is no coincidence! Cross-multiplying is a method of clearing out fractions that works specifically when the equation is in proportional form: .      Consider the rational equation    What value(s) should be excluded as possible solutions?  To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   , , and   and        Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.  Solve the linear equation. Check your answer using the original rational equation.      demonstrates why it is so important to determine excluded values and check our answers when solving rational equations. Just because a number is a solution to the linear equation we found, it doesn't mean it is automatically a solution to the rational equation we started with.      Consider the rational equation    What values should be excluded as possible solutions? Select all that apply.                   To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?     and   , , and   and   , and    Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?  add in choices    Solve the quadratic equation. Check your answer using the original rational equation.   Another example where they need use quad formula or complete the square at the end. Then a fluency\/CheckIt example.    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ6-2",
@@ -620,6 +620,87 @@ var ptx_lunr_docs = [
   "number": "1.6",
   "title": "",
   "body": "   Solve a rational equation.    "
+},
+{
+  "id": "def-rational-exp-and-eq",
+  "level": "2",
+  "url": "EQ6.html#def-rational-exp-and-eq",
+  "type": "Definition",
+  "number": "1.6.1",
+  "title": "",
+  "body": "  An algebraic expression is called a rational expression rational expression if it can be written as the ratio of two polynomials, and .  An equation is called a rational equation rational equation if it consists of only rational expressions and constants.   "
+},
+{
+  "id": "EQ6-3-3",
+  "level": "2",
+  "url": "EQ6.html#EQ6-3-3",
+  "type": "Observation",
+  "number": "1.6.2",
+  "title": "",
+  "body": "  Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is . We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator.   "
+},
+{
+  "id": "activity-re-excluded-values",
+  "level": "2",
+  "url": "EQ6.html#activity-re-excluded-values",
+  "type": "Activity",
+  "number": "1.6.3",
+  "title": "",
+  "body": "  Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominator equal to zero. Which value(s) should be exclude as possible solutions to the following rational equations? Select all that apply.                               "
+},
+{
+  "id": "activity-re-solving-1",
+  "level": "2",
+  "url": "EQ6.html#activity-re-solving-1",
+  "type": "Activity",
+  "number": "1.6.4",
+  "title": "",
+  "body": "  Consider the rational equation    What value should be excluded as a possible solution?              To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?              Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.  "
+},
+{
+  "id": "activity-re-solving-2",
+  "level": "2",
+  "url": "EQ6.html#activity-re-solving-2",
+  "type": "Activity",
+  "number": "1.6.5",
+  "title": "",
+  "body": "  Consider the rational equation    What values should be excluded as possible solutions?   and   and   and   and   and    To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   and   and   and   and   and    Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.  "
+},
+{
+  "id": "obs-cross-multiplying",
+  "level": "2",
+  "url": "EQ6.html#obs-cross-multiplying",
+  "type": "Observation",
+  "number": "1.6.6",
+  "title": "",
+  "body": "  In , you may have noticed that the resulting linear equation looked like the result of cross-multiplying. This is no coincidence! Cross-multiplying is a method of clearing out fractions that works specifically when the equation is in proportional form: .   "
+},
+{
+  "id": "activity-re-solving-3-no-solution",
+  "level": "2",
+  "url": "EQ6.html#activity-re-solving-3-no-solution",
+  "type": "Activity",
+  "number": "1.6.7",
+  "title": "",
+  "body": "  Consider the rational equation    What value(s) should be excluded as possible solutions?  To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   , , and   and        Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.  Solve the linear equation. Check your answer using the original rational equation.  "
+},
+{
+  "id": "obs-need-to-check-answers",
+  "level": "2",
+  "url": "EQ6.html#obs-need-to-check-answers",
+  "type": "Observation",
+  "number": "1.6.8",
+  "title": "",
+  "body": "   demonstrates why it is so important to determine excluded values and check our answers when solving rational equations. Just because a number is a solution to the linear equation we found, it doesn't mean it is automatically a solution to the rational equation we started with.   "
+},
+{
+  "id": "activity-re-solving-4",
+  "level": "2",
+  "url": "EQ6.html#activity-re-solving-4",
+  "type": "Activity",
+  "number": "1.6.9",
+  "title": "",
+  "body": "  Consider the rational equation    What values should be excluded as possible solutions? Select all that apply.                   To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?     and   , , and   and   , and    Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?  add in choices    Solve the quadratic equation. Check your answer using the original rational equation.  "
 },
 {
   "id": "EQ7",
