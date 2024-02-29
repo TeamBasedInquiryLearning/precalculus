@@ -39,26 +39,39 @@
         <li><p> <m>x=\frac{14}{23}</m></p></li>
     </ol> </p>
   </task>
+</activity>
+<activity>
+  <introduction>
+    <p>Solve the linear equation.
+      <me>\frac{2}{3}x-8=\frac{5x+1}{6}</me>
+    </p>
+  </introduction>
   <task>
-    <p> <m>\frac{2}{3}x-8=\frac{5x+1}{6}</m>   
-      </p>
+    <p> Which equation is equivalent to  <m>\frac{2}{3}x-8=\frac{5x+1}{6}</m> but does not contain any fractions?    
+        <ol marker="A." cols="2">
+          <li><p><m>12x-48=15x+3</m> </p></li>
+          <li><p> <m>3x-24=10x+2</m> </p></li>
+          <li><p> <m>4x-8=5x+1</m> </p></li>
+          <li><p> <m>4x-48=5x+1</m></p></li>
+      </ol> </p>
+  </task>
+  <task>
+    <p> Use the simplified equation from part (a) to solve <m>\frac{2}{3}x-8=\frac{5x+1}{6}</m>.    
+        <ol marker="A." cols="2">
+          <li><p><m>x=-17</m> </p></li>
+          <li><p> <m>x=-\frac{26}{7}</m> </p></li>
+          <li><p> <m>x=-9</m> </p></li>
+          <li><p> <m>x=-49</m></p></li>
+      </ol> </p>
   </task>
 </activity>
 <activity>
   <introduction>
-    <p>The following linear equations appear similar, but their solutions are very different.
+    <p>It is not always the case that a linear equation has exactly one solution.  Consider the following linear equations which appear similar, but their solutions are very different.
     </p>
   </introduction>
   \<task>
     <p> Which of these equations has one unique solution?
-      <ol marker="A." cols="2">
-        <li><p><m>4(x-2)=4x+6</m> </p></li>
-        <li><p> <m>4(x-1)=4x+4</m> </p></li>
-        <li><p> <m>4(x-1)=x+4</m> </p></li>
-    </ol> </p>
-  </task>
-  \<task>
-    <p> Which of these equations has many solutions?
       <ol marker="A." cols="2">
         <li><p><m>4(x-2)=4x+6</m> </p></li>
         <li><p> <m>4(x-1)=4x+4</m> </p></li>
@@ -74,13 +87,21 @@
     </ol> </p>
   </task>
   \<task>
+    <p> Which of these equations has many solutions?
+      <ol marker="A." cols="2">
+        <li><p><m>4(x-2)=4x+6</m> </p></li>
+        <li><p> <m>4(x-1)=4x+4</m> </p></li>
+        <li><p> <m>4(x-1)=x+4</m> </p></li>
+    </ol> </p>
+  </task>
+  \<task>
       <p>
-        What happens when solving a linear equation when it has no solution? when it has many solutions?
+        What happens to the <m>x</m> variable when a linear equation has no solution or many solutions?
       </p>
   </task>
 </activity>
 <definition>
-  A linear equation with one unique solution is a <term>conditional equation.</term> A linear equation that is true for all values of the variable is an <term>identity equation.</term>. A linear equation with no solutions is an <term>inconsistent equation.</term>
+  A linear equation with one unique solution is a <term>conditional equation.</term> A linear equation that is true for all values of the variable is an <term>identity equation</term>. A linear equation with no solutions is an <term>inconsistent equation.</term>
 </definition>
 <activity>
   <introduction>
@@ -111,8 +132,62 @@
   </task>
   \<task>
       <p>
-        Draw the solution to the inequality on a number line.
-      </p>
+        Draw the solution to the inequality on a number line. 
+      <ol marker="A." cols="1">
+        <li><p> 
+          <image>
+              <latex-image>
+                \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/-1,0.2/0,0.4/1,0.6/2,0.8/3, 1/4}
+    \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{-]}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (-.1,-.16ex) -- (0.6, -.16ex) -- (0.6, .16ex) -- (-.1,.16ex) -- cycle;
+\end{tikzpicture}
+              </latex-image>
+          </image>
+      </p></li>
+      <li><p> 
+        <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/-1,0.2/0,0.4/1,0.6/2,0.8/3, 1/4}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{-)}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (-.1,-.16ex) -- (0.6, -.16ex) -- (0.6, .16ex) -- (-.1,.16ex) -- cycle;
+\end{tikzpicture}
+            </latex-image>
+        </image>
+    </p></li>
+    <li><p> 
+      <image>
+          <latex-image>
+            \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/-1,0.2/0,0.4/1,0.6/2,0.8/3, 1/4}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{(-}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.6,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0.6,.16ex) -- cycle;
+\end{tikzpicture}
+          </latex-image>
+      </image>
+  </p></li>
+  <li><p> 
+    <image>
+        <latex-image>
+          \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/-1,0.2/0,0.4/1,0.6/2,0.8/3, 1/4}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{[-}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.6,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0.6,.16ex) -- cycle;
+\end{tikzpicture}
+        </latex-image>
+    </image>
+</p></li>
+    </ol> </p>
+  
   </task>
 </activity>
 <activity>
@@ -137,6 +212,11 @@
         <li><p> <m>(-8, \infty)</m> </p></li>
         <li><p> <m>[-8,\infty)</m> </p></li>
     </ol> </p>
+  </task>
+  <task>
+      <p>
+        Add in number lines matching solutions - once I fix the previous ones.
+      </p>
   </task>
 </activity>
 <remark>
@@ -188,8 +268,44 @@
     </ol> </p>
   </task>
   \<task>
-    <p> How do the solutions overlap?
-     </p>
+    <p>
+      Solve the inequality <m>3 \le 2x-3</m>.
+      <ol marker="A." cols="2">
+        <li><p> <m>x \le 0</m> </p></li>
+        <li><p><m>x \ge 0</m> </p></li>
+        <li><p> <m>x \le 3</m> </p></li>
+        <li><p> <m>x \ge 3</m> </p></li>
+    </ol> </p>
+  </task>
+  \<task>
+    <p>
+      Solve the inequality <m>2x-3 \lt 8</m>.
+      <ol marker="A." cols="2">
+        <li><p> <m>x \gt \frac{11}{2}</m> </p></li>
+        <li><p><m>x \lt \frac{11}{2}</m> </p></li>
+        <li><p> <m>x \gt \frac{5}{2}</m> </p></li>
+        <li><p> <m>x \lt \frac{5}{2}</m> </p></li>
+    </ol> </p>
+  </task>
+  \<task>
+    <p> Which compound inequality describes how the two solutions overlap?
+      <ol marker="A." cols="2">
+        <li><p> <m>\frac{11}{2} \lt x \le 0</m> </p></li>
+        <li><p><m>0 \le x \lt \frac{5}{2}
+        </m> </p></li>
+        <li><p> <m>\frac{5}{2} \lt x \le 3</m> </p></li>
+        <li><p> <m>3 \le x \lt \frac{11}{2}</m> </p></li>
+    </ol> </p>
+  </task>
+  \<task>
+    <p> Draw the solution to the compound inequality on a number line
+      <ol marker="A." cols="2">
+        <li><p> <m>\frac{11}{2} \lt x \le 0</m> </p></li>
+        <li><p><m>0 \le x \lt \frac{5}{2}
+        </m> </p></li>
+        <li><p> <m>\frac{5}{2} \lt x \le 3</m> </p></li>
+        <li><p> <m>3 \le x \lt \frac{11}{2}</m> </p></li>
+    </ol> </p>
   </task>
   
 </activity>
