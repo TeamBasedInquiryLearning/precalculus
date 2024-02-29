@@ -15,8 +15,8 @@
     <definition xml:id="def-quadratic-equation">
       <statement>
         <p>
-          A <term>quadratic equation</term> is of the form: <p><m>ax^2+bx+c=0</m></p> 
-          <p>where <m>a</m> and <m>b</m> are coefficients (and <m>a</m> <m>\neq0</m>), <m>x</m> is the variable, and <m>c</m> is the constant term.</p>
+          A <term>quadratic equation</term> is of the form: <me>ax^2+bx+c=0</me> 
+          where <m>a</m> and <m>b</m> are coefficients (and <m>a</m> <m>\neq0</m>), <m>x</m> is the variable, and <m>c</m> is the constant term.
         </p>
       </statement>
     </definition>
@@ -177,7 +177,7 @@
     <definition xml:id="def-square-root-property">
       <statement>
         <p>
-          The <term>square root property</term> states that a quadratic equation of the form <m>x^2=k</m> (where <m>k</m> is a nonzero number) will give solutions <m>x=k</m> and <m>x=-k</m>.
+          The <term>square root property</term> states that a quadratic equation of the form <m>x^2=k^2</m> (where <m>k</m> is a nonzero number) will give solutions <m>x=k</m> and <m>x=-k</m>.
           <p>
             In other words, if we have an equation with a perfect square on one side and a number on the other side, we can take the square root of both sides to solve the equation.
           </p>
@@ -406,12 +406,8 @@
   The last method for solving quadratic equations is the <term>quadratic formula</term> - a formula that will solve all quadratic equations!
   <p>
     A quadratic equation of the form <m>ax^2+bx+c=0</m> can be solved by the quadratic formula:
-    <p>
-      <m>x=\frac{-b+-\sqrt{b^2-4ac}}{2a}</m>
-    </p>
-    <p>
+      <me>x=\frac{-b+-\sqrt{b^2-4ac}}{2a}</me>
       where <m>a</m>, <m>b</m>, and <m>c</m> are real numbers and <m>a</m><m>\neq0</m>.
-    </p>
   </p>
 </definition>
 
