@@ -12,6 +12,248 @@
   <subsection>
     <title>Activities</title>
 
+    <definition xml:id="def-rational-exp-and-eq">
+      <statement>
+        <p> An algebraic expression is called a <term>rational expression</term><idx>rational expression</idx> if it can be written as the ratio of two polynomials, <m>p</m> and <m>q</m>.      </p>
+        <p>
+          An equation is called a <term>rational equation</term><idx>rational equation</idx> if it consists of only rational expressions and constants.
+        </p>
+      </statement>
+    </definition>
+
+<observation>
+  <statement>
+    <p>
+      Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is <m>1</m>. We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator. 
+    </p>
+  </statement>
+</observation>
+
+    <activity xml:id="activity-re-excluded-values">
+      <introduction>
+        <p>        Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominator equal to zero. Which value(s) should be exclude as possible solutions to the following rational equations? Select all that apply.
+      </p>
+        
+      </introduction>
+      
+      <task><p><me>
+        \frac{2}{x+5}=\frac{x-3}{x-8}=-7</me> 
+        <ol marker= "A.">  
+        <li> <m>-7</m></li>
+        <li> <m>-5</m></li>
+        <li> <m>2</m></li>
+        <li> <m>3</m></li>
+        <li> <m>8</m></li>
+        
+      </ol>
+      </p>
+      </task>
+
+
+      <task><p><me>
+        \frac{x^2-6x+8}{x^2-4x+3}=0</me> 
+        <ol marker= "A.">  
+          <li> <m>0</m></li>
+          <li> <m>1</m></li>
+        <li> <m>2</m></li>
+        <li> <m>3</m></li>
+        <li> <m>4</m></li>
+        
+      </ol>
+      </p>
+      </task>
+      
+    </activity>
+
+    <activity xml:id="activity-re-solving-1">
+      <introduction>
+        <p> Consider the rational equation
+          <me>5 = -\frac{6}{x-2}
+          </me>
+      </p>
+        
+      </introduction>
+      
+      <task><p>What value should be excluded as a possible solution?
+        <ol marker= "A.">  
+        <li> <m>5</m></li>
+        <li> <m>6</m></li>
+        <li> <m>-6</m></li>
+        <li> <m>2</m></li>
+        <li> <m>-2</m></li>       
+      </ol>
+      </p>
+      </task>
+
+      <task><p>To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?
+        <ol marker= "A.">  
+        <li> <m>x-5</m></li>
+        <li> <m>x-6</m></li>
+        <li> <m>x+6</m></li>
+        <li> <m>x-2</m></li>
+        <li> <m>x+2</m></li>       
+      </ol>
+      </p>
+      </task>
+
+      <task><p>Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?
+        <ol marker= "A.">  
+        <li> <m>5(x-5) = -6</m></li>
+        <li> <m>5(x-6) = -6</m></li>
+        <li> <m>5(x+6) = -6</m></li>
+        <li> <m>5(x-2) = -6</m></li>
+        <li> <m>5(x+2) = -6</m></li>       
+      </ol>
+      </p>
+      </task>
+
+      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      </task>
+      
+    </activity>
+
+    <activity xml:id="activity-re-solving-2">
+      <introduction>
+        <p> Consider the rational equation
+          <me>\frac{4}{x+1} = -\frac{2}{x+6}
+          </me>
+      </p>
+        
+      </introduction>
+      
+      <task><p>What values should be excluded as possible solutions?
+        <ol marker= "A.">  
+        <li> <m>2</m> and <m>4</m></li>
+        <li> <m>1</m> and <m>6</m></li>
+        <li> <m>-1</m> and <m>-6</m></li>
+        <li> <m>1</m> and <m>4</m></li>
+        <li> <m>2</m> and <m>6</m></li>       
+      </ol>
+      </p>
+      </task>
+
+      <task><p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
+        <ol marker= "A.">   
+            <li> <m>x-2</m> and <m>x-4</m></li>
+            <li> <m>x-1</m> and <m>x-6</m></li>
+            <li> <m>x+1</m> and <m>x+6</m></li>
+            <li> <m>x-1</m> and <m>x-4</m></li>
+            <li> <m>x-2</m> and <m>x-6</m></li>       
+          </ol>
+      </p>
+      </task>
+
+      <task><p>Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?
+        <ol marker= "A.">  
+        <li> <m>4(x+1) = -2(x+6)</m></li>
+        <li> <m>4(x+6) = -2(x+1)</m></li>  
+        <li> <m>4(x+1)(x+6) = -2(x+1)(x+6)</m></li>
+        <li> <m>4(x+1) = -2(-x-6)</m></li>
+        <li> <m>4(x+6) = -2(-x-1)</m></li>  
+      </ol>
+      </p>
+      </task>
+
+      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      </task>
+      
+    </activity>
+
+    <observation xml:id="obs-cross-multiplying">
+      <statement>
+        <p>
+          In <xref ref="activity-re-solving-2"/>, you may have noticed that the resulting linear equation looked like the result of cross-multiplying. This is no coincidence! Cross-multiplying is a method of clearing out fractions that works specifically when the equation is in proportional form: <m>\frac{a}{b}=\frac{c}{d}</m>.
+        </p>
+      </statement>
+    </observation>
+
+    <activity xml:id="activity-re-solving-3-no-solution">
+      <introduction>
+        <p> Consider the rational equation
+          <me>\frac{x}{x+2} = -\frac{2}{x+2}-\frac{2}{5}
+          </me>
+      </p>
+        
+      </introduction>
+      
+      <task><p>What value(s) should be excluded as possible solutions?   </p>
+      </task>
+
+      <task><p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
+        <ol marker= "A.">   
+            <li> <m>x+2</m>, <m>x+2</m>, and <m>5</m></li>
+            <li> <m>x+2</m> and <m>5</m></li>
+            <li> <m>x+2</m></li>
+            <li> <m>5</m></li>
+          </ol>
+      </p>
+      </task>
+
+      <task><p>Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.
+      </p>
+      </task>
+
+      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      </task>
+      
+    </activity>
+
+    <observation xml:id="obs-need-to-check-answers">
+      <statement>
+        <p>
+          <xref ref="activity-re-solving-3-no-solution"/> demonstrates why it is so important to determine excluded values and check our answers when solving rational equations. Just because a number is a solution to the <em>linear</em> equation we found, it doesn't mean it is automatically a solution to the <em>rational</em> equation we started with.
+        </p>
+      </statement>
+    </observation>
+
+    <activity xml:id="activity-re-solving-4">
+      <introduction>
+        <p> Consider the rational equation
+          <me>\frac{2x}{x-1}- \frac{3}{x-3} = \frac{x^2-11x+18}{x^2-4x+3}
+          </me>
+      </p>
+        
+      </introduction>
+      
+      <task><p>What values should be excluded as possible solutions? Select all that apply.
+        <ol marker= "A.">  
+        <li> <m>1</m> </li>
+        <li> <m>2</m> </li>
+        <li> <m>3</m> </li>
+        <li> <m>4</m> </li>
+        <li> <m>5</m> </li>
+      
+      </ol>
+      </p>
+      </task>
+
+      <task><p>To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?
+        <ol marker= "A.">   
+            <li> <m>x-1</m></li>
+            <li> <m>x-1</m> and <m>x-3</m></li>
+            <li> <m>x-1</m>, <m>x-3</m>, and <m>x^2-4x+3</m></li>
+            <li> <m>x-1</m> and <m>x^2-4x+3</m></li>
+            <li> <m>x-3</m>, and <m>x^2-4x+3</m></li>
+          </ol>
+      </p>
+      </task>
+
+      <task><p>Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?
+        <ol marker= "A.">  
+        <li> add in choices</li>
+  
+      </ol>
+      </p>
+      </task>
+
+      <task><p>Solve the quadratic equation. Check your answer using the original rational equation.</p>
+      </task>
+      
+    </activity> 
+
+<p>
+  Another example where they need use quad formula or complete the square at the end. Then a fluency/CheckIt example.
+</p>
 
 
   </subsection>
