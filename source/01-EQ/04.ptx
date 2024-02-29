@@ -21,7 +21,7 @@
         </p>
       </introduction>
       \<task>
-        <p> Which values are solultions to the absolute value equation <m>\lvert x \rvert = 2</m>?
+        <p> Which values are solutions to the absolute value equation <m>\lvert x \rvert = 2</m>?
           <ol marker="A." cols="2">
             <li><p><m>x=2</m> </p></li>
             <li><p> <m>x=0</m> </p></li>
@@ -30,7 +30,7 @@
         </ol> </p>
       </task>
       \<task>
-        <p> Which values are solultions to the absolute value equation <m>\lvert x-7 \rvert = 2</m>?
+        <p> Which values are solutions to the absolute value equation <m>\lvert x-7 \rvert = 2</m>?
           <ol marker="A." cols="2">
             <li><p><m>x=9</m> </p></li>
             <li><p> <m>x=7</m> </p></li>
@@ -39,7 +39,7 @@
         </ol> </p>
       </task>
       \<task>
-        <p> Which values are solultions to the absolute value equation <m>3\lvert x-7 \rvert +5= 11</m>? It may be helpful to rewrite the equation to isolate the absolute value.
+        <p> Which values are solutions to the absolute value equation <m>3\lvert x-7 \rvert +5= 11</m>? It may be helpful to rewrite the equation to isolate the absolute value.
           <ol marker="A." cols="2">
             <li><p><m>x=7</m> </p></li>
             <li><p> <m>x=-9</m> </p></li>
