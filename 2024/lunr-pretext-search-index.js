@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Absolute Value Equations and Inequalities (EQ4)",
-  "body": " Absolute Value Equations and Inequalities (EQ4)     Solve a linear equation involving an absolute value. Solve a linear inequality involving absolute values and express the answers graphically and using interval notation.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Absolute Value Equations and Inequalities (EQ4)     Solve a linear equation involving an absolute value. Solve a linear inequality involving absolute values and express the answers graphically and using interval notation.      Activities  An absolute value, written , is the non-negative value of . If is a positive number, then . If is a negative number, then .    Let's consider how to solve an equation when an absolute value is involved.  \\ Which values are solutions to the absolute value equation ?             \\ Which values are solutions to the absolute value equation ?             \\ Which values are solutions to the absolute value equation ? It may be helpful to rewrite the equation to isolate the absolute value.             \\ I want something here about getting to the point of solving an absolute value is like solving two equations..... not sure quite how to ask it.   When solving an absolute value equation, begin by isolating the absolute value expression. Then rewrite the equation into two linear equations and solve. If , becomes the following two equations     Solve the following absolute value equations.  \\  ?          No solution   \\  ?          No solution   \\  ?          No solution       Just as with linear equations and inequalities, we can consider absolute value inequalities from equations.  \\ Which values are solutions to the absolute value inequality ?             \\ Rewrite the absolute value inequality as a compound inequality.             \\ Solve the compound inequality that is equivalent to found in part (b). Write the solution in interval notation.             \\ Draw the solution to on the number line.  put in the number lines here.... [7,9]               Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ4-2",
@@ -334,13 +334,58 @@ var ptx_lunr_docs = [
   "body": "   Solve a linear equation involving an absolute value. Solve a linear inequality involving absolute values and express the answers graphically and using interval notation.    "
 },
 {
+  "id": "EQ4-3-2",
+  "level": "2",
+  "url": "EQ4.html#EQ4-3-2",
+  "type": "Remark",
+  "number": "1.4.1",
+  "title": "",
+  "body": "An absolute value, written , is the non-negative value of . If is a positive number, then . If is a negative number, then . "
+},
+{
+  "id": "EQ4-3-3",
+  "level": "2",
+  "url": "EQ4.html#EQ4-3-3",
+  "type": "Activity",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  Let's consider how to solve an equation when an absolute value is involved.  \\ Which values are solutions to the absolute value equation ?             \\ Which values are solutions to the absolute value equation ?             \\ Which values are solutions to the absolute value equation ? It may be helpful to rewrite the equation to isolate the absolute value.             \\ I want something here about getting to the point of solving an absolute value is like solving two equations..... not sure quite how to ask it.  "
+},
+{
+  "id": "EQ4-3-4",
+  "level": "2",
+  "url": "EQ4.html#EQ4-3-4",
+  "type": "Remark",
+  "number": "1.4.3",
+  "title": "",
+  "body": "When solving an absolute value equation, begin by isolating the absolute value expression. Then rewrite the equation into two linear equations and solve. If , becomes the following two equations  "
+},
+{
+  "id": "EQ4-3-5",
+  "level": "2",
+  "url": "EQ4.html#EQ4-3-5",
+  "type": "Activity",
+  "number": "1.4.4",
+  "title": "",
+  "body": "  Solve the following absolute value equations.  \\  ?          No solution   \\  ?          No solution   \\  ?          No solution    "
+},
+{
+  "id": "EQ4-3-6",
+  "level": "2",
+  "url": "EQ4.html#EQ4-3-6",
+  "type": "Activity",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Just as with linear equations and inequalities, we can consider absolute value inequalities from equations.  \\ Which values are solutions to the absolute value inequality ?             \\ Rewrite the absolute value inequality as a compound inequality.             \\ Solve the compound inequality that is equivalent to found in part (b). Write the solution in interval notation.             \\ Draw the solution to on the number line.  put in the number lines here.... [7,9]            "
+},
+{
   "id": "EQ5",
   "level": "1",
   "url": "EQ5.html",
   "type": "Section",
   "number": "1.5",
   "title": "Quadratic Equations (EQ5)",
-  "body": " Quadratic Equations (EQ5)     Solve quadratic equations using factoring, the square root property, completing the square, and the quadratic formula and express these answers in exact form.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Quadratic Equations (EQ5)     Solve quadratic equations using factoring, the square root property, completing the square, and the quadratic formula and express these answers in exact form.      Activities    A quadratic equation is of the form: where and are coefficients (and  ), is the variable, and is the constant term.      Before beginning to solve quadratic equations, we need to be able to identify all various forms of quadratics.   Which of the following is a quadratic equation?                    To solve a quadratic equation, we will need to apply the zero product property , which states that if , then either or . In other words, you can only have a product of if one (or both!) of the factors is .      In this activity, we will look at how to apply the zero product property when solving quadratic equations.    Which of the following equations can you apply as your first step in solving?             Suppose you are given the quadratic equation, . Applying , would give you:      and    and    After applying the zero product property, what are the solutions to the quadratic equation ?   and    and    and   and     Notice in and , that not all equations are set up \"nicely.\" You will need to do some manipulation to get everything on one side (AND in factored form!) and on the other *before* applying the zero product property.     Suppose you want to solve the equation , which is NOT in factored form.    Which of the following is the correct factored form of ?             After applying , which of the following will be a solution to ?   and    and    and   and      Solve each of the following quadratic equations:          Suppose you are given the equation, :    How many solutions does this equation have?                 What are the solutions to this equation?                 How is this quadratic equation different than the equations we've solved thus far?      The square root property states that a quadratic equation of the form (where is a nonzero number) will give solutions and . In other words, if we have an equation with a perfect square on one side and a number on the other side, we can take the square root of both sides to solve the equation.       Suppose you are given the equation, :    What would be the first step in solving ?  Divide by on both sides  Subtract on both sides  Add on both sides  Multiply by on both sides     Isolate the term and apply solve for .    What are the solution(s) to ?           Solve the following quadratic equations by applying the square root property ( ).         Not all quadratic equations can be factored or can be solved by using the square root property. In the next few activities, we will learn two additional methods in solving quadratics.    Another method for solving a quadratic equation is known as completing the square . With this method, we add or subtract terms to both sides of an equation until we have a perfect square trinomial on one side of the equal sign and a constant on the other side. We then apply the square root property. Note: A perfect square trinomial is a trinomial that can be factored into a binomial squared. For example, is a perfect square trinomial because it can be factored into or .       Let's work through an example together to solve . (Notice that the methods of factoring and the square root property do not work with this equation.)    In order to apply , we first need to have a perfect square trinomial on one side of the equals sign. Which of the following number(s) could we add to the left side of the equation to create a perfect square trinomial?         Add your answer from part to the right side of the equation as well (i.e. whatever you do to one side of an equation you must do to the other side too!) and then factor the perfect square trinomial on the left side. Which equation best represents the equation now?         Apply the square root property ( ) to both sides of the equation to determine the solution(s). Which of the following is the solution(s) of ?  and  and  and  and      To complete the square, the leading coefficient, (i.e., the coefficient of the term), must equal . If it does not, then factor the entire equation by and then follow similar steps as in .     Let's solve the equation by completing the square.    Rewrite the equation so that all the terms with the variable is on one side of the equation and a constant is on the other.    Notice that the coefficient of the term is not . What could we factor the left side of the equation by so that the coefficient of the is ?    Once you factor the left side, what equation represents the equation you now have?         Just like in , let's now try and create the perfect square trinomial (inside the parentheses) on the left side of the equation. Which of the following number(s) could we add to the left side of the equation to create a perfect square trinomial?         What would we need to add to the right-hand side of the equation to keep the equation balanced?         Which of the following equation represents the quadratic equation you have now?         Apply the square root property and solve the quadratic equation.      Solve the following quadratic equations by completing the square.       The last method for solving quadratic equations is the quadratic formula - a formula that will solve all quadratic equations! A quadratic equation of the form can be solved by the quadratic formula: where , , and are real numbers and .     Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         What is the solution(s) to ?           Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         What is the solution(s) to ?  and  and  and  and       Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         Notice that the number under the square root is a negative. Recall that when you have a negative number under a square root, that gives an imaginary number ( . What is the solution(s) to ?  and  and  and  and       Solve the following quadratic equations by applying the quadratic formula ( ).          Now that you have seen all the different ways to solve a quadratic equation, you will need to know WHEN to use which method. Are some methods better than others?    Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Go back to parts , , and and solve each of the quadratic equations. Would you still use the same method?      Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ5-2",
@@ -350,6 +395,213 @@ var ptx_lunr_docs = [
   "number": "1.5",
   "title": "",
   "body": "   Solve quadratic equations using factoring, the square root property, completing the square, and the quadratic formula and express these answers in exact form.    "
+},
+{
+  "id": "def-quadratic-equation",
+  "level": "2",
+  "url": "EQ5.html#def-quadratic-equation",
+  "type": "Definition",
+  "number": "1.5.1",
+  "title": "",
+  "body": "  A quadratic equation is of the form: where and are coefficients (and  ), is the variable, and is the constant term.   "
+},
+{
+  "id": "determine-quadratic-equation",
+  "level": "2",
+  "url": "EQ5.html#determine-quadratic-equation",
+  "type": "Activity",
+  "number": "1.5.2",
+  "title": "",
+  "body": "  Before beginning to solve quadratic equations, we need to be able to identify all various forms of quadratics.   Which of the following is a quadratic equation?                 "
+},
+{
+  "id": "def-zero-product-property",
+  "level": "2",
+  "url": "EQ5.html#def-zero-product-property",
+  "type": "Definition",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  To solve a quadratic equation, we will need to apply the zero product property , which states that if , then either or . In other words, you can only have a product of if one (or both!) of the factors is .   "
+},
+{
+  "id": "applying-zero-product-property",
+  "level": "2",
+  "url": "EQ5.html#applying-zero-product-property",
+  "type": "Activity",
+  "number": "1.5.4",
+  "title": "",
+  "body": "  In this activity, we will look at how to apply the zero product property when solving quadratic equations.    Which of the following equations can you apply as your first step in solving?             Suppose you are given the quadratic equation, . Applying , would give you:      and    and    After applying the zero product property, what are the solutions to the quadratic equation ?   and    and    and   and   "
+},
+{
+  "id": "EQ5-3-6",
+  "level": "2",
+  "url": "EQ5.html#EQ5-3-6",
+  "type": "Remark",
+  "number": "1.5.5",
+  "title": "",
+  "body": " Notice in and , that not all equations are set up \"nicely.\" You will need to do some manipulation to get everything on one side (AND in factored form!) and on the other *before* applying the zero product property.  "
+},
+{
+  "id": "solve-unfactored-equation",
+  "level": "2",
+  "url": "EQ5.html#solve-unfactored-equation",
+  "type": "Activity",
+  "number": "1.5.6",
+  "title": "",
+  "body": "  Suppose you want to solve the equation , which is NOT in factored form.    Which of the following is the correct factored form of ?             After applying , which of the following will be a solution to ?   and    and    and   and   "
+},
+{
+  "id": "solve-quadratic-equations-practice",
+  "level": "2",
+  "url": "EQ5.html#solve-quadratic-equations-practice",
+  "type": "Activity",
+  "number": "1.5.7",
+  "title": "",
+  "body": "  Solve each of the following quadratic equations:       "
+},
+{
+  "id": "square-root-property-intro",
+  "level": "2",
+  "url": "EQ5.html#square-root-property-intro",
+  "type": "Activity",
+  "number": "1.5.8",
+  "title": "",
+  "body": "  Suppose you are given the equation, :    How many solutions does this equation have?                 What are the solutions to this equation?                 How is this quadratic equation different than the equations we've solved thus far?   "
+},
+{
+  "id": "def-square-root-property",
+  "level": "2",
+  "url": "EQ5.html#def-square-root-property",
+  "type": "Definition",
+  "number": "1.5.9",
+  "title": "",
+  "body": "  The square root property states that a quadratic equation of the form (where is a nonzero number) will give solutions and . In other words, if we have an equation with a perfect square on one side and a number on the other side, we can take the square root of both sides to solve the equation.    "
+},
+{
+  "id": "square-root-property-other",
+  "level": "2",
+  "url": "EQ5.html#square-root-property-other",
+  "type": "Activity",
+  "number": "1.5.10",
+  "title": "",
+  "body": "  Suppose you are given the equation, :    What would be the first step in solving ?  Divide by on both sides  Subtract on both sides  Add on both sides  Multiply by on both sides     Isolate the term and apply solve for .    What are the solution(s) to ?        "
+},
+{
+  "id": "square-root-property-practice",
+  "level": "2",
+  "url": "EQ5.html#square-root-property-practice",
+  "type": "Activity",
+  "number": "1.5.11",
+  "title": "",
+  "body": "  Solve the following quadratic equations by applying the square root property ( ).        "
+},
+{
+  "id": "EQ5-3-13",
+  "level": "2",
+  "url": "EQ5.html#EQ5-3-13",
+  "type": "Remark",
+  "number": "1.5.12",
+  "title": "",
+  "body": "Not all quadratic equations can be factored or can be solved by using the square root property. In the next few activities, we will learn two additional methods in solving quadratics. "
+},
+{
+  "id": "def-completing-the-square",
+  "level": "2",
+  "url": "EQ5.html#def-completing-the-square",
+  "type": "Definition",
+  "number": "1.5.13",
+  "title": "",
+  "body": "  Another method for solving a quadratic equation is known as completing the square . With this method, we add or subtract terms to both sides of an equation until we have a perfect square trinomial on one side of the equal sign and a constant on the other side. We then apply the square root property. Note: A perfect square trinomial is a trinomial that can be factored into a binomial squared. For example, is a perfect square trinomial because it can be factored into or .    "
+},
+{
+  "id": "complete-the-square-intro",
+  "level": "2",
+  "url": "EQ5.html#complete-the-square-intro",
+  "type": "Activity",
+  "number": "1.5.14",
+  "title": "",
+  "body": "  Let's work through an example together to solve . (Notice that the methods of factoring and the square root property do not work with this equation.)    In order to apply , we first need to have a perfect square trinomial on one side of the equals sign. Which of the following number(s) could we add to the left side of the equation to create a perfect square trinomial?         Add your answer from part to the right side of the equation as well (i.e. whatever you do to one side of an equation you must do to the other side too!) and then factor the perfect square trinomial on the left side. Which equation best represents the equation now?         Apply the square root property ( ) to both sides of the equation to determine the solution(s). Which of the following is the solution(s) of ?  and  and  and  and    "
+},
+{
+  "id": "EQ5-3-16",
+  "level": "2",
+  "url": "EQ5.html#EQ5-3-16",
+  "type": "Remark",
+  "number": "1.5.15",
+  "title": "",
+  "body": " To complete the square, the leading coefficient, (i.e., the coefficient of the term), must equal . If it does not, then factor the entire equation by and then follow similar steps as in .  "
+},
+{
+  "id": "complete-the-square-a-not-one",
+  "level": "2",
+  "url": "EQ5.html#complete-the-square-a-not-one",
+  "type": "Activity",
+  "number": "1.5.16",
+  "title": "",
+  "body": "  Let's solve the equation by completing the square.    Rewrite the equation so that all the terms with the variable is on one side of the equation and a constant is on the other.    Notice that the coefficient of the term is not . What could we factor the left side of the equation by so that the coefficient of the is ?    Once you factor the left side, what equation represents the equation you now have?         Just like in , let's now try and create the perfect square trinomial (inside the parentheses) on the left side of the equation. Which of the following number(s) could we add to the left side of the equation to create a perfect square trinomial?         What would we need to add to the right-hand side of the equation to keep the equation balanced?         Which of the following equation represents the quadratic equation you have now?         Apply the square root property and solve the quadratic equation.   "
+},
+{
+  "id": "complete-the-square-practice",
+  "level": "2",
+  "url": "EQ5.html#complete-the-square-practice",
+  "type": "Activity",
+  "number": "1.5.17",
+  "title": "",
+  "body": "  Solve the following quadratic equations by completing the square.      "
+},
+{
+  "id": "def-quadratic-formula",
+  "level": "2",
+  "url": "EQ5.html#def-quadratic-formula",
+  "type": "Definition",
+  "number": "1.5.18",
+  "title": "",
+  "body": "The last method for solving quadratic equations is the quadratic formula - a formula that will solve all quadratic equations! A quadratic equation of the form can be solved by the quadratic formula: where , , and are real numbers and .  "
+},
+{
+  "id": "quadratic-formula-intro",
+  "level": "2",
+  "url": "EQ5.html#quadratic-formula-intro",
+  "type": "Activity",
+  "number": "1.5.19",
+  "title": "",
+  "body": "  Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         What is the solution(s) to ?        "
+},
+{
+  "id": "quadratic-formula-square-root",
+  "level": "2",
+  "url": "EQ5.html#quadratic-formula-square-root",
+  "type": "Activity",
+  "number": "1.5.20",
+  "title": "",
+  "body": "  Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         What is the solution(s) to ?  and  and  and  and    "
+},
+{
+  "id": "quadratic-formula-imaginary",
+  "level": "2",
+  "url": "EQ5.html#quadratic-formula-imaginary",
+  "type": "Activity",
+  "number": "1.5.21",
+  "title": "",
+  "body": "  Use the quadratic formula ( ) to solve .    When written in standard form, what are the values of , , and ?    When applying the quadratic formula, what would you get when you substitute , , and ?         Notice that the number under the square root is a negative. Recall that when you have a negative number under a square root, that gives an imaginary number ( . What is the solution(s) to ?  and  and  and  and    "
+},
+{
+  "id": "quadratic-formula-practice",
+  "level": "2",
+  "url": "EQ5.html#quadratic-formula-practice",
+  "type": "Activity",
+  "number": "1.5.22",
+  "title": "",
+  "body": "  Solve the following quadratic equations by applying the quadratic formula ( ).       "
+},
+{
+  "id": "determine-which-method",
+  "level": "2",
+  "url": "EQ5.html#determine-which-method",
+  "type": "Activity",
+  "number": "1.5.23",
+  "title": "",
+  "body": "  Now that you have seen all the different ways to solve a quadratic equation, you will need to know WHEN to use which method. Are some methods better than others?    Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Which is the best method to use to solve ?  Factoring and Zero Product Property  Square Root Property  Completing the Square  Quadratic Formula     Go back to parts , , and and solve each of the quadratic equations. Would you still use the same method?   "
 },
 {
   "id": "EQ6",
