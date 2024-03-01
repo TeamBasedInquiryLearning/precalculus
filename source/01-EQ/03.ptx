@@ -49,7 +49,7 @@
     </activity>
 
     <remark>
-      <p> Using the <term> Pythagorean Theorem </term> can be helpful in finding the distance of a line segment (as long as you create a right triangle!).
+      <p> Using the <term>Pythagorean Theorem</term><m>(a^2+b^2=c^2)</m> can be helpful in finding the distance of a line segment (as long as you create a right triangle!).
       </p>
     </remark>
 
@@ -84,8 +84,7 @@
     <definition xml:id="def-distance-formula">
       <statement>
         <p>
-          The distance, <m>d</m>, between two points, <m> (x_{1},y_{1})</m> and <m> (x_{2}, y_{2})</m>, can be found by using the <term>distance formula</term>: <p><m>d=\sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}.</m></p> 
-          <p>Notice that the distance formula is an application of the Phythagorean Theorem!</p>
+          The distance, <m>d</m>, between two points, <m>(x_{1},y_{1})</m> and <m>(x_{2}, y_{2})</m>, can be found by using the <term>distance formula</term>: <me>d=\sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}</me> Notice that the distance formula is an application of the Pythagorean Theorem!
         </p>
       </statement>
     </definition>
@@ -123,6 +122,11 @@
           </task>
     </activity>
 
+    <remark>
+      <p>
+        Notice in <xref ref="calculating-distance-practice"/>, you can give a distance in either exact form (leaving it with a square root) or as an approximation (as a decimal). Make sure you can give either form as sometimes one form is better than another!
+      </p>
+    </remark>
     <remark>
       <p> A <term>midpoint</term> refers to the point that is located in the middle of a line segment. In other words, the midpoint is the point that is halfway between the two endpoints of a given line segment.
       </p>
@@ -180,9 +184,7 @@
     <definition xml:id="def-midpoint-formula">
       <statement>
         <p>
-          The midpoint of a line segment with endpoints <m> (x_{1},y_{1})</m> and <m> (x_{2}, y_{2})</m>, can be found by taking the average of the <m>x</m> and <m>y</m> values. Mathematically, the <term>midpoint formula</term> states that the midpoint of a line segment can be found by: 
-          <p><m>(\frac{x_{1}+x_{2}}{2},\frac{y_{1}+y_{2}}{2}).</m>
-        </p>
+          The midpoint of a line segment with endpoints <m> (x_{1},y_{1})</m> and <m> (x_{2}, y_{2})</m>, can be found by taking the average of the <m>x</m> and <m>y</m> values. Mathematically, the <term>midpoint formula</term> states that the midpoint of a line segment can be found by: <me>(\frac{x_{1}+x_{2}}{2},\frac{y_{1}+y_{2}}{2})</me>
       </p>
       </statement>
     </definition>
@@ -194,12 +196,12 @@
         </p>
       </introduction>
       <task>
-        <p> What is the midpoint of the line segment with endpoints <m>(2,6)</m> and <m>(-6,-8)</m>? 
+        <p> What is the midpoint of the line segment with endpoints <m>(-4,5)</m> and <m>(-2,-3)</m>? 
           <ol marker= "A." cols="2">
             <li> <m>(3,1)</m> </li>
+            <li> <m>(-3,1)</m> </li>
             <li> <m>(1,1)</m> </li>
-            <li> <m>(10,4)</m> </li>
-            <li> <m>(4,4)</m> </li></ol></p>
+            <li> <m>(1,4)</m> </li></ol></p>
         </task>
         <task>
         <p> What is the midpoint of the line segment with endpoints <m>(2,6)</m> and <m>(-6,-8)</m>? 
@@ -207,10 +209,10 @@
             <li> <m>(-3,-1)</m> </li>
             <li> <m>(-2,0)</m> </li>
             <li> <m>(-2,-1)</m> </li>
-            <li> <m>(-3,0)</m> </li></ol></p>
+            <li> <m>(4,7)</m> </li></ol></p>
         </task>
         <task>
-          <p> Suppose <m>C</m> is the midpoint of <m>AB</m>. The coordinates of <m>A</m> are <m>(10,10)</m>. What are the coordinates of <m>B</m>?
+          <p> Suppose <m>C</m> is the midpoint of <m>AB</m> and is located at <m>(9,8)</m>. The coordinates of <m>A</m> are <m>(10,10)</m>. What are the coordinates of <m>B</m>?
             <ol marker= "A." cols="2">
               <li> <m>(9.5,9)</m> </li>
               <li> <m>(11,12)</m> </li>
