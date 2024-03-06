@@ -11,14 +11,14 @@
     </objectives>
     <subsection>
     <title>Activities</title>
-    <activity xml:id="activity-3-1">
+    <activity xml:id="Long Division Basic">
       
         <task><p>Use long division to find the quotient and remainder when 346 is divided by 17. 
           <ol marker= "A.">
             <li> quotient 20, remainder 3</li>
-            <li> quotient 20, remainder 6</li>
-            <li> quotient 6, remainder 20</li>
             <li> quotient 6, remainder 3</li>
+            <li> quotient 6, remainder 20</li>
+            <li> quotient 20, remainder 6</li>
             </ol></p>
           </task>
           <task>
@@ -34,8 +34,8 @@
           <p>Now write the answer as a mixed number.
             <ol marker= "A.">
               <li> <m>20 + \frac{3}{17}</m></li>
-              <li> <m>20 + \frac{6}{17}</m></li>
               <li> <m>6 + \frac{20}{17}</m></li>
+              <li> <m>20 + \frac{6}{17}</m></li>
               <li> <m>6 + \frac{3}{17}</m></li>
               </ol>  
         </p> </task>
@@ -44,7 +44,7 @@
       </task>
     </activity>
 
-    <activity xml:id="activity-3-2">
+    <activity xml:id="Simplify Rational By Factoring">
       
         <task><p>Simplify the following rational expression using factoring.
            <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>
@@ -60,7 +60,7 @@
     </activity>
   
    
-    <activity xml:id="activity-3-3">
+    <activity xml:id="Long Division Intro Steps">
         <introduction>
           <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>.</p> 
         </introduction>
@@ -125,9 +125,9 @@
         </task>
       </activity>
 
-      <activity xml:id="activity-3-4">
+      <activity xml:id="Long Division Missing Terms">
         <introduction>
-          <p>Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given <m>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</m>.</p> 
+          <p>Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given <m>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</m>.</p> 
         </introduction>
        
         <task> <p>What is the quotient? </p>
@@ -142,7 +142,7 @@
         </task>
       </activity>
 
-      <activity xml:id="activity-3-5">
+      <activity xml:id="Long Divison Missing Terms">
         <introduction>
           <p>Using long division, find the quotient and remainder for the given rational function, <m>f(x)=\frac{3x^4-5x^2+2}{x-1}</m>.</p> 
         </introduction>
@@ -154,7 +154,7 @@
         <task> <p>How can you check your answer? (Hint: Think of regular long division with positive integers.) </p>
         </task>
       </activity>
-      <activity xml:id="activity-3-6">
+      <activity xml:id="Synthetic Division Intro">
         <introduction>
           <p>Using synthetic division, find the quotient and remainder for the given rational function. <m>(x)=\frac{3x^2+11x-4}{x+4}</m></p> 
         </introduction>
@@ -176,7 +176,7 @@
             <li> <m>0</m></li>
             <li> <m>148</m></li>
             </ol>
-            How do the numbers in the third row relate to Activity 4.3.2 and 4.3.3?
+            How do the numbers in the third row relate to <xref ref="Simplify Rational By Factoring"/> and <xref ref="Long Division Intro Steps"/>?
         </p>
         </task>
       </activity>
