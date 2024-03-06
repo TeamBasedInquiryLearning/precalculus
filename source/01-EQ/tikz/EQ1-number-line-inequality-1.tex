@@ -1,0 +1,7 @@
+\begin{tikzpicture}[scale=7]
+    \draw[<->, thick] (-0.1,0) -- (1.1,0);
+    \foreach \x/\xtext in {0/-1,0.2/0,0.4/1,0.6/2,0.8/3, 1/4}
+        \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+    \draw[{-]}, ultra thick, blue] (0.59,0) -- (0.6,0);
+    \fill[opacity = 0.2, blue,rounded corners=1ex] (-.1,-.16ex) -- (0.6, -.16ex) -- (0.6, .16ex) -- (-.1,.16ex) -- cycle;
+\end{tikzpicture}
