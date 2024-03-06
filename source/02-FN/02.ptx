@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="FN2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Function Notation (FN2) </title>
+    <objectives>
+    <ul>
+      <li>
+        <xi:include href="outcomes/02.ptx" />
+      </li>
+    </ul>
+    </objectives>
+    <subsection>
+    <title>Activities</title>
+    
+    </subsection>
+
+    <subsection>
+        <title>Videos</title>
+        <p>It would be great to include videos down here, like in the Calculus book!</p>
+    </subsection>
+</section>
