@@ -207,17 +207,71 @@
   \<task>
     <p> Expression the solution of the inequality <m>-x\lt 8</m> in interval notation.
       <ol marker="A." cols="2">
-        <li><p> <m>(-\infty,-8)</m> </p></li>
         <li><p><m>(-\infty,-8]</m> </p></li>
+        <li><p> <m>(-\infty,-8)</m> </p></li>
         <li><p> <m>(-8, \infty)</m> </p></li>
         <li><p> <m>[-8,\infty)</m> </p></li>
     </ol> </p>
   </task>
-  <task>
-      <p>
-        Add in number lines matching solutions - once I fix the previous ones.
-      </p>
-  </task>
+  \<task>
+    <p>
+      Draw the solution to the inequality on a number line. 
+    <ol marker="A." cols="1">
+      <li><p> 
+        <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/5,0.2/6,0.4/7,0.6/8,0.8/9, 1/10}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{-]}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (-.1,-.16ex) -- (0.6, -.16ex) -- (0.6, .16ex) -- (-.1,.16ex) -- cycle;
+\end{tikzpicture}
+            </latex-image>
+        </image>
+    </p></li>
+    <li><p> 
+      <image>
+          <latex-image>
+            \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/5,0.2/6,0.4/7,0.6/8,0.8/9, 1/10}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{-)}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (-.1,-.16ex) -- (0.6, -.16ex) -- (0.6, .16ex) -- (-.1,.16ex) -- cycle;
+\end{tikzpicture}
+          </latex-image>
+      </image>
+  </p></li>
+  <li><p> 
+    <image>
+        <latex-image>
+          \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/5,0.2/6,0.4/7,0.6/8,0.8/9, 1/10}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{(-}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.6,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0.6,.16ex) -- cycle;
+\end{tikzpicture}
+        </latex-image>
+    </image>
+</p></li>
+<li><p> 
+  <image>
+      <latex-image>
+        \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.1,0);
+\foreach \x/\xtext in {0/5,0.2/6,0.4/7,0.6/8,0.8/9, 1/10}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{[-}, ultra thick, blue] (0.59,0) -- (0.6,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.6,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0.6,.16ex) -- cycle;
+\end{tikzpicture}
+</latex-image>
+</image>
+</p></li>
+</ol> </p>
+
+</task>
 </activity>
 <remark>
   You can treat solving linear inequalities, just like solving an equation.  The one exception is when you multiply or divide by a negative value, reverse the inequality symbol.
@@ -290,7 +344,7 @@
   \<task>
     <p> Which compound inequality describes how the two solutions overlap?
       <ol marker="A." cols="2">
-        <li><p> <m>\frac{11}{2} \lt x \le 0</m> </p></li>
+        <li><p> <m>0 \le x \lt \frac{11}{2}</m> </p></li>
         <li><p><m>0 \le x \lt \frac{5}{2}
         </m> </p></li>
         <li><p> <m>\frac{5}{2} \lt x \le 3</m> </p></li>
@@ -298,15 +352,68 @@
     </ol> </p>
   </task>
   \<task>
-    <p> Draw the solution to the compound inequality on a number line
-      <ol marker="A." cols="2">
-        <li><p> <m>\frac{11}{2} \lt x \le 0</m> </p></li>
-        <li><p><m>0 \le x \lt \frac{5}{2}
-        </m> </p></li>
-        <li><p> <m>\frac{5}{2} \lt x \le 3</m> </p></li>
-        <li><p> <m>3 \le x \lt \frac{11}{2}</m> </p></li>
-    </ol> </p>
-  </task>
+    <p>
+      Draw the solution to the inequality on a number line. 
+    <ol marker="A." cols="1">
+      <li><p> 
+        <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.3,0);
+\foreach \x/\xtext in {0/0,0.2/1,0.4/2,0.6/3,0.8/4, 1/5, 1.2/6}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{[-}, ultra thick, blue] (-0.01,0) -- (0,0);
+\draw[{-)}, ultra thick, blue] (1.09,0) -- (1.1,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0,.16ex) -- cycle;
+\end{tikzpicture}
+            </latex-image>
+        </image>
+    </p></li>
+    <li><p> 
+      <image>
+          <latex-image>
+            \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.3,0);
+\foreach \x/\xtext in {0/0,0.2/1,0.4/2,0.6/3,0.8/4, 1/5, 1.2/6}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+  \draw[{[-}, ultra thick, blue] (-0.01,0) -- (0,0);
+  \draw[{-)}, ultra thick, blue] (.49,0) -- (.5,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0,-.16ex) -- (0.5, -.16ex) -- (0.5, .16ex) -- (0,.16ex) -- cycle;
+\end{tikzpicture}
+          </latex-image>
+      </image>
+  </p></li>
+  <li><p> 
+    <image>
+        <latex-image>
+          \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.3,0);
+\foreach \x/\xtext in {0/0,0.2/1,0.4/2,0.6/3,0.8/4, 1/5, 1.2/6}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\draw[{(-}, ultra thick, blue] (0.29,0) -- (0.3,0);
+\draw[{-]}, ultra thick, blue] (0.39,0) -- (0.4,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.3,-.16ex) -- (0.4, -.16ex) -- (0.4, .16ex) -- (0.3,.16ex) -- cycle;
+\end{tikzpicture}
+        </latex-image>
+    </image>
+</p></li>
+<li><p> 
+  <image>
+      <latex-image>
+        \begin{tikzpicture}[scale=7]
+\draw[->, thick] (-0.1,0) -- (1.3,0);
+\foreach \x/\xtext in {0/0,0.2/1,0.4/2,0.6/3,0.8/4, 1/5, 1.2/6}
+  \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+  \draw[{[-}, ultra thick, blue] (0.59,0) -- (0.6,0);
+  \draw[{-)}, ultra thick, blue] (1.09,0) -- (1.1,0);
+\fill[opacity = 0.2, blue,rounded corners=1ex] (0.6,-.16ex) -- (1.1, -.16ex) -- (1.1, .16ex) -- (0.6,.16ex) -- cycle;
+\end{tikzpicture}
+</latex-image>
+</image>
+</p></li>
+</ol> </p>
+
+</task>
   
 </activity>
 <remark>
