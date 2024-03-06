@@ -39,21 +39,7 @@
         <p>Two trains leave a station at the same time. One is heading east at a speed of 75 mph, while the other is heading west at a speed of 85 mph. After how long will the trains be 400 miles apart? </p>
         
       </introduction>
-      <!-- <task>
-        <p>The following are values we are given or will need to find to solve the problem we've been asked. State the values of the ones we have been given
-          <ul>  
-
-            <li> <m>d_N</m>,  the distance the northbound train has traveled</li>
-            <li> <m>d_S</m>, the distance the southbound train has traveled</li>
-            <li> <m>r_N</m>, the speed of the northbound train</li>
-            <li> <m>r_S</m>, the speed of the southbound train</li>
-            <li> <m>t_N</m>, the total time the northbound train has traveled</li>
-            <li> <m>t_S</m>, the total time the southbound train has traveled</li>
-            <li> <m>d</m> the distance between the two trains</li>
-
-          </ul> 
-        </p>
-      </task> -->
+      
 
       <task>
         <statement>
@@ -74,7 +60,7 @@
       <task>
         <statement>
           <p>
-            Write an equation relating <m>t_E</m> and <m>t_W</m>.
+            Which of the statements describes how the times of the eastbound and westbound train are related?
             <ol marker= "A.">  
               <li>The eastbound train is slower than the westbound train, so <m>75+t_E=85+t_W</m>. </li>
               <li>The eastbound train left an hour before the westbound train, so if we let <m>t_E=t</m>, then <m>t_W=t-1</m>. </li>
@@ -89,10 +75,10 @@
       <task>
         <statement>
           <p>
-            Fill in the following table using the information you've just determined about the trains' rates and times since they left the station. Then fill in the distance column based on how distance relates to rate and time.
+            Fill in the following table using the information you've just determined about the trains' rates and times since they left the station. Some values are there to help you get started.
 
             <table>
-              <tabular>
+              <tabular halign="center">
                 <row header="yes" bottom="minor" >
                   <cell> </cell> 
                   <cell>rate</cell>
@@ -101,9 +87,14 @@
                 </row>
                 <row>
                   <cell> eastbound train </cell> 
+                  <cell> </cell>
+                  <cell></cell>
+                  <cell><m>75t</m></cell>
                 </row>
                 <row>
                   <cell> westbound train </cell> 
+                  <cell> </cell>
+                  <cell> <m>t</m> </cell>
                 </row>
               </tabular>
             </table> 
@@ -128,7 +119,22 @@
       <task>
         <statement>
           <p>
-            Now plug in the expressions from your table for <m>d_E</m> and <m>d_W </m> into the equation you just found. Notice that it is a linear equation in one variable, <m>t</m>. Solve for <m>t</m>, and put that answer in context of the problem.
+            Now plug in the expressions from your table for <m>d_E</m> and <m>d_w</m>. What equation do you get?
+            <ol marker= "A.">  
+              <li> <m>75t=85t</m> </li>
+              <li> <m>75t-85t=400</m> </li>
+              <li> <m>75t+85t=400</m> </li>
+              <li> <m>(75t)(85t)=400</m> </li>
+              
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Notice that we now have a linear equation in one variable, <m>t</m>. Solve for <m>t</m>, and put that answer in context of the problem.
             <ol marker= "A.">  
               <li>The trains are 400 miles apart after 2 hours. </li>
               <li>The trains are 400 miles apart after 2.5 hours. </li>
@@ -148,7 +154,7 @@
 
     <activity xml:id="activity-la-walkbike">
       <introduction>
-        <p> Jalen needs groceries, so rides his bike to the store and it takes him half an hour. After finishing his shopping, he sees his friend Alex who offers him a ride home. He takes the same route home as he did to the store, but this time it only takes one-fifth of an hour. If his average rate was <m>18</m> mph faster on the way home, how far away does Jalen live from the grocery store? </p>
+        <p> Jalen needs groceries, so decides to ride his bike to the store. It takes him half an hour to get there. After finishing his shopping, he sees his friend Alex who offers him a ride home. He takes the same route home as he did to the store, but this time it only takes one-fifth of an hour. If his average speed was <m>18</m> mph faster on the way home, how far away does Jalen live from the grocery store? </p>
 
         <p>
           We'll use the subscript <m>b</m> to refer to variables relating to Jalen's trip to the store while riding his <m>b</m>ike and the subscript <m>c</m> to refer to variables relating to Jalen's trip home while riding in his friend's <m>c</m>ar. 
@@ -174,7 +180,7 @@
       <task>
         <statement>
           <p>
-            Write an equation relating <m>r_b</m> and <m>r_c</m>.
+            Which of the statements describes how the speed (rate) of the bike trip and the car trip are related?
             <ol marker= "A.">  
 
               <li>Both the trip to the store and the trip home covered the same distance, so <m>r_b=r_c</m>. Since they are the same, we can just call them both <m>r</m>.</li>
@@ -255,6 +261,45 @@
     <remark>
       Another type of application of linear equations is called a mixture problem. In these we will mix together two things, like two types of candy in a candy store or two solutions of different concentrations of alcohol.
     </remark>
+
+    <activity xml:id="activity-la-candymixture">
+      <introduction>
+        <p> Ammie's favorite snack to share with friends is candy salad, which is a mixture of different types of candy. Today she chooses to mix Nerds Gummy Clusters, which cost $8.38 per pound, and Starburst Jelly Beans, which cost $7.16 per pound. If she makes seven pounds of candy salad and spends a total of $55.61, how many pounds of each candy did she buy?   </p>
+
+        <p>
+          We'll use the subscript <m>n</m> to refer to variables relating to the Nerds and the subscript <m>s</m> to refer to variables relating to the Starburt jelly beans. 
+        </p>
+        
+      </introduction>
+
+      <task>
+        <statement>
+          <p> question
+           
+            <ol marker= "A.">  
+              <li></li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      
+      
+    </activity> 
+
+    <activity xml:id="activity-la-percentmixture">
+      <introduction>
+        <p>    </p>
+
+        <p>
+          A chemist needs to mix two solutions to create a mixture consisting of 30% alcohol. She uses 20 liters of the first solution, which has a concentration of 21% alcohol. How many liters of the second solution (that is 45% alcohol) should she add to the first solution tp create the mixture that is 30% alcohol?
+        </p>
+        
+      </introduction>
+
+      
+      
+      
+    </activity> 
 
     </subsection>
 
