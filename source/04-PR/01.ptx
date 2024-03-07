@@ -82,7 +82,6 @@
       </p>
         </task>
     </activity>
-    </subsection>
     
     <definition xml:id="vertex-form-of-a-quadratic-function">
       <statement>
@@ -290,6 +289,7 @@
 </p>
   </task>
 </activity>
+    </subsection>
 
 <exercises>
 <p>Exercises available at <url href="https://teambasedinquirylearning.github.io/precalculus/2024/exercises/#/bank/PR1/"/>.</p>
