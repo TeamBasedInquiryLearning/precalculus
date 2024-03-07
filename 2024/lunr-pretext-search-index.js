@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Linear Equations and Inequalities (EQ1)",
-  "body": " Linear Equations and Inequalities (EQ1)     Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.      Activities   Recall that when solving a linear equation, you use addition, subtraction, multiplication and division to isolate the variable.    Solve the linear equations.  \\                                  Solve the linear equation.    Which equation is equivalent to but does not contain any fractions?              Use the simplified equation from part (a) to solve .                 It is not always the case that a linear equation has exactly one solution. Consider the following linear equations which appear similar, but their solutions are very different.  \\ Which of these equations has one unique solution?           \\ Which of these equations has no solutions?           \\ Which of these equations has many solutions?           \\ What happens to the variable when a linear equation has no solution or many solutions?   A linear equation with one unique solution is a conditional equation. A linear equation that is true for all values of the variable is an identity equation . A linear equation with no solutions is an inconsistent equation.     An inequality is a relationship between two values that are not equal.  \\ What is the solution to the linear equation ? \\ Which of these values is a solution of the inequality ?              \\ Express the solution of the inequality in interval notation.             \\ Draw the solution to the inequality on a number line.                         \\ Which of these values is a solution of the inequality ?              \\ Solve the linear inequality . How does your solution compare to the values chosen in part (a)? \\ Expression the solution of the inequality in interval notation.              \\ Draw the solution to the inequality on a number line.                         You can treat solving linear inequalities, just like solving an equation. The one exception is when you multiply or divide by a negative value, reverse the inequality symbol.    Solve the following inequalities. Express your solution in interval notation and graphically on a number line.               A compound inequality includes multiple inequalities in one statement.      Consider the statement . This really means that and .  \\ Which of the following inequalities are equivalent to the compound inequality ?              \\ Solve the inequality .              \\ Solve the inequality .              \\ Which compound inequality describes how the two solutions overlap?              \\ Draw the solution to the inequality on a number line.                         Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately.   Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Linear Equations and Inequalities (EQ1)     Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.      Activities  Recall that when solving a linear equation, you use addition, subtraction, multiplication and division to isolate the variable.    Solve the linear equations.  \\                                  Solve the linear equation.    Which equation is equivalent to but does not contain any fractions?              Use the simplified equation from part (a) to solve .                 It is not always the case that a linear equation has exactly one solution. Consider the following linear equations which appear similar, but their solutions are very different.  \\ Which of these equations has one unique solution?           \\ Which of these equations has no solutions?           \\ Which of these equations has many solutions?           \\ What happens to the variable when a linear equation has no solution or many solutions?   A linear equation with one unique solution is a conditional equation. A linear equation that is true for all values of the variable is an identity equation . A linear equation with no solutions is an inconsistent equation.     An inequality is a relationship between two values that are not equal.  \\ What is the solution to the linear equation ? \\ Which of these values is a solution of the inequality ?              \\ Express the solution of the inequality in interval notation.             \\ Draw the solution to the inequality on a number line.                         \\ Which of these values is a solution of the inequality ?              \\ Solve the linear inequality . How does your solution compare to the values chosen in part (a)? \\ Expression the solution of the inequality in interval notation.              \\ Draw the solution to the inequality on a number line.                         You can treat solving linear inequalities, just like solving an equation. The one exception is when you multiply or divide by a negative value, reverse the inequality symbol.    Solve the following inequalities. Express your solution in interval notation and graphically on a number line.               A compound inequality includes multiple inequalities in one statement.      Consider the statement . This really means that and .  \\ Which of the following inequalities are equivalent to the compound inequality ?              \\ Solve the inequality .              \\ Solve the inequality .              \\ Which compound inequality describes how the two solutions overlap?              \\ Draw the solution to the inequality on a number line.                         Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately.    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ1-2",
@@ -28,81 +28,81 @@ var ptx_lunr_docs = [
   "body": "   Solve a linear equation in one variable. Solve a linear inequality in one variable and express the solution graphically and using interval notation.    "
 },
 {
-  "id": "EQ1-4",
+  "id": "EQ1-3-2",
   "level": "2",
-  "url": "EQ1.html#EQ1-4",
+  "url": "EQ1.html#EQ1-3-2",
   "type": "Remark",
   "number": "1.1.1",
   "title": "",
   "body": "Recall that when solving a linear equation, you use addition, subtraction, multiplication and division to isolate the variable. "
 },
 {
-  "id": "EQ1-5",
+  "id": "EQ1-3-3",
   "level": "2",
-  "url": "EQ1.html#EQ1-5",
+  "url": "EQ1.html#EQ1-3-3",
   "type": "Activity",
   "number": "1.1.2",
   "title": "",
   "body": "  Solve the linear equations.  \\                               "
 },
 {
-  "id": "EQ1-6",
+  "id": "EQ1-3-4",
   "level": "2",
-  "url": "EQ1.html#EQ1-6",
+  "url": "EQ1.html#EQ1-3-4",
   "type": "Activity",
   "number": "1.1.3",
   "title": "",
   "body": "  Solve the linear equation.    Which equation is equivalent to but does not contain any fractions?              Use the simplified equation from part (a) to solve .              "
 },
 {
-  "id": "EQ1-7",
+  "id": "EQ1-3-5",
   "level": "2",
-  "url": "EQ1.html#EQ1-7",
+  "url": "EQ1.html#EQ1-3-5",
   "type": "Activity",
   "number": "1.1.4",
   "title": "",
   "body": "  It is not always the case that a linear equation has exactly one solution. Consider the following linear equations which appear similar, but their solutions are very different.  \\ Which of these equations has one unique solution?           \\ Which of these equations has no solutions?           \\ Which of these equations has many solutions?           \\ What happens to the variable when a linear equation has no solution or many solutions?  "
 },
 {
-  "id": "EQ1-8",
+  "id": "EQ1-3-6",
   "level": "2",
-  "url": "EQ1.html#EQ1-8",
+  "url": "EQ1.html#EQ1-3-6",
   "type": "Definition",
   "number": "1.1.5",
   "title": "",
   "body": "A linear equation with one unique solution is a conditional equation. A linear equation that is true for all values of the variable is an identity equation . A linear equation with no solutions is an inconsistent equation.  "
 },
 {
-  "id": "EQ1-9",
+  "id": "EQ1-3-7",
   "level": "2",
-  "url": "EQ1.html#EQ1-9",
+  "url": "EQ1.html#EQ1-3-7",
   "type": "Activity",
   "number": "1.1.6",
   "title": "",
   "body": "  An inequality is a relationship between two values that are not equal.  \\ What is the solution to the linear equation ? \\ Which of these values is a solution of the inequality ?              \\ Express the solution of the inequality in interval notation.             \\ Draw the solution to the inequality on a number line.                        "
 },
 {
-  "id": "EQ1-10",
+  "id": "EQ1-3-8",
   "level": "2",
-  "url": "EQ1.html#EQ1-10",
+  "url": "EQ1.html#EQ1-3-8",
   "type": "Activity",
   "number": "1.1.7",
   "title": "",
   "body": "\\ Which of these values is a solution of the inequality ?              \\ Solve the linear inequality . How does your solution compare to the values chosen in part (a)? \\ Expression the solution of the inequality in interval notation.              \\ Draw the solution to the inequality on a number line.                        "
 },
 {
-  "id": "EQ1-11",
+  "id": "EQ1-3-9",
   "level": "2",
-  "url": "EQ1.html#EQ1-11",
+  "url": "EQ1.html#EQ1-3-9",
   "type": "Remark",
   "number": "1.1.8",
   "title": "",
   "body": "You can treat solving linear inequalities, just like solving an equation. The one exception is when you multiply or divide by a negative value, reverse the inequality symbol. "
 },
 {
-  "id": "EQ1-12",
+  "id": "EQ1-3-10",
   "level": "2",
-  "url": "EQ1.html#EQ1-12",
+  "url": "EQ1.html#EQ1-3-10",
   "type": "Activity",
   "number": "1.1.9",
   "title": "",
@@ -118,18 +118,18 @@ var ptx_lunr_docs = [
   "body": "  A compound inequality includes multiple inequalities in one statement.   "
 },
 {
-  "id": "EQ1-14",
+  "id": "EQ1-3-12",
   "level": "2",
-  "url": "EQ1.html#EQ1-14",
+  "url": "EQ1.html#EQ1-3-12",
   "type": "Activity",
   "number": "1.1.11",
   "title": "",
   "body": "  Consider the statement . This really means that and .  \\ Which of the following inequalities are equivalent to the compound inequality ?              \\ Solve the inequality .              \\ Solve the inequality .              \\ Which compound inequality describes how the two solutions overlap?              \\ Draw the solution to the inequality on a number line.                        "
 },
 {
-  "id": "EQ1-15",
+  "id": "EQ1-3-13",
   "level": "2",
-  "url": "EQ1.html#EQ1-15",
+  "url": "EQ1.html#EQ1-3-13",
   "type": "Remark",
   "number": "1.1.12",
   "title": "",
@@ -793,13 +793,112 @@ var ptx_lunr_docs = [
   "body": "   Solve a rational equation.    "
 },
 {
-  "id": "FN",
+  "id": "FN1",
   "level": "1",
-  "url": "FN.html",
-  "type": "Chapter",
-  "number": "2",
-  "title": "Functions (FN)",
-  "body": " Functions (FN)    "
+  "url": "FN1.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Introduction to Functions (FN1)",
+  "body": " Introduction to Functions (FN1)     Determine if a relation, equation, or graph defines a function using the definition as well as the vertical line test.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN1-2",
+  "level": "2",
+  "url": "FN1.html#FN1-2",
+  "type": "Objectives",
+  "number": "2.1",
+  "title": "",
+  "body": "   Determine if a relation, equation, or graph defines a function using the definition as well as the vertical line test.    "
+},
+{
+  "id": "FN2",
+  "level": "1",
+  "url": "FN2.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Function Notation (FN2)",
+  "body": " Function Notation (FN2)     Use and interpret function notation to evaluate a function for a given input value and find a corresponding input value given an output value.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN2-2",
+  "level": "2",
+  "url": "FN2.html#FN2-2",
+  "type": "Objectives",
+  "number": "2.2",
+  "title": "",
+  "body": "   Use and interpret function notation to evaluate a function for a given input value and find a corresponding input value given an output value.    "
+},
+{
+  "id": "FN3",
+  "level": "1",
+  "url": "FN3.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Characteristics of a Function’s Graph (FN3)",
+  "body": " Characteristics of a Function's Graph (FN3)     Use the graph of a function to find the domain and range in interval notation, the x- and y-intercepts, the maximums and minimums, and where it is increasing and decreasing in interval notation.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN3-2",
+  "level": "2",
+  "url": "FN3.html#FN3-2",
+  "type": "Objectives",
+  "number": "2.3",
+  "title": "",
+  "body": "   Use the graph of a function to find the domain and range in interval notation, the x- and y-intercepts, the maximums and minimums, and where it is increasing and decreasing in interval notation.    "
+},
+{
+  "id": "FN4",
+  "level": "1",
+  "url": "FN4.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Transformation of Functions (FN4)",
+  "body": " Transformation of Functions (FN4)     Apply transformations including horizontal and vertical shifts, stretches, and reflections to a function. Express the result of these transformations graphically and algebraically.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN4-2",
+  "level": "2",
+  "url": "FN4.html#FN4-2",
+  "type": "Objectives",
+  "number": "2.4",
+  "title": "",
+  "body": "   Apply transformations including horizontal and vertical shifts, stretches, and reflections to a function. Express the result of these transformations graphically and algebraically.    "
+},
+{
+  "id": "FN5",
+  "level": "1",
+  "url": "FN5.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Combining and Composing Functions (FN5)",
+  "body": " Combining and Composing Functions (FN5)     Find the sum, difference, product, quotient, and composition of two or more functions and evaluate them.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN5-2",
+  "level": "2",
+  "url": "FN5.html#FN5-2",
+  "type": "Objectives",
+  "number": "2.5",
+  "title": "",
+  "body": "   Find the sum, difference, product, quotient, and composition of two or more functions and evaluate them.    "
+},
+{
+  "id": "FN6",
+  "level": "1",
+  "url": "FN6.html",
+  "type": "Section",
+  "number": "2.6",
+  "title": "Finding the Inverse Function (FN6)",
+  "body": " Finding the Inverse Function (FN6)     Find the inverse of a one-to-one function.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+},
+{
+  "id": "FN6-2",
+  "level": "2",
+  "url": "FN6.html#FN6-2",
+  "type": "Objectives",
+  "number": "2.6",
+  "title": "",
+  "body": "   Find the inverse of a one-to-one function.    "
 },
 {
   "id": "LF",
@@ -817,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Graphing Quadratic Functions (PR1)",
-  "body": " Graphing Quadratic Functions (PR1)     Graph quadratic functions and identify their axis of symmetry, and maximum or minimum point.      Activities  Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values.    Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens upward      Make a table for values of corresponding to the given -values. What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        -2    -1    0    1    2    3    4    5     At which point does have a minimum value? That is, is there a point on the graph that is lower than all other points?  The minimum value appears to occur near .  The minimum value appears to occur near .  The minimum value appears to occur near .  There is no minimum value of this function.    At which point does have a maximum value? That is, is there a point on the graph that is higher than all other points?  The maximum value appears to occur near .  The maximum value appears to occur near .  The maximum value appears to occur near .  There is no maximum value of this function.        The maximum or minimum of a quadratic function is also known as its vertex . The vertex form  quadratic function vertex form of a quadratic function is given by , where is the vertex  quadratic function vertex from vertex form of the parabola and is the axis of symmetry.  quadratic function axis of symmetry from vertex form       Use the given the quadratic function, , to answer the following:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Compare what you got in part with the values you found in . What do you notice?     Given the standard form  quadratic function standard form of a quadratic function, , with real coefficients , and , the axis of symmetry  quadratic function axis of symmetry from standard form is defined as and has a vertex  quadratic function vertex from standard form at the point .      Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions could be the graph shown in the figure?              What is the maximum or minimum value?                 Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have a minimum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry at ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D       Notice that the maximum or minimum value of the quadratic function is the -value of the vertex. How can you determine if the vertex is a maximum or minimum?      A function has a maximum value at and its axis of symmetry at .   Sketch a graph of a function that meets the criteria for .  Was your graph the only possible answer? Try to sketch another graph that meets this criteria.     Other points, such as - and -intercepts, may be helpful in sketching a more accurate graph of a quadratic function.      Consider the following two quadratic functions and and answer the following questions:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   What do you notice about and ?  Now graph both and and draw a sketch of each graph on one coordinate plane. How are they similar\/different?    Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Graphing Quadratic Functions (PR1)     Graph quadratic functions and identify their axis of symmetry, and maximum or minimum point.      Activities  Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values.    Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens upward      Make a table for values of corresponding to the given -values. What is happening to the -values as the -values increase? Do you notice any other patterns of the -values of the table?        -2    -1    0    1    2    3    4    5     At which point does have a minimum value? That is, is there a point on the graph that is lower than all other points?  The minimum value appears to occur near .  The minimum value appears to occur near .  The minimum value appears to occur near .  There is no minimum value of this function.    At which point does have a maximum value? That is, is there a point on the graph that is higher than all other points?  The maximum value appears to occur near .  The maximum value appears to occur near .  The maximum value appears to occur near .  There is no maximum value of this function.       The maximum or minimum of a quadratic function is also known as its vertex . The vertex form  quadratic function vertex form of a quadratic function is given by , where is the vertex  quadratic function vertex from vertex form of the parabola and is the axis of symmetry.  quadratic function axis of symmetry from vertex form       Use the given the quadratic function, , to answer the following:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Compare what you got in part with the values you found in . What do you notice?     Given the standard form  quadratic function standard form of a quadratic function, , with real coefficients , and , the axis of symmetry  quadratic function axis of symmetry from standard form is defined as and has a vertex  quadratic function vertex from standard form at the point .      Use the graph of the quadratic function to answer the questions below.    Quadratic function that opens downward with vertex (-1,4)      Which of the following quadratic functions could be the graph shown in the figure?              What is the maximum or minimum value?                 Consider the following four graphs of quadratic functions:                     Which of the graphs above have a maximum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have a minimum?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above have an axis of symmetry at ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D    Which of the graphs above represents the function ?  Graph A  Graph B  Graph C  Graph D       Notice that the maximum or minimum value of the quadratic function is the -value of the vertex. How can you determine if the vertex is a maximum or minimum?      A function has a maximum value at and its axis of symmetry at .   Sketch a graph of a function that meets the criteria for .  Was your graph the only possible answer? Try to sketch another graph that meets this criteria.     Other points, such as - and -intercepts, may be helpful in sketching a more accurate graph of a quadratic function.      Consider the following two quadratic functions and and answer the following questions:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   Applying , what is the vertex and axis of symmetry of ?  vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   vertex: ; axis of symmetry:   What do you notice about and ?  Now graph both and and draw a sketch of each graph on one coordinate plane. How are they similar\/different?     Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR1-2",
