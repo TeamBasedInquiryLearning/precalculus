@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Polynomial Long Division (PR3)",
-  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities   Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 20, remainder 6  quotient 6, remainder 20  quotient 6, remainder 3   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?    Simplify the following rational expression using factoring.             Now use long division to find the quotient and remainder.  What is the quotient?           What is the remainder?              Repeat this process, using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer at the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?          Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using long division, find the quotient and remainder for the given rational function, .   What is the quotient?  What is the remainder?  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and drop the 1st coefficient down from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to Activity 4.3.2?     Now use synthetic division, to find the quotient and remainder for the given rational function.   What is the quotient?            What is the remainder?              Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Polynomial Long Division (PR3)     Rewrite a rational function as a polynomial plus a proper rational function.      Activities   Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 6, remainder 3  quotient 6, remainder 20  quotient 20, remainder 6   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?    Simplify the following rational expression using factoring.               Now we will simplify using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer on the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?        Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)  How does your answer for the quotient and remainder compare to the simplifying by factoring method?     Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using long division, find the quotient and remainder for the given rational function, .   What is the quotient?  What is the remainder?  How can you check your answer? (Hint: Think of regular long division with positive integers.)     Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and copy the 1st coefficient from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to and ?     Now use synthetic division, to find the quotient and remainder for the given rational function.   What is the quotient?            What is the remainder?              Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR3-2",
@@ -1108,58 +1108,58 @@ var ptx_lunr_docs = [
   "body": "   Rewrite a rational function as a polynomial plus a proper rational function.    "
 },
 {
-  "id": "activity-3-1",
+  "id": "Long-Division-Basic",
   "level": "2",
-  "url": "PR3.html#activity-3-1",
+  "url": "PR3.html#Long-Division-Basic",
   "type": "Activity",
   "number": "4.3.1",
   "title": "",
-  "body": " Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 20, remainder 6  quotient 6, remainder 20  quotient 6, remainder 3   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?  "
+  "body": " Use long division to find the quotient and remainder when 346 is divided by 17.  quotient 20, remainder 3  quotient 6, remainder 3  quotient 6, remainder 20  quotient 20, remainder 6   What is the divisor?            Now write the answer as a mixed number.            How can you check your answer?  "
 },
 {
-  "id": "activity-3-2",
+  "id": "Simplify-Rational-By-Factoring",
   "level": "2",
-  "url": "PR3.html#activity-3-2",
+  "url": "PR3.html#Simplify-Rational-By-Factoring",
   "type": "Activity",
   "number": "4.3.2",
   "title": "",
-  "body": " Simplify the following rational expression using factoring.             Now use long division to find the quotient and remainder.  What is the quotient?           What is the remainder?           "
+  "body": " Simplify the following rational expression using factoring.            "
 },
 {
-  "id": "activity-3-3",
+  "id": "Long-Division-Intro-Steps",
   "level": "2",
-  "url": "PR3.html#activity-3-3",
+  "url": "PR3.html#Long-Division-Intro-Steps",
   "type": "Activity",
   "number": "4.3.3",
   "title": "",
-  "body": "  Repeat this process, using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer at the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?          Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
+  "body": "  Now we will simplify using long division, given .   What is the result when is divided by ? Place this number at the top left when doing long division.          Next, multiply this result by and write this below . Be sure to line up like terms in the same column. What is the result?          Now subtract the like terms by placing them in the corresponding columns.            Next, divide the first term in the previous result by . Write the answer on the top beside the first answer. What is the expression at the top now?            Multiply this resulting term by and write that answer in the proper columns of like terms. What is this result?        Subtract the like terms. This is the remainder. What is the remainder?          What is the quotient?            How can you check your answer? (Hint: Think of regular long division with positive integers.)  How does your answer for the quotient and remainder compare to the simplifying by factoring method?  "
 },
 {
-  "id": "activity-3-4",
+  "id": "Long-Division-Missing-Terms",
   "level": "2",
-  "url": "PR3.html#activity-3-4",
+  "url": "PR3.html#Long-Division-Missing-Terms",
   "type": "Activity",
   "number": "4.3.4",
   "title": "",
-  "body": "  Using long division, find the quotient and remainder for the given rational function. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
+  "body": "  Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given .   What is the quotient?  What is the remainder?  What is the divisor?  Write the rational function as a polynomial plus a proper rational function.  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
 },
 {
-  "id": "activity-3-5",
+  "id": "Long-Divison-Missing-Terms",
   "level": "2",
-  "url": "PR3.html#activity-3-5",
+  "url": "PR3.html#Long-Divison-Missing-Terms",
   "type": "Activity",
   "number": "4.3.5",
   "title": "",
   "body": "  Using long division, find the quotient and remainder for the given rational function, .   What is the quotient?  What is the remainder?  How can you check your answer? (Hint: Think of regular long division with positive integers.)  "
 },
 {
-  "id": "activity-3-6",
+  "id": "Synthetic-Division-Intro",
   "level": "2",
-  "url": "PR3.html#activity-3-6",
+  "url": "PR3.html#Synthetic-Division-Intro",
   "type": "Activity",
   "number": "4.3.6",
   "title": "",
-  "body": "  Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and drop the 1st coefficient down from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to Activity 4.3.2?  "
+  "body": "  Using synthetic division, find the quotient and remainder for the given rational function.   Write only the coefficients of the numerator in a row.  Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner.  Make 3 rows and copy the 1st coefficient from the top row to the bottom row.  Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient.  Add the numbers in the 2nd column and write the result in the same column, third row.  Repeat the process with the resulting number. Multiply this number by the number in the upper left corner. Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get?          How do the numbers in the third row relate to and ?  "
 },
 {
   "id": "activity-3-7",
@@ -1176,8 +1176,8 @@ var ptx_lunr_docs = [
   "url": "PR4.html",
   "type": "Section",
   "number": "4.4",
-  "title": "Zeroes of Polynomial Functions (PR4)",
-  "body": " Zeroes of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.       Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).     Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.    Activities    Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.     Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.     Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.     The zeros of a function are x=2, with multiplicity 1, x=-1, with multiplicity 2 and x=i.   Given the information above, find a polynomial function with real coefficients of least degree.     Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "title": "Zeros of Polynomial Functions (PR4)",
+  "body": " Zeros of Polynomial Functions (PR4)     Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.      Activities     Recall that to find the intercepts of a linear or quadratic function, let and solve for .   What is the factored form of the function, ? 0            What are the intercepts of the function above? 0   and   and   and   and    How do the intercepts relate to the factored form of the function?     Real zeros of a polynomial function are the same as the intercepts.     Factor Theorem   A number is a zero of a polynomial function if and only if is a factor of .      Find the zeros of the polynomial by factoring . 0                 Given is a factor of the polynomial , find the remaining factors using division.            How many zeros does the function have?               The multiplicity  polynomial function multiplicity of a zero is the number of times the corresponding linear factor appears in the factored form of the polynomial function.      The degree  polynomial function multiplicity of a polynomial function is the sum of the multiplicities of the zeros.     Given the function , what is the degree of the function?             Given , what is the degree of the function?            Find the zeros of the quadratic function above. How many are there?              Fundamental Theorem of Algebra   A polynomial function of degree has at least one zero.     Given the polynomial, , find all the zeros of the function with their corresponding multiplicities. What is the degree of the function?            Given , find all the zeros of the function with their corresponding multiplicities. What is the degree of the function?          How many zeros are there in total?            Given is a zero with multiplicity , is a zero with multiplicity and is a zero with multiplicity , write a polynomial function in factored form.    Find the complex zeros for the function, .    Conjugate Zeros Theorem   Let be a polynomial function with real coefficients. If , where is not zero, is a complex zero of the function, then the conjugate is also a zero of the function.      Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Write the function in factored form using linear factors.     Given the function ,   Find all the zeros and their corresponding multiplicities.  Write a function for the graph in factored form using linear factors.     The zeros of a function are , with multiplicity , , with multiplicity and .   Given the information above, find a polynomial function with real coefficients of least degree.     Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR4-2",
@@ -1189,58 +1189,166 @@ var ptx_lunr_docs = [
   "body": "   Determine the zeros of a real polynomial function, write a polynomial function given information about its zeros and their multiplicities, and apply the Factor Theorem and the Fundamental Theorem of Algebra.    "
 },
 {
-  "id": "PR4-3-1",
+  "id": "Quadratic-Zeros",
   "level": "2",
-  "url": "PR4.html#PR4-3-1",
-  "type": "Theorem",
+  "url": "PR4.html#Quadratic-Zeros",
+  "type": "Activity",
   "number": "4.4.1",
-  "title": "Factor Theorem.",
-  "body": " Factor Theorem   A number c is a zero of a polynomial function f(x) if and only if x-c is a factor of f(x).   "
+  "title": "",
+  "body": "   Recall that to find the intercepts of a linear or quadratic function, let and solve for .   What is the factored form of the function, ? 0            What are the intercepts of the function above? 0   and   and   and   and    How do the intercepts relate to the factored form of the function?  "
 },
 {
-  "id": "PR4-3-2",
+  "id": "Real-zeros",
   "level": "2",
-  "url": "PR4.html#PR4-3-2",
+  "url": "PR4.html#Real-zeros",
+  "type": "Definition",
+  "number": "4.4.3",
+  "title": "",
+  "body": "  Real zeros of a polynomial function are the same as the intercepts.   "
+},
+{
+  "id": "PR4-3-4",
+  "level": "2",
+  "url": "PR4.html#PR4-3-4",
   "type": "Theorem",
-  "number": "4.4.2",
+  "number": "4.4.4",
+  "title": "Factor Theorem.",
+  "body": " Factor Theorem   A number is a zero of a polynomial function if and only if is a factor of .   "
+},
+{
+  "id": "zeros-cubic-factoring",
+  "level": "2",
+  "url": "PR4.html#zeros-cubic-factoring",
+  "type": "Activity",
+  "number": "4.4.5",
+  "title": "",
+  "body": "  Find the zeros of the polynomial by factoring . 0               "
+},
+{
+  "id": "zeros-cubic-division-with-linear-factor",
+  "level": "2",
+  "url": "PR4.html#zeros-cubic-division-with-linear-factor",
+  "type": "Activity",
+  "number": "4.4.6",
+  "title": "",
+  "body": " Given is a factor of the polynomial , find the remaining factors using division.            How many zeros does the function have?            "
+},
+{
+  "id": "multiplicity",
+  "level": "2",
+  "url": "PR4.html#multiplicity",
+  "type": "Definition",
+  "number": "4.4.7",
+  "title": "",
+  "body": "  The multiplicity  polynomial function multiplicity of a zero is the number of times the corresponding linear factor appears in the factored form of the polynomial function.   "
+},
+{
+  "id": "degree-of-poly",
+  "level": "2",
+  "url": "PR4.html#degree-of-poly",
+  "type": "Definition",
+  "number": "4.4.8",
+  "title": "",
+  "body": "  The degree  polynomial function multiplicity of a polynomial function is the sum of the multiplicities of the zeros.   "
+},
+{
+  "id": "degree-linear-example",
+  "level": "2",
+  "url": "PR4.html#degree-linear-example",
+  "type": "Activity",
+  "number": "4.4.9",
+  "title": "",
+  "body": " Given the function , what is the degree of the function?           "
+},
+{
+  "id": "degree-quadratic-example",
+  "level": "2",
+  "url": "PR4.html#degree-quadratic-example",
+  "type": "Activity",
+  "number": "4.4.10",
+  "title": "",
+  "body": " Given , what is the degree of the function?            Find the zeros of the quadratic function above. How many are there?            "
+},
+{
+  "id": "PR4-3-11",
+  "level": "2",
+  "url": "PR4.html#PR4-3-11",
+  "type": "Theorem",
+  "number": "4.4.11",
   "title": "Fundamental Theorem of Algebra.",
-  "body": " Fundamental Theorem of Algebra   A polynomial function f of degree n > 0 has at least one zero.   "
+  "body": " Fundamental Theorem of Algebra   A polynomial function of degree has at least one zero.   "
+},
+{
+  "id": "Degree-polynomial-factored",
+  "level": "2",
+  "url": "PR4.html#Degree-polynomial-factored",
+  "type": "Activity",
+  "number": "4.4.12",
+  "title": "",
+  "body": " Given the polynomial, , find all the zeros of the function with their corresponding multiplicities. What is the degree of the function?          "
+},
+{
+  "id": "Degree-polynomial-factor",
+  "level": "2",
+  "url": "PR4.html#Degree-polynomial-factor",
+  "type": "Activity",
+  "number": "4.4.13",
+  "title": "",
+  "body": " Given , find all the zeros of the function with their corresponding multiplicities. What is the degree of the function?          How many zeros are there in total?          "
+},
+{
+  "id": "write-polynomial-given-zeros",
+  "level": "2",
+  "url": "PR4.html#write-polynomial-given-zeros",
+  "type": "Activity",
+  "number": "4.4.14",
+  "title": "",
+  "body": " Given is a zero with multiplicity , is a zero with multiplicity and is a zero with multiplicity , write a polynomial function in factored form.  "
+},
+{
+  "id": "Complex-zeros-quadratic",
+  "level": "2",
+  "url": "PR4.html#Complex-zeros-quadratic",
+  "type": "Activity",
+  "number": "4.4.15",
+  "title": "",
+  "body": " Find the complex zeros for the function, .  "
+},
+{
+  "id": "PR4-3-16",
+  "level": "2",
+  "url": "PR4.html#PR4-3-16",
+  "type": "Theorem",
+  "number": "4.4.16",
+  "title": "Conjugate Zeros Theorem.",
+  "body": " Conjugate Zeros Theorem   Let be a polynomial function with real coefficients. If , where is not zero, is a complex zero of the function, then the conjugate is also a zero of the function.   "
 },
 {
   "id": "poly-graph",
   "level": "2",
   "url": "PR4.html#poly-graph",
   "type": "Activity",
-  "number": "4.4.3",
+  "number": "4.4.17",
   "title": "",
-  "body": "  Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Describe the end behavior of the graph.  As ,  As ,  As ,  As ,   Combining the information from the end behavior with the degree of the function, will the leading coefficient be positive or negative?  positive  negative   Given the point (2, ) is on the curve, and using the information in parts (a) through (e), write the function for the graph above in factored form.  "
-},
-{
-  "id": "poly-degree-6",
-  "level": "2",
-  "url": "PR4.html#poly-degree-6",
-  "type": "Activity",
-  "number": "4.4.5",
-  "title": "",
-  "body": "  Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.  "
+  "body": "  Write the polynomial function in factored form using information from the graph below.        Using the given graph, what are the real zeros of this function? Select all that apply. 0  1  -3  3  4  -4   What are the least possible multiplicities for each zero?  What is the least degree of the function? 3  4  5  6   Write the function in factored form using linear factors.  "
 },
 {
   "id": "poly-degree-4",
   "level": "2",
   "url": "PR4.html#poly-degree-4",
   "type": "Activity",
-  "number": "4.4.6",
+  "number": "4.4.19",
   "title": "",
-  "body": "  Given the function ,   Find all the zeros and their corresponding multiplicities.  Write the function in factored form using linear factors.  "
+  "body": "  Given the function ,   Find all the zeros and their corresponding multiplicities.  Write a function for the graph in factored form using linear factors.  "
 },
 {
   "id": "poly-create",
   "level": "2",
   "url": "PR4.html#poly-create",
   "type": "Activity",
-  "number": "4.4.7",
+  "number": "4.4.20",
   "title": "",
-  "body": "  The zeros of a function are x=2, with multiplicity 1, x=-1, with multiplicity 2 and x=i.   Given the information above, find a polynomial function with real coefficients of least degree.  "
+  "body": "  The zeros of a function are , with multiplicity , , with multiplicity and .   Given the information above, find a polynomial function with real coefficients of least degree.  "
 },
 {
   "id": "PR5",
