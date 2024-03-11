@@ -1,2 +1,2 @@
-pretext == 2.3.3
+pretext == 2.3.4
 checkit-dashboard == 0.2.6
