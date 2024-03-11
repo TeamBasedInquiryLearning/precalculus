@@ -11,7 +11,7 @@
     </objectives>
     <subsection>
     <title>Activities</title>
-    <activity xml:id="Long Division Basic">
+    <activity xml:id="Long-Division-Basic">
       
         <task><p>Use long division to find the quotient and remainder when 346 is divided by 17. 
           <ol marker= "A.">
@@ -44,7 +44,7 @@
       </task>
     </activity>
 
-    <activity xml:id="Simplify Rational By Factoring">
+    <activity xml:id="Simplify-Rational-By-Factoring">
       
         <task><p>Simplify the following rational expression using factoring.
            <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>
@@ -60,7 +60,7 @@
     </activity>
   
    
-    <activity xml:id="Long Division Intro Steps">
+    <activity xml:id="Long-Division-Intro-Steps">
         <introduction>
           <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>.</p> 
         </introduction>
@@ -125,7 +125,7 @@
         </task>
       </activity>
 
-      <activity xml:id="Long Division Missing Terms">
+      <activity xml:id="Long-Division-Missing-Terms">
         <introduction>
           <p>Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given <m>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</m>.</p> 
         </introduction>
@@ -142,7 +142,7 @@
         </task>
       </activity>
 
-      <activity xml:id="Long Divison Missing Terms">
+      <activity xml:id="Long-Divison-Missing-Terms">
         <introduction>
           <p>Using long division, find the quotient and remainder for the given rational function, <m>f(x)=\frac{3x^4-5x^2+2}{x-1}</m>.</p> 
         </introduction>
@@ -154,7 +154,7 @@
         <task> <p>How can you check your answer? (Hint: Think of regular long division with positive integers.) </p>
         </task>
       </activity>
-      <activity xml:id="Synthetic Division Intro">
+      <activity xml:id="Synthetic-Division-Intro">
         <introduction>
           <p>Using synthetic division, find the quotient and remainder for the given rational function. <m>(x)=\frac{3x^2+11x-4}{x+4}</m></p> 
         </introduction>
@@ -176,7 +176,7 @@
             <li> <m>0</m></li>
             <li> <m>148</m></li>
             </ol>
-            How do the numbers in the third row relate to <xref ref="Simplify Rational By Factoring"/> and <xref ref="Long Division Intro Steps"/>?
+            How do the numbers in the third row relate to <xref ref="Simplify-Rational-By-Factoring"/> and <xref ref="Long-Division-Intro-Steps"/>?
         </p>
         </task>
       </activity>

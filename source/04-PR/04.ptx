@@ -55,8 +55,8 @@
       </theorem>
 
       <activity xml:id="zeros-cubic-factoring">
-        <introduction>
-          <task><p>Find the zeros of the polynomial by factoring <m>f(x)=x^3-x^2-56x</m>.
+          <statement>
+          <p>Find the zeros of the polynomial by factoring <m>f(x)=x^3-x^2-56x</m>.
             <ol marker= "A."><li> 0</li>
               <li> <m>-7</m></li>
               <li> <m>8</m></li>
@@ -65,12 +65,10 @@
               <li> <m>7,-8</m></li>
             </ol>
             </p>
-          </task>
-          </introduction>  
+          </statement>
       </activity>
 
       <activity xml:id="zeros-cubic-division-with-linear-factor">
-        <introduction>
           <task><p>Given <m>x-3</m> is a factor of the polynomial <m> f(x)=2x^3-7x^2-33x+108</m>, find the remaining factors using division.
             <ol marker= "A.">
               <li> <m>(x+4),(2x-9)</m></li>
@@ -80,7 +78,6 @@
             </ol>
           </p>
           </task>
-          </introduction> 
           <task> <p> How many zeros does the function have? 
             <ol marker= "A.">
               <li> <m>1</m></li>
@@ -103,15 +100,14 @@
           </statement>
       </definition>
       <activity xml:id="degree-linear-example">
-        <introduction> <task><p>Given the function <m>5y-4=x</m>, what is the degree of the function?
+        <statement><p>Given the function <m>5y-4=x</m>, what is the degree of the function?
             <ol marker= "A.">
               <li> <m>0</m></li>
               <li> <m>1</m></li>
               <li> <m>5</m></li>
             </ol>
           </p>
-          </task>
-          </introduction> 
+        </statement>
         </activity>
           <activity xml:id="degree-quadratic-example">
             <task><p>Given <m>y=5x^2+7x-6</m>, what is the degree of the function?
