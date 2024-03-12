@@ -47,81 +47,97 @@
     <activity xml:id="activity-3-2">
       
         <task><p>Simplify the following rational expression using factoring.
-           <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>
+           <m>f(x)=\frac{x^2+2x-8}{x+4}</m>
           <ol marker= "A.">
             <li> <m>x+4</m></li>
-            <li> <m>3x-1</m></li>
             <li> <m>x-4</m></li>
-            <li> <m>3x+1</m></li>
+            <li> <m>x-2</m></li>
+            <li> <m>x+2</m></li>
             </ol></p> </task> 
-        
-       
+        <introduction>
+
+          <p>Now use long division to find the quotient and remainder.</p></introduction>
+        <task><p>What is the quotient? 
+          <ol marker= "A.">
+          <li> <m>x+4</m></li>
+          <li> <m>x-4</m></li>
+          <li> <m>x-2</m></li>
+          <li> <m>x+2</m></li>
+          </ol></p></task>
+          
+        <task><p>What is the remainder? 
+          <ol marker= "A.">
+          <li> <m>x+4</m></li>
+          <li> <m>x-4</m></li>
+          <li> <m>x-2</m></li>
+          <li> <m>0</m></li>
+          </ol></p></task>
+
      
     </activity>
   
    
     <activity xml:id="activity-3-3">
         <introduction>
-          <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>.</p> 
+          <p>Repeat this process, using long division, given <m>f(x)=\frac{6x^2+5x-10}{2x+3}</m>.</p> 
         </introduction>
        
-        <task> <p>What is the result when <m>3x^2</m> is divided by <m>x</m>? Place this number at the top left when doing long division.
+        <task> <p>What is the result when <m>6x^2</m> is divided by <m>2x</m>? Place this number at the top left when doing long division.
           <ol marker= "A.">
             <li> <m>3</m></li>
             <li> <m>3x</m></li>
-            <li> <m>3x^3</m></li>
+            <li> <m>3x^2</m></li>
             </ol>  
       </p>
         </task>
-        <task> <p>Next, multiply this result by <m>x+4</m> and write this below <m>3x^2+11x-4 </m>. Be sure to line up like terms in the same column. What is the result?
+        <task> <p>Next, multiply this result by <m>2x+3</m> and write this below <m>6x^2+5x-10 </m>. Be sure to line up like terms in the same column. What is the result?
           <ol marker= "A.">
-          <li> <m>3x^2+12x</m></li>
-          <li> <m>-3x^2-12x</m></li>
-          <li> <m>3x^3+12x</m></li>
+          <li> <m>6x+9</m></li>
+          <li> <m>6x^2+9x</m></li>
+          <li> <m>6x^3+9x^2</m></li>
           </ol>  </p>
         </task>
         <task> <p>Now subtract the like terms by placing them in the corresponding columns.
           <ol marker= "A.">
-            <li> <m>-3x^2-x-4</m></li>
-            <li> <m>x+4</m></li>
-            <li> <m>23x-4</m></li>
-            <li> <m>-x-4</m></li>
+            <li> <m>6x^2-x-19</m></li>
+            <li> <m>-4x-10</m></li>
+            <li> <m>-6x^3+5x-10</m></li>
+            <li> <m>14x-10</m></li>
             </ol>  </p>
         </task>
-        <task> <p> Next, divide the first term in the previous result by <m>x</m>. Write the answer on the top beside the first answer. What is the expression at the top now?
+        <task> <p> Next, divide the first term in the previous result by <m>2x</m>. Write the answer at the top beside the first answer. What is the expression at the top now?
           <ol marker= "A.">
-            <li> <m>3x^2-1</m></li>
-            <li> <m>-3x+1</m></li>
-            <li> <m>3x-1</m></li>
-            <li> <m>3x+1</m></li>
+            <li> <m>3-3x^2</m></li>
+            <li> <m>3x-2</m></li>
+            <li> <m>3x^2-3x^2</m></li>
+            <li> <m>3x+7</m></li>
             </ol>  </p>
         </task>
-        <task> <p>Multiply this resulting term by <m>x+4</m> and write that answer in the proper columns of like terms. What is this result? 
+        <task> <p>Multiply this resulting term by <m>2x+3</m> and write that answer in the proper columns of like terms. What is this result? 
           <ol marker= "A.">
-            <li> <m>-x-4</m></li>
-            <li> <m>x+4</m></li>
+            <li> <m>-6x^3-9x^2</m></li>
+            <li> <m>-4x-6</m></li>
+            <li> <m>14x+21</m></li>
             </ol>  </p>
         </task>
         <task> <p>Subtract the like terms. This is the remainder. What is the remainder? 
           <ol marker= "A.">
-            <li> <m>2x+8</m></li>
-            <li> <m>-x-4</m></li>
-            <li> <m>0</m></li>
+            <li> <m>-6x^3-9x^2-4x-10</m></li>
+            <li> <m>-4</m></li>
+            <li> <m>-18x-31</m></li>
             </ol>
         </p>
         </task>
         <task> <p>What is the quotient? 
           <ol marker= "A.">
-            <li> <m>3x^2+11x-4</m></li>
-            <li> <m>3x-1</m></li>
+            <li> <m>3-3x^2</m></li>
+            <li> <m>3x-2</m></li>
             <li> <m>0</m></li>
-            <li> <m>x+4</m></li>
+            <li> <m>3x+7</m></li>
             </ol>
         </p>
         </task>
         <task> <p>How can you check your answer? (Hint: Think of regular long division with positive integers.) </p>
-        </task>
-        <task> <p>How does your answer for the quotient and remainder compare to the simplifying by factoring method? </p>
         </task>
       </activity>
 
@@ -156,14 +172,14 @@
       </activity>
       <activity xml:id="activity-3-6">
         <introduction>
-          <p>Using synthetic division, find the quotient and remainder for the given rational function. <m>(x)=\frac{3x^2+11x-4}{x+4}</m></p> 
+          <p>Using synthetic division, find the quotient and remainder for the given rational function. <m>f(x)=\frac{x^2+2x-8}{x+4}</m></p> 
         </introduction>
        
         <task> <p>Write only the coefficients of the numerator in a row.</p>
         </task>
         <task> <p>Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner. </p>
         </task>
-        <task> <p>Make 3 rows and copy the 1st coefficient from the top row to the bottom row. </p>
+        <task> <p>Make 3 rows and drop the 1st coefficient down from the top row to the bottom row. </p>
         </task>
         <task> <p>Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient. </p>
         </task>
@@ -171,12 +187,12 @@
         </task>
         <task> <p>Repeat the process with the resulting number. Multiply this number by the number in the upper left corner.  Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get? 
           <ol marker= "A.">
-            <li> <m>8</m></li>
-            <li> <m>-1</m></li>
+            <li> <m>1</m></li>
+            <li> <m>-2</m></li>
             <li> <m>0</m></li>
-            <li> <m>148</m></li>
+            <li> <m>-4</m></li>
             </ol>
-            How do the numbers in the third row relate to Activity 4.3.2 and 4.3.3?
+            How do the numbers in the third row relate to Activity 4.3.2?
         </p>
         </task>
       </activity>
