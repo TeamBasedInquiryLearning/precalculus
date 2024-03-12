@@ -10,35 +10,7 @@
     </ul>
     </objectives>
     <subsection>
-      <activity xml:id="Quadratic Zeros">
-        <introduction>
-          <p>Remark: Recall that to find the x intercepts of a linear or quadratic function, let <m>y=0</m> and solve for <m>x</m>.</p>
-      
-    </introduction>
-        <task> <p>What is the factored form of the function, <m>f(x)=x^2+2x-15</m>? 
-         <ol marker= "A."><li> 0</li>
-          <li> <m>(x-3)(x+5)</m></li>
-          <li> <m>(x+3)(x-5)</m></li>
-          <li> <m>(x-3)(x-5)</m></li>
-          <li> <m>(x+3)(x+5)</m></li>
-          </ol>
-        </p>
-        </task>
-        <task> <p>What are the x intercepts of the function above? 
-          <ol marker= "A."><li> 0</li>
-            <li> <m>-3 and 5</m></li>
-            <li> <m>3 and -5</m></li>
-            <li> <m>-3 and -5</m></li>
-            <li> <m>3 and 5</m></li>
-            </ol>
-        </p>
-        </task>
-        <task> How do the x intercepts relate to the factored form of the function?</task>
-      
-      </activity> 
-      <p> Definition:   
-      
-      <theorem>
+       <theorem>
         <title>Factor Theorem</title> 
         <statement> 
           <p> A number c is a zero of a polynomial function f(x) if and only if 
@@ -53,7 +25,7 @@
       </theorem>
     <title>Activities</title>
   
-   
+
     <activity xml:id="poly-graph">
       <introduction>
         <p>Write the polynomial function in factored form using information from the graph below.</p>
