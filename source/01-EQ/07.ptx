@@ -19,19 +19,19 @@
     <task>
       <p> First, move all terms to one side. Then factor the quadratic function, <m>f(x)=x^2-4x-32</m>.
         <ol marker="A." cols="1">
-          <li><p><m>(x-4)(x+8))</m> </p></li>
-          <li><p> <m>(x-8)(x+4))</m> </p></li>
-          <li><p> <m>(x-8)(x-4))</m> </p></li>
+          <li><p><m>(x-4)(x+8)</m> </p></li>
+          <li><p> <m>(x-8)(x+4)</m> </p></li>
+          <li><p> <m>(x-8)(x-4)</m> </p></li>
           <li><p> <m>(x+8)(x+4)</m></p></li>
       </ol> </p>
     </task>
     <task>
         <p> Now set each factor <m>=0</m> and solve for <m>x</m>. These are the <m>x</m> intercepts.   
         <ol marker="A." cols="1">
-          <li><p><m>-8</m>,<m>-4</m></p></li>
-          <li><p> <m>8</m>,<m>4</m> </p></li>
-          <li><p> <m>-8</m>,<m>4</m> </p></li>
-          <li><p> <m>8</m>,<m>-4</m>></p></li>
+          <li><p><m>-8</m>, <m>-4</m></p></li>
+          <li><p> <m>8</m>, <m>4</m> </p></li>
+          <li><p> <m>-8</m>, <m>4</m> </p></li>
+          <li><p> <m>8</m>, <m>-4</m></p></li>
       </ol> </p>
     </task>
     <task>
@@ -49,8 +49,8 @@
     <ol marker="A." cols="1">
       <li><p><m>(-8,4)</m></p></li>
       <li><p> <m>(4,8)</m></p></li>
-      <li><p> <m>(-infinity,-4)U(8,infinity)</m></p></li>
-      <li><p> <m>(-infinity,-8)U(4,infinity)</m> </p></li>
+      <li><p> <m>(-\infty,-4)\cup(8,\infty)</m></p></li>
+      <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>
       
   </ol> </p>
 </task>
@@ -63,8 +63,8 @@
     \<task>
       <p> Follow the steps above and write your answer in interval notation.
         <ol marker="A." cols="1">
-          <li><p><m>(-9,-\frac{7}{5})</m> </p></li>
-          <li><p> <m>(-infinity,\frac{7}{5})U(9,infinity)</m> </p></li>
+          <li><p><m>\left(-9,-\frac{7}{5}\right)</m> </p></li>
+          <li><p> <m>(-\infty,\frac{7}{5})U(9,\infty)</m> </p></li>
           <li><p> <m>(-\frac{7}{5},9)</m> </p></li>
           <li><p> <m>(\frac{7}{5},9)</m></p></li>
       </ol> </p>
@@ -91,7 +91,7 @@
   </activity>
   <activity xml:id="rational-inequality-greater-than-0">
     <introduction>
-      <p>Solve the rational inequality <m>\frac{5x-3}{x+4} \gt 7</m>.
+      <p>Solve the rational inequality <me>\frac{5x-3}{x+4} \gt 7</me>.
       </p>
     </introduction>
     <task>
@@ -109,7 +109,7 @@
           <li><p><m>-\frac{31}{2},-4</m> </p></li>
           <li><p> <m>\frac{31}{2},-4</m> </p></li>
           <li><p> <m>\frac{31}{12},-4</m> </p></li>
-          <li><p> <m>\-frac{31}{12},-4</m> </p></li>
+          <li><p> <m>-\frac{31}{12},-4</m> </p></li>
       </ol> </p>
     </task>
     <task>
@@ -140,11 +140,11 @@
 
   <activity xml:id="rational-inequality-both-sides">
     <introduction>
-      <p>Solve the rational inequality <m>\frac{8x+16}{x-2} \lt \frac{x+10}{x+5}</m>.
+      <p>Solve the rational inequality <me>\frac{8x+16}{x-2} \lt \frac{x+10}{x+5}</me>.
       </p>
     </introduction>
     <task>
-      <p> Follow the previous steps. Write answer using interval notation. 
+      <p> Write answer using interval notation. 
         <ol marker="A." cols="1">
           <li><p><m>(-infinity, -5)U(2,infinity)</m> </p></li>
           <li><p> <m>(-5,-\frac{6}{7})U(-\frac{6}{7},2)</m> </p></li>
