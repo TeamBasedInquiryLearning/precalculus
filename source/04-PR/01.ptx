@@ -85,15 +85,14 @@
     
     <definition xml:id="vertex-form-of-a-quadratic-function">
       <statement>
-        <p> The maximum or minimum of a quadratic function is also known as its <term>vertex</term>. The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola.</p>  
-          <p> Vertex form can be used to identify the <term>axis of symmetry</term>, also known as the line of symmetry (the line that makes the shape of an object symmetrical). For a quadratic function, the axis of symmetry always passes through the vertex <m>(h,k)</m> and so <m>x = h</m> is the axis of symmetry. <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
+        <p> The maximum or minimum of a quadratic function is also known as its <term>vertex</term>. The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <m>f(x)=a(x-h)^2+k</m>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola and <m>x = h</m> is the <term>axis of symmetry.</term> <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
         </p>
       </statement>
     </definition>
 
     <activity xml:id="PR1-activity-2">
       <introduction>
-        <p> Use the given quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
+        <p> Use the given the quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
       </introduction>
       <task> <p> Applying <xref ref="vertex-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
         <ol marker="A." cols="1">
@@ -109,8 +108,7 @@
 
   <definition xml:id="standard-form-of-a-quadratic-function">
     <statement>
-      <p> The <term>standard form</term> <idx><h>quadratic function</h><h>standard form</h></idx> of a quadratic function is given by <m>f(x)=ax^2+bx+c</m>, where <m>a, b </m>, and <m> c </m> are real coefficients.</p>
-      <p> Just as with the vertex form of a quadratic, we can use the standard form of a quadratic to find the <term>axis of symmetry</term> <idx><h>quadratic function</h><h>axis of symmetry from standard form</h></idx> and the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from standard form</h></idx>by using the values of <m>a, b </m>, and <m> c </m>. Given the standard form of a quadratic, the axis of symmetry is <m> x=\frac {-b}{2a}</m> and has a vertex at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
+      <p> Given the <term>standard form</term> <idx><h>quadratic function</h><h>standard form</h></idx> of a quadratic function, <m>f(x)=ax^2+bx+c</m>, with real coefficients <m>a, b </m>, and <m> c </m>, the <term>axis of symmetry</term> <idx><h>quadratic function</h><h>axis of symmetry from standard form</h></idx> is defined as <m> x=\frac {-b}{2a}</m> and has a <term>vertex</term> <idx><h>quadratic function</h><h>vertex from standard form</h></idx> at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
       </p>
     </statement>
   </definition>
@@ -238,7 +236,7 @@
 
   <remark xml:id="remark-vertex-form-of-a-quadratic-function">
     <statement>
-      <p> Notice that the maximum or minimum value of the quadratic function is the <m>y</m>-value of the vertex.
+      <p> Notice that the maximum or minimum value of the quadratic function is the <m>y</m>-value of the vertex. How can you determine if the vertex is a maximum or minimum?
       </p>
     </statement>
   </remark>
