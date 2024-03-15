@@ -21,8 +21,10 @@
 
 <definition xml:id="end-behavior-of-a-polynomial-function">
   <statement>
-    <p> The <term>end behavior</term> <idx><h>polynomial function</h><h>end behavior</h></idx> of a polynomial function describes the behavior of the graph at the "ends" of the function. In other words, as we move to the right of the graph (as the <m>x</m> values increase), what happens to the <m> y </m> values? Similarly, as we move to the left of the graph (as the <m>x</m> values decrease), what happens to the <m> y </m> values?
-    </p>
+    <p> The <term>end behavior</term> <idx><h>polynomial function</h><h>end behavior</h></idx> of a polynomial function describes the behavior of the graph at the "ends" of the function. In other words, as we move to the right of the graph (as the <m>x</m> values increase), what happens to the <m> y </m> values? Similarly, as we move to the left of the graph (as the <m>x</m> values decrease), what happens to the <m> y </m> values? </p>
+    <aside>
+      <p>Although we are looking at the "ends" to determine the end behavior, note that polynomials do not actually have ends. In other words, polynomial functions have <m>y</m>-values that exist for every <m>x</m>-value.</p>
+    </aside>
   </statement>
 </definition>
 
@@ -267,26 +269,27 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     <p> Sketch the function, <m> f(x)=(x-2)(x+1)(x-3)^2 </m>, by first finding the given characteristics.
     </p>
     </introduction>
-    <p>
-      <ul><li> Find the zeros of <m>f(x)</m>. </li>
-        <li> Find the multiplicities at each zero.</li>
-        <li> Find the <m>y</m>-intercept of <m>f(x)</m>.</li>
-      <li> Describe the end behavior of <m>f(x)</m>.</li>
-    <li> Estimate where any local maximums and minimums may occur.</li></ul>
-    </p>
+      <task>
+          <p> Find the zeros of <m>f(x)</m>.</p>
+      </task>
+      <task> <p> Find the multiplicities at each zero.</p>
+      </task>
+      <task> <p>Find the <m>y</m>-intercept of <m>f(x)</m>.</p>
+      </task>
+      <task> <p> Describe the end behavior of <m>f(x)</m>.</p>
+      </task>
+    <task> <p> Estimate where any local maximums and minimums may occur.</p>
+    </task>
   </activity>
 
   <activity xml:id="use-information-to-sketch-graph-of-polynomial">
     <introduction>
       <p> Sketch the graph of a function <m>f(x) </m> that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph. </p>
     </introduction>
-    <task> <p> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </p>
-    </task>
-    <task> <p><m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </p>
-    </task>
-    <task> <p> The end behavior of <m> f(x)</m> is given as: 
-      <ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m> </li><li> As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul> </p>
-    </task>
+    <ul><li> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </li>
+    <li> <m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </li>
+    <li> The end behavior of <m> f(x)</m> is given as: As <m> x\to \infty</m>, <m>f(x)\to\infty</m> and As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li>
+    </ul>
 </activity>
 
 <activity xml:id="activity-characteristics-from-polynomial-graph">
