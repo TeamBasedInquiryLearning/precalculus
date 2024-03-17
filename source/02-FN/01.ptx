@@ -12,6 +12,463 @@
     <subsection>
     <title>Activities</title>
     
+    <definition xml:id="def-relation">
+      <statement>
+        <p> A <term>relation</term> <idx><h>function</h><h>relation</h></idx> is a relationship between sets of values. Relations in mathematics are usually represented as ordered pairs: (input, output) or <m>(x, y)</m>. When observing relations, we often refer the <m>x</m>-values as the <term>domain</term> and the <m>y</m>-values as the <term>range</term>.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-mapping-notation">
+      <statement>
+        <p>
+          <term>Mapping Notation</term> <idx><h>function</h><h>mapping notation</h></idx> (also known as an arrow diagram) is a way to show relationships visually between sets.  For example, suppose you are given the following ordered pairs: <m>(3, -8), (4,6), (2,-1)</m>. Each of the <m>x</m>-values "map onto" the <m>y</m>-values and can be represented in the following way: </p>
+
+          <image source="mapping-notation-example">
+            <shortdescription>Every x-value from the ordered pair list is listed in the input set and every y-value is listed in the output set. An arrow is drawn from every x-value to its corresponding y-value.</shortdescription>
+          </image>
+
+         <p> Notice that an arrow is used to indicate which <m>x</m>-value is mapped onto its corresponding <m>y</m>-value.
+        </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="FN1-exploring-relations">
+      <introduction>
+        <p>
+          Use mapping notation to create a visual representation of each relation.
+        </p>
+      </introduction>
+      <task>
+          <p>
+            <m>(-1,5), (2,6), (4,-2)</m>
+          </p>
+      </task>
+      <task>
+          <p>
+            <m>(6,4), (3,4), (6,5)</m>  
+          </p>
+      </task>
+      <task>
+          <p>
+            <m>(1,2), (-5,2), (-7,2)</m> 
+          </p>
+      </task>
+      <task>
+          <p>
+            Determine the domain and range of each relation.
+          </p>
+      </task>
+      <task>
+          <p>
+            What kinds of relationships do you notice?
+          </p>
+      </task>
+    </activity>
+
+    <remark>
+      Notice that in <xref ref="FN1-exploring-relations"/>, each set represents a very different relationship. Many concepts in mathematics will depend on particular relationships, so it is important to be able to visualize relationships and compare them.
+    </remark>
+
+    <definition xml:id="def-function">
+      <statement>
+        <p>
+          A <term>function</term> is a relation where every input (or <m>x</m>-value) is mapped onto <term>**exactly one**</term> output (or <m>y</m>-value).</p>
+          <p>
+          Note that all functions are relations but not all relations are functions!
+        </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="FN1-determine-if-a-function">
+      <introduction>
+        <p>
+          Relations can be expressed in multiple ways (ordered pairs, tables, and verbal descriptions).
+        </p>
+      </introduction>
+      <task>
+        <p> Determine whether each of the following sets of ordered pairs represent a function.</p>
+        <p><ul>
+          <li>
+            <p>
+              <m>(-1,5), (2,6), (4,-2)</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(6,4), (3,4), (6,5)</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(1,2), (-5,2), (-7,2)</m>
+            </p>
+          </li>
+        </ul>
+      </p> 
+    </task>
+    <task>
+      <p> Note that relations can be expressed in a table. A table of values is shown below. Is this an example of a function? Why or why not?
+      </p>
+          <table>
+            <tabular>
+                   <row header="yes" bottom="minor" >
+                       <cell><m>x</m></cell> 
+                       <cell><m>y</m></cell>
+                   </row>
+                   <row>
+                    <cell><m>-5</m></cell>
+                    <cell><m>-2</m></cell>
+                </row>
+                <row>
+                  <cell><m>-4</m></cell>
+                  <cell><m>-5</m></cell>
+              </row>
+              <row>
+                <cell><m>-2</m></cell>
+                <cell><m>8</m></cell>
+                   </row>
+                   <row>
+                    <cell><m>8</m></cell>
+                    <cell><m>-4</m></cell>
+                   </row>
+                   <row>
+                    <cell><m>8</m></cell>
+                    <cell><m>1</m></cell>
+                   </row>
+               </tabular>
+       </table>
+    </task>
+    <task>
+        <p>
+         Relations can also be expressed in words. Suppose you are looking at the amount of time you spend studying versus the grade you earn in your Algebra class. Is this an example of a function? Why or why not?
+        </p>
+    </task>
+    </activity>
+
+    <remark>
+      Notice that when trying to determine if a relation is a function, we often have to rely on looking at the domain and range values. Thus, it is important to be able to idenfity the domain and range of any relation!
+    </remark>
+
+    <activity xml:id="FN1-determine-domain-and-range">
+      <introduction>
+        <p>
+          For each of the given functions, determine the domain and range.
+        </p>
+      </introduction>
+      <task>
+          <p>
+            <m>(-4,3), (-1,8), (7,4), (1,9)</m>
+          </p>
+      </task>
+      <task>
+        <p>
+          mapping notation drawing
+        </p>
+    </task>
+    <task>
+        <p>
+          <table>
+            <tabular>
+                <row header="yes" bottom="minor" >
+                  <cell><m>x</m></cell> 
+                  <cell><m>y</m></cell>
+                </row>
+                <row>
+                  <cell><m>-2</m></cell>
+                  <cell><m>5</m></cell>
+                </row>
+                <row>
+                  <cell><m>0</m></cell>
+                  <cell><m>4</m></cell>
+              </row>
+                <row>
+                  <cell><m>3</m></cell>
+                  <cell><m>6</m></cell>
+                </row>
+                <row>
+                  <cell><m>8</m></cell>
+                  <cell><m>1</m></cell>
+                </row>
+               </tabular>
+       </table>
+        </p>
+    </task>
+    <task>
+      <p>
+        The amount of time you spend studying versus the grade you earn in your Algebra class.
+      </p>
+  </task>
+    </activity>
+
+    <activity xml:id="FN1-determine-function-from-graph">
+      
+    <introduction>
+      Use the graphs to answer the questions below.
+<sbsgroup>
+  <sidebyside width="30%">
+    <image>
+      <sageplot>
+        p=plot (x, -5, 5), ymin=-5, ymax=5, 
+        A = point((2,6),size=40)
+        B = point((4,2),size=40)
+      </sageplot>
+    </image>
+    <image>
+      <sageplot>
+        f(x) = -4*x^3+2*x^2+3
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p
+      </sageplot>
+    </image>
+  </sidebyside>
+</sbsgroup>
+    </introduction>
+    </activity>
+
+    <definition xml:id="def-vertical-line-test">
+      <statement>
+        <p>
+          The <term>vertical line test</term> is a method used to determine whether a relation on a graph is a function. </p>
+          <p>Start by drawing a vertical line anywhere on the graph and observe the number of times the relation on the graph intersects with the vertical line. If the vertical line intersects the graph at exactly one point, then the relation is a function. If, however, the graph of the relation intersects the vertical line more than once (anywhere on the graph), then the relations is not a function.
+        </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="FN1-determine-if-function-using-vertical-line-test">
+  <introduction>
+    <p>
+      Determine whether each of the following graphs are functions by using the vertical line test (<xref ref="def-vertical-line-test"/>).
+    </p>
+  </introduction>
+  <task>
+    <image>
+      <sageplot>
+        f(x)=sqrt(9-x^2)
+        g(x)=-(sqrt(9-x^2))
+        p=plot(f, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3, detect_poles=True)+ plot(g, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3, detect_poles=True)
+        p
+      </sageplot>
+    </image>
+  </task>
+  <task>
+    <image>
+      <sageplot>
+        f(x) = -4*x^3+2*x^2+3
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p
+      </sageplot>
+    </image>
+  </task>
+  <task>
+    <image>
+      <sageplot>
+        f(x)=5*x-1
+        p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+        p
+      </sageplot>
+    </image>
+  </task>
+  <task>
+    <image>
+      <sageplot>
+        f(x)=sqrt(x)
+        g(x)=-(sqrt(x))
+        p=plot(f, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)+ plot(g, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+        p
+      </sageplot>
+    </image>
+  </task>
+</activity>
+
+<activity xml:id="FN1-determine-if-function-from-equation">
+  <introduction>
+    <p>
+      Let's explore how to look at an equation to determine if it is a function.
+    </p>
+  </introduction>
+<task>
+    <p>
+      Suppose you are given the equation <m>x^2+y^2=9</m>.
+      <ul>
+        <li>
+            If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x^2+y^2=9</m>?
+        </li>
+        <li>
+          <p>
+            Based on this information, do you think <m>x^2+y^2=9</m> is a function? 
+          </p>
+        </li>
+      </ul>
+    </p>
+</task>
+<task>
+  <p>
+    Suppose you are given the equation <m>y=3x^2+2</m>.
+    <ul>
+      <li>
+          If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>y=3x^2+2</m>?
+      </li>
+      <li>
+        <p>
+          Based on this information, do you think <m>y=3x^2+2</m> is a function? 
+        </p>
+      </li>
+    </ul>
+  </p>
+</task><task>
+  <p>
+    Suppose you are given the equation <m>x=y^2</m>.
+    <ul>
+      <li>
+          If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x=y^2</m>?
+      </li>
+      <li>
+        <p>
+          Based on this information, do you think <m>x=y^2</m> is a function? 
+        </p>
+      </li>
+    </ul>
+  </p>
+</task><task>
+  <p>
+    Suppose you are given the equation <m>y=-4x-3</m>.
+    <ul>
+      <li>
+          If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>y=-4x-3</m>?
+      </li>
+      <li>
+        <p>
+          Based on this information, do you think <m>y=-4x-3</m> is a function? 
+        </p>
+      </li>
+    </ul>
+  </p>
+</task>
+<task>
+    <p>
+      How can you look at an equation to determine whether or not it is a function?
+    </p>
+</task>
+</activity>
+
+<remark>
+  Notice in <xref ref="FN1-determine-if-function-from-equation"/> that when you are given an equation with a <m>y^2</m> term, the equation is not a function.
+</remark>
+
+<activity xml:id="FN1-determine-domain-from-equation-square-root">
+  <introduction>
+    <p>
+      It's important to be able to determine the domain of any equation, especially when thinking about functions. Answer the following questions given the equation <m>y=\sqrt{x}</m>.
+    </p>
+  </introduction>
+  <task>
+    <p>
+      What values of <m>x</m> would give an error (if any)?
+      <ol marker= "A." cols="2">
+        <li> <m>-2</m> </li>
+        <li> <m> 0</m> </li>
+        <li> <m>4</m> </li>
+        <li> <m>-5</m> </li></ol></p>
+  </task>
+  <task>
+      <p>
+        Based on this information, what values of <m>x</m> would the equation exist? 
+        <ol marker= "A." cols="2">
+          <li> <m>-2</m> </li>
+          <li> <m> 0</m> </li>
+          <li> <m>4</m> </li>
+          <li> <m>-5</m> </li></ol>
+      </p>
+  </task>
+  <task>
+      <p>
+        How can we represent the domain of this equation in interval notation?
+        <ol marker= "A." cols="2">
+          <li> <m>(-\infty,0)</m> </li>
+          <li> <m> (0,\infty)</m> </li>
+          <li> <m>(0, 0)</m> </li>
+          <li> <m>(-\infty,\infty)</m> </li></ol>
+      </p>
+  </task>
+</activity>
+  
+  <activity xml:id="FN1-determine-domain-from-equation-linear">
+    <introduction>
+      <p>
+       Answer the following questions given the equation <m>y=-5x+1</m>.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        What values of <m>x</m> would give an error (if any)?
+        <ol marker= "A." cols="2">
+          <li> <m>-2</m> </li>
+          <li> <m> 0</m> </li>
+          <li> <m>4</m> </li>
+          <li> <m>-5</m> </li></ol></p>
+    </task>
+    <task>
+        <p>
+          Based on this information, what values of <m>x</m> would the equation exist? 
+          <ol marker= "A." cols="2">
+            <li> <m>-2</m> </li>
+            <li> <m> 0</m> </li>
+            <li> <m>4</m> </li>
+            <li> <m>-5</m> </li></ol>
+        </p>
+    </task>
+    <task>
+        <p>
+          How can we represent the domain of this equation in interval notation?
+          <ol marker= "A." cols="2">
+            <li> <m>(-\infty,0)</m> </li>
+            <li> <m> (0,\infty)</m> </li>
+            <li> <m>(-5, 1)</m> </li>
+            <li> <m>(-\infty,\infty)</m> </li></ol>
+        </p>
+    </task>
+  </activity>
+
+  <activity xml:id="FN1-determine-domain-from-equation-rational">
+    <introduction>
+      <p>
+       Answer the following questions given the equation <m>y=\frac{3}{x-5}</m>.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        What values of <m>x</m> would give an error (if any)?
+        <ol marker= "A." cols="2">
+          <li> <m>-3</m> </li>
+          <li> <m> 0</m> </li>
+          <li> <m>-4</m> </li>
+          <li> <m>5</m> </li></ol></p>
+    </task>
+    <task>
+        <p>
+          Based on this information, what values of <m>x</m> would the equation exist? 
+          <ol marker= "A." cols="2">
+            <li> <m>-3</m> </li>
+            <li> <m> 0</m> </li>
+            <li> <m>-4</m> </li>
+            <li> <m>5</m> </li></ol>
+        </p>
+    </task>
+    <task>
+        <p>
+          How can we represent the domain of this equation in interval notation?
+          <ol marker= "A." cols="2">
+            <li> <m>(-\infty,5)</m> </li>
+            <li> <m> (5,\infty)</m> </li>
+            <li> <m>(-5, 5)</m> </li>
+            <li> <m>(-\infty,5)U(5,\infty)</m> </li></ol>
+        </p>
+    </task>
+</activity>
+
+<remark>
+  When determining the domain of an equation, it is easier to first think about the values <m>x</m> cannot be. 
+</remark>
     </subsection>
 
     <subsection>
