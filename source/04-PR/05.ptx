@@ -288,10 +288,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     </introduction>
     <ul><li> The <m> x</m>-intercepts of <m> f(x)</m> are <m> 0, 2,</m> and <m> 5 </m>. </li>
     <li> <m> f(x)</m> has one maximum at 0. <m> f(x)</m> has one minimum at <m> -5 </m> and another at <m> -16 </m>. </li>
-    <li> The end behavior of <m> f(x)</m> is given as: 
-      <li> <p><ul><li>As <m> x\to \infty</m>, <m>f(x)\to\infty</m></li></ul></p>
-      <p><ul><li>As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li></ul></p> </li>
-      </li>
+    <li> The end behavior of <m> f(x)</m> is given as: As <m> x\to \infty</m>, <m>f(x)\to\infty</m> and As <m> x\to -\infty</m>, <m>f(x)\to-\infty</m></li>
     </ul>
 </activity>
 
