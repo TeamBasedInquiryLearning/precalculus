@@ -817,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Introduction to Functions (FN1)",
-  "body": " Introduction to Functions (FN1)     Determine if a relation, equation, or graph defines a function using the definition as well as the vertical line test.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Introduction to Functions (FN1)     Determine if a relation, equation, or graph defines a function using the definition as well as the vertical line test.      Activities    A relation  function relation is a relationship between sets of values. Relations in mathematics are usually represented as ordered pairs: (input, output) or . When observing relations, we often refer the -values as the domain and the -values as the range .       Mapping Notation  function mapping notation (also known as an arrow diagram) is a way to show relationships visually between sets. For example, suppose you are given the following ordered pairs: . Each of the -values \"map onto\" the -values and can be represented in the following way:    Every -value from the ordered pair list is listed in the input set and every -value is listed in the output set. An arrow is drawn from every -value to its corresponding -value.   Notice that an arrow is used to indicate which -value is mapped onto its corresponding -value.      Use mapping notation to create a visual representation of each relation.            Determine the domain and range of each relation.  What kinds of relationships do you notice?   Notice that in , each set represents a very different relationship. Many concepts in mathematics will depend on particular relationships, so it is important to be able to visualize relationships and compare them.    A function is a relation where every input (or -value) is mapped onto exactly one output (or -value).  Note that all functions are relations but not all relations are functions!      Relations can be expressed in multiple ways (ordered pairs, tables, and verbal descriptions).   Determine whether each of the following sets of ordered pairs represent a function.                   Note that relations can be expressed in a table. A table of values is shown below. Is this an example of a function? Why or why not?                           Relations can also be expressed in words. Suppose you are looking at the amount of time you spend studying versus the grade you earn in your Algebra class. Is this an example of a function? Why or why not?   Notice that when trying to determine if a relation is a function, we often have to rely on looking at the domain and range values. Thus, it is important to be able to idenfity the domain and range of any relation!    For each of the given functions, determine the domain and range.                                 The amount of time you spend studying versus the grade you earn in your Algebra class.    Determine whether each of the following relations is a function.                    The vertical line test is a method used to determine whether a relation on a graph is a function.  Start by drawing a vertical line anywhere on the graph and observe the number of times the relation on the graph intersects with the vertical line. If the vertical line intersects the graph at exactly one point, then the relation is a function. If, however, the graph of the relation intersects the vertical line more than once (anywhere on the graph), then the relations is not a function.      Determine whether each of the following graphs are functions by using the vertical line test ( ).                  Let's explore how to look at an equation to determine if it is a function.   Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?     Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?    Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?    Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?     How can you look at an equation to determine whether or not it is a function?   Notice that shows that equations with a term generally do not define functions.    It's important to be able to determine the domain of any equation, especially when thinking about functions. Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?                  Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?                  Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?            U     When determining the domain of an equation, it is often easier to first find values of that make the function undefined. Once you have those values, then you know that can be any value but those.    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "FN1-2",
@@ -827,6 +827,159 @@ var ptx_lunr_docs = [
   "number": "2.1",
   "title": "",
   "body": "   Determine if a relation, equation, or graph defines a function using the definition as well as the vertical line test.    "
+},
+{
+  "id": "def-relation",
+  "level": "2",
+  "url": "FN1.html#def-relation",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "  A relation  function relation is a relationship between sets of values. Relations in mathematics are usually represented as ordered pairs: (input, output) or . When observing relations, we often refer the -values as the domain and the -values as the range .   "
+},
+{
+  "id": "def-mapping-notation",
+  "level": "2",
+  "url": "FN1.html#def-mapping-notation",
+  "type": "Definition",
+  "number": "2.1.2",
+  "title": "",
+  "body": "   Mapping Notation  function mapping notation (also known as an arrow diagram) is a way to show relationships visually between sets. For example, suppose you are given the following ordered pairs: . Each of the -values \"map onto\" the -values and can be represented in the following way:    Every -value from the ordered pair list is listed in the input set and every -value is listed in the output set. An arrow is drawn from every -value to its corresponding -value.   Notice that an arrow is used to indicate which -value is mapped onto its corresponding -value.   "
+},
+{
+  "id": "FN1-exploring-relations",
+  "level": "2",
+  "url": "FN1.html#FN1-exploring-relations",
+  "type": "Activity",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  Use mapping notation to create a visual representation of each relation.            Determine the domain and range of each relation.  What kinds of relationships do you notice?  "
+},
+{
+  "id": "FN1-3-5",
+  "level": "2",
+  "url": "FN1.html#FN1-3-5",
+  "type": "Remark",
+  "number": "2.1.5",
+  "title": "",
+  "body": "Notice that in , each set represents a very different relationship. Many concepts in mathematics will depend on particular relationships, so it is important to be able to visualize relationships and compare them. "
+},
+{
+  "id": "def-function",
+  "level": "2",
+  "url": "FN1.html#def-function",
+  "type": "Definition",
+  "number": "2.1.6",
+  "title": "",
+  "body": "  A function is a relation where every input (or -value) is mapped onto exactly one output (or -value).  Note that all functions are relations but not all relations are functions!   "
+},
+{
+  "id": "FN1-determine-if-a-function",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-if-a-function",
+  "type": "Activity",
+  "number": "2.1.7",
+  "title": "",
+  "body": "  Relations can be expressed in multiple ways (ordered pairs, tables, and verbal descriptions).   Determine whether each of the following sets of ordered pairs represent a function.                   Note that relations can be expressed in a table. A table of values is shown below. Is this an example of a function? Why or why not?                           Relations can also be expressed in words. Suppose you are looking at the amount of time you spend studying versus the grade you earn in your Algebra class. Is this an example of a function? Why or why not?  "
+},
+{
+  "id": "FN1-3-8",
+  "level": "2",
+  "url": "FN1.html#FN1-3-8",
+  "type": "Remark",
+  "number": "2.1.8",
+  "title": "",
+  "body": "Notice that when trying to determine if a relation is a function, we often have to rely on looking at the domain and range values. Thus, it is important to be able to idenfity the domain and range of any relation! "
+},
+{
+  "id": "FN1-determine-domain-and-range",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-domain-and-range",
+  "type": "Activity",
+  "number": "2.1.9",
+  "title": "",
+  "body": "  For each of the given functions, determine the domain and range.                                 The amount of time you spend studying versus the grade you earn in your Algebra class.  "
+},
+{
+  "id": "FN1-determine-function-from-graph",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-function-from-graph",
+  "type": "Activity",
+  "number": "2.1.10",
+  "title": "",
+  "body": " Determine whether each of the following relations is a function.                 "
+},
+{
+  "id": "def-vertical-line-test",
+  "level": "2",
+  "url": "FN1.html#def-vertical-line-test",
+  "type": "Definition",
+  "number": "2.1.11",
+  "title": "",
+  "body": "  The vertical line test is a method used to determine whether a relation on a graph is a function.  Start by drawing a vertical line anywhere on the graph and observe the number of times the relation on the graph intersects with the vertical line. If the vertical line intersects the graph at exactly one point, then the relation is a function. If, however, the graph of the relation intersects the vertical line more than once (anywhere on the graph), then the relations is not a function.   "
+},
+{
+  "id": "FN1-determine-if-function-using-vertical-line-test",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-if-function-using-vertical-line-test",
+  "type": "Activity",
+  "number": "2.1.12",
+  "title": "",
+  "body": "  Determine whether each of the following graphs are functions by using the vertical line test ( ).               "
+},
+{
+  "id": "FN1-determine-if-function-from-equation",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-if-function-from-equation",
+  "type": "Activity",
+  "number": "2.1.13",
+  "title": "",
+  "body": "  Let's explore how to look at an equation to determine if it is a function.   Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?     Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?    Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?    Suppose you are given the equation .  If , what kind of -values would you get for ?   Based on this information, do you think is a function?     How can you look at an equation to determine whether or not it is a function?  "
+},
+{
+  "id": "FN1-3-14",
+  "level": "2",
+  "url": "FN1.html#FN1-3-14",
+  "type": "Remark",
+  "number": "2.1.14",
+  "title": "",
+  "body": "Notice that shows that equations with a term generally do not define functions. "
+},
+{
+  "id": "FN1-determine-domain-from-equation-square-root",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-domain-from-equation-square-root",
+  "type": "Activity",
+  "number": "2.1.15",
+  "title": "",
+  "body": "  It's important to be able to determine the domain of any equation, especially when thinking about functions. Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?               "
+},
+{
+  "id": "FN1-determine-domain-from-equation-linear",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-domain-from-equation-linear",
+  "type": "Activity",
+  "number": "2.1.16",
+  "title": "",
+  "body": "  Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?               "
+},
+{
+  "id": "FN1-determine-domain-from-equation-rational",
+  "level": "2",
+  "url": "FN1.html#FN1-determine-domain-from-equation-rational",
+  "type": "Activity",
+  "number": "2.1.17",
+  "title": "",
+  "body": "  Answer the following questions given the equation .   What values of would give an error (if any)?              Based on this information, what values of would the equation exist?               How can we represent the domain of this equation in interval notation?            U    "
+},
+{
+  "id": "FN1-3-18",
+  "level": "2",
+  "url": "FN1.html#FN1-3-18",
+  "type": "Remark",
+  "number": "2.1.18",
+  "title": "",
+  "body": "When determining the domain of an equation, it is often easier to first find values of that make the function undefined. Once you have those values, then you know that can be any value but those. "
 },
 {
   "id": "FN2",
@@ -1375,7 +1528,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Graphs of Polynomial Functions (PR5)",
-  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.      Activities    Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both and -intercepts and then explore other characteristics polynomial functions can have. Recall that the zeros of a function are the -intercepts - i.e., the values of that cross or touch the -axis. Just like with quadratic functions, we can find the zeros of a function by setting the function equal to and solving for .      The end behavior  polynomial function end behavior of a polynomial function describes the behavior of the graph at the \"ends\" of the function. In other words, as we move to the right of the graph (as the values increase), what happens to the values? Similarly, as we move to the left of the graph (as the values decrease), what happens to the values?   Although we are looking at the \"ends\" to determine the end behavior, note that polynomials do not actually have ends. In other words, polynomial functions have -values that exist for every -value.      Use the graphs of the following polynomial functions to answer the questions below.                    How would you describe the behavior of Graph A as you approach the ends?  Graph A rises on the left and on the right.  Graph A rises on the left, but falls on the right.  Graph A rises on the right, but falls on the left.  Graph A falls on the left and on the right.  How would you describe the behavior of Graph B as you approach the ends?  Graph B rises on the left and on the right.  Graph B rises on the left, but falls on the right.  Graph B rises on the right, but falls on the left.  Graph B falls on the left and on the right.  How would you describe the behavior of Graph C as you approach the ends?  Graph C rises on the left and on the right.  Graph C rises on the left, but falls on the right.  Graph C rises on the right, but falls on the left.  Graph C falls on the left and on the right.  How would you describe the behavior of Graph D as you approach the ends?  Graph D rises on the left and on the right.  Graph D rises on the left, but falls on the right.  Graph D rises on the right, but falls on the left.  Graph D falls on the left and on the right.     Typically, when given an equation of a polynomial function, we look at the degree and leading coefficient to help us determine the behavior of the ends. The degree is the highest exponential power in the polynomial. The leading coefficient is the number written in front of the variable with the highest exponential power.     Let's refer back to the graphs in and look at the equations of those polynomial functions. Let's apply to see if we can determine how the degree and leading coefficients of those graphs affect their end behavior. Graph A:   Graph B:  Graph C:  Graph D:                      What is the degree and leading coefficient of Graph A?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph B?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph C?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph D?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Notice that Graph A and Graph D have their ends going in the same direction. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?  Notice that Graph B and Graph C have their ends going in opposite directions. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?     From , we saw that the degree and leading coefficient of a polynomial function can give us more clues about the behavior of the function. In summary, we know: If the degree is even, the ends of the polynomial function will be going in the same direction. If the leading coefficient is positive, both ends will be pointing up. If the leading coefficient is negative, both ends will be pointing down.  If the degree is odd, the ends of the polynomial function will be going in opposite directions. If the leading coefficient is positive, the left end will fall and the right end will rise. If the leading coefficient is negative, the left end will rise and the right end will fall.       When describing end behavior, mathematicians typically use arrow notation . Just as the name suggests, arrows are used to indicate the behavior of certain values on a graph.  For end behavior, students are often asked to determine the behavior of -values as -values either increase or decrease. The statement \"As , \" can be translated to \"As approaches infinity (or as increases), (or the -values) go to negative infinity (i.e., it decreases).\"      Use the graph of to answer the questions below.    A polynomial function with one even and one odd multiplicity      How would you describe the end behavior of ?   rises on the left and on the right.   rises on the left, but falls on the right.   rises on the right, but falls on the left.   falls on the left and on the right.   How would you describe the end behavior of using arrow notation?   As ,   As ,     As ,   As ,     As ,   As ,     As ,   As ,         When graphing polynomial functions, you may notice that these functions have some \"hills\" and \"valleys.\" These characteristics of the graph are known as the local maxima and local minima of the graph - similar to what we've already seen with quadratic functions. Unlike quadratic functions, however, a polynomial graph can have many local maxima\/minima (quadratic functions only have one).      Sketch the function, , by first finding the given characteristics.   Find the zeros of .  Find the multiplicities at each zero.  Find the -intercept of .  Describe the end behavior of .  Estimate where any local maximums and minimums may occur.     Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are and .   has one maximum at 0. has one minimum at and another at .  The end behavior of is given as:  As ,  As ,        Now that we know all the different characterisitics of polynomials, we should also be able to identify them from a graph. Use the graph below to find the given charactertistics.    Polynomial Function      What are the -intercept(s) of the polynomial function? Select all that apply.              What are the -intercept(s) of the polynomial function?             How many zeros does this polynomial function have?               At what point is the local minimum located?                  At what point is the local maximum located?                  How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity      How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity         Use the given function, , to answer the following questions.    What are the zeros of ?                What are the multiplicities at each zero?   At , the mulitplicity is even.  At , the mulitplicity is even.    At , the mulitplicity is even.  At , the mulitplicity is odd.   At , the mulitplicity is odd.  At , the mulitplicity is even.    At , the mulitplicity is odd.  At , the mulitplicity is odd.      What is the end behavior of ?   rises on the left and on the right.   rises on the left, but falls on the right.   rises on the right, but falls on the left.   falls on the left and on the right.    Using what you know about the zeros, multiplicities, and end behavior, where on the graph can we estimate the local maxima and minima to be?    Now look at the graph of . At which zero does a local maximum or local minimum occur? Explain how you know.      We can estimate where these local maxima and minima occur by looking at other characteristics, such as multiplicities and end behavior.  From , we saw that when the function touches the -axis at a zero, then that zero could be either a local maximum or a local minimum of the graph. When the function crosses the -axis, however, the local maximum or local minimum occurs between the zeros.      Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Graphs of Polynomial Functions (PR5)     Find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.      Activities    Just like with quadratic functions, we should be able to determine key characteristics that will help guide us in creating a sketch of any polynomial function. We can start by finding both and -intercepts and then explore other characteristics polynomial functions can have. Recall that the zeros of a function are the -intercepts - i.e., the values of that cross or touch the -axis. Just like with quadratic functions, we can find the zeros of a function by setting the function equal to and solving for .      The end behavior  polynomial function end behavior of a polynomial function describes the behavior of the graph at the \"ends\" of the function. In other words, as we move to the right of the graph (as the values increase), what happens to the values? Similarly, as we move to the left of the graph (as the values decrease), what happens to the values?   Although we are looking at the \"ends\" to determine the end behavior, note that polynomials do not actually have ends. In other words, polynomial functions have -values that exist for every -value.      Use the graphs of the following polynomial functions to answer the questions below.                    How would you describe the behavior of Graph A as you approach the ends?  Graph A rises on the left and on the right.  Graph A rises on the left, but falls on the right.  Graph A rises on the right, but falls on the left.  Graph A falls on the left and on the right.  How would you describe the behavior of Graph B as you approach the ends?  Graph B rises on the left and on the right.  Graph B rises on the left, but falls on the right.  Graph B rises on the right, but falls on the left.  Graph B falls on the left and on the right.  How would you describe the behavior of Graph C as you approach the ends?  Graph C rises on the left and on the right.  Graph C rises on the left, but falls on the right.  Graph C rises on the right, but falls on the left.  Graph C falls on the left and on the right.  How would you describe the behavior of Graph D as you approach the ends?  Graph D rises on the left and on the right.  Graph D rises on the left, but falls on the right.  Graph D rises on the right, but falls on the left.  Graph D falls on the left and on the right.     Typically, when given an equation of a polynomial function, we look at the degree and leading coefficient to help us determine the behavior of the ends. The degree is the highest exponential power in the polynomial. The leading coefficient is the number written in front of the variable with the highest exponential power.     Let's refer back to the graphs in and look at the equations of those polynomial functions. Let's apply to see if we can determine how the degree and leading coefficients of those graphs affect their end behavior. Graph A:   Graph B:  Graph C:  Graph D:                      What is the degree and leading coefficient of Graph A?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph B?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph C?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   What is the degree and leading coefficient of Graph D?  Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Degree: ; Leading Coefficient:   Notice that Graph A and Graph D have their ends going in the same direction. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?  Notice that Graph B and Graph C have their ends going in opposite directions. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?     From , we saw that the degree and leading coefficient of a polynomial function can give us more clues about the behavior of the function. In summary, we know: If the degree is even, the ends of the polynomial function will be going in the same direction. If the leading coefficient is positive, both ends will be pointing up. If the leading coefficient is negative, both ends will be pointing down.  If the degree is odd, the ends of the polynomial function will be going in opposite directions. If the leading coefficient is positive, the left end will fall and the right end will rise. If the leading coefficient is negative, the left end will rise and the right end will fall.       When describing end behavior, mathematicians typically use arrow notation . Just as the name suggests, arrows are used to indicate the behavior of certain values on a graph.  For end behavior, students are often asked to determine the behavior of -values as -values either increase or decrease. The statement \"As , \" can be translated to \"As approaches infinity (or as increases), (or the -values) go to negative infinity (i.e., it decreases).\"      Use the graph of to answer the questions below.    A polynomial function with one even and one odd multiplicity      How would you describe the end behavior of ?   rises on the left and on the right.   rises on the left, but falls on the right.   rises on the right, but falls on the left.   falls on the left and on the right.   How would you describe the end behavior of using arrow notation?   As ,   As ,     As ,   As ,     As ,   As ,     As ,   As ,         When graphing polynomial functions, you may notice that these functions have some \"hills\" and \"valleys.\" These characteristics of the graph are known as the local maxima and local minima of the graph - similar to what we've already seen with quadratic functions. Unlike quadratic functions, however, a polynomial graph can have many local maxima\/minima (quadratic functions only have one).      Sketch the function, , by first finding the given characteristics.   Find the zeros of .  Find the multiplicities at each zero.  Find the -intercept of .  Describe the end behavior of .  Estimate where any local maximums and minimums may occur.     Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are and .   has one maximum at 0. has one minimum at and another at .  The end behavior of is given as: As , and As ,      Now that we know all the different characterisitics of polynomials, we should also be able to identify them from a graph. Use the graph below to find the given charactertistics.    Polynomial Function      What are the -intercept(s) of the polynomial function? Select all that apply.              What are the -intercept(s) of the polynomial function?             How many zeros does this polynomial function have?               At what point is the local minimum located?                  At what point is the local maximum located?                  How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity      How do you describe the behavior of the polynomial function as ?  the -values go to negative infinity     the -values go to positive infinity         Use the given function, , to answer the following questions.    What are the zeros of ?                What are the multiplicities at each zero?   At , the mulitplicity is even.  At , the mulitplicity is even.    At , the mulitplicity is even.  At , the mulitplicity is odd.   At , the mulitplicity is odd.  At , the mulitplicity is even.    At , the mulitplicity is odd.  At , the mulitplicity is odd.      What is the end behavior of ?   rises on the left and on the right.   rises on the left, but falls on the right.   rises on the right, but falls on the left.   falls on the left and on the right.    Using what you know about the zeros, multiplicities, and end behavior, where on the graph can we estimate the local maxima and minima to be?    Now look at the graph of . At which zero does a local maximum or local minimum occur? Explain how you know.      We can estimate where these local maxima and minima occur by looking at other characteristics, such as multiplicities and end behavior.  From , we saw that when the function touches the -axis at a zero, then that zero could be either a local maximum or a local minimum of the graph. When the function crosses the -axis, however, the local maximum or local minimum occurs between the zeros.      Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR5-2",
@@ -1483,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "4.5.12",
   "title": "",
-  "body": "  Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are and .   has one maximum at 0. has one minimum at and another at .  The end behavior of is given as:  As ,  As ,     "
+  "body": "  Sketch the graph of a function that meets all of the following criteria. Be sure to scale your axes and label any important features of your graph.   The -intercepts of are and .   has one maximum at 0. has one minimum at and another at .  The end behavior of is given as: As , and As ,   "
 },
 {
   "id": "activity-characteristics-from-polynomial-graph",
