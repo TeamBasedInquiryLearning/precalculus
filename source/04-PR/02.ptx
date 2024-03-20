@@ -54,13 +54,13 @@
         </task>
         <task><p> What is the meaning of <m>h(0)=50</m>?</p>
           <ol marker="A." cols="1">
-            <li><p> the initial height of the water balloon is 50 feet.</p></li>
-            <li><p> the water balloon reaches a maximum height of 50 feet. </p></li>
-            <li><p> the water balloon hits the ground after 50 seconds.</p></li>
-            <li><p> the water balloon travels 50 feet before hitting the ground.</p></li>
+            <li><p> The initial height of the water balloon is 50 feet.</p></li>
+            <li><p> The water balloon reaches a maximum height of 50 feet. </p></li>
+            <li><p> The water balloon hits the ground after 50 seconds.</p></li>
+            <li><p> The water balloon travels 50 feet before hitting the ground.</p></li>
         </ol> </task>
         <task>
-          <p> Find the vertex of the quadratic function.
+          <p> Find the vertex of the quadratic function <m>h(t)</m>.
             <ol marker="A." cols="2">
               <li><p><m>(0,50)</m> </p></li>
               <li><p> <m>(1,74)</m> </p></li>
@@ -74,7 +74,7 @@
             <li><p> The water balloon reaches a maximum height of 50 feet at the start.</p></li>
             <li><p> After 1 second, the water balloon reaches a maximum height of 74 feet. </p></li>
             <li><p>After 1.25 seconds, the water balloon reaches the maximum height. </p></li>
-            <li><p> After 3.5 seconds, the water balloon hits the ground.</p></li>
+            <li><p> After 3.4 seconds, the water balloon hits the ground.</p></li>
         </ol>     
         </p>
         </task>
@@ -125,7 +125,7 @@
           </ol> </p>
         </task>
         <task>
-            <p> Using the fact that Revenue <m>=pQ</m>, which of the following represents the Revenue <m>R</m> in terms of the price <m>p</m>.
+            <p> Using the fact that revenue <m>R</m> is price times the number of items sold,  <m>R=pQ</m>, which of the following represents the revenue in terms of the price?
               <ol marker="A." cols="2">
               <li><p><m>R(p)=-2p^2</m> </p></li>
               <li><p> <m>R(p)=-2p^2+84p</m> </p></li>
@@ -159,7 +159,34 @@
         </task>
       </activity>
 
-      <activity>The owner of a ranch decides to enclose a rectangular region with 240 feet of fencing. To help the fencing cover more land, he plans to use one side of his barn as part of the enclosed region. What is the maximum area the rancher can enclose?</activity>
+      <activity>
+        <introduction>
+          The owner of a ranch decides to enclose a rectangular region with 240 feet of fencing. To help the fencing cover more land, he plans to use one side of his barn as part of the enclosed region. What is the maximum area the rancher can enclose?
+          </introduction>
+          <task>
+           
+              <p>
+                Draw a picture to represent the fenced area against the barn. Use <m>l</m> to represent the length of fence parallel to the barn and <m>w</m> to represent the two sides perpendicular to the barn.
+              </p>
+            
+          </task>
+        <task> <p> Find an equation for the area of the fence in terms of the length <m>l</m>. It may be useful to find an equation for the total amount of fencing in terms of the length <m>l</m> and width <m>w</m>.
+          <ol marker="A." cols="1">
+          <li><p> <m>A=lw</m> </p></li>
+          <li><p> <m>A=l^{2}</m> </p></li>
+          <li><p> <m>A=l(240-l)</m> </p></li>
+          <li><p> <m>A=l\left(120-\frac{l}{2}\right) </m></p></li>
+      </ol>   </p>
+        </task>
+        <task>
+           
+          <p>
+            Use the area equation to find the maximum area the rancher can enclose.
+          </p>
+        
+      </task>
+
+      </activity>
 
     </subsection>
 
