@@ -71,7 +71,7 @@
     <definition xml:id="def-function">
       <statement>
         <p>
-          A <term>function</term> is a relation where every input (or <m>x</m>-value) is mapped onto <term>**exactly one**</term> output (or <m>y</m>-value).</p>
+          A <term>function</term> is a relation where every input (or <m>x</m>-value) is mapped onto <em>exactly one</em> output (or <m>y</m>-value).</p>
           <p>
           Note that all functions are relations but not all relations are functions!
         </p>
