@@ -364,7 +364,7 @@
 </activity>
 
 <remark>
-  Notice in <xref ref="FN1-determine-if-function-from-equation"/> that when you are given an equation with a <m>y^2</m> term, the equation is not a function.
+  Notice that <xref ref="FN1-determine-if-function-from-equation"/> shows that equations with a <m>y^2</m> term generally do not define functions.
 </remark>
 
 <activity xml:id="FN1-determine-domain-from-equation-square-root">
