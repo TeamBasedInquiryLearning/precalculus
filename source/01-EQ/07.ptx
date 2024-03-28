@@ -139,7 +139,7 @@
 
   <activity xml:id="rational-inequality-both-sides">
     <introduction>
-      <p>Solve the rational inequality <me>\frac{8x+16}{x-2} \lte \frac{x+10}{x+5}</me>.
+      <p>Solve the rational inequality <me>\frac{8x+16}{x-2} \le \frac{x+10}{x+5}</me>.
       </p>
     </introduction>
     <task>
