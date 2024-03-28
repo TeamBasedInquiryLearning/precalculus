@@ -35,7 +35,7 @@
       </ol> </p>
     </task>
     <task>
-      <p> Create a number line and place the values from each factor on this number line. We will now test all <m>3</m> intervals between the <m>2</m> values to see if we get positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
+      <p> Create a number line and place the values from each factor on this number line. We will now test all <m>3</m> intervals between the <m>2</m> values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
       <ol marker="A." cols="1">
         <li><p> <m>x \gt 8</m>, <m>x \lt -4</m></p></li>
         <li><p><m>x \gt -8</m>, <m>x \gt -4</m></p></li>
@@ -60,13 +60,13 @@
       <p>Solve the quadratic inequality <me>5x^2+63 \lt 52x</me>.
       </p>
     </introduction>
-    <task>Write the solution using interval notation.
+    <task><p>Write the solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p><m>\left(-9,-\frac{7}{5}\right)</m> </p></li>
           <li><p> <m>\left(-\infty,\frac{7}{5}\right)\cup\left(9,\infty\right)</m> </p></li>
           <li><p> <m>\left(-\frac{7}{5},9\right)</m> </p></li>
           <li><p> <m>\left(\frac{7}{5},9\right)</m></p></li>
-      </ol> </p>
+      </ol> 
     </task>
   </activity>
   <activity xml:id="quadratic-inequality-coeff-greater-than-or-equal-0">
