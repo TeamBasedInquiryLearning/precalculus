@@ -799,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Quadratic and Rational Inequalities (EQ7)",
-  "body": " Quadratic and Rational Inequalities (EQ7)     Solve a rational equation.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Quadratic and Rational Inequalities (EQ7)     Solve a rational equation.      Activities    Recall that when solving a quadratic equation, you can first try to factor the quadratic. Solving inequalities will require multiple steps. Solve the quadratic inequality .   First, move all terms to one side. Then factor the quadratic function, .              Now set each factor and solve for . These are the intercepts.  ,   ,    ,    ,    Create a number line and place the values from each factor on this number line. We will now test all intervals between the values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are , i.e. positive.   ,  ,   ,    ,     Write the intervals using interval notation.               Solve the quadratic inequality .   Write the solution using interval notation.                Solve the inequality .   Write the solution using interval notation.              How can we confirm visually that our solution is correct?     Solve the rational inequality .   First, move all terms to one side. Then find the common denominator and combine to one simplified fraction.              Now set both the numerator and denominator and solve for . These are the partition values to place on the number line for testing intervals.               Create a number line and place the values from each factor on this number line. We will now test all intervals between the values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are , i.e. positive.   ,  ,   ,    ,     Write the intervals using interval notation.            How can we confirm visually that our solution is correct?     Solve the rational inequality .   Write the solution using interval notation.              When do we include the partition values in the answer with a bracket?     Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ7-2",
@@ -809,6 +809,51 @@ var ptx_lunr_docs = [
   "number": "1.7",
   "title": "",
   "body": "   Solve a rational equation.    "
+},
+{
+  "id": "quadratic-inequality-coeff-greater-than",
+  "level": "2",
+  "url": "EQ7.html#quadratic-inequality-coeff-greater-than",
+  "type": "Activity",
+  "number": "1.7.1",
+  "title": "",
+  "body": "  Recall that when solving a quadratic equation, you can first try to factor the quadratic. Solving inequalities will require multiple steps. Solve the quadratic inequality .   First, move all terms to one side. Then factor the quadratic function, .              Now set each factor and solve for . These are the intercepts.  ,   ,    ,    ,    Create a number line and place the values from each factor on this number line. We will now test all intervals between the values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are , i.e. positive.   ,  ,   ,    ,     Write the intervals using interval notation.            "
+},
+{
+  "id": "quadratic-inequality-coeff-less-than-0",
+  "level": "2",
+  "url": "EQ7.html#quadratic-inequality-coeff-less-than-0",
+  "type": "Activity",
+  "number": "1.7.2",
+  "title": "",
+  "body": "  Solve the quadratic inequality .   Write the solution using interval notation.             "
+},
+{
+  "id": "quadratic-inequality-coeff-greater-than-or-equal-0",
+  "level": "2",
+  "url": "EQ7.html#quadratic-inequality-coeff-greater-than-or-equal-0",
+  "type": "Activity",
+  "number": "1.7.3",
+  "title": "",
+  "body": "  Solve the inequality .   Write the solution using interval notation.              How can we confirm visually that our solution is correct?  "
+},
+{
+  "id": "rational-inequality-greater-than-0",
+  "level": "2",
+  "url": "EQ7.html#rational-inequality-greater-than-0",
+  "type": "Activity",
+  "number": "1.7.4",
+  "title": "",
+  "body": "  Solve the rational inequality .   First, move all terms to one side. Then find the common denominator and combine to one simplified fraction.              Now set both the numerator and denominator and solve for . These are the partition values to place on the number line for testing intervals.               Create a number line and place the values from each factor on this number line. We will now test all intervals between the values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are , i.e. positive.   ,  ,   ,    ,     Write the intervals using interval notation.            How can we confirm visually that our solution is correct?  "
+},
+{
+  "id": "rational-inequality-both-sides",
+  "level": "2",
+  "url": "EQ7.html#rational-inequality-both-sides",
+  "type": "Activity",
+  "number": "1.7.5",
+  "title": "",
+  "body": "  Solve the rational inequality .   Write the solution using interval notation.              When do we include the partition values in the answer with a bracket?  "
 },
 {
   "id": "FN1",
