@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.6",
   "title": "Finding the Inverse Function (FN6)",
-  "body": " Finding the Inverse Function (FN6)     Find the inverse of a one-to-one function.      Activities    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Finding the Inverse Function (FN6)     Find the inverse of a one-to-one function.      Activities  A function is a process that converts a collection of inputs to a corresponding collection of outputs. One question we can ask is: for a particular function, can we reverse the process and think of the original function's outputs as the inputs?    Temperature can be measured using many different units such as Fahrenheit, Celsius, and Kelvin. Fahrenheit is what is usually reported on the news each night in the United States, while Celsius is commonly used for scientific work. We will begin by converting between these two units. To convert from degrees Fahrenheit to Celsius use the following formula.    Room temperature is around 68 degrees Fahrenheit. Use the above equation to convert this temperature to Celsius.            Solve the equation for in terms of .               Alternatively, 20 degrees Celsius is a fairly comfortable temperate. Use your solution for in terms of to convert this temperature to Fahrenheit.            Something here to sum this up... like find the composition of the two functions what do you get?     Let be a function. If there exists a function such that for all , then we say has an inverse function , or that is the inverse of  . When a given function has an inverse function, we usually denote it as , which is read as \" inverse\".    An inverse is a function that \"undoes\" another function. For any input in the domain, the function will reverse the process of .    It is important to note that in we say \"if there exists a function,\" but we don't guarantee that this is always the case. How can we determine whether a function has a corresponding inverse or not? Consider the following two functions and represented by the tables.                                                                               Use the definition of in to find an such that .               Is it possible to reverse the input and output rows of the function and have the new table result in a function?   Use the definition of in to find an such that .               Is it possible to reverse the input and output rows of the function and have the new table result in a function?    Some functions, like in , have a given output value that corresponds to two or more input values: and . If we attempt to reverse the process of this function, we have a situation where the new input 6 would correspond to two potential outputs.    A one-to-one function is a function in which each output value corresponds to exactly one input.    A function must be one-to-one in order to have an inverse.    Consider the function .   When you evaluate this expression for a given input value of , what operations do you perform and in what order?  divide by 3, subtract 5  subtract 5, divide by 3  add 5, multiply by 3  multiply by 3, add 5    When you \"undo\" this expression to solve for a given ouput value of , what operations do you perform and in what order?  divide by 3, subtract 5  subtract 5, divide by 3  add 5, multiply by 3  multiply by 3, add 5    This set of operations, reverses the process for the original function, so can be considered the inverse function. Write an equation to express the inverse function .            Check your answer to the previous question by finding and .     To find the inverse of a one-to-one function, perform the reverse operations in the opposite order. Alternatively, solve the function for and then interchange the and .      Find the inverse of each function. Check your answer using function composition.                                   Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "FN6-2",
@@ -1070,6 +1070,105 @@ var ptx_lunr_docs = [
   "number": "2.6",
   "title": "",
   "body": "   Find the inverse of a one-to-one function.    "
+},
+{
+  "id": "FN6-3-2",
+  "level": "2",
+  "url": "FN6.html#FN6-3-2",
+  "type": "Remark",
+  "number": "2.6.1",
+  "title": "",
+  "body": "A function is a process that converts a collection of inputs to a corresponding collection of outputs. One question we can ask is: for a particular function, can we reverse the process and think of the original function's outputs as the inputs? "
+},
+{
+  "id": "activity-temp-conversion",
+  "level": "2",
+  "url": "FN6.html#activity-temp-conversion",
+  "type": "Activity",
+  "number": "2.6.2",
+  "title": "",
+  "body": "  Temperature can be measured using many different units such as Fahrenheit, Celsius, and Kelvin. Fahrenheit is what is usually reported on the news each night in the United States, while Celsius is commonly used for scientific work. We will begin by converting between these two units. To convert from degrees Fahrenheit to Celsius use the following formula.    Room temperature is around 68 degrees Fahrenheit. Use the above equation to convert this temperature to Celsius.            Solve the equation for in terms of .               Alternatively, 20 degrees Celsius is a fairly comfortable temperate. Use your solution for in terms of to convert this temperature to Fahrenheit.            Something here to sum this up... like find the composition of the two functions what do you get?  "
+},
+{
+  "id": "def-inverse-function",
+  "level": "2",
+  "url": "FN6.html#def-inverse-function",
+  "type": "Definition",
+  "number": "2.6.3",
+  "title": "",
+  "body": "  Let be a function. If there exists a function such that for all , then we say has an inverse function , or that is the inverse of  . When a given function has an inverse function, we usually denote it as , which is read as \" inverse\".   "
+},
+{
+  "id": "FN6-3-5",
+  "level": "2",
+  "url": "FN6.html#FN6-3-5",
+  "type": "Remark",
+  "number": "2.6.4",
+  "title": "",
+  "body": "An inverse is a function that \"undoes\" another function. For any input in the domain, the function will reverse the process of . "
+},
+{
+  "id": "activity-inverse-exist",
+  "level": "2",
+  "url": "FN6.html#activity-inverse-exist",
+  "type": "Activity",
+  "number": "2.6.5",
+  "title": "",
+  "body": "  It is important to note that in we say \"if there exists a function,\" but we don't guarantee that this is always the case. How can we determine whether a function has a corresponding inverse or not? Consider the following two functions and represented by the tables.                                                                               Use the definition of in to find an such that .               Is it possible to reverse the input and output rows of the function and have the new table result in a function?   Use the definition of in to find an such that .               Is it possible to reverse the input and output rows of the function and have the new table result in a function?   "
+},
+{
+  "id": "remark-invert",
+  "level": "2",
+  "url": "FN6.html#remark-invert",
+  "type": "Remark",
+  "number": "2.6.8",
+  "title": "",
+  "body": "Some functions, like in , have a given output value that corresponds to two or more input values: and . If we attempt to reverse the process of this function, we have a situation where the new input 6 would correspond to two potential outputs. "
+},
+{
+  "id": "def-one-to-one",
+  "level": "2",
+  "url": "FN6.html#def-one-to-one",
+  "type": "Definition",
+  "number": "2.6.9",
+  "title": "",
+  "body": "  A one-to-one function is a function in which each output value corresponds to exactly one input.   "
+},
+{
+  "id": "FN6-3-9",
+  "level": "2",
+  "url": "FN6.html#FN6-3-9",
+  "type": "Remark",
+  "number": "2.6.10",
+  "title": "",
+  "body": "A function must be one-to-one in order to have an inverse. "
+},
+{
+  "id": "activity-inverse-operations",
+  "level": "2",
+  "url": "FN6.html#activity-inverse-operations",
+  "type": "Activity",
+  "number": "2.6.11",
+  "title": "",
+  "body": "  Consider the function .   When you evaluate this expression for a given input value of , what operations do you perform and in what order?  divide by 3, subtract 5  subtract 5, divide by 3  add 5, multiply by 3  multiply by 3, add 5    When you \"undo\" this expression to solve for a given ouput value of , what operations do you perform and in what order?  divide by 3, subtract 5  subtract 5, divide by 3  add 5, multiply by 3  multiply by 3, add 5    This set of operations, reverses the process for the original function, so can be considered the inverse function. Write an equation to express the inverse function .            Check your answer to the previous question by finding and .  "
+},
+{
+  "id": "def-find-inverse",
+  "level": "2",
+  "url": "FN6.html#def-find-inverse",
+  "type": "Observation",
+  "number": "2.6.12",
+  "title": "",
+  "body": "  To find the inverse of a one-to-one function, perform the reverse operations in the opposite order. Alternatively, solve the function for and then interchange the and .   "
+},
+{
+  "id": "activity-find-inverse",
+  "level": "2",
+  "url": "FN6.html#activity-find-inverse",
+  "type": "Activity",
+  "number": "2.6.13",
+  "title": "",
+  "body": "  Find the inverse of each function. Check your answer using function composition.                                "
 },
 {
   "id": "LF",
