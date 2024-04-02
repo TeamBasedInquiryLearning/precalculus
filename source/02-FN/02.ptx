@@ -71,11 +71,9 @@
       </activity>
 
       <activity xml:id="activity-fn-table">
-        <introduction>
+        <statement>
           <p> Let <m>f(x)=3x^2-4x+1</m>. Find the value of <m>f(x)</m> for the given values of <m>x</m>.
         </p>
-          
-        </introduction>
         
         <table>
           <tabular>
@@ -100,6 +98,7 @@
             </row>
           </tabular>
         </table>  
+      </statement>
 
         <answer>
           <p>
@@ -139,11 +138,14 @@
       <activity xml:id="activity-fn-values">
         <introduction>
           <p> Let <m>f(x)</m>, <m>g(x)</m>, and <m>h(x)</m> be defined as shown. 
-            <me>f(x)=3x^2-4x+1</me>
-            <me>g(x)=\sqrt{13-x^2}</me>
-            <me>h(x)=\frac{x^2-6x+8}{x^2-4x+3}</me>
+            <md>
+            <mrow>f(x)&amp;=3x^2-4x+1</mrow>
+            <mrow>g(x)&amp;=\sqrt{13-x^2}</mrow>
+            <mrow>h(x)&amp;=\frac{x^2-6x+8}{x^2-4x+3}</mrow>
+            </md>
             Find the following, if they exist.
         </p>
+        </introduction>
 
         <task>
           <statement>
@@ -184,7 +186,6 @@
           </answer>
         </task>
           
-        </introduction>
         
         
       </activity>
@@ -461,7 +462,7 @@
       <activity xml:id="activity-fn-application">
        <introduction>
         <p>
-          Ellie has $<m>13</m> in her piggy bank, and she gets an addition $<m>1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
+          Ellie has <m>\$13</m> in her piggy bank, and she gets an addition <m>\$1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
         </p>
        </introduction> 
         <task>
