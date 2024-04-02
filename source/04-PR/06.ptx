@@ -55,6 +55,9 @@
         </p>
        
       </statement>
+    <aside>
+      <p>Recall that the domain of a function was defined in <xref ref="def-relation"/>.</p>
+    </aside>
     </observation>
    
     <activity xml:id="activity-rf-domain">
@@ -242,12 +245,13 @@
       </observation>
 
       <activity xml:id="activity-rf-ha">
-        <!-- <introduction>
-          <p> </p>
-          
-        </introduction> -->
+        <introduction>
+          <p> 
+          Consider the rational function <m>\displaystyle r(x)=\frac{1}{x^3}</m>.
+        </p>
+        </introduction> 
         <task>
-          <p>Consider the rational function <m>\displaystyle r(x)=\frac{1}{x^3}</m>. Plug in some very large positive numbers for <m>x</m> to see what <m>r(x)</m> is tending toward. Which of the following best describes the behavior of the graph as <m>x</m> approaches positive infinity? 
+          <p>Plug in some very large positive numbers for <m>x</m> to see what <m>r(x)</m> is tending toward. Which of the following best describes the behavior of the graph as <m>x</m> approaches positive infinity? 
             <ol marker= "A.">  
               <li> As <m> x\to \infty</m>, <m>r(x)\to \infty</m>.</li>
               <li> As <m> x\to \infty</m>, <m>r(x)\to -\infty</m>.</li>
