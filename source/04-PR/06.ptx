@@ -714,12 +714,22 @@ https://activecalculus.org/prelude/sec-poly-rational-features.html#ez-poly-ratio
           <m>\displaystyle w(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
         </p>
       </task>
-      <task>
-        <p>
-          True or false:  given <m>r(x) = \frac{p(x)}{q(x)}</m>, if <m>p(a) = 0</m> and <m>q(a) = 0</m>, then <m>r</m> has a hole at <m>x = a</m>.
-        </p>
-      </task>
     </activity> 
+
+    <activity>
+      <statement>
+        <p>
+          Suppose you are given a function <m>r(x) = \frac{p(x)}{q(x)}</m>, and you know that <m>p(3) = 0</m> and <m>q(3) = 0</m>.
+          What can you conlude about the function <m>r(x)</m> at <m>x = 3</m>?
+        </p>
+        <ol marker="A.">
+          <li><m>r(x)</m> has a hole at <m>x=3</m>.</li>
+          <li><m>r(x)</m> has an asymptote at <m>x=3</m>.</li>
+          <li><m>r(x)</m> has either a hole or an asymptote at <m>x=3</m>.</li>
+          <li><m>r(x)</m> has neither a hole nor an asymptote at <m>x=3</m>.</li>
+        </ol>
+      </statement>
+    </activity>
 
     <!-- Extension question regarding holes -->
     <!-- <exercise xml:id="ez-poly-rational-features-multiplicities">
