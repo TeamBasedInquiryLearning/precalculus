@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Rational Equations (EQ6)",
-  "body": " Rational Equations (EQ6)     Solve a rational equation.      Activities    An algebraic expression is called a rational expression rational expression if it can be written as the ratio of two polynomials, and .  An equation is called a rational equation rational equation if it consists of only rational expressions and constants.      Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is . We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator.      Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominators equal to zero. Which value(s) should be exclude as possible solutions to the following rational equations? Select all that apply.                                  Consider the rational equation    What value should be excluded as a possible solution?              To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?              Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     Consider the rational equation    What values should be excluded as possible solutions?   and   and   and   and   and    To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   and   and   and   and   and    Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     In , you may have noticed that the resulting linear equation looked like the result of cross-multiplying. This is no coincidence! Cross-multiplying is a method of clearing out fractions that works specifically when the equation is in proportional form: .      Consider the rational equation    What value(s) should be excluded as possible solutions?  To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   , , and   and        Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.  Solve the linear equation. Check your answer using the original rational equation.      demonstrates why it is so important to determine excluded values and check our answers when solving rational equations. Just because a number is a solution to the linear equation we found, it doesn't mean it is automatically a solution to the rational equation we started with.      Consider the rational equation    What values should be excluded as possible solutions? Select all that apply.                   To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?     and   , , and   and   and    Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?            Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?   and    and                    Consider the rational equation    What values should be excluded as possible solutions?   What expression(s) should we multiply by to clear out all of the fractions?   Multiply each term by the expressions you chose and simplify. Your result should be a quadratic equation.   Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?      Solve the following rational equations.          Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Rational Equations (EQ6)     Solve a rational equation.      Activities    An algebraic expression is called a rational expression rational expression if it can be written as the ratio of two polynomials, and .  An equation is called a rational equation rational equation if it consists of only rational expressions and constants.      Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is . We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator.      Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominators equal to zero. Which value(s) should be excluded as possible solutions to the following rational equations? Select all that apply.                                  Consider the rational equation    What value should be excluded as a possible solution?              To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?              Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     Consider the rational equation    What values should be excluded as possible solutions?   and   and   and   and   and    To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   and   and   and   and   and    Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?              Solve the linear equation. Check your answer using the original rational equation.     In , you may have noticed that the resulting linear equation looked like the result of cross-multiplying. This is no coincidence! Cross-multiplying is a method of clearing out fractions that works specifically when the equation is in proportional form: .      Consider the rational equation    What value(s) should be excluded as possible solutions?  To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?   , , and   and        Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.  Solve the linear equation. Check your answer using the original rational equation.      demonstrates why it is so important to determine excluded values and check our answers when solving rational equations. Just because a number is a solution to the linear equation we found, it doesn't mean it is automatically a solution to the rational equation we started with.      Consider the rational equation    What values should be excluded as possible solutions? Select all that apply.                   To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?     and   , , and   and   and    Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?            Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?   and    and                    Consider the rational equation    What values should be excluded as possible solutions?   What expression(s) should we multiply by to clear out all of the fractions?   Multiply each term by the expressions you chose and simplify. Your result should be a quadratic equation.   Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?      Solve the following rational equations.          Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "EQ6-2",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "1.6.3",
   "title": "",
-  "body": "  Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominators equal to zero. Which value(s) should be exclude as possible solutions to the following rational equations? Select all that apply.                               "
+  "body": "  Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominators equal to zero. Which value(s) should be excluded as possible solutions to the following rational equations? Select all that apply.                               "
 },
 {
   "id": "activity-re-solving-1",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "Properties and Graphs of Rational Functions (PR6)",
-  "body": " Properties and Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.      Consider the rational function    Find , , , and .  Label each of these four points as giving us information about the DOMAIN of , information about the ZEROES of , or NEITHER.     Let and be polynomial functions so that is a rational function. The domain rational function domain of is the set of all real numbers except those for which .      Let's investigate the domain of more closely. We will be using the same function from the previous activity:     Rewrite by factoring the numerator and denominator, but do not try to simplify any further. What do you notice about the relationship between the values that are not in the domain and how the function is now written?  The function was not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function was also not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function is behaving differently near than it is near . Can you see anything in the factored form of that may help you account for the difference?      Features of a rational function  Let be a rational function.     If and , then , so has a zero rational function zero rational function zero at .    If and , then is undefined and has a vertical asymptote rational function vertical asymptote rational function vertical asymptote at .    If and and we can show that there is a finite number such that , then is not defined and has a hole rational function hole rational function hole at the point .        Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function when goes toward positive infinity or negative infinity.   Consider the rational function . Plug in some very large positive numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches positive infinity?  As , .  As , .  As , .  As , .    Now let's look at as tends toward negative infinity. Plug in some very large negative numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches negative infinity?  As , .  As , .  As , .  As , .       We can generalize what we have just found to any function of the form , where . Since increases without bound as , we find that will tend to 0. In fact, the numerator can be any constant and the function will still tend to 0!  Similarly, as , we find that will tend to 0 too.      Consider the rational function .  Observe that the largest power of that's present in is . In addition, because of the dominant terms of in the numerator and in the denominator, both the numerator and denominator of increase without bound as increases without bound.   In order to understand the end behavior of , we will start by writing the function in a different algebraic form. Multiply the numerator and denominator of by . Then distribute and simplify as much as possible in both the numerator and denominator to write in a different algebraic form. Which of the following is that new form?            another wrong answer?     Now determine the end behavior of each piece of the numerator and each piece of the denominator. Hint: Use to help!  Simplify your work from the previous step. Which of the following best describes the end behavior of ?  As , goes to .  As , goes to .  As , goes to .  As , goes to .       If the end behavior of a function tends toward a specific value , then we say that the function has a horizontal asymptote at .      Find the horizontal asymptote (if one exists) of the following rational functions. Follow the same method we used in .                  There is no horizontal asymptote.                   There is no horizontal asymptote.                  There is no horizontal asymptote.       Some patterns have emerged from the previous problem. Fill in the rest of the sentences below to describe how to find horizontal asymptotes of rational functions.   If the degree of the numerator is the same as the degree of the denominator, then...  If the degree of the numerator is less than the degree of the denominator, then...  If the degree of the numerator is greater than the degree of the denominator, then...     Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     MATCHING ACTIVITY INCLUDING GRAPHS WITH HOLES   QUESTIONS HERE!    Find the roots of the rational function .   Find the -intercept of .   Find any horizontal asymptotes of .    Find any vertical asymptotes of .    Find any holes of .    Sketch .      EXTENSION ACTIVITY ABOUT HOLES   QUESTIONS HERE!       Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
+  "body": " Properties and Graphs of Rational Functions (PR6)     Find the domain and range, vertical and horizontal asymptotes, and intercepts of a rational function and use this information to sketch the graph.      Activities    A function is rational rational function provided that it is possible to write as the ratio of two polynomials, and . That is, is rational provided that for some polynomial functions and , we have       Rational functions occur in many applications, so our goal in this lesson is to learn about their properties and be able to graph them. In particular we want to investigate the domain, end behavior, and zeros of rational functions.      Consider the rational function    Find , , , and .  Label each of these four points as giving us information about the DOMAIN of , information about the ZEROES of , or NEITHER.     Let and be polynomial functions so that is a rational function. The domain rational function domain of is the set of all real numbers except those for which .    Recall that the domain of a function was defined in .      Let's investigate the domain of more closely. We will be using the same function from the previous activity:     Rewrite by factoring the numerator and denominator, but do not try to simplify any further. What do you notice about the relationship between the values that are not in the domain and how the function is now written?  The function was not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function was also not defined for . Make a table for values of near .                     undefined               Which of the following describe the behavior of the graph near ?  As , approaches a finite number  As from the left,  As from the left,  As from the right,  As from the right,   The function is behaving differently near than it is near . Can you see anything in the factored form of that may help you account for the difference?      Features of a rational function  Let be a rational function.     If and , then , so has a zero rational function zero rational function zero at .    If and , then is undefined and has a vertical asymptote rational function vertical asymptote rational function vertical asymptote at .    If and and we can show that there is a finite number such that , then is not defined and has a hole rational function hole rational function hole at the point .        Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function when goes toward positive infinity or negative infinity.      Consider the rational function .   Plug in some very large positive numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches positive infinity?  As , .  As , .  As , .  As , .    Now let's look at as tends toward negative infinity. Plug in some very large negative numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches negative infinity?  As , .  As , .  As , .  As , .       We can generalize what we have just found to any function of the form , where . Since increases without bound as , we find that will tend to 0. In fact, the numerator can be any constant and the function will still tend to 0!  Similarly, as , we find that will tend to 0 too.      Consider the rational function .  Observe that the largest power of that's present in is . In addition, because of the dominant terms of in the numerator and in the denominator, both the numerator and denominator of increase without bound as increases without bound.   In order to understand the end behavior of , we will start by writing the function in a different algebraic form. Multiply the numerator and denominator of by . Then distribute and simplify as much as possible in both the numerator and denominator to write in a different algebraic form. Which of the following is that new form?                Now determine the end behavior of each piece of the numerator and each piece of the denominator.  Use to help!    Simplify your work from the previous step. Which of the following best describes the end behavior of ?  As , goes to .  As , goes to .  As , goes to .  As , goes to .       If the end behavior of a function tends toward a specific value , then we say that the function has a horizontal asymptote at .      Find the horizontal asymptote (if one exists) of the following rational functions. Follow the same method we used in .                  There is no horizontal asymptote.                   There is no horizontal asymptote.                  There is no horizontal asymptote.       Some patterns have emerged from the previous problem. Fill in the rest of the sentences below to describe how to find horizontal asymptotes of rational functions.   If the degree of the numerator is the same as the degree of the denominator, then...  If the degree of the numerator is less than the degree of the denominator, then...  If the degree of the numerator is greater than the degree of the denominator, then...     Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?     Let .   Find the roots of .  Find the -intercept of the graph of .   Find any horizontal asymptotes on the graph of .    Find any vertical asymptotes on the graph of .    Find any holes on the graph of .    Sketch the graph of .       For each of the following rational functions, identify the location of any potential hole in the graph. Then, create a table of function values for input values near where the hole should be located. Use your work to decide whether or not the graph indeed has a hole, with written justification.                  Suppose you are given a function , and you know that and . What can you conlude about the function at ?   has a hole at .  has an asymptote at .  has either a hole or an asymptote at .  has neither a hole nor an asymptote at .         Exercises available at .    Videos  It would be great to include videos down here, like in the Calculus book!   "
 },
 {
   "id": "PR6-2",
@@ -1855,13 +1855,13 @@ var ptx_lunr_docs = [
   "body": "  Consider the rational function    Find , , , and .  Label each of these four points as giving us information about the DOMAIN of , information about the ZEROES of , or NEITHER.  "
 },
 {
-  "id": "def-rf-domain",
+  "id": "obs-rf-domain",
   "level": "2",
-  "url": "PR6.html#def-rf-domain",
-  "type": "Definition",
+  "url": "PR6.html#obs-rf-domain",
+  "type": "Observation",
   "number": "4.6.4",
   "title": "",
-  "body": "  Let and be polynomial functions so that is a rational function. The domain rational function domain of is the set of all real numbers except those for which .   "
+  "body": "  Let and be polynomial functions so that is a rational function. The domain rational function domain of is the set of all real numbers except those for which .    Recall that the domain of a function was defined in .   "
 },
 {
   "id": "activity-rf-domain",
@@ -1882,20 +1882,29 @@ var ptx_lunr_docs = [
   "body": " Features of a rational function  Let be a rational function.     If and , then , so has a zero rational function zero rational function zero at .    If and , then is undefined and has a vertical asymptote rational function vertical asymptote rational function vertical asymptote at .    If and and we can show that there is a finite number such that , then is not defined and has a hole rational function hole rational function hole at the point .     "
 },
 {
+  "id": "obs-rf-end_behavior",
+  "level": "2",
+  "url": "PR6.html#obs-rf-end_behavior",
+  "type": "Observation",
+  "number": "4.6.9",
+  "title": "",
+  "body": "  Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function when goes toward positive infinity or negative infinity.   "
+},
+{
   "id": "activity-rf-ha",
   "level": "2",
   "url": "PR6.html#activity-rf-ha",
   "type": "Activity",
-  "number": "4.6.9",
+  "number": "4.6.10",
   "title": "",
-  "body": "  Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function when goes toward positive infinity or negative infinity.   Consider the rational function . Plug in some very large positive numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches positive infinity?  As , .  As , .  As , .  As , .    Now let's look at as tends toward negative infinity. Plug in some very large negative numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches negative infinity?  As , .  As , .  As , .  As , .    "
+  "body": "  Consider the rational function .   Plug in some very large positive numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches positive infinity?  As , .  As , .  As , .  As , .    Now let's look at as tends toward negative infinity. Plug in some very large negative numbers for to see what is tending toward. Which of the following best describes the behavior of the graph as approaches negative infinity?  As , .  As , .  As , .  As , .    "
 },
 {
   "id": "obs-rf-HA",
   "level": "2",
   "url": "PR6.html#obs-rf-HA",
   "type": "Observation",
-  "number": "4.6.10",
+  "number": "4.6.11",
   "title": "",
   "body": "  We can generalize what we have just found to any function of the form , where . Since increases without bound as , we find that will tend to 0. In fact, the numerator can be any constant and the function will still tend to 0!  Similarly, as , we find that will tend to 0 too.   "
 },
@@ -1904,16 +1913,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#act-rf-ha2",
   "type": "Activity",
-  "number": "4.6.11",
+  "number": "4.6.12",
   "title": "",
-  "body": "  Consider the rational function .  Observe that the largest power of that's present in is . In addition, because of the dominant terms of in the numerator and in the denominator, both the numerator and denominator of increase without bound as increases without bound.   In order to understand the end behavior of , we will start by writing the function in a different algebraic form. Multiply the numerator and denominator of by . Then distribute and simplify as much as possible in both the numerator and denominator to write in a different algebraic form. Which of the following is that new form?            another wrong answer?     Now determine the end behavior of each piece of the numerator and each piece of the denominator. Hint: Use to help!  Simplify your work from the previous step. Which of the following best describes the end behavior of ?  As , goes to .  As , goes to .  As , goes to .  As , goes to .    "
+  "body": "  Consider the rational function .  Observe that the largest power of that's present in is . In addition, because of the dominant terms of in the numerator and in the denominator, both the numerator and denominator of increase without bound as increases without bound.   In order to understand the end behavior of , we will start by writing the function in a different algebraic form. Multiply the numerator and denominator of by . Then distribute and simplify as much as possible in both the numerator and denominator to write in a different algebraic form. Which of the following is that new form?                Now determine the end behavior of each piece of the numerator and each piece of the denominator.  Use to help!    Simplify your work from the previous step. Which of the following best describes the end behavior of ?  As , goes to .  As , goes to .  As , goes to .  As , goes to .    "
 },
 {
   "id": "obs-rf-HAdef",
   "level": "2",
   "url": "PR6.html#obs-rf-HAdef",
   "type": "Observation",
-  "number": "4.6.12",
+  "number": "4.6.13",
   "title": "",
   "body": "  If the end behavior of a function tends toward a specific value , then we say that the function has a horizontal asymptote at .   "
 },
@@ -1922,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#activity-rf-HA-fluency",
   "type": "Activity",
-  "number": "4.6.13",
+  "number": "4.6.14",
   "title": "",
   "body": "  Find the horizontal asymptote (if one exists) of the following rational functions. Follow the same method we used in .                  There is no horizontal asymptote.                   There is no horizontal asymptote.                  There is no horizontal asymptote.    "
 },
@@ -1931,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#activity-rf-HA-fluencypt2",
   "type": "Activity",
-  "number": "4.6.14",
+  "number": "4.6.15",
   "title": "",
   "body": "  Some patterns have emerged from the previous problem. Fill in the rest of the sentences below to describe how to find horizontal asymptotes of rational functions.   If the degree of the numerator is the same as the degree of the denominator, then...  If the degree of the numerator is less than the degree of the denominator, then...  If the degree of the numerator is greater than the degree of the denominator, then...  "
 },
@@ -1940,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#activity-rf-matching",
   "type": "Activity",
-  "number": "4.6.15",
+  "number": "4.6.16",
   "title": "",
   "body": "  Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
 },
@@ -1949,27 +1958,36 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "PR6.html#activity-rf-graphs-with-holes",
   "type": "Activity",
-  "number": "4.6.16",
+  "number": "4.6.17",
   "title": "",
-  "body": "  MATCHING ACTIVITY INCLUDING GRAPHS WITH HOLES   QUESTIONS HERE!  "
+  "body": "  Consider the following six graphs of rational functions:                           Which of the graphs above represents the function ?  Which of the graphs above represents the function ?  "
 },
 {
   "id": "activity-rf-domain-and-zeros-fluency",
   "level": "2",
   "url": "PR6.html#activity-rf-domain-and-zeros-fluency",
   "type": "Activity",
-  "number": "4.6.17",
+  "number": "4.6.18",
   "title": "",
-  "body": " Find the roots of the rational function .   Find the -intercept of .   Find any horizontal asymptotes of .    Find any vertical asymptotes of .    Find any holes of .    Sketch .   "
+  "body": "  Let .   Find the roots of .  Find the -intercept of the graph of .   Find any horizontal asymptotes on the graph of .    Find any vertical asymptotes on the graph of .    Find any holes on the graph of .    Sketch the graph of .   "
 },
 {
   "id": "activity-rf-holes-extension",
   "level": "2",
   "url": "PR6.html#activity-rf-holes-extension",
   "type": "Activity",
-  "number": "4.6.18",
+  "number": "4.6.19",
   "title": "",
-  "body": "  EXTENSION ACTIVITY ABOUT HOLES   QUESTIONS HERE!  "
+  "body": "  For each of the following rational functions, identify the location of any potential hole in the graph. Then, create a table of function values for input values near where the hole should be located. Use your work to decide whether or not the graph indeed has a hole, with written justification.               "
+},
+{
+  "id": "PR6-3-19",
+  "level": "2",
+  "url": "PR6.html#PR6-3-19",
+  "type": "Activity",
+  "number": "4.6.20",
+  "title": "",
+  "body": "  Suppose you are given a function , and you know that and . What can you conlude about the function at ?   has a hole at .  has an asymptote at .  has either a hole or an asymptote at .  has neither a hole nor an asymptote at .    "
 },
 {
   "id": "backmatter-2",
