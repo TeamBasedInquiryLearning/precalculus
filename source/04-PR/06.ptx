@@ -51,12 +51,12 @@
     <observation xml:id="obs-rf-domain">
       <statement>
         <p>
-          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
+          Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The domain<idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
         </p>
        
       </statement>
     <aside>
-      <p>Recall that the domain of a function was defined in <xref ref="def-relation"/>.</p>
+      <p>Recall that the <term>domain</term> of a function was defined in <xref ref="def-relation"/>.</p>
     </aside>
     </observation>
    
