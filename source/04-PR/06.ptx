@@ -48,14 +48,14 @@
 
 
 
-    <definition xml:id="def-rf-domain">
+    <observation xml:id="obs-rf-domain">
       <statement>
         <p>
           Let <m>p</m> and <m>q</m> be polynomial functions so that <m>r(x) = \frac{p(x)}{q(x)}</m> is a rational function.  The <term>domain</term><idx><h>rational function</h><h>domain</h></idx> of <m>r</m> is the set of all real numbers except those for which <m>q(x) = 0</m>.
         </p>
        
       </statement>
-    </definition>
+    </observation>
    
     <activity xml:id="activity-rf-domain">
       <introduction>
@@ -232,11 +232,20 @@
        </p>
       </remark>
     
-      <activity xml:id="activity-rf-ha">
-        <introduction>
-          <p>Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function <m>r(x)</m> when <m>x</m> goes toward positive infinity or negative infinity. </p>
+      <observation xml:id="obs-rf-end_behavior">
+      <statement>
+        <p>Another property of rational functions we want to explore is the end behavior. This means we want to explore what happens to a given rational function <m>r(x)</m> when <m>x</m> goes toward positive infinity or negative infinity.
           
-        </introduction>
+        </p>
+       
+      </statement>
+      </observation>
+
+      <activity xml:id="activity-rf-ha">
+        <!-- <introduction>
+          <p> </p>
+          
+        </introduction> -->
         <task>
           <p>Consider the rational function <m>\displaystyle r(x)=\frac{1}{x^3}</m>. Plug in some very large positive numbers for <m>x</m> to see what <m>r(x)</m> is tending toward. Which of the following best describes the behavior of the graph as <m>x</m> approaches positive infinity? 
             <ol marker= "A.">  
@@ -280,7 +289,7 @@
       <activity xml:id="act-rf-ha2">
         <introduction>
           <p>
-            Consider the rational function <m>r(x) = \frac{3x^2 - 5x + 1}{7x^2 + 2x - 11}</m>.
+            Consider the rational function <m>\displaystyle r(x) = \frac{3x^2 - 5x + 1}{7x^2 + 2x - 11}</m>.
           </p>
           <p>
             Observe that the largest power of <m>x</m> that's present in <m>r(x)</m> is <m>x^2</m>.  In addition, because of the dominant terms of <m>3x^2</m> in the numerator and <m>7x^2</m> in the denominator, both the numerator and denominator of <m>r</m> increase without bound as <m>x</m> increases without bound.
@@ -308,9 +317,9 @@
               </m>
               </li>
               <li>
-                <p>
-                  another wrong answer?
-                </p>
+                <m>
+                  \frac{3x^2 - 5x +1}{7x^4+2x^3-11x^2}
+                </m>
               </li>
                
             </ol> 
@@ -320,7 +329,11 @@
         <task>
           
             <p>
-              Now determine the end behavior of each piece of the numerator and each piece of the denominator. Hint: Use <xref ref="obs-rf-HA"></xref> to help!
+              Now determine the end behavior of each piece of the numerator and each piece of the denominator. <hint>
+                <p>
+                  Use <xref ref="obs-rf-HA"></xref> to help!
+                </p>
+              </hint>
             </p>
           
         </task>
@@ -518,10 +531,10 @@
         </sbsgroup>
       </introduction>
       <task>
-        <p>Which of the graphs above represents the function <m>f(x)=\frac{2x}{x^2-2x-8}</m>?</p>
+        <p>Which of the graphs above represents the function <m>\displaystyle f(x)=\frac{2x}{x^2-2x-8}</m>?</p>
       </task>
       <task>
-        <p>Which of the graphs above represents the function <m>g(x)=\frac{x^2+3}{2x^2-8}</m>?</p>
+        <p>Which of the graphs above represents the function <m>\displaystyle g(x)=\frac{x^2+3}{2x^2-8}</m>?</p>
       </task>
     </activity>
 
@@ -529,32 +542,122 @@
 
     <activity xml:id="activity-rf-graphs-with-holes">
       <introduction>
-        <p>MATCHING ACTIVITY INCLUDING GRAPHS WITH HOLES </p>
-        
+        <p>Consider the following six graphs of rational functions:</p>
+        <sbsgroup>
+          <sidebyside width="30%">
+            <image>
+              <sageplot>
+                f(x) = ((x+2)*(x+3))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((5,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph A', (0, 8), fontsize=18, color='black')
+                p+=point((-2, -1/14), pointsize=50, markeredgecolor='blue',color='white',zorder=7)                
+                p
+              </sageplot>
+            </image>
+ 
+            <image>
+              <sageplot>
+                f(x) = ((x+2)*(x+3))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((5,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph B', (0, 8), fontsize=18, color='black')
+                p+=point((-3, 0), pointsize=50, markeredgecolor='blue',color='white',zorder=7)                
+                p
+              </sageplot>
+            </image>
+ 
+            <image>
+              <sageplot>
+                f(x) = ((x+2))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((5,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph C', (0, 8), fontsize=18, color='black')
+                p+=point((-2, 1/14), pointsize=50, markeredgecolor='blue',color='white',zorder=7)                
+                p
+              </sageplot>
+            </image>
+            </sidebyside>
+
+            <sidebyside width="30%">
+            <image>
+              <sageplot>
+                f(x) = ((x-5))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((-2,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph D', (0, 8), fontsize=18, color='black')
+                p+=point((5, 1/63), pointsize=50, markeredgecolor='blue',color='white',zorder=7)               
+                p
+              </sageplot>
+            </image>
+            <image>
+              <sageplot>
+                f(x) = ((x+2)*(x-5))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph E', (0, 8), fontsize=18, color='black')
+                p+=point((-2, 1/2), pointsize=50, markeredgecolor='blue',color='white',zorder=7)  
+                p+=point((5, 1/9), pointsize=50, markeredgecolor='blue',color='white',zorder=7)               
+                p
+              </sageplot>
+            </image>
+            <image>
+              <sageplot>
+                f(x) = ((x+2)*(x+3))/((x+2)*(x-5)*(x+4))
+                p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+                p+=parametric_plot((5,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((-4,x),(x,-8,8),color='red',linestyle="--")
+                p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
+                p+=text('Graph F', (0, 8), fontsize=18, color='black')               
+                p
+              </sageplot>
+            </image> 
+            
+            
+          </sidebyside>
+        </sbsgroup>
       </introduction>
       <task>
-        <p>QUESTIONS HERE! </p>
+        <p>Which of the graphs above represents the function <m>\displaystyle f(x)=\frac{x^2+5x+6}{(x^2-3x-10)(x+4)}</m>?</p>
+      </task>
+      <task>
+        <p>Which of the graphs above represents the function <m>\displaystyle g(x)=\frac{x^2-3x-10}{(x+2)(x^2-x-20)}</m>?</p>
       </task>
     </activity> 
  
     <activity xml:id="activity-rf-domain-and-zeros-fluency">
+      <introduction>
+        <p>
+          Let <m>f(x)=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>.
+        </p>
+      </introduction>
       <task>
-        <p><p> Find the roots of the rational function <m>f(x)=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p> </p>
+        <p> Find the roots of <m>f(x)</m>. </p>
       </task>
+
       <task>
-        <p> Find the <m>y</m>-intercept of <m>y=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p>
+        <p> Find the <m>y</m>-intercept of the graph of <m>f(x)</m>. </p>
   
       </task>
       <task>
         <statement>
-          <p> Find any horizontal asymptotes of <m>y=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p>
+          <p> Find any horizontal asymptotes on the graph of  <m>f(x)</m>. </p>
         </statement>
        
       </task>
 
       <task>
         <statement>
-          <p> Find any vertical asymptotes of <m>y=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p>
+          <p> Find any vertical asymptotes on the graph of <m>f(x)</m>. </p>
         </statement>
         <!-- <answer>
           <p> <m>x=-3</m>. </p>
@@ -562,7 +665,7 @@
       </task>
       <task>
         <statement>
-          <p> Find any holes of <m>y=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p>
+          <p> Find any holes on the graph of <m>f(x)</m>. </p>
         </statement>
         <!-- <answer>
           <p> There is a hole at <m>\left(1, \frac{3}{32} \right)</m>. </p>
@@ -570,7 +673,7 @@
       </task>
       <task>
         <statement>
-          <p> Sketch <m>y=\displaystyle \frac{ -{\left(x - 1\right)} {\left(x - 4\right)} }{ 2 \, {\left(x + 3\right)}^{2} {\left(x - 1\right)} }</m>. </p>
+          <p> Sketch the graph of <m>f(x)</m>. </p>
         </statement>
         <!-- <answer>
           <p> <image source="assets/PR6/generated/0019/plot.png" description="The plot of y=f(x), along with special points."/> </p>
@@ -579,14 +682,38 @@
    
     </activity> 
 
+<!-- the following activity is from Active Prelude to Calculus: Exercise 9 
+https://activecalculus.org/prelude/sec-poly-rational-features.html#ez-poly-rational-features-multiplicities -->
 
     <activity xml:id="activity-rf-holes-extension">
       <introduction>
-        <p>EXTENSION ACTIVITY ABOUT HOLES </p>
+        <p> For each of the following rational functions, identify the location of any potential hole in the graph.  Then, create a table of function values for input values near where the hole should be located.  Use your work to decide whether or not the graph indeed has a hole, with written justification. </p>
         
       </introduction>
       <task>
-        <p>QUESTIONS HERE! </p>
+        <p>
+          <m>\displaystyle r(x) = \frac{x^2-16}{x+4}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\displaystyle s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x - 6}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\displaystyle u(x) = \frac{(x-2)^3(x+3)}{(x^2 - 5x - 6)(x-7)}</m> 
+        </p>
+      </task>
+      <task>
+        <p>
+          <m>\displaystyle w(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          True or false:  given <m>r(x) = \frac{p(x)}{q(x)}</m>, if <m>p(a) = 0</m> and <m>q(a) = 0</m>, then <m>r</m> has a hole at <m>x = a</m>.
+        </p>
       </task>
     </activity> 
 
