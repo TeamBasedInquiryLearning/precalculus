@@ -199,10 +199,12 @@
       <activity xml:id="activity-fn-piecewise">
         <introduction>
           <p> Let <m>f(x)</m> be a piecewise function as shown below. 
-            <me>f(x)=\begin{cases}
+            <me>
+              f(x)=\begin{cases}
               x^2+3, &amp; x &lt; 5 \\
               9-2x, &amp; x \geq 5
-              \end{cases}</me>
+              \end{cases}
+            </me>
           </p>
         </introduction>
         <task>
@@ -216,12 +218,12 @@
                 <li> <m>x \geq 5</m></li>
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
-               A. <m>x&lt; 5</m>
+                A. <m>x &lt; 25</m>
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
@@ -236,12 +238,12 @@
                 <li> <m>7</m></li>
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                B. <m>x&lt; 4</m>
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
@@ -255,12 +257,12 @@
                 <li> <m>x \geq 5</m></li>
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                D. <m>x \geq 5</m>
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
@@ -275,12 +277,12 @@
                 <li> <m>28</m></li>
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                C. <m>-1</m>
               </p>
             </answer>
-          </statement>
         </task>
 
     
@@ -303,12 +305,12 @@
                 <li> <m>a-3</m></li>
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                B. <m>a^2-3a</m>
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
@@ -323,12 +325,12 @@
                 
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                C. <m>(x+h)^2-3(x+h)</m>
               </p>
             </answer>
-          </statement>
         </task>
       </activity>
 
@@ -358,12 +360,12 @@
                 
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                E. <m>4</m>
               </p>
             </answer>
-          </statement>
         </task>
         
 
@@ -383,12 +385,12 @@
                 
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                A. <m>-1</m>
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
@@ -406,12 +408,12 @@
                 
               </ol>
             </p>
+          </statement>
             <answer>
               <p>
                -1, 2, and 4
               </p>
             </answer>
-          </statement>
         </task>
         
         <task>
@@ -420,12 +422,12 @@
               For which <m>x</m>-value(s) does <m>f(x)=4</m>. Estimate as needed!
               
             </p>
+          </statement>
             <answer>
               <p>
                approximately -0.5, 1, and approximately 4.5
               </p>
             </answer>
-          </statement>
         </task>
 
         
@@ -437,24 +439,24 @@
           <statement>
             <p> Let <m>h(x)=5x+7</m>. 
               Find the <m>x</m>-value(s) such that <m>h(x)=-13</m>.</p>
+          </statement>
             <answer>
               <p>
                <m>-4</m> 
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
           <statement>
             <p> Let <m>f(x)=x^2-3x-9</m>. 
               Find the <m>x</m>-value(s) such that <m>f(x)=9</m>.</p>
+          </statement>
             <answer>
               <p>
                <m>-3</m> and <m>6</m>
               </p>
             </answer>
-          </statement>
         </task>
 
       </activity>
@@ -468,35 +470,35 @@
         <task>
           <statement>
             <p> How much money will be in her piggy bank after 5 weeks?</p>
+          </statement>
             <answer>
               <p>
                $<m>20.50</m> 
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
           <statement>
             <p> After how many weeks will she have $<m>40</m> in her piggy bank?</p>
+          </statement>
             <answer>
               <p>
                <m>18</m> weeks 
               </p>
             </answer>
-          </statement>
         </task>
 
         <task>
           <statement>
             <p> Let <m>f(x)=x^2-3x-9</m>. 
               Find the <m>x</m>-value(s) such that <m>f(x)=9</m>.</p>
+          </statement>
             <answer>
               <p>
                <m>-3</m> and <m>6</m>
               </p>
             </answer>
-          </statement>
         </task>
 
       </activity>
