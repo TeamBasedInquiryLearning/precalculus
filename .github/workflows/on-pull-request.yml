@@ -3,8 +3,8 @@ on:
     # Runs both on pull requests and when a pull request is merged.
     push:
         branches: ["main"]
-    pull:
-        branches: ["main"]
+    pull_request:
+        branches: ["*"]
 
 jobs:
     # This job builds the book. You can download the resulting build "artifact" by
