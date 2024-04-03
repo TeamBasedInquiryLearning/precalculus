@@ -277,7 +277,13 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-ray-with-open-endpoint">
-          <image source="Images/Ray-with-open-endpoint.jpg"/>
+          <!-- <image source="Images/Ray-with-open-endpoint.jpg"/> -->
+            <sageplot>
+              p=arrow((3,-4), (-4,8),xmin=-6,xmax=5,ymin=-6,ymax=8)
+              p+=point((3,-4),pointsize=50,color='blue')
+              p+=point((3,-4),pointsize=10,color='white',zorder=2)
+              p
+            </sageplot>
         </figure>
       </introduction>
       <task>
@@ -320,7 +326,16 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-nonlinear-function">
-          <image source="Images/Graph-with-open-and-closed-endpoints.jpg"/>
+          <!-- <image source="Images/Graph-with-open-and-closed-endpoints.jpg"/> -->
+            <sageplot>
+              p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8)
+              p+=line([(4,-5),(-1,6)],thickness=3)
+              p+=line([(-1,6),(-3,1)],thickness=3)
+              p+=point((5,-1),pointsize=50,color='blue')
+              p+=point((5,-1),pointsize=10,color='white',zorder=2)
+              p+=point((-3,1),pointsize=50,color='blue')
+              p
+            </sageplot>
         </figure>
       </introduction>
       <task>
@@ -450,7 +465,13 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-with-max-and-min-values">
-          <image source="Images/Graph-with-max-and-min.jpg"/>
+          <!-- <image source="Images/Graph-with-max-and-min.jpg"/> -->
+            <sageplot>
+              p=plot(spline([(-4,4),(-2,7),(2,-4),(5,10)]),(x,-4,5),thickness=3)
+              p+=point((-4,4),pointsize=50,color='blue',xmin=-7,xmax=8,ymin=-5,ymax=10)
+              p+=point((5,10),pointsize=50,color='blue')
+              p
+            </sageplot>
         </figure>
       </introduction>
       <task>
@@ -595,7 +616,14 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-with-all-characteristics">
-          <image source="Images/Graph-with-all-characteristics.jpg"/>
+          <!-- <image source="Images/Graph-with-all-characteristics.jpg"/> -->
+            <sageplot>
+              p=line([(-8,4),(-2,4)],thickness=3)
+              p+=plot(spline([(-2,4.1),(-0.5,8),(2,-3),(4.9,9.4)]),(x,-2,5),thickness=3)
+              p+=arrow((4.9,9.4),(5,10),thickness=3)
+              p+=point((-8,4),pointsize=50,color='blue',xmin=-9,xmax=6,ymin=-5,ymax=10)
+              p
+            </sageplot>
         </figure>
       </introduction>
       <task>
