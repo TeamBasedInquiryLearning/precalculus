@@ -17,17 +17,39 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: Build with PreTeXt
+            - name: Build web with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
+                  pretext-command: build web
                   project-root: "."
                   output-dir: "."
 
-            - name: Bundle output/web as artifact
+            - name: Build print with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build print
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Build slides with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build slides
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Stage with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: deploy --stage-only
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Bundle output/stage as artifact
               uses: actions/upload-artifact@v4
               with:
                   name: website
-                  path: output/web
+                  path: output/stage
 
     # This job deploys the artifact built in the previous job to Github pages.
     deploy:
