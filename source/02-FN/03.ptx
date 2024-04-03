@@ -154,7 +154,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-line-segment">
-          <!--<image source="Images/Graph-with-two-endpoints.jpg"/>-->
           <image>
             <sageplot>
               f(x) = 9/8*(x-4)+4
@@ -220,7 +219,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-ray">
-          <!-- <image source="Images/Graph-with-one-endpoint.jpg"/> -->
           <image>
             <sageplot>
               p=arrow((0,4), (9,-2),xmin=-2,xmax=9,ymin=-5,ymax=6)
@@ -277,7 +275,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-ray-with-open-endpoint">
-          <!-- <image source="Images/Ray-with-open-endpoint.jpg"/> -->
             <image>
             <sageplot>
               p=arrow((3,-4), (-4,8),xmin=-6,xmax=5,ymin=-6,ymax=8)
@@ -328,7 +325,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-nonlinear-function">
-          <!-- <image source="Images/Graph-with-open-and-closed-endpoints.jpg"/> -->
             <image>
             <sageplot>
               p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8)
@@ -469,7 +465,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-with-max-and-min-values">
-          <!-- <image source="Images/Graph-with-max-and-min.jpg"/> -->
             <image>
             <sageplot>
               p=plot(spline([(-4,4),(-2,7),(2,-4),(5,10)]),(x,-4,5),thickness=3)
@@ -622,7 +617,6 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-with-all-characteristics">
-          <!-- <image source="Images/Graph-with-all-characteristics.jpg"/> -->
             <image>
             <sageplot>
               p=line([(-8,4),(-2,4)],thickness=3)
