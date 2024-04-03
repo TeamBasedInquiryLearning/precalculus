@@ -154,7 +154,16 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-line-segment">
-          <image source="Images/Graph-with-two-endpoints.jpg"/>
+          <!--<image source="Images/Graph-with-two-endpoints.jpg"/>-->
+          <image>
+            <sageplot>
+              f(x) = 9/8*(x-4)+4
+              p=plot(f, (x, -4, 4), ymin=-7, ymax=7, xmin=-5,xmax=5,color='blue', thickness=3,)
+              p+=point((4,4),pointsize=50,color='blue')
+              p+=point((-4,-5),pointsize=50,color='blue')
+              p
+            </sageplot>
+          </image>
         </figure>
       </introduction>
       <task>
