@@ -27,7 +27,7 @@ jobs:
             - name: Stage with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
-                  pretext-command: stage
+                  pretext-command: deploy --stage-only
                   project-root: "."
                   output-dir: "."
 
