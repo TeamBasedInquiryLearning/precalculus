@@ -17,10 +17,24 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: Build with PreTeXt
+            - name: Build web with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
-                  pretext-command: build
+                  pretext-command: build web
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Build print with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build print
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Build slides with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build slides
                   project-root: "."
                   output-dir: "."
 
