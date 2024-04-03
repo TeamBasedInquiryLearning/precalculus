@@ -220,7 +220,14 @@
           Use the following graph to answer the questions below.
         </p>
         <figure xml:id="graph-of-ray">
-          <image source="Images/Graph-with-one-endpoint.jpg"/>
+          <!-- <image source="Images/Graph-with-one-endpoint.jpg"/> -->
+          <image>
+            <sageplot>
+              p=arrow((0,4), (9,-2),xmin=-2,xmax=9,ymin=-5,ymax=6)
+              p+=point((0,4),pointsize=50,color='blue')
+              p
+            </sageplot>
+          </image>
         </figure>
       </introduction>
       <task>
