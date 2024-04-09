@@ -14,14 +14,14 @@
     
     <definition xml:id="def-relation">
       <statement>
-        <p> A <term>relation</term> <idx><h>function</h><h>relation</h></idx> is a relationship between sets of values. Relations in mathematics are usually represented as ordered pairs: (input, output) or <m>(x, y)</m>. When observing relations, we often refer the <m>x</m>-values as the <term>domain</term> and the <m>y</m>-values as the <term>range</term>.</p>
+        <p> A <term>relation</term> <idx><h>function</h><h>relation</h></idx> is a relationship between sets of values. Relations in mathematics are usually represented as ordered pairs: (input, output) or <m>(x, y)</m>. When observing relations, we often refer to the <m>x</m>-values as the <term>domain</term> and the <m>y</m>-values as the <term>range</term>.</p>
       </statement>
     </definition>
 
     <definition xml:id="def-mapping-notation">
       <statement>
         <p>
-          <term>Mapping Notation</term> <idx><h>function</h><h>mapping notation</h></idx> (also known as an arrow diagram) is a way to show relationships visually between sets.  For example, suppose you are given the following ordered pairs: <m>(3, -8), (4,6), (2,-1)</m>. Each of the <m>x</m>-values "map onto" the <m>y</m>-values and can be represented in the following way: </p>
+          <term>Mapping Notation</term> <idx><h>function</h><h>mapping notation</h></idx> (also known as an arrow diagram) is a way to show relationships visually between sets.  For example, suppose you are given the following ordered pairs: <m>(3, -8), (4,6)</m>, and <m>(2,-1)</m>. Each of the <m>x</m>-values "map onto" a <m>y</m>-value and can be visualized in the following way: </p>
           <figure xml:id="mapping-notation-example">
             <image source="Images/Mapping-notation-example.jpg"/>
             <caption>Every <m>x</m>-value from the ordered pair list is listed in the input set and every <m>y</m>-value is listed in the output set. An arrow is drawn from every <m>x</m>-value to its corresponding <m>y</m>-value.</caption>
@@ -31,41 +31,117 @@
       </statement>
     </definition>
 
-    <activity xml:id="FN1-exploring-relations">
+    <activity xml:id="FN1-exploring-relations-1">
       <introduction>
         <p>
-          Use mapping notation to create a visual representation of each relation.
+          Use mapping notation to create a visual representation of the following relation.
+          <me>(-1,5), (2,6), (4,-2)</me>
         </p>
       </introduction>
       <task>
           <p>
-            <m>(-1,5), (2,6), (4,-2)</m>
-          </p>
+            What is the domain?
+            <ol marker= "A." cols="1">
+              <li> {<m>5, 6, -2</m>} </li>
+              <li> {<m>-1, 2, 4</m>}</li>
+              <li> {<m>-2, -1, 2, 4, 5, 6</m>} </li></ol></p>
+              <answer>
+                <p>
+                  B: {<m>-1, 2, 4</m>}
+                </p>
+              </answer>
       </task>
       <task>
           <p>
-            <m>(6,4), (3,4), (6,5)</m>  
-          </p>
+            What is the range?
+            <ol marker= "A." cols="1">
+              <li> {<m>5, 6, -2</m>} </li>
+              <li> {<m>-1, 2, 4</m>}</li>
+              <li> {<m>-2, -1, 2, 4, 5, 6</m>} </li></ol></p>
+              <answer>
+                <p>
+                  A: {<m>5, 6, -2</m>}
+                </p>
+              </answer>
+      </task>
+    </activity>
+
+    <activity xml:id="FN1-exploring-relations-2">
+      <introduction>
+        <p>
+          Use mapping notation to create a visual representation of the following relation.
+          <me>(6,4), (3,4), (6,5)</me> 
+        </p>
+      </introduction>
+      <task>
+          <p>
+            What is the domain?
+            <ol marker= "A." cols="1">
+              <li> {<m>3, 6</m>} </li>
+              <li> {<m>6, 3, 6</m>}</li>
+              <li> {<m>3, 4, 5, 6</m>} </li>
+              <li> {<m>4, 5</m>} </li></ol></p>
+              <answer>
+                <p>
+                  A: {<m>3, 6</m>}
+                </p>
+              </answer>
       </task>
       <task>
           <p>
-            <m>(1,2), (-5,2), (-7,2)</m> 
-          </p>
+            What is the range?
+            <ol marker= "A." cols="1">
+              <li> {<m>3, 6</m>} </li>
+              <li> {<m>6, 3, 6</m>}</li>
+              <li> {<m>3, 4, 5, 6</m>} </li>
+              <li> {<m>4, 5</m>} </li></ol></p>
+              <answer>
+                <p>
+                  D: {<m>4, 5</m>}
+                </p>
+              </answer>
+      </task>
+    </activity>
+
+    <activity xml:id="FN1-exploring-relations-3">
+      <introduction>
+        <p>
+          Use mapping notation to create a visual representation of the following relation.
+          <me>(1,2), (-5,2), (-7,2)</me> 
+        </p>
+      </introduction>
+      <task>
+          <p>
+            What is the domain?
+            <ol marker= "A." cols="1">
+              <li> {<m>2, 2, 2</m>} </li>
+              <li> {<m>-7, -5, 1, 2</m>}</li>
+              <li> {<m>-7, -5, 1</m>} </li>
+              <li> {<m>2</m>} </li></ol></p>
+              <answer>
+                <p>
+                  C: {<m>-7, -5, 1</m>}
+                </p>
+              </answer>
       </task>
       <task>
           <p>
-            Determine the domain and range of each relation.
-          </p>
-      </task>
-      <task>
-          <p>
-            What kinds of relationships do you notice?
-          </p>
+            What is the range?
+            <ol marker= "A." cols="1">
+              <li> {<m>2, 2, 2</m>} </li>
+              <li> {<m>-7, -5, 1, 2</m>}</li>
+              <li> {<m>-7, -5, 1</m>} </li>
+              <li> {<m>2</m>} </li></ol></p>
+              <answer>
+                <p>
+                  D: {<m>2</m>}
+                </p>
+              </answer>
       </task>
     </activity>
 
     <remark>
-      Notice that in <xref ref="FN1-exploring-relations"/>, each set represents a very different relationship. Many concepts in mathematics will depend on particular relationships, so it is important to be able to visualize relationships and compare them.
+      Notice that in <xref ref="FN1-exploring-relations-1"/>, <xref ref="FN1-exploring-relations-2"/>, and <xref ref="FN1-exploring-relations-3"/>, each set represents a very different relationship. Many concepts in mathematics will depend on particular relationships, so it is important to be able to visualize relationships and compare them.
     </remark>
 
     <definition xml:id="def-function">
@@ -85,26 +161,20 @@
         </p>
       </introduction>
       <task>
-        <p> Determine whether each of the following sets of ordered pairs represent a function.</p>
-        <p><ul>
-          <li>
+        <p>
+        Which of the following sets of ordered pairs represent a function?
+        <ol marker= "A." cols="1">
+          <li> <m>(-1,5), (2,6), (4,-2)</m> </li>
+          <li> <m>(6,4), (3,4), (6,5)</m> </li>
+          <li> <m>(1,2), (-5,2), (-7,2)</m> </li>
+          <li> <m>(-1,2), (-1,9), (1,9)</m> </li></ol> </p>
+          <answer>
             <p>
-              <m>(-1,5), (2,6), (4,-2)</m>
+              A and C
             </p>
-          </li>
-          <li>
-            <p>
-              <m>(6,4), (3,4), (6,5)</m> 
-            </p>
-          </li>
-          <li>
-            <p>
-              <m>(1,2), (-5,2), (-7,2)</m>
-            </p>
-          </li>
-        </ul>
-      </p> 
+          </answer>
     </task>
+
     <task>
       <p> Note that relations can be expressed in a table. A table of values is shown below. Is this an example of a function? Why or why not?
       </p>
@@ -134,11 +204,21 @@
                     <cell><m>1</m></cell>
                    </row>
                </tabular>
+               <answer>
+                <p>
+                  This relation is not a function. The <m>x</m>-value, <m>8</m>, has two outputs.
+                </p>
+              </answer>
     </task>
     <task>
         <p>
          Relations can also be expressed in words. Suppose you are looking at the amount of time you spend studying versus the grade you earn in your Algebra class. Is this an example of a function? Why or why not?
         </p>
+        <answer>
+          <p>
+            Yes, this is an example of a function. 
+          </p>
+        </answer>
     </task>
     </activity>
 
@@ -156,11 +236,23 @@
           <p>
             <m>(-4,3), (-1,8), (7,4), (1,9)</m>
           </p>
+          <answer>
+            <p>
+              Domain: {<m>-4, -1, 1, 7</m>}; 
+              Range: {<m>3, 4, 8, 9</m>}
+            </p>
+          </answer>
       </task>
       <task>
         <p>
           <image source="Images/Mapping-notation-example.jpg"/>
         </p>
+        <answer>
+          <p>
+            Domain: {<m>2, 3, 4</m>}; 
+            Range: {<m>-8, -1, 6</m>}
+          </p>
+        </answer>
     </task>
     <task>
         <p>
@@ -187,11 +279,23 @@
                 </row>
                </tabular>
         </p>
+        <answer>
+          <p>
+            Domain: {<m>-2, 0, 3, 8</m>}; 
+            Range: {<m>1, 4, 5, 6</m>}
+          </p>
+        </answer>
     </task>
     <task>
       <p>
         The amount of time you spend studying versus the grade you earn in your Algebra class.
       </p>
+      <answer>
+        <p>
+          Domain: {time studying}; 
+          Range: {grade in Algebra class}
+        </p>
+      </answer>
   </task>
     </activity>
 
@@ -210,6 +314,11 @@
         </sageplot>
       </image>
     </p>
+    <answer>
+      <p>
+        This relation is a function.
+      </p>
+    </answer>
 </task>
 <task>
   <p>
@@ -222,6 +331,11 @@
       </sageplot>
     </image>
   </p>
+  <answer>
+    <p>
+      This relation IS NOT a function.
+    </p>
+  </answer>
 </task>
 <task>
   <p>
@@ -234,14 +348,23 @@
       </sageplot>
     </image>
   </p>
+  <answer>
+    <p>
+      This relation is a function.
+    </p>
+  </answer>
 </task>
     </activity>
 
+    <remark>
+      You probably noticed (in <xref ref="FN1-determine-function-from-graph"/>) that when the graph has points that "line up" or are on top of each other, they have the same <m>x</m>-values. When this occurs, this shows that the same <m>x</m>-value has two different outputs (<m>y</m>-values) and that the relation is not a function.
+    </remark>
+    
     <definition xml:id="def-vertical-line-test">
       <statement>
         <p>
           The <term>vertical line test</term> is a method used to determine whether a relation on a graph is a function. </p>
-          <p>Start by drawing a vertical line anywhere on the graph and observe the number of times the relation on the graph intersects with the vertical line. If the vertical line intersects the graph at exactly one point, then the relation is a function. If, however, the graph of the relation intersects the vertical line more than once (anywhere on the graph), then the relations is not a function.
+          <p>Start by drawing a vertical line anywhere on the graph and observe the number of times the relation on the graph intersects with the vertical line. If every possible vertical line intersects the graph at exactly one point, then the relation is a function. If, however, the graph of the relation intersects a vertical line more than once (anywhere on the graph), then the relation is not a function.
         </p>
       </statement>
     </definition>
@@ -249,7 +372,7 @@
     <activity xml:id="FN1-determine-if-function-using-vertical-line-test">
   <introduction>
     <p>
-      Determine whether each of the following graphs are functions by using the vertical line test (<xref ref="def-vertical-line-test"/>).
+      Use the vertical line test (<xref ref="def-vertical-line-test"/>) to determine whether each graph of a relation represents a function.
     </p>
   </introduction>
   <task>
@@ -261,6 +384,11 @@
         p
       </sageplot>
     </image>
+    <answer>
+      <p>
+        This graph does not pass the vertical line test and is therefore NOT a function.
+      </p>
+    </answer>
   </task>
   <task>
     <image>
@@ -270,6 +398,11 @@
         p
       </sageplot>
     </image>
+    <answer>
+      <p>
+        This graph passes the vertical line test and is therefore a function.
+      </p>
+    </answer>
   </task>
   <task>
     <image>
@@ -279,6 +412,11 @@
         p
       </sageplot>
     </image>
+    <answer>
+      <p>
+        This graph passes the vertical line test and is therefore a function.
+      </p>
+    </answer>
   </task>
   <task>
     <image>
@@ -289,30 +427,36 @@
         p
       </sageplot>
     </image>
+    <answer>
+      <p>
+        This graph does not pass the vertical line test and is therefore NOT a function.
+      </p>
+    </answer>
   </task>
 </activity>
 
 <activity xml:id="FN1-determine-if-function-from-equation">
   <introduction>
     <p>
-      Let's explore how to look at an equation to determine if it is a function.
+      Let's explore how to determine whether an equation represents a function.
     </p>
   </introduction>
-<task>
+  <task>
     <p>
-      Suppose you are given the equation <m>x^2+y^2=9</m>.
+      Suppose you are given the equation <m>x=y^2</m>.
       <ul>
         <li>
-            If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x^2+y^2=9</m>?
+            If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x=y^2</m>?
         </li>
         <li>
           <p>
-            Based on this information, do you think <m>x^2+y^2=9</m> is a function? 
+            Based on this information, do you think <m>x=y^2</m> is a function? 
           </p>
         </li>
       </ul>
     </p>
-</task>
+  </task>
+  
 <task>
   <p>
     Suppose you are given the equation <m>y=3x^2+2</m>.
@@ -327,21 +471,25 @@
       </li>
     </ul>
   </p>
-</task><task>
+</task>
+
+<task>
   <p>
-    Suppose you are given the equation <m>x=y^2</m>.
+    Suppose you are given the equation <m>x^2+y^2=9</m>.
     <ul>
       <li>
-          If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x=y^2</m>?
+          If <m>x=4</m>, what kind of <m>y</m>-values would you get for <m>x^2+y^2=9</m>?
       </li>
       <li>
         <p>
-          Based on this information, do you think <m>x=y^2</m> is a function? 
+          Based on this information, do you think <m>x^2+y^2=9</m> is a function? 
         </p>
       </li>
     </ul>
   </p>
-</task><task>
+</task>
+
+<task>
   <p>
     Suppose you are given the equation <m>y=-4x-3</m>.
     <ul>
@@ -381,26 +529,41 @@
         <li> <m> 0</m> </li>
         <li> <m>4</m> </li>
         <li> <m>-5</m> </li></ol></p>
-  </task>
+        <answer>
+          <p>
+            A and D
+          </p>
+        </answer>
+      </task>
   <task>
       <p>
-        Based on this information, what values of <m>x</m> would the equation exist? 
+        Based on this information, for what values of <m>x</m> would the equation exist? 
         <ol marker= "A." cols="2">
           <li> <m>-2</m> </li>
           <li> <m> 0</m> </li>
           <li> <m>4</m> </li>
           <li> <m>-5</m> </li></ol>
       </p>
-  </task>
+      <answer>
+        <p>
+          B and C
+        </p>
+      </answer>
+    </task>
   <task>
       <p>
         How can we represent the domain of this equation in interval notation?
         <ol marker= "A." cols="2">
           <li> <m>(-\infty,0)</m> </li>
-          <li> <m> (0,\infty)</m> </li>
+          <li> <m> [0,\infty)</m> </li>
           <li> <m>(0, 0)</m> </li>
           <li> <m>(-\infty,\infty)</m> </li></ol>
       </p>
+      <answer>
+        <p>
+          B: <m> [0,\infty)</m>
+        </p>
+      </answer>
   </task>
 </activity>
   
@@ -418,16 +581,26 @@
           <li> <m> 0</m> </li>
           <li> <m>4</m> </li>
           <li> <m>-5</m> </li></ol></p>
-    </task>
+          <answer>
+            <p>
+              None of the values will give an error.
+            </p>
+          </answer>
+        </task>
     <task>
         <p>
-          Based on this information, what values of <m>x</m> would the equation exist? 
+          Based on this information, for what values of <m>x</m> would the equation exist? 
           <ol marker= "A." cols="2">
             <li> <m>-2</m> </li>
             <li> <m> 0</m> </li>
             <li> <m>4</m> </li>
             <li> <m>-5</m> </li></ol>
         </p>
+        <answer>
+          <p>
+            A, B, C, and D
+          </p>
+        </answer>
     </task>
     <task>
         <p>
@@ -438,6 +611,11 @@
             <li> <m>(-5, 1)</m> </li>
             <li> <m>(-\infty,\infty)</m> </li></ol>
         </p>
+        <answer>
+          <p>
+            D: <m>(-\infty,\infty)</m>
+          </p>
+        </answer>
     </task>
   </activity>
 
@@ -455,16 +633,26 @@
           <li> <m> 0</m> </li>
           <li> <m>-4</m> </li>
           <li> <m>5</m> </li></ol></p>
+          <answer>
+            <p>
+              D: 5
+            </p>
+          </answer>    
     </task>
     <task>
         <p>
-          Based on this information, what values of <m>x</m> would the equation exist? 
+          Based on this information, for what values of <m>x</m> would the equation exist? 
           <ol marker= "A." cols="2">
             <li> <m>-3</m> </li>
             <li> <m> 0</m> </li>
             <li> <m>-4</m> </li>
             <li> <m>5</m> </li></ol>
         </p>
+        <answer>
+          <p>
+            A, B, and C
+          </p>
+        </answer>
     </task>
     <task>
         <p>
@@ -475,6 +663,11 @@
             <li> <m>(-5, 5)</m> </li>
             <li> <m>(-\infty,5)</m>U<m>(5,\infty)</m> </li></ol>
         </p>
+        <answer>
+          <p>
+            D: <m>(-\infty,5)</m>U<m>(5,\infty)</m>
+          </p>
+        </answer>
     </task>
 </activity>
 
