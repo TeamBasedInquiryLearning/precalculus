@@ -12,6 +12,188 @@
     <subsection>
     <title>Activities</title>
     
+    <activity xml:id="activity-fn5-sum-diff">
+      <introduction>
+        <p> Let <m>f(x)=x^2-3x</m> and <m>g(x)= x^3-4x^2+7</m>. </p> 
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            Which of the following seems likely to be the most simplified form of <m>f(x)+g(x)</m>?
+
+            <ol marker= "A.">  
+              <li> <m>x^2-3x+x^3-4x^2+7 </m></li>
+              <li> <m>x^5-7x^3+7</m></li>
+              <li> <m>-x^3+5x^2-3x-7 </m></li>
+              <li> <m>x^3-3x^2-3x+7</m></li>
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              D. (A isn't simplified, B added exponents and coefficients down the line, C is subtraction)
+            </p>
+          </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which of the following seems likely to be the most simplified form of <m>f(x)-g(x)</m>?
+
+            <ol marker= "A.">  
+              <li> <m>x^3-3x^2-3x+7 </m></li>
+              <li> <m>-x^3+5x^2-3x-7</m></li>
+              <li> <m>-x^3-3x^2-3x+7  </m></li>
+              <li> <m>x^2-3x-x^3+4x^2-7</m></li>
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              B. (A is added, C didn't distribute the negative to all terms of <m>g(x)</m>, D isn't simplified )
+            </p>
+          </answer>
+      </task>
+    
+ 
+    </activity>
+
+
+    <activity xml:id="activity-fn5-prod-quot">
+      <introduction>
+        <p> Let <m>f(x)=\sqrt{x+1}</m> and <m>g(x)= 5x</m>. </p> 
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            Which of the following seems likely to be <m>f(x)\cdot g(x)</m>?
+
+            <ol marker= "A.">  
+              <li> <m>\sqrt{5x+1} </m></li>
+              <li> <m>5\sqrt{x+1}</m></li>
+              <li> <m>\sqrt{5x^2+5x}</m></li>
+              <li> <m>5x\sqrt{x+1}</m></li>
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              D. (A is f(g(x)), B is <m>g(f(x))</m>, C distributed under the radical)
+            </p>
+          </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which of the following seems likely to be  <m>\frac{f(x)}{g(x)}</m>?
+
+            <ol marker= "A.">  
+              <li> <m>\frac{5x}{\sqrt{x+1}}
+              </m></li>
+              <li> <m>\frac{\sqrt{x+1}}{5x}</m></li>
+              <li> <m> \sqrt{\frac{x}{5x}+\frac{1}{5x}} </m></li>
+              <li> <m>\sqrt{\frac{5x}{x}+\frac{5x}{1}} </m></li>
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              B. (A is g/f, C divides each term under the radical by g, D flips the fractions in C )
+            </p>
+          </answer>
+      </task>
+
+    </activity>
+
+    <remark>
+      <p>
+        In <xref ref="activity-fn5-sum-diff" /> and <xref ref="activity-fn5-prod-quot" />, we have found the sum, difference, product, and quotient of two functions. We can use the following notation for these newly created functions:
+        <md>
+          <mrow>(f+g)(x) \amp = f(x)+g(x) </mrow>
+          <mrow>(f-g)(x) \amp = f(x)-g(x) </mrow>
+          <mrow>(f\cdot g)(x) \amp = f(x)\cdot g(x) </mrow>
+          <mrow>\left(\frac{f}{g}\right)(x) \amp = \frac{f(x)}{g(x)}</mrow>
+        </md>
+
+      With <m>\left(\frac{f}{g}\right)(x) </m>, we note that the quotient is only defined when <m>g(x)\neq 0</m>.
+
+      </p>
+    </remark>
+
+    <activity xml:id="activity-fn5-composition-1">
+      <introduction>
+        <p> Let <m>\displaystyle f(x)=\frac{1}{3x-5}</m>. </p> 
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            If you were asked to find <m>f(x^3-2)</m>, how do you think you would proceed?
+
+            <ol marker= "A.">  
+              <li> Multiply the original function <m>\frac{1}{3x-5}</m> by <m>x^3-2</m>.</li>
+              <li> Plug the expression <m>x^3-2</m> in for all the <m>x</m>-values in <m>\frac{1}{3x-5}</m>. </li>
+              <li> Plug the original function <m>\frac{1}{3x-5}</m> in for all the <m>x</m>-values in <m>x^3-2</m>. </li>
+              <li> NEED ANOTHER PLAUSIBLE WRONG ANSWER! </li>
+              
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              B. (A is multiplying, C is g(f))
+            </p>
+          </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find <m>f(x^3-2)</m>.
+
+            <ol marker= "A.">  
+              <li> <m>\frac{1}{3x-5} \cdot (x^3-2)</m></li>
+              <li> <m>\frac{1}{3(x^3-2)-5}</m></li>
+              <li>  <m>\left(\frac{1}{3x-5} \right)^3-2</m> </li>
+              <li> NEED ANOTHER PLAUSIBLE WRONG ANSWER to go with the wrong answer above! </li>
+              
+            </ol>
+          </p>
+        </statement>
+          <answer>
+            <p>
+              B. (these mirror the previous answer choices)
+            </p>
+          </answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What if we gave the expression <m>x^3-2</m> a name? Let's define <m>g(x)=x^3-2</m>. What's another way we could denote <m>f(x^3-2)</m>
+            <ol marker= "A.">  
+              <li> <m>f(x) \cdot g(x)</m></li>
+              <li> <m>g(f(x))</m></li>
+              <li>  <m>f(g(x))</m> </li>
+              <li> <m>\frac{f(x)}{g(x)}  </m> </li>
+              
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            C. 
+          </p>
+        </answer>
+      </task>
+
+
+    </activity>
+
     </subsection>
 
     <subsection>
