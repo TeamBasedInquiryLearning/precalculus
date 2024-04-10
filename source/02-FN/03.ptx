@@ -181,12 +181,12 @@
               <li> <m>[-4, 4]</m> </li>
               <li> <m>[-5, 4]</m> </li>
               <li> <m>[4, -5]</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>[-5,4]</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>[-5,4]</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -204,12 +204,12 @@
               <li> <m>[-4, 4]</m> </li>
               <li> <m>[-5, 4]</m> </li>
               <li> <m>[4, -5]</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice B: <m>[-4, 4]</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice B: <m>[-4, 4]</m>
+          </p>
+        </answer>
       </task>
     </activity>
     
@@ -237,12 +237,12 @@
               <li> <m>(-\infty, 0]</m> </li>
               <li> <m>(-\infty, 4]</m> </li>
               <li> <m>[0, \infty)</m> </li></ol></p>
-              <answer>
+        </statement>
+        <answer>
                 <p>
                   Choice D: <m>[0,\infty)</m>
                 </p>
               </answer>
-        </statement>
       </task>
       <task>
         <statement>
@@ -253,12 +253,12 @@
               <li> <m>(-\infty, 0]</m> </li>
               <li> <m>(-\infty, 4]</m> </li>
               <li> <m>[0, \infty)</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>(-\infty, 4]</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>(-\infty, 4]</m>
+          </p>
+        </answer>
       </task>
     </activity>
 
@@ -294,12 +294,12 @@
               <li> <m>(\infty, -4]</m> </li>
               <li> <m>(-4, \infty)</m> </li>
               <li> <m>(-\infty, 3]</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice A: <m>(-\infty, 3)</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice A: <m>(-\infty, 3)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -310,12 +310,12 @@
               <li> <m>(\infty, -4]</m> </li>
               <li> <m>(-4, \infty)</m> </li>
               <li> <m>(-\infty, 3]</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>(-4, \infty)</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>(-4, \infty)</m>
+          </p>
+        </answer>
       </task>
     </activity> 
     
@@ -347,12 +347,12 @@
               <li> <m>(-5, 7)</m> </li>
               <li> <m>[-5, 7]</m> </li>
               <li> <m>[-3,5)</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice D: <m>[-3,5)</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice D: <m>[-3,5)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -363,12 +363,12 @@
               <li> <m>(-5, 7)</m> </li>
               <li> <m>[-5, 7]</m> </li>
               <li> <m>[-3,5)</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>[-5,7]</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>[-5,7]</m>
+          </p>
+        </answer>
       </task>
     </activity>
 
@@ -402,12 +402,12 @@
               <li> <m>(-\infty, -1)</m> </li>
               <li> <m>(-1,\infty)</m> </li>
               <li> <m>[-1,\infty)</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice B: <m>(-\infty, -1)</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice B: <m>(-\infty, -1)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <p>
@@ -423,12 +423,12 @@
               <li> <m>(-\infty, -1)</m> </li>
               <li> <m>(-1,\infty)</m> </li>
               <li> <m>[-1,\infty)</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>(-1,\infty)</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>(-1,\infty)</m>
+          </p>
+        </answer>
       </task>
       <task>
       <p>
@@ -484,12 +484,12 @@
               <li> <m>x=-2</m> </li>
               <li> <m>x=2</m> </li>
               <li> <m>x=5</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice D: <m>x=5</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice D: <m>x=5</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -500,12 +500,12 @@
               <li> <m>7</m> </li>
               <li> <m>4</m> </li>
               <li> <m>-4</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice A: <m>10</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice A: <m>10</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -516,12 +516,12 @@
               <li> <m>x=-2</m> </li>
               <li> <m>x=2</m> </li>
               <li> <m>x=5</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>x=2</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>x=2</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -532,12 +532,12 @@
               <li> <m>7</m> </li>
               <li> <m>4</m> </li>
               <li> <m>-4</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice D: <m>-4</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice D: <m>-4</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -548,12 +548,12 @@
               <li> <m>x=-2</m> </li>
               <li> <m>x=2</m> </li>
               <li> <m>x=5</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice B: <m>x=-2</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice B: <m>x=-2</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -564,12 +564,12 @@
               <li> <m>7</m> </li>
               <li> <m>4</m> </li>
               <li> <m>-4</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice B: <m>7</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice B: <m>7</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -580,12 +580,12 @@
               <li> <m>x=-2</m> </li>
               <li> <m>x=2</m> </li>
               <li> <m>x=5</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice C: <m>x=2</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice C: <m>x=2</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -596,12 +596,12 @@
               <li> <m>7</m> </li>
               <li> <m>4</m> </li>
               <li> <m>-4</m> </li></ol></p>
-              <answer>
-                <p>
-                  Choice D: <m>-4</m>
-                </p>
-              </answer>
         </statement>
+        <answer>
+          <p>
+            Choice D: <m>-4</m>
+          </p>
+        </answer>
       </task>
     </activity>
 
