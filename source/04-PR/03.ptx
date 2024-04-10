@@ -9,17 +9,104 @@
       </li>
     </ul>
     </objectives>
-    <introduction><p>We know how to reduce rational functions by factoring, but how do we simplify rational functions if we are not able to reduce by easily factoring?
-      
-    </p>
-    </introduction>
-    <definition xml:id="proper-rational-function">
-      <statement>
-        <p> A <term>proper rational function</term> is a rational function where the degree of the numerator is less than the degree of the denominator.  </p>
-      </statement>
-    </definition>
+
     <subsection>
     <title>Activities</title>
+    <observation>
+      <p>We have seen previously that we can reduce rational functions by factoring, for example
+        <me>\frac{x^2+5x+4}{x^4+3x^2+2x}=\frac{(x+1)(x+4)}{x(x+2)(x+1)}=\frac{x+4}{x(x+2)}.</me>
+        In this section, we wille explore what can we do to simplify rational functions if we are not able to 
+        reduce by easily factoring?
+    </p>
+  </observation>
+    <definition xml:id="proper-rational-function">
+      <statement>
+        <p> Recall that a fraction is called <term>proper</term> if its numerator is smaller than its denominator, and <term>improper</term> 
+          if the numerator is larger than the denominator (so <m>\frac{3}{5}</m> is a proper fraction, but <m>\frac{32}{7}</m> is an 
+          improper fraction).  Similarly, we define a <term>proper rational function</term> to be a rational function where 
+          the degree of the numerator is less than the degree of the denominator.  </p>
+      </statement>
+    </definition>
+
+    <activity xml:id="identify-improper-rational-functions">
+      <statement>
+        Label each of the following rational functions as either <term>proper</term> or <term>improper</term>.
+        <ol marker="A.">
+          <li><m> \frac{x^3+x}{x^2+4}</m></li>
+          <li><m> \frac{3}{x^2+3x+4}</m></li>
+          <li><m> \frac{7+x^3}{x^2+x+1}</m></li>
+          <li><m> \frac{x^4+x+1}{x^4+4x^2}</m></li>
+        </ol>
+      </statement>
+    </activity>
+
+    <observation>
+      <p>When dealing with an improper fraction such as <m>\frac{32}{7}</m>, it is sometimes useful to rewrite this
+        as an integer plus an improper fraction <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
+        useful to rewrite an improper rational function as the sum of a polynomial and a proper rational function, such 
+        as <m>\frac{x^3+x}{x^2+4}=x-\frac{3x}{x^2+4}</m>.
+      </p>
+    </observation>
+
+    <activity xml:id="Long-division-integer">
+    <introduction>
+      Consider the improper fraction <m>\frac{357}{11}</m>.
+    </introduction>
+    <task><p>Use long division to write <m>\frac{357}{11}</m> as an integer plus a proper fraction.</p>
+    </task>
+    <task><p>Now we will carefully redo this process in a way that we can generalize to rational functions.  
+      Note that we can rewrite <m>357</m> as <m>357=3*10^2+5*10+7</m>, and <m>11</m> as <m>11=1*10+1</m>. 
+      By comparing the leading terms in these expansions, we see that to knock off the leading term of <m>357</m>, we need to
+      multiply <m>11</m> by <m>3*10^1</m>.
+    </p>
+    <p>Using the fact that <m>357=11*30+27</m>, rewrite <m>\frac{357}{11}</m> as <m>\frac{357}{11}=30+\frac{?}{11}</m>.
+    </p>
+  </task>
+  <task>
+    <p>Note now that if we can rewrite <m>\frac{27}{11}</m> as an integer plus a proper fraction, we will be done, 
+      since <m>\frac{357}{11}=30+\frac{27}{11}</m>.
+    </p>
+    <p>
+      Rewrite <m>27=?+\frac{?}{11}</m> as an integer plus a proper fraction.
+    </p>
+  </task>
+  <task>
+    <p>Combine your work in the previous two parts to rewrite <m>\frac{357}{11}</m> as an integer plus a proper fraction.  
+      How does this compare to what you obtained in part (a)?
+    </p>
+  </task>
+  </activity>
+
+<activity xml:id="long-division-activity-1">
+  <introduction>
+    <p>
+      Now let's consider the rational function <m>\frac{3x^2+5x+7}{x+1}</m>.  We want to rewrite this as a polynomial
+      plus a proper rational function.
+    </p>
+  </introduction>
+  <task>
+    <p>Looking at the leading terms, what do we need to multiply <m>x+1</m> by so that it would have the same leading term
+      as <m>3x^2+5x+7</m>?
+    </p>
+  </task>
+  <task>
+    <p>Rewrite <m>3x^2+5x+7=3x(x+1)+?</m>, and use this to rewrite <m>\frac{3x^2+5x+7}{x+1}=3x+\frac{?}{x+1}</m>.
+    </p>
+  </task>
+  <task>
+    <p>
+      Now focusing on <m>\frac{2x+7}{x+1}</m>, what do we need to multiply <m>x+1</m> by so that it would have the same leading term
+      as <m>2x+7</m>?
+    </p>
+  </task>
+  <task>
+  <p> Rewrite <m>\frac{2x+7}{x+1}=2x+\frac{?}{x+1}</m>.</p>
+  </task>
+  <task>
+    <p>Combine this with the previous parts to rewrite <m>\frac{3x^2+5x+7}{x+1}=3x+?+\frac{?}{x+1}</m>.</p>
+  </task>
+</activity>
+
     <activity xml:id="Long-Division-Basic">
       
         <task><p>346 can be written as <m> 3*10^2+4*10+7</m>. This is equivalent to the polynomial <m>f(x)=3x^2+4x+7</m> for <m>f(10)</m>. <m>17</m> can be written as <m>10+7</m>, which is equivalent to the polynomial <m>f(x)=x+7</m> for <m>f(10)</m>. Use long division to find the quotient and remainder when 346 is divided by 17. 
