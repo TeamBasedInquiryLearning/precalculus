@@ -26,6 +26,14 @@
       output-filename="TBIL-Precalculus-2024.pdf"
       deploy-dir="2024/pdf">
       <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>    
+    <target 
+      name="instructor-print" 
+      format="pdf"
+      publication="instructor.ptx"
+      output-filename="TBIL-Precalculus-2024-Instructor-Version.pdf"
+      deploy-dir="2024/pdf">
+      <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
     <target
       name="slides"
