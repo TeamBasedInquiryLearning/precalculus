@@ -31,6 +31,20 @@ jobs:
                   project-root: "."
                   output-dir: "."
 
+            - name: Build instructor version with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build instructor
+                  project-root: "."
+                  output-dir: "."
+                  
+            - name: Build instructor-print version with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build instructor-print
+                  project-root: "."
+                  output-dir: "."
+
             - name: Build slides with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
