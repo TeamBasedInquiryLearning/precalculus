@@ -12,6 +12,13 @@
       format="html" 
       deploy-dir="2024">
       <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>    
+    <target 
+      name="instructor" 
+      format="html" 
+      publication="instructor.ptx"
+      deploy-dir="2024/instructor">
+      <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
     <target 
       name="print" 
