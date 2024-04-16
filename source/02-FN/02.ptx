@@ -25,7 +25,7 @@
         </p>
 
         <p>
-          Generally, we use the letter <m>f</m> for functions. Other letters are okay as well; <m>g(x)</m> and <m>h(x)</m> are common . If we are using multiple functions at one time, we often denote them with different letters so we can refer to one without any confusion as to which function we mean.
+          Generally, we use the letter <m>f</m> for functions. Other letters are okay as well; <m>g(x)</m> and <m>h(x)</m> are common. If we are using multiple functions at one time, we often denote them with different letters so we can refer to one without any confusion as to which function we mean.
         </p>
       </remark>
 
@@ -221,7 +221,7 @@
           </statement>
             <answer>
               <p>
-                A. <m>x &lt; 25</m>
+                A. <m>x &lt; 5</m>
               </p>
             </answer>
         </task>
@@ -411,7 +411,7 @@
           </statement>
             <answer>
               <p>
-               -1, 2, and 4
+               A. <m>-1</m>, D. <m>2</m>, and F. <m>4</m>
               </p>
             </answer>
         </task>
@@ -485,18 +485,6 @@
             <answer>
               <p>
                <m>18</m> weeks 
-              </p>
-            </answer>
-        </task>
-
-        <task>
-          <statement>
-            <p> Let <m>f(x)=x^2-3x-9</m>. 
-              Find the <m>x</m>-value(s) such that <m>f(x)=9</m>.</p>
-          </statement>
-            <answer>
-              <p>
-               <m>-3</m> and <m>6</m>
               </p>
             </answer>
         </task>
