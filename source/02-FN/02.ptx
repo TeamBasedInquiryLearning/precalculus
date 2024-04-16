@@ -137,7 +137,7 @@
         </answer>
       </activity>
 
-      <remark>
+      <remark xml:id="remark-fn-notation">
       If we are asked to find the value of <m>f(x)</m> for a certain <m>x</m>-value, say <m>x=5</m>, we use the notation <m>f(5)</m> to indicate that.
       </remark>
 
