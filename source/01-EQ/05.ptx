@@ -122,16 +122,24 @@
         </p>
       </introduction>
       <task>
+        <statement>
             <m>(2x-5)(x+7)=0</m>
+        </statement>
       </task>
       <task>
+        <statement>
           <m>3x(4x-1)=0</m>
+    </statement>
     </task>
       <task>
+        <statement>
           <m>3x^2-14x-5=0</m>
+    </statement>
     </task>
     <task>
+      <statement>
         <m>6-x^2=3x</m>
+  </statement>
   </task>
     </activity>
 
@@ -231,19 +239,29 @@
         </p>
       </introduction>
       <task>
+        <statement>
         <m>5x^2+7=47</m>
+        </statement>
       </task>
       <task>
+        <statement>
         <m>2x^2=-144</m>
+        </statement>
       </task>
       <task>
+        <statement>
         <m>3x^2+1=25</m>
+      </statement>
       </task>
       <task>
+        <statement>
         <m>(x+2)^2+3=19</m>
+      </statement>
       </task>
       <task>
+        <statement>
         <m>3(x-4)^2=15</m>
+      </statement>
       </task>
     </activity>
     
@@ -392,13 +410,19 @@
     </p>
   </introduction>
   <task>
+    <statement>
     <m>x^2-12x=-11</m>
+  </statement>
   </task>
   <task>
+    <statement>
     <m>x^2+2x-33=0</m>
+  </statement>
   </task>
   <task>
+    <statement>
     <m>4x^2+16x=65</m>
+  </statement>
   </task>
 </activity>
 
@@ -535,16 +559,24 @@
     </p>
   </introduction>
   <task>
+    <statement>
     <m>2x^2-3x=5</m>
+  </statement>
   </task>
   <task>
+    <statement>
     <m>4x^2-1=-8x</m>
+    </statement>
   </task>
   <task>
+    <statement>
     <m>2x^2-7x-13=-10</m>
+    </statement>
   </task>
   <task>
+    <statement>
     <m>x^2-6x+12=0</m>
+    </statement>
   </task>
 </activity>
 
