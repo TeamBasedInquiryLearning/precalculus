@@ -39,12 +39,14 @@
         </p>
       </introduction>
       <task>
+        <statement>
           <p>
             What is the domain?
             <ol marker= "A." cols="1">
               <li> {<m>5, 6, -2</m>} </li>
               <li> {<m>-1, 2, 4</m>}</li>
               <li> {<m>-2, -1, 2, 4, 5, 6</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   B: {<m>-1, 2, 4</m>}
@@ -52,12 +54,14 @@
               </answer>
       </task>
       <task>
+        <statement>
           <p>
             What is the range?
             <ol marker= "A." cols="1">
               <li> {<m>5, 6, -2</m>} </li>
               <li> {<m>-1, 2, 4</m>}</li>
               <li> {<m>-2, -1, 2, 4, 5, 6</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   A: {<m>5, 6, -2</m>}
@@ -74,6 +78,7 @@
         </p>
       </introduction>
       <task>
+        <statement>
           <p>
             What is the domain?
             <ol marker= "A." cols="1">
@@ -81,6 +86,7 @@
               <li> {<m>6, 3, 6</m>}</li>
               <li> {<m>3, 4, 5, 6</m>} </li>
               <li> {<m>4, 5</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   A: {<m>3, 6</m>}
@@ -88,6 +94,7 @@
               </answer>
       </task>
       <task>
+        <statement>
           <p>
             What is the range?
             <ol marker= "A." cols="1">
@@ -95,6 +102,7 @@
               <li> {<m>6, 3, 6</m>}</li>
               <li> {<m>3, 4, 5, 6</m>} </li>
               <li> {<m>4, 5</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   D: {<m>4, 5</m>}
@@ -111,6 +119,7 @@
         </p>
       </introduction>
       <task>
+        <statement>
           <p>
             What is the domain?
             <ol marker= "A." cols="1">
@@ -118,6 +127,7 @@
               <li> {<m>-7, -5, 1, 2</m>}</li>
               <li> {<m>-7, -5, 1</m>} </li>
               <li> {<m>2</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   C: {<m>-7, -5, 1</m>}
@@ -125,6 +135,7 @@
               </answer>
       </task>
       <task>
+        <statement>
           <p>
             What is the range?
             <ol marker= "A." cols="1">
@@ -132,6 +143,7 @@
               <li> {<m>-7, -5, 1, 2</m>}</li>
               <li> {<m>-7, -5, 1</m>} </li>
               <li> {<m>2</m>} </li></ol></p>
+        </statement>
               <answer>
                 <p>
                   D: {<m>2</m>}
@@ -161,6 +173,7 @@
         </p>
       </introduction>
       <task>
+        <statement>
         <p>
         Which of the following sets of ordered pairs represent a function?
         <ol marker= "A." cols="1">
@@ -168,6 +181,7 @@
           <li> <m>(6,4), (3,4), (6,5)</m> </li>
           <li> <m>(1,2), (-5,2), (-7,2)</m> </li>
           <li> <m>(-1,2), (-1,9), (1,9)</m> </li></ol> </p>
+        </statement>
           <answer>
             <p>
               A and C
@@ -176,6 +190,7 @@
     </task>
 
     <task>
+      <statement>
       <p> Note that relations can be expressed in a table. A table of values is shown below. Is this an example of a function? Why or why not?
       </p>
             <tabular>
@@ -204,6 +219,7 @@
                     <cell><m>1</m></cell>
                    </row>
                </tabular>
+        </statement>
                <answer>
                 <p>
                   This relation is not a function. The <m>x</m>-value, <m>8</m>, has two outputs.
@@ -211,9 +227,11 @@
               </answer>
     </task>
     <task>
+      <statement>
         <p>
          Relations can also be expressed in words. Suppose you are looking at the amount of time you spend studying versus the grade you earn in your Algebra class. Is this an example of a function? Why or why not?
         </p>
+      </statement>
         <answer>
           <p>
             Yes, this is an example of a function. 
@@ -233,9 +251,11 @@
         </p>
       </introduction>
       <task>
+        <statement>
           <p>
             <m>(-4,3), (-1,8), (7,4), (1,9)</m>
           </p>
+        </statement>
           <answer>
             <p>
               Domain: {<m>-4, -1, 1, 7</m>}; 
@@ -244,9 +264,11 @@
           </answer>
       </task>
       <task>
+        <statement>
         <p>
           <image source="Images/Mapping-notation-example.jpg"/>
         </p>
+        </statement>
         <answer>
           <p>
             Domain: {<m>2, 3, 4</m>}; 
@@ -255,6 +277,7 @@
         </answer>
     </task>
     <task>
+      <statement>
         <p>
             <tabular>
                 <row header="yes" bottom="minor" >
@@ -279,6 +302,7 @@
                 </row>
                </tabular>
         </p>
+        </statement>
         <answer>
           <p>
             Domain: {<m>-2, 0, 3, 8</m>}; 
@@ -287,9 +311,11 @@
         </answer>
     </task>
     <task>
+      <statement>
       <p>
         The amount of time you spend studying versus the grade you earn in your Algebra class.
       </p>
+      </statement>
       <answer>
         <p>
           Domain: {time studying}; 
@@ -304,6 +330,7 @@
       Determine whether each of the following relations is a function.
     </introduction>
 <task>
+  <statement>
     <p>
       <image xml:id="ordered-pair-example-1">
         <sageplot>
@@ -314,6 +341,7 @@
         </sageplot>
       </image>
     </p>
+    </statement>
     <answer>
       <p>
         This relation is a function.
@@ -321,6 +349,7 @@
     </answer>
 </task>
 <task>
+  <statement>
   <p>
     <image xml:id="ordered-pair-example-2">
       <sageplot>
@@ -331,6 +360,7 @@
       </sageplot>
     </image>
   </p>
+</statement>
   <answer>
     <p>
       This relation IS NOT a function.
@@ -338,6 +368,7 @@
   </answer>
 </task>
 <task>
+  <statement>
   <p>
     <image xml:id="ordered-pair-example-3">
       <sageplot>
@@ -348,6 +379,7 @@
       </sageplot>
     </image>
   </p>
+</statement>
   <answer>
     <p>
       This relation is a function.
@@ -376,6 +408,7 @@
     </p>
   </introduction>
   <task>
+    <statement>
     <image>
       <sageplot>
         f(x)=sqrt(9-x^2)
@@ -384,6 +417,7 @@
         p
       </sageplot>
     </image>
+  </statement>
     <answer>
       <p>
         This graph does not pass the vertical line test and is therefore NOT a function.
@@ -391,6 +425,7 @@
     </answer>
   </task>
   <task>
+    <statement>
     <image>
       <sageplot>
         f(x) = -4*x^3+2*x^2+3
@@ -398,6 +433,7 @@
         p
       </sageplot>
     </image>
+    </statement>
     <answer>
       <p>
         This graph passes the vertical line test and is therefore a function.
@@ -405,6 +441,7 @@
     </answer>
   </task>
   <task>
+    <statement>
     <image>
       <sageplot>
         f(x)=5*x-1
@@ -412,6 +449,7 @@
         p
       </sageplot>
     </image>
+    </statement>
     <answer>
       <p>
         This graph passes the vertical line test and is therefore a function.
@@ -419,6 +457,7 @@
     </answer>
   </task>
   <task>
+    <statement>
     <image>
       <sageplot>
         f(x)=sqrt(x)
@@ -427,6 +466,7 @@
         p
       </sageplot>
     </image>
+    </statement>
     <answer>
       <p>
         This graph does not pass the vertical line test and is therefore NOT a function.
@@ -442,6 +482,7 @@
     </p>
   </introduction>
   <task>
+    <statement>
     <p>
       Suppose you are given the equation <m>x=y^2</m>.
       <ul>
@@ -455,9 +496,11 @@
         </li>
       </ul>
     </p>
+  </statement>
   </task>
   
 <task>
+  <statement>
   <p>
     Suppose you are given the equation <m>y=3x^2+2</m>.
     <ul>
@@ -471,9 +514,11 @@
       </li>
     </ul>
   </p>
+  </statement>
 </task>
 
 <task>
+  <statement>
   <p>
     Suppose you are given the equation <m>x^2+y^2=9</m>.
     <ul>
@@ -487,9 +532,11 @@
       </li>
     </ul>
   </p>
+</statement>
 </task>
 
 <task>
+  <statement>
   <p>
     Suppose you are given the equation <m>y=-4x-3</m>.
     <ul>
@@ -503,11 +550,14 @@
       </li>
     </ul>
   </p>
+</statement>
 </task>
 <task>
+  <statement>
     <p>
       How can you look at an equation to determine whether or not it is a function?
     </p>
+  </statement>
 </task>
 </activity>
 
@@ -522,6 +572,7 @@
     </p>
   </introduction>
   <task>
+    <statement>
     <p>
       What values of <m>x</m> would give an error (if any)?
       <ol marker= "A." cols="2">
@@ -529,6 +580,7 @@
         <li> <m> 0</m> </li>
         <li> <m>4</m> </li>
         <li> <m>-5</m> </li></ol></p>
+      </statement>
         <answer>
           <p>
             A and D
@@ -536,6 +588,7 @@
         </answer>
       </task>
   <task>
+    <statement>
       <p>
         Based on this information, for what values of <m>x</m> would the equation exist? 
         <ol marker= "A." cols="2">
@@ -544,6 +597,7 @@
           <li> <m>4</m> </li>
           <li> <m>-5</m> </li></ol>
       </p>
+    </statement>
       <answer>
         <p>
           B and C
@@ -551,6 +605,7 @@
       </answer>
     </task>
   <task>
+    <statement>
       <p>
         How can we represent the domain of this equation in interval notation?
         <ol marker= "A." cols="2">
@@ -559,6 +614,7 @@
           <li> <m>(0, 0)</m> </li>
           <li> <m>(-\infty,\infty)</m> </li></ol>
       </p>
+    </statement>
       <answer>
         <p>
           B: <m> [0,\infty)</m>
@@ -574,6 +630,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p>
         What values of <m>x</m> would give an error (if any)?
         <ol marker= "A." cols="2">
@@ -581,6 +638,7 @@
           <li> <m> 0</m> </li>
           <li> <m>4</m> </li>
           <li> <m>-5</m> </li></ol></p>
+          </statement>
           <answer>
             <p>
               None of the values will give an error.
@@ -588,6 +646,7 @@
           </answer>
         </task>
     <task>
+      <statement>
         <p>
           Based on this information, for what values of <m>x</m> would the equation exist? 
           <ol marker= "A." cols="2">
@@ -596,6 +655,7 @@
             <li> <m>4</m> </li>
             <li> <m>-5</m> </li></ol>
         </p>
+        </statement>
         <answer>
           <p>
             A, B, C, and D
@@ -603,6 +663,7 @@
         </answer>
     </task>
     <task>
+      <statement>
         <p>
           How can we represent the domain of this equation in interval notation?
           <ol marker= "A." cols="2">
@@ -611,6 +672,7 @@
             <li> <m>(-5, 1)</m> </li>
             <li> <m>(-\infty,\infty)</m> </li></ol>
         </p>
+        </statement>
         <answer>
           <p>
             D: <m>(-\infty,\infty)</m>
@@ -626,6 +688,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p>
         What values of <m>x</m> would give an error (if any)?
         <ol marker= "A." cols="2">
@@ -633,6 +696,7 @@
           <li> <m> 0</m> </li>
           <li> <m>-4</m> </li>
           <li> <m>5</m> </li></ol></p>
+          </statement>
           <answer>
             <p>
               D: 5
@@ -640,6 +704,7 @@
           </answer>    
     </task>
     <task>
+      <statement>
         <p>
           Based on this information, for what values of <m>x</m> would the equation exist? 
           <ol marker= "A." cols="2">
@@ -648,6 +713,7 @@
             <li> <m>-4</m> </li>
             <li> <m>5</m> </li></ol>
         </p>
+      </statement>
         <answer>
           <p>
             A, B, and C
@@ -655,6 +721,7 @@
         </answer>
     </task>
     <task>
+      <statement>
         <p>
           How can we represent the domain of this equation in interval notation?
           <ol marker= "A." cols="2">
@@ -663,6 +730,7 @@
             <li> <m>(-5, 5)</m> </li>
             <li> <m>(-\infty,5)</m>U<m>(5,\infty)</m> </li></ol>
         </p>
+      </statement>
         <answer>
           <p>
             D: <m>(-\infty,5)</m>U<m>(5,\infty)</m>
