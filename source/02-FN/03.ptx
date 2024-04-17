@@ -49,12 +49,14 @@
             </sidebyside>
       </introduction>
       <task>
+        <statement>
         <p> What are the <m>x</m>-intercept(s) of Graph A? 
           <ol marker= "A." cols="2">
             <li> <m>(0, -4)</m> </li>
             <li> <m>(-2, 0)</m> </li>
             <li> <m>(-4, 0)</m> </li>
             <li> <m>(0, -2)</m> </li></ol></p>
+          </statement>
             <answer>
               <p>
                 Choice C: <m>(-4,0)</m>
@@ -62,12 +64,14 @@
             </answer>
         </task>
         <task>
+          <statement>
           <p> What are the <m>x</m>-intercept(s) of Graph B? 
             <ol marker= "A." cols="2">
               <li> <m>(0, -3)</m> </li>
               <li> <m>(-1, 0)</m> </li>
               <li> <m>(3, 0)</m> </li>
               <li> <m>(-3, 0)</m> </li></ol></p>
+            </statement>
               <answer>
                 <p>
                   Choices B and C: <m>(-1,0)</m> and <m>(3,0)</m>
@@ -75,12 +79,14 @@
               </answer>
           </task>
           <task>
+            <statement>
             <p> What are the <m>y</m>-intercept(s) of Graph A? 
               <ol marker= "A." cols="2">
                 <li> <m>(0, -4)</m> </li>
                 <li> <m>(-2, 0)</m> </li>
                 <li> <m>(-4, 0)</m> </li>
                 <li> <m>(0, -2)</m> </li></ol></p>
+              </statement>
                 <answer>
                   <p>
                     Choice D: <m>(0,-2)</m>
@@ -88,12 +94,14 @@
                 </answer>
             </task>
             <task>
+              <statement>
               <p> What are the <m>y</m>-intercept(s) of Graph B? 
                 <ol marker= "A." cols="2">
                   <li> <m>(0, -3)</m> </li>
               <li> <m>(-1, 0)</m> </li>
               <li> <m>(3, 0)</m> </li>
               <li> <m>(-3, 0)</m> </li></ol></p>
+                </statement>
               <answer>
                 <p>
                   Choice A: <m>(0,-3)</m>
@@ -101,6 +109,7 @@
               </answer>
               </task>
               <task>
+                <statement>
                   <p>
                    Suppose you are told that a function has the following intercepts: 
                    <ul>
@@ -114,6 +123,7 @@
                   </p>
                   <p>What would the graph look like?
                   </p>
+                </statement>
                   <answer>
                     <p>
                       Answers will vary.
@@ -121,9 +131,11 @@
                   </answer>
               </task>
               <task>
+                <statement>
                   <p>
                     What would a graph look like if it had more than one <m>y</m>-intercept?
                   </p>
+                </statement>
                   <answer>
                     <p>
                       You could draw a variety of graphs, but they all would not be functions.
@@ -389,9 +401,11 @@
           </image>
       </introduction>
       <task>
+        <statement>
         <p>
           Where do you think the graph is increasing?
         </p>
+      </statement>
       </task>
       <task>
         <statement>
@@ -410,9 +424,11 @@
         </answer>
       </task>
       <task>
+        <statement>
         <p>
         Where do you think the graph is decreasing?
         </p>
+      </statement>
       </task>
       <task>
         <statement>
@@ -431,9 +447,11 @@
         </answer>
       </task>
       <task>
+        <statement>
       <p>
         Based on what you see on the graph, do you think this graph has any maximums or minimums?
         </p>
+        </statement>
       </task>
     </activity>
 
