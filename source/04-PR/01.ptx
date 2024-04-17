@@ -27,7 +27,9 @@
           </image>
         </figure>
         </introduction>
-        <task> <p> Make a table for values of <m>f(x) </m> corresponding to the given <m>x </m>-values. What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns of the <m>y</m>-values of the table?</p>
+        <task> 
+          <statement>
+            <p> Make a table for values of <m>f(x) </m> corresponding to the given <m>x </m>-values. What is happening to the <m>y</m>-values as the <m>x</m>-values increase? Do you notice any other patterns of the <m>y</m>-values of the table?</p>
           <table>
             <tabular>
                    <row header="yes" bottom="minor" >
@@ -60,8 +62,11 @@
                    </row>
                </tabular>
        </table>
+        </statement>
         </task>
-        <task> <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a minimum value? That is, is there a point on the graph that is lower than all other points?
+        <task> 
+          <statement>
+            <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a minimum value? That is, is there a point on the graph that is lower than all other points?
         
           <ol marker="A." cols="1">
             <li><p> The minimum value appears to occur near <m> (0, 8) </m>. </p></li>
@@ -70,8 +75,11 @@
             <li><p> There is no minimum value of this function.</p></li>
         </ol>
       </p>
+        </statement>
         </task>
-        <task> <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a maximum value? That is, is there a point on the graph that is higher than all other points?
+        <task> 
+          <statement> 
+          <p>At which point <m>(x,y)</m> does <m> f(x) </m> have a maximum value? That is, is there a point on the graph that is higher than all other points?
         
           <ol marker="A." cols="1">
             <li><p> The maximum value appears to occur near <m> (-2, 44) </m>. </p></li>
@@ -80,6 +88,7 @@
             <li><p> There is no maximum value of this function.</p></li>
         </ol>
       </p>
+        </statement>
         </task>
     </activity>
     
@@ -95,15 +104,21 @@
       <introduction>
         <p> Use the given quadratic function, <m>f(x)=3(x-2)^2-4</m>, to answer the following: </p>
       </introduction>
-      <task> <p> Applying <xref ref="vertex-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
+      <task>
+        <statement>
+           <p> Applying <xref ref="vertex-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
         <ol marker="A." cols="1">
           <li><p> vertex: <m>(2,-4)</m>; axis of symmetry: <m>x=2</m> </p></li>
           <li><p> vertex: <m>(-2,4)</m>; axis of symmetry: <m>x=-2</m> </p></li>
           <li><p> vertex: <m>(-2,-4)</m>; axis of symmetry: <m>x=-2</m> </p></li>
           <li><p> vertex: <m>(2,4)</m>; axis of symmetry: <m>x=2</m></p></li>
       </ol>
+    </statement>
       </task>
-      <task> <p>Compare what you got in part <m>a</m> with the values you found in <xref ref="PR1-activity-1"/>. What do you notice? </p>
+      <task> 
+        <statement>
+          <p>Compare what you got in part <m>a</m> with the values you found in <xref ref="PR1-activity-1"/>. What do you notice? </p>
+          </statement>
       </task>
   </activity>
 
@@ -128,7 +143,9 @@
       </image>
     </figure>
     </introduction>
-    <task> <p> Which of the following quadratic functions could be the graph shown in the figure?
+    <task> 
+      <statement>
+        <p> Which of the following quadratic functions could be the graph shown in the figure?
       <ol marker="A." cols="1">
         <li><p><m>f(x)=x^2+2x+3</m> </p></li>
         <li><p> <m>f(x)=-(x+1)^2+4</m> </p></li>
@@ -136,14 +153,18 @@
         <li><p> <m>f(x)=(x+1)^2+4</m></p></li>
     </ol>     
     </p>
+    </statement>
     </task>
-    <task> <p> What is the maximum or minimum value? <ol marker="A." cols="2">
+    <task> 
+      <statement>
+        <p> What is the maximum or minimum value? <ol marker="A." cols="2">
       <li><p><m>-1</m> </p></li>
       <li><p> <m>4</m> </p></li>
       <li><p> <m>-3</m> </p></li>
       <li><p> <m>1</m></p></li>
   </ol>     
   </p>
+  </statement>
   </task>
 </activity>
 
@@ -190,6 +211,7 @@
       </sbsgroup>
     </introduction>
     <task>
+      <statement>
       <p>Which of the graphs above have a maximum?<ol marker="A." cols="2">
         <li><p> Graph A </p></li>
         <li><p> Graph B </p></li>
@@ -197,8 +219,10 @@
         <li><p> Graph D </p></li>
     </ol>
   </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p>Which of the graphs above have a minimum?<ol marker="A." cols="2">
         <li><p> Graph A </p></li>
         <li><p> Graph B </p></li>
@@ -206,8 +230,10 @@
         <li><p> Graph D </p></li>
     </ol>
   </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p>Which of the graphs above have an axis of symmetry at <m>x=2</m>? <ol marker="A." cols="2">
         <li><p> Graph A </p></li>
         <li><p> Graph B </p></li>
@@ -215,8 +241,11 @@
         <li><p> Graph D </p></li>
     </ol>
   </p>
+</statement>
 </task>
-  <task> <p>Which of the graphs above represents the function <m>f(x)=-(x-2)^2+4</m>?
+  <task> 
+    <statement>
+      <p>Which of the graphs above represents the function <m>f(x)=-(x-2)^2+4</m>?
     <ol marker="A." cols="2">
       <li><p> Graph A </p></li>
       <li><p> Graph B </p></li>
@@ -224,8 +253,11 @@
       <li><p> Graph D </p></li>
   </ol>
 </p>
+    </statement>
     </task>
-    <task> <p>Which of the graphs above represents the function <m>f(x)=x^2-4x+1</m>?
+    <task> 
+      <statement>
+        <p>Which of the graphs above represents the function <m>f(x)=x^2-4x+1</m>?
       <ol marker="A." cols="2">
         <li><p> Graph A </p></li>
         <li><p> Graph B </p></li>
@@ -233,6 +265,7 @@
         <li><p> Graph D </p></li>
     </ol>
   </p>
+    </statement>
     </task>
   </activity>
 
@@ -248,9 +281,15 @@
       <p> A function <m>f(x)</m> has a maximum value at <m>7</m> and its axis of symmetry at <m>x=-2</m>.</p>
       </introduction>
 
-        <task> <p> Sketch a graph of a function that meets the criteria for <m>f(x)</m>. </p>
+        <task>
+          <statement>
+             <p> Sketch a graph of a function that meets the criteria for <m>f(x)</m>. </p>
+             </statement>
         </task>
-        <task> <p> Was your graph the only possible answer? Try to sketch another graph that meets this criteria. </p>
+        <task>
+          <statement>
+             <p> Was your graph the only possible answer? Try to sketch another graph that meets this criteria. </p>
+             </statement>
         </task> 
 </activity>
 
@@ -266,29 +305,41 @@
     <p>Consider the following two quadratic functions <m>f(x)=x^2-4x+20</m> and <m>g(x)=2x^2-8x+24</m> and answer the following questions:</p>
   </introduction>
   
-  <task> <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
+  <task> 
+    <statement>
+    <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> f(x)</m>?</p>
     <ol marker="A." cols="1">
       <li><p> vertex: <m>(2,-16)</m>; axis of symmetry: <m>x=2</m> </p></li>
       <li><p> vertex: <m>(-2,16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
       <li><p> vertex: <m>(-2,-16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
       <li><p> vertex: <m>(2,16)</m>; axis of symmetry: <m>x=2</m></p></li>
   </ol>
+  </statement>
   </task>
 
-  <task> <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> g(x)</m>?</p>
+  <task>
+    <statement>
+       <p> Applying <xref ref="standard-form-of-a-quadratic-function"/>, what is the vertex and axis of symmetry of <m> g(x)</m>?</p>
     <ol marker="A." cols="1">
       <li><p> vertex: <m>(2,-16)</m>; axis of symmetry: <m>x=2</m> </p></li>
       <li><p> vertex: <m>(-2,16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
       <li><p> vertex: <m>(-2,-16)</m>; axis of symmetry: <m>x=-2</m> </p></li>
       <li><p> vertex: <m>(2,16)</m>; axis of symmetry: <m>x=2</m></p></li>
   </ol>
+  </statement>
   </task>
   
-<task> <p>What do you notice about <m>f(x)</m> and <m>g(x)</m>? 
+<task> 
+  <statement>
+    <p>What do you notice about <m>f(x)</m> and <m>g(x)</m>? 
 </p>
+  </statement>
   </task>
-  <task> <p> Now graph both <m>f(x)</m> and <m> g(x)</m> and draw a sketch of each graph on one coordinate plane. How are they similar/different?
+  <task> 
+    <statement>
+      <p> Now graph both <m>f(x)</m> and <m> g(x)</m> and draw a sketch of each graph on one coordinate plane. How are they similar/different?
 </p>
+  </statement>
   </task>
 </activity>
     </subsection>
