@@ -36,7 +36,9 @@
         
       </introduction>
       
-      <task><p><me>
+      <task>
+        <statement>
+          <p><me>
         \frac{2}{x+5}=\frac{x-3}{x-8}-7</me> 
         <ol marker= "A.">  
         <li> <m>-7</m></li>
@@ -47,10 +49,13 @@
         
       </ol>
       </p>
+      </statement>
       </task>
 
 
-      <task><p><me>
+      <task>
+        <statement>
+        <p><me>
         \frac{x^2-6x+8}{x^2-4x+3}=0</me> 
         <ol marker= "A.">  
           <li> <m>0</m></li>
@@ -61,6 +66,7 @@
         
       </ol>
       </p>
+    </statement>
       </task>
       
     </activity>
@@ -74,7 +80,9 @@
         
       </introduction>
       
-      <task><p>What value should be excluded as a possible solution?
+      <task>
+        <statement>
+          <p>What value should be excluded as a possible solution?
         <ol marker= "A.">  
         <li> <m>5</m></li>
         <li> <m>6</m></li>
@@ -83,9 +91,12 @@
         <li> <m>-2</m></li>       
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?
+      <task>
+        <statement>
+          <p>To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?
         <ol marker= "A.">  
         <li> <m>x-5</m></li>
         <li> <m>x-6</m></li>
@@ -94,9 +105,12 @@
         <li> <m>x+2</m></li>       
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?
+      <task>
+        <statement>
+          <p>Multiply each term by the expression you chose and simplify. Which of the following linear equations does the rational equation simplify to?
         <ol marker= "A.">  
         <li> <m>5(x-5) = -6</m></li>
         <li> <m>5(x-6) = -6</m></li>
@@ -105,9 +119,13 @@
         <li> <m>5(x+2) = -6</m></li>       
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      <task>
+        <statement>
+          <p>Solve the linear equation. Check your answer using the original rational equation.</p>
+          </statement>
       </task>
       
     </activity>
@@ -121,7 +139,9 @@
         
       </introduction>
       
-      <task><p>What values should be excluded as possible solutions?
+      <task>
+        <statement>
+          <p>What values should be excluded as possible solutions?
         <ol marker= "A.">  
         <li> <m>2</m> and <m>4</m></li>
         <li> <m>1</m> and <m>6</m></li>
@@ -130,9 +150,12 @@
         <li> <m>2</m> and <m>6</m></li>       
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
+      <task>
+        <statement>
+          <p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
         <ol marker= "A.">   
             <li> <m>x-2</m> and <m>x-4</m></li>
             <li> <m>x-1</m> and <m>x-6</m></li>
@@ -141,9 +164,12 @@
             <li> <m>x-2</m> and <m>x-6</m></li>       
           </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?
+      <task>
+        <statement>
+          <p>Multiply each term by the expressions you chose and simplify. Which of the following linear equations does the rational equation simplify to?
         <ol marker= "A.">  
         <li> <m>4(x+1) = -2(x+6)</m></li>
         <li> <m>4(x+6) = -2(x+1)</m></li>  
@@ -152,9 +178,13 @@
         <li> <m>4(x+6) = -2(-x-1)</m></li>  
       </ol>
       </p>
+    </statement>
       </task>
 
-      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      <task>
+        <statement>
+          <p>Solve the linear equation. Check your answer using the original rational equation.</p>
+          </statement>
       </task>
       
     </activity>
@@ -176,10 +206,15 @@
         
       </introduction>
       
-      <task><p>What value(s) should be excluded as possible solutions?   </p>
+      <task>
+        <statement>
+          <p>What value(s) should be excluded as possible solutions?   </p>
+          </statement>
       </task>
 
-      <task><p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
+      <task>
+        <statement>
+          <p>To solve, we'll once again begin by clearing out the fraction involved. Which of the following should we multiply each term by to clear out all of the fractions?
         <ol marker= "A.">   
             <li> <m>x+2</m>, <m>x+2</m>, and <m>5</m></li>
             <li> <m>x+2</m> and <m>5</m></li>
@@ -187,13 +222,20 @@
             <li> <m>5</m></li>
           </ol>
       </p>
+    </statement>
       </task>
 
-      <task><p>Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.
+      <task>
+        <statement>
+          <p>Multiply each term by the expressions you chose and simplify. You should end up with a linear equation.
       </p>
+      </statement>
       </task>
 
-      <task><p>Solve the linear equation. Check your answer using the original rational equation.</p>
+      <task>
+        <statement>
+          <p>Solve the linear equation. Check your answer using the original rational equation.</p>
+          </statement>
       </task>
       
     </activity>
@@ -215,7 +257,9 @@
         
       </introduction>
       
-      <task><p>What values should be excluded as possible solutions? Select all that apply.
+      <task>
+        <statement>
+          <p>What values should be excluded as possible solutions? Select all that apply.
         <ol marker= "A.">  
           <li> <m>0</m> </li>
           <li> <m>1</m> </li>
@@ -226,9 +270,12 @@
       
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?
+      <task>
+        <statement>
+          <p>To solve, we'll begin by clearing out any fractions involved. Which of the following should we multiply each term by to clear out all of the fractions?
         <ol marker= "A.">   
             <li> <m>x-1</m></li>
             <li> <m>x-1</m> and <m>x-3</m></li>
@@ -237,9 +284,12 @@
             <li> <m>x-3</m> and <m>x^2-4x+3</m></li>
           </ol>
       </p>
+    </statement>
       </task>
 
-      <task><p>Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?
+      <task>
+        <statement>
+          <p>Multiply each term by the expressions you chose and simplify. Notice that the result is a quadratic equation. Which of the following quadratic equations does the rational equation simplify to?
         <ol marker= "A.">  
         <li> <m>x^2+2x-15=0</m></li>
         <li> <m>x^2-11x+18=0</m></li>
@@ -248,9 +298,12 @@
   
       </ol>
       </p>
+      </statement>
       </task>
 
-      <task><p>Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?
+      <task>
+        <statement>
+          <p>Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?
         <ol marker= "A.">  
           <li> <m>x=3</m> and <m>x=-5</m>  </li>
           <li> <m>x=-3</m> and <m>x=5</m>  </li>
@@ -260,6 +313,7 @@
           <li> <m>x=5</m>  </li>
         </ol>
       </p>
+    </statement>
       </task>
       
     </activity> 
@@ -273,7 +327,9 @@
         
       </introduction>
       
-      <task><p>What values should be excluded as possible solutions? 
+      <task>
+        <statement>
+          <p>What values should be excluded as possible solutions? 
         
         <!-- Select all that apply.
         <ol marker= "A.">  
@@ -286,9 +342,12 @@
       
       </ol> -->
       </p>
+      </statement>
       </task>
 
-      <task><p>What expression(s) should we multiply by to clear out all of the fractions?
+      <task>
+        <statement>
+          <p>What expression(s) should we multiply by to clear out all of the fractions?
         <!-- <ol marker= "A.">   
             <li> <m>x-1</m></li>
             <li> <m>x-1</m> and <m>x-3</m></li>
@@ -297,9 +356,12 @@
             <li> <m>x-3</m> and <m>x^2-4x+3</m></li>
           </ol> -->
       </p>
+    </statement>
       </task>
 
-      <task><p>Multiply each term by the expressions you chose and simplify. Your result should be a quadratic equation.
+      <task>
+        <statement>
+          <p>Multiply each term by the expressions you chose and simplify. Your result should be a quadratic equation.
         <!-- <ol marker= "A.">  
         <li> <m>x^2+2x-15=0</m></li>
         <li> <m>x^2-11x+18=0</m></li>
@@ -308,9 +370,12 @@
   
       </ol> -->
       </p>
+    </statement>
       </task>
 
-      <task><p>Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?
+      <task>
+        <statement>
+          <p>Solve the quadratic equation. Check your answer using the original rational equation. What are the solutions to the rational equation?
         <!-- <ol marker= "A.">  
           <li> <m>x=3</m> and <m>x=-5</m>  </li>
           <li> <m>x=-3</m> and <m>x=5</m>  </li>
@@ -320,6 +385,7 @@
           <li> <m>x=5</m>  </li>
         </ol> -->
       </p>
+      </statement>
       </task>
       
     </activity> 
@@ -331,19 +397,27 @@
         
       </introduction>
       <task>
+        <statement>
         <p><m> \displaystyle \frac{4}{x}+9=16</m></p>
+      </statement>
       </task>
 
       <task>
+        <statement>
         <p><m> \displaystyle -5=\frac{2}{x-4}</m></p>
+      </statement>
       </task>
 
       <task>
+        <statement>
         <p><m> \displaystyle \frac{-3}{x-10}=\frac{x}{x-6}</m></p>
+      </statement>
       </task>
 
       <task>
+        <statement>
         <p><m> \displaystyle \frac{x+2}{x-3}+\frac{x}{2x-1}=6</m></p>
+      </statement>
       </task>
 
       
