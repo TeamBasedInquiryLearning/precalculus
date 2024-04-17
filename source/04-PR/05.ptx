@@ -72,36 +72,44 @@ Use the graphs of the following polynomial functions to answer the questions bel
 </sbsgroup>
       </introduction>
 <task>
+  <statement>
 <p> How would you describe the behavior of Graph A as you approach the ends? 
   <ol marker= "A." cols="1">
     <li> Graph A rises on the left and on the right. </li>
     <li> Graph A rises on the left, but falls on the right. </li>
     <li> Graph A rises on the right, but falls on the left. </li>
     <li> Graph A falls on the left and on the right.  </li></ol></p>
+</statement>
 </task>
 <task>
+  <statement>
   <p> How would you describe the behavior of Graph B as you approach the ends? 
     <ol marker= "A." cols="1">
       <li> Graph B rises on the left and on the right. </li>
       <li> Graph B rises on the left, but falls on the right. </li>
       <li> Graph B rises on the right, but falls on the left. </li>
       <li> Graph B falls on the left and on the right.  </li></ol></p>
+</statement>
   </task>
   <task>
+    <statement>
     <p> How would you describe the behavior of Graph C as you approach the ends? 
       <ol marker= "A." cols="1">
         <li> Graph C rises on the left and on the right. </li>
         <li> Graph C rises on the left, but falls on the right. </li>
         <li> Graph C rises on the right, but falls on the left. </li>
         <li> Graph C falls on the left and on the right.  </li></ol></p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> How would you describe the behavior of Graph D as you approach the ends? 
         <ol marker= "A." cols="1">
           <li> Graph D rises on the left and on the right. </li>
           <li> Graph D rises on the left, but falls on the right. </li>
           <li> Graph D rises on the right, but falls on the left. </li>
           <li> Graph D falls on the left and on the right.  </li></ol></p>
+      </statement>
       </task>
     </activity>
 
@@ -161,44 +169,56 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
 </sbsgroup>
       </introduction>
 <task>
+  <statement>
 <p> What is the degree and leading coefficient of Graph A? 
   <ol marker= "A." cols="1">
     <li> Degree: <m>-64</m>; Leading Coefficient: <m>4</m> </li>
     <li> Degree: <m>4</m>; Leading Coefficient: <m>0</m> </li>
     <li> Degree: <m>1</m>; Leading Coefficient: <m>-64</m> </li>
     <li> Degree: <m>4</m>; Leading Coefficient: <m>1</m>  </li></ol></p>
+</statement>
 </task>
 <task>
+  <statement>
   <p> What is the degree and leading coefficient of Graph B? 
     <ol marker= "A." cols="1">
       <li> Degree: <m>3</m>; Leading Coefficient: <m>-4</m> </li>
       <li> Degree: <m>-4</m>; Leading Coefficient: <m>3</m> </li>
       <li> Degree: <m>2</m>; Leading Coefficient: <m>3</m> </li>
       <li> Degree: <m>3</m>; Leading Coefficient: <m>4</m>  </li></ol></p>
+  </statement>
   </task>
   <task>
+    <statement>
     <p> What is the degree and leading coefficient of Graph C? 
       <ol marker= "A." cols="1">
         <li> Degree: <m>-5</m>; Leading Coefficient: <m>2</m> </li>
         <li> Degree: <m>0</m>; Leading Coefficient: <m>7</m> </li>
         <li> Degree: <m>-5</m>; Leading Coefficient: <m>3</m> </li>
         <li> Degree: <m>7</m>; Leading Coefficient: <m>1</m>  </li></ol></p>
+      </statement>
     </task>
     <task>
+      <statement>
       <p> What is the degree and leading coefficient of Graph D? 
         <ol marker= "A." cols="1">
           <li> Degree: <m>-2</m>; Leading Coefficient: <m>4</m> </li>
           <li> Degree: <m>3</m>; Leading Coefficient: <m>2</m> </li>
           <li> Degree: <m>-2</m>; Leading Coefficient: <m>4</m> </li>
           <li> Degree: <m>-5</m>; Leading Coefficient: <m>4</m>  </li></ol></p>
+      </statement>
       </task>
     <task>
+      <statement>
         <p> Notice that Graph A and Graph D have their ends going in the same direction. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?
         </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> Notice that Graph B and Graph C have their ends going in opposite directions. What conjectures can you make about the relationship between their degrees and leading coefficients with the behavior of their graphs?
       </p>
+  </statement>
   </task>
     </activity>
 
@@ -233,12 +253,14 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
       </figure>
       </introduction>
     <task>
+      <statement>
           <p> How would you describe the end behavior of <m> f(x) </m>? 
             <ol marker= "A." cols="1">
               <li> <m> f(x) </m> rises on the left and on the right. </li>
               <li> <m> f(x) </m> rises on the left, but falls on the right. </li>
               <li> <m> f(x) </m> rises on the right, but falls on the left. </li>
               <li> <m> f(x) </m> falls on the left and on the right.  </li></ol></p>
+    </statement>
     </task>
     <task>
       <statement>
@@ -270,15 +292,29 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     </p>
     </introduction>
       <task>
+        <statement>
           <p> Find the zeros of <m>f(x)</m>.</p>
+        </statement>
       </task>
-      <task> <p> Find the multiplicities at each zero.</p>
+      <task> 
+        <statement>
+          <p> Find the multiplicities at each zero.</p>
+          </statement>
       </task>
-      <task> <p>Find the <m>y</m>-intercept of <m>f(x)</m>.</p>
+      <task>
+        <statement> 
+          <p>Find the <m>y</m>-intercept of <m>f(x)</m>.</p>
+          </statement>
       </task>
-      <task> <p> Describe the end behavior of <m>f(x)</m>.</p>
+      <task> 
+        <statement>
+          <p> Describe the end behavior of <m>f(x)</m>.</p>
+          </statement>
       </task>
-    <task> <p> Estimate where any local maximums and minimums may occur.</p>
+    <task> 
+      <statement>
+        <p> Estimate where any local maximums and minimums may occur.</p>
+        </statement>
     </task>
   </activity>
 
@@ -305,28 +341,40 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
           </image>
         </figure>
       </introduction>
-      <task> <p> What are the <m>x</m>-intercept(s) of the polynomial function? Select all that apply.  
+      <task> 
+        <statement>
+          <p> What are the <m>x</m>-intercept(s) of the polynomial function? Select all that apply.  
         <ol marker= "A." cols="2">
         <li> <m> (1, 0) </m> </li>
         <li> <m> (-1, 0) </m> </li>
         <li> <m> (2, 0)</m> </li>
         <li> <m> (0, -2) </m>  </li></ol></p>
+      </statement>
       </task>
-      <task> <p> What are the <m>y</m>-intercept(s) of the polynomial function?  
+      <task>
+        <statement>
+           <p> What are the <m>y</m>-intercept(s) of the polynomial function?  
         <ol marker= "A." cols="2">
           <li> <m> (1, 0) </m> </li>
           <li> <m> (-1, 0) </m> </li>
           <li> <m> (2, 0)</m> </li>
           <li> <m> (0, -2) </m>  </li></ol></p>
-      </task><task> <p> How many zeros does this polynomial function have? 
+      </statement>
+      </task>
+      <task> 
+        <statement>
+          <p> How many zeros does this polynomial function have? 
         <ol marker= "A." cols="2">
           <li> <m> 0 </m> </li>
           <li> <m> 1 </m>  </li>
           <li> <m> 2 </m> </li>
           <li> <m> 3 </m> </li></ol>
       </p>
+      </statement>
       </task>
-      <task> <p> At what point is the local minimum located?
+      <task> 
+        <statement>
+          <p> At what point is the local minimum located?
         <ol marker= "A." cols="2">
         <li> <m> (2, -4) </m> </li>
         <li> <m> (-1, 0) </m> </li>
@@ -334,8 +382,11 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
         <li> <m> (1, -4) </m>  </li>
         <li> <m> (2, 0) </m>  </li>
         </ol></p>
+      </statement>
       </task>
-      <task> <p> At what point is the local maximum located?
+      <task> 
+        <statement>
+          <p> At what point is the local maximum located?
         <ol marker= "A." cols="2">
         <li> <m> (2, -4) </m> </li>
         <li> <m> (-1, 0) </m> </li>
@@ -343,22 +394,29 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
         <li> <m> (1, -4) </m>  </li>
         <li> <m> (2, 0) </m>  </li>
         </ol></p>
+      </statement>
       </task>
-      <task> <p> How do you describe the behavior of the polynomial function as <m> x\to \infty</m>?
+      <task> 
+        <statement>
+          <p> How do you describe the behavior of the polynomial function as <m> x\to \infty</m>?
         <ol marker= "A." cols="2">
         <li> the <m>y</m>-values go to negative infinity </li>
         <li> <m>f(x) \to \infty</m> </li>
         <li> the <m>y</m>-values go to positive infinity </li>
         <li> <m>f(x) \to -\infty</m> </li>
         </ol></p>
+      </statement>
       </task>
-      <task> <p> How do you describe the behavior of the polynomial function as <m> x\to -\infty</m>?
+      <task> 
+        <statement>
+          <p> How do you describe the behavior of the polynomial function as <m> x\to -\infty</m>?
         <ol marker= "A." cols="2">
         <li> the <m>y</m>-values go to negative infinity </li>
         <li> <m>f(x) \to \infty</m> </li>
         <li> the <m>y</m>-values go to positive infinity </li>
         <li> <m>f(x) \to -\infty</m> </li>
         </ol></p>
+      </statement>
       </task>
   </activity>
 
