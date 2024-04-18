@@ -10,27 +10,20 @@
     <target 
       name="web" 
       format="html" 
-      deploy-dir="2024">
-      <stringparams debug.project.number="the-way-it-should-be"/>
-    </target>    
-    <target 
-      name="instructor" 
-      format="html" 
       publication="instructor.ptx"
       deploy-dir="2024/instructor">
       <stringparams 
         commentary="yes"
         debug.project.number="the-way-it-should-be"/>
-    </target>
-    <target 
-      name="print" 
-      format="pdf"
-      output-filename="TBIL-Precalculus-2024.pdf"
-      deploy-dir="2024/pdf">
-      <stringparams debug.project.number="the-way-it-should-be"/>
     </target>    
     <target 
-      name="instructor-print" 
+      name="web-student" 
+      format="html" 
+      deploy-dir="2024">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target>
+    <target
+      name="print-instructor" 
       format="pdf"
       publication="instructor.ptx"
       output-filename="TBIL-Precalculus-2024-Instructor-Version.pdf"
@@ -38,7 +31,14 @@
       <stringparams 
         commentary="yes"
         debug.project.number="the-way-it-should-be"/>
-    </target>
+    </target> 
+    <target
+      name="print-student" 
+      format="pdf"
+      output-filename="TBIL-Precalculus-2024.pdf"
+      deploy-dir="2024/pdf">
+      <stringparams debug.project.number="the-way-it-should-be"/>
+    </target> 
     <target
       name="slides"
       format="pdf"
