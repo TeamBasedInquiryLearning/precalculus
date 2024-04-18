@@ -17,6 +17,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p> First, move all terms to one side. Then factor the quadratic function, <me>f(x)=x^2-4x-32</me>.
         <ol marker="A." cols="1">
           <li><p><m>(x-4)(x+8)</m> </p></li>
@@ -24,8 +25,10 @@
           <li><p> <m>(x-8)(x-4)</m> </p></li>
           <li><p> <m>(x+8)(x+4)</m></p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
         <p> Now set each factor <m>=0</m> and solve for <m>x</m>. These are the <m>x</m> intercepts.   
         <ol marker="A." cols="1">
           <li><p><m>-8</m>, <m>-4</m></p></li>
@@ -33,8 +36,10 @@
           <li><p> <m>-8</m>, <m>4</m> </p></li>
           <li><p> <m>8</m>, <m>-4</m></p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> Create a number line and place the values from each factor on this number line. We will now test all <m>3</m> intervals between the <m>2</m> values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
       <ol marker="A." cols="1">
         <li><p> <m>x \gt 8</m>, <m>x \lt -4</m></p></li>
@@ -43,8 +48,10 @@
         <li><p> <m>x \lt -8</m>, <m>x \gt 4</m> </p></li>
         
     </ol> </p>
+  </statement>
   </task>
   <task>
+    <statement>
     <p> Write the intervals using interval notation.
     <ol marker="A." cols="1">
       <li><p><m>(-8,4)</m></p></li>
@@ -53,6 +60,7 @@
       <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>
       
   </ol> </p>
+</statement>
 </task>
   </activity>
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
@@ -60,13 +68,16 @@
       <p>Solve the quadratic inequality <me>5x^2+63 \lt 52x</me>.
       </p>
     </introduction>
-    <task><p>Write the solution using interval notation.</p>
+    <task>
+      <statement>
+        <p>Write the solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p><m>\left(-9,-\frac{7}{5}\right)</m> </p></li>
           <li><p> <m>\left(-\infty,\frac{7}{5}\right)\cup\left(9,\infty\right)</m> </p></li>
           <li><p> <m>\left(-\frac{7}{5},9\right)</m> </p></li>
           <li><p> <m>\left(\frac{7}{5},9\right)</m></p></li>
       </ol> 
+    </statement>
     </task>
   </activity>
   <activity xml:id="quadratic-inequality-coeff-greater-than-or-equal-0">
@@ -75,6 +86,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p> Write the solution using interval notation.
         <ol marker="A." cols="1">
           <li><p><m>[-5,-3]</m> </p></li>
@@ -82,10 +94,13 @@
           <li><p> <m>[3,5]</m> </p></li>
           <li><p> <m>(-\infty,3]\cup[5,\infty)</m></p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> How can we confirm visually that our solution is correct?
          </p>
+    </statement>
     </task>
   </activity>
   <activity xml:id="rational-inequality-greater-than-0">
@@ -94,6 +109,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p> First, move all terms to one side. Then find the common denominator and combine to one simplified fraction. 
         <ol marker="A." cols="1">
           <li><p><m>\frac{12x+31}{x+4}</m> </p></li>
@@ -101,8 +117,10 @@
           <li><p> <m>\frac{-2x+31}{x+4}</m> </p></li>
           <li><p> <m>\frac{-2x-31}{x+4}</m></p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
         <p> Now set both the numerator and denominator <m>=0</m> and solve for <m>x</m>. These are the partition values to place on the number line for testing intervals.   
         <ol marker="A." cols="1">
           <li><p><m>-\frac{31}{2},-4</m> </p></li>
@@ -110,8 +128,10 @@
           <li><p> <m>\frac{31}{12},-4</m> </p></li>
           <li><p> <m>-\frac{31}{12},-4</m> </p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> Create a number line and place the values from each factor on this number line. We will now test all intervals between the <m>2</m> values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
       <ol marker="A." cols="1">
         <li><p> <m>x \gt -\frac{31}{2}</m>,<m>x \lt -4</m></p></li>
@@ -120,8 +140,10 @@
         <li><p> <m>x \lt \frac{31}{2}</m>,<m>x \gt 4</m> </p></li>
         
     </ol> </p>
+  </statement>
   </task>
   <task>
+    <statement>
     <p> Write the intervals using interval notation.
     <ol marker="A." cols="1">
       <li><p><m>\left(-\frac{31}{2},4\right)</m></p></li>
@@ -130,10 +152,13 @@
       <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>
       
   </ol> </p>
+</statement>
 </task>
     <task>
+      <statement>
       <p> How can we confirm visually that our solution is correct?
          </p>
+    </statement>
     </task>
   </activity>
 
@@ -143,6 +168,7 @@
       </p>
     </introduction>
     <task>
+      <statement>
       <p> Write the solution using interval notation. 
         <ol marker="A." cols="1">
           <li><p><m>(-\infty, -5)\cup(2,\infty)</m> </p></li>
@@ -150,10 +176,13 @@
           <li><p> <m>\left[-\frac{6}{7},2\right)</m> </p></li>
           <li><p> <m>\left(-5,-\frac{6}{7}\right]</m></p></li>
       </ol> </p>
+    </statement>
     </task>
     <task>
+      <statement>
       <p> When do we include the partition values in the answer with a bracket?
          </p>
+    </statement>
     </task>
   </activity>
   

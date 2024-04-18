@@ -24,7 +24,9 @@
         
       </introduction>
       
-      <task><p> Room temperature is around 68 degrees Fahrenheit.  Use the above equation to convert this temperature to Celsius.
+      <task>
+        <statement>
+          <p> Room temperature is around 68 degrees Fahrenheit.  Use the above equation to convert this temperature to Celsius.
         <ol marker= "A." cols="2">  
         <li> <m>5.8</m></li>
         <li> <m>20</m></li>
@@ -34,8 +36,11 @@
         
       </ol>
       </p>
+    </statement>
       </task>
-      <task><p> Solve the equation <m>C=\frac{5}{9} (F-32)</m> for <m>F</m> in terms of <m>C</m>.
+      <task>
+        <statement>
+          <p> Solve the equation <m>C=\frac{5}{9} (F-32)</m> for <m>F</m> in terms of <m>C</m>.
         <ol marker= "A." cols="1">  
         <li> <m>F=\frac{5}{9} C + 32</m></li>
         <li> <m>F=\frac{5}{9} C - 32</m> </li>
@@ -43,9 +48,12 @@
         <li> <m>F=\frac{9}{5} C + 32</m> </li> 
       </ol>
       </p>
+    </statement>
       </task>
     
-      <task><p> Alternatively, 20 degrees Celsius is a fairly comfortable temperature.  Use your solution for <m>F</m> in terms of <m>C</m> to convert this temperature to Fahrenheit.
+      <task>
+        <statement>
+          <p> Alternatively, 20 degrees Celsius is a fairly comfortable temperature.  Use your solution for <m>F</m> in terms of <m>C</m> to convert this temperature to Fahrenheit.
         <ol marker= "A." cols="2">  
         <li> <m>43.1</m></li>
         <li> <m>-20.9</m></li>
@@ -53,6 +61,7 @@
         <li> <m>68</m></li>
       </ol>
       </p>
+    </statement>
       </task>
       
   </activity>
@@ -142,7 +151,9 @@
       
     </introduction>
     
-    <task><p> Use the definition of <m>g(x)</m> in <xref ref="table-func" /> to find an <m>x</m> such that <m>g(x)=4</m>.
+    <task>
+      <statement>
+        <p> Use the definition of <m>g(x)</m> in <xref ref="table-func" /> to find an <m>x</m> such that <m>g(x)=4</m>.
       <ol marker= "A." cols="1">  
       <li> <m>x=0</m></li>
       <li> <m>x=1</m></li>
@@ -151,6 +162,7 @@
       <li> <m>x=4</m></li> 
     </ol>
     </p>
+    </statement>
     </task>
     <task>
       <statement>
@@ -159,7 +171,9 @@
         </p>
       </statement>
     </task>
-    <task><p> Use the definition of <m>f(x)</m> in <xref ref="table-not-func" /> to find an <m>x</m> such that <m>f(x)=4</m>.
+    <task>
+      <statement>
+        <p> Use the definition of <m>f(x)</m> in <xref ref="table-not-func" /> to find an <m>x</m> such that <m>f(x)=4</m>.
       <ol marker= "A." cols="1">  
       <li> <m>x=0</m></li>
       <li> <m>x=1</m></li>
@@ -168,6 +182,7 @@
       <li> <m>x=4</m></li> 
     </ol>
     </p>
+    </statement>
     </task>
     <task>
       <statement>
@@ -201,7 +216,9 @@
       
     </introduction>
     
-    <task><p> When you evaluate this expression for a given input value of <m>x</m>, what operations do you perform and in what order?
+    <task>
+      <statement>
+        <p> When you evaluate this expression for a given input value of <m>x</m>, what operations do you perform and in what order?
       <ol marker= "A." cols="1">  
       <li> divide by 3, subtract 5</li>
       <li> subtract 5, divide by 3</li>
@@ -209,8 +226,11 @@
       <li> multiply by 3, add 5</li> 
     </ol>
     </p>
+    </statement>
     </task>
-    <task><p> When you "undo" this expression to solve for a given ouput value of <m>y</m>, what operations do you perform and in what order?
+    <task>
+      <statement>
+        <p> When you "undo" this expression to solve for a given ouput value of <m>y</m>, what operations do you perform and in what order?
       <ol marker= "A." cols="1">  
       <li> divide by 3, subtract 5</li>
       <li> subtract 5, divide by 3</li>
@@ -218,8 +238,11 @@
       <li> multiply by 3, add 5</li> 
     </ol>
     </p>
+    </statement>
     </task>
-    <task><p> This set of operations reverses the process for the original function, so can be considered the inverse function.  Write an equation to express the inverse function <m>f^{-1}</m>.
+    <task>
+      <statement>
+        <p> This set of operations reverses the process for the original function, so can be considered the inverse function.  Write an equation to express the inverse function <m>f^{-1}</m>.
       <ol marker= "A." cols="1">  
       <li> <m>f^{-1}(x)=\frac{x}{3}-5</m></li>
       <li> <m>f^{-1}(x)=\frac{x-5}{3}</m></li>
@@ -227,11 +250,14 @@
       <li> <m>f^{-1}(x)=3x+5</m></li> 
     </ol>
     </p>
+    </statement>
     </task>
     <task>
+      <statement>
         <p>
           Check your answer to the previous question by finding <m>f(f^{-1}(x))</m> and <m>f^{-1}(f(x))</m>.
         </p>
+        </statement>
     </task>
   </activity>
 
@@ -255,6 +281,7 @@
       
     </introduction>
     <task>
+      <statement>
         <p>
          Interchange the variables <m>x</m> and <m>y</m>.
          <ol marker= "A." cols="1">  
@@ -264,6 +291,7 @@
           <li> <m>x=\frac{x}{y+1}</m></li> 
         </ol>
         </p>  
+      </statement>
     </task>
     <answer>
       <p>
@@ -271,6 +299,7 @@
       </p>
     </answer>
     <task>
+      <statement>
       <p>
        Eliminate the denominator.
        <ol marker= "A." cols="1">  
@@ -280,6 +309,7 @@
       <li> <m>x(y+1)=x</m></li>
       </ol>
       </p>  
+  </statement>
   </task>
   <answer>
     <p>
@@ -287,6 +317,7 @@
     </p>
   </answer>
   <task>
+    <statement>
     <p>
      Distribute and gather the <m>y</m> terms together.
      <ol marker= "A." cols="1">  
@@ -296,6 +327,7 @@
         <li> <m>xy=0</m></li>  
     </ol>
     </p>  
+</statement>
 </task>
 <answer>
   <p>
@@ -304,6 +336,7 @@
 </answer>
 
     <task>
+      <statement>
       <p>
        Write the inverse function, by factoring and solving for <m>y</m>.
        <ol marker= "A." cols="1">  
@@ -313,6 +346,7 @@
         <li> <m>h^{-1}(x)= \frac{x+1}{x}</m></li> 
       </ol>
       </p>  
+  </statement>
   </task>
   <answer>
     <p>
@@ -327,7 +361,9 @@
     </p>
       
     </introduction>
-    <task><p> <m> g(x)=\dfrac{4x-1}{7} </m>
+    <task>
+      <statement>
+        <p> <m> g(x)=\dfrac{4x-1}{7} </m>
       <ol marker= "A." cols="1">  
       <li> <m>g^{-1}(x)=\frac{7x+1}{4} </m></li>
       <li> <m>g^{-1}(x)= \frac{7x}{4}+1</m></li>
@@ -335,9 +371,12 @@
       <li> <m>g^{-1}(x)=\frac{7}{4x-1} </m></li> 
     </ol>
     </p>
+  </statement>
     </task>
 
-    <task><p> <m> f(x)=3-\sqrt{x+5} </m>
+    <task>
+      <statement>
+        <p> <m> f(x)=3-\sqrt{x+5} </m>
       <ol marker= "A." cols="1">  
       <li> <m>f^{-1}(x)=3+\sqrt{x-5} </m></li>
       <li> <m>f^{-1}(x)=(x-3)^{2}+5 </m></li>
@@ -345,6 +384,7 @@
       <li> <m>f^{-1}(x)=(3-x)^{2}-5 </m></li> 
     </ol>
     </p>
+    </statement>
     </task>
   </activity> 
 

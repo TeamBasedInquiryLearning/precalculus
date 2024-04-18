@@ -18,7 +18,9 @@
     <statement><p> Recall that to find the <m>x</m> intercepts of a linear or quadratic function, let <m>y=0</m> and solve for <m>x</m>.</p>
     </statement></remark></introduction>
 
-        <task> <p>What is the factored form of the function, <m>f(x)=x^2+2x-15</m>? 
+        <task> 
+          <statement>
+            <p>What is the factored form of the function, <m>f(x)=x^2+2x-15</m>? 
          <ol marker= "A."><li> 0</li>
           <li> <m>(x-3)(x+5)</m></li>
           <li> <m>(x+3)(x-5)</m></li>
@@ -26,8 +28,11 @@
           <li> <m>(x+3)(x+5)</m></li>
           </ol>
         </p>
+      </statement>
         </task>
-        <task> <p>What are the <m>x</m> intercepts of the function above? 
+        <task> 
+          <statement>
+            <p>What are the <m>x</m> intercepts of the function above? 
           <ol marker= "A."><li> 0</li>
             <li> <m>-3</m> and <m>5</m></li>
             <li> <m>3</m> and <m>-5</m></li>
@@ -35,9 +40,14 @@
             <li> <m>3</m> and <m>5</m></li>
             </ol>
         </p>
+      </statement>
         </task>
-        <task><p> How do the <m>x</m> intercepts relate to the factored form of the function?
-        </p></task>
+        <task>
+          <statement>
+            <p> How do the <m>x</m> intercepts relate to the factored form of the function?
+        </p>
+      </statement>
+    </task>
       
       </activity> 
       <definition xml:id="Real-zeros"> 
@@ -69,7 +79,9 @@
       </activity>
 
       <activity xml:id="zeros-cubic-division-with-linear-factor">
-          <task><p>Given <m>x-3</m> is a factor of the polynomial <m> f(x)=2x^3-7x^2-33x+108</m>, find the remaining factors using division.
+          <task>
+            <statement>
+              <p>Given <m>x-3</m> is a factor of the polynomial <m> f(x)=2x^3-7x^2-33x+108</m>, find the remaining factors using division.
             <ol marker= "A.">
               <li> <m>(x+4),(2x-9)</m></li>
               <li> <m>(x-4)(2x+9))</m></li>
@@ -77,15 +89,20 @@
               <li> <m>(2x-3)(x+9))</m></li>
             </ol>
           </p>
+          </statement>
           </task>
-          <task> <p> How many zeros does the function have? 
+          <task> 
+            <statement>
+              <p> How many zeros does the function have? 
             <ol marker= "A.">
               <li> <m>1</m></li>
               <li> <m>2</m></li>
               <li> <m>3</m></li>
               <li> <m>4</m></li>
             </ol>
-          </p> </task>
+          </p> 
+        </statement>
+      </task>
       </activity>
       
       <definition xml:id="multiplicity">
@@ -110,7 +127,9 @@
         </statement>
         </activity>
           <activity xml:id="degree-quadratic-example">
-            <task><p>Given <m>y=5x^2+7x-6</m>, what is the degree of the function?
+            <task>
+              <statement>
+                <p>Given <m>y=5x^2+7x-6</m>, what is the degree of the function?
               <ol marker= "A.">
                 <li> <m>0</m></li>
                 <li> <m>1</m></li>
@@ -118,8 +137,11 @@
                 <li> <m>5</m></li>
               </ol>
             </p>
+            </statement>
             </task>
-            <task><p>Find the zeros of the quadratic function above. How many are there?
+            <task>
+              <statement>
+                <p>Find the zeros of the quadratic function above. How many are there?
               <ol marker= "A.">
                 <li> <m>0</m></li>
                 <li> <m>1</m></li>
@@ -127,6 +149,7 @@
                 <li> <m>5</m></li>
               </ol>
             </p>
+          </statement>
             </task>
       </activity>      
       
@@ -138,43 +161,58 @@
       </theorem>
 
       <activity xml:id="Degree-polynomial-factored">
-        <task><p>Given the polynomial,<m>f(x)=(3x-2)(x+1)^2(x-6)^3</m>, find all the zeros of the function with their corresponding multiplicities.  What is the degree of the function?
+        <task>
+          <statement>
+            <p>Given the polynomial,<m>f(x)=(3x-2)(x+1)^2(x-6)^3</m>, find all the zeros of the function with their corresponding multiplicities.  What is the degree of the function?
           <ol marker= "A.">
             <li> <m>3</m></li>
             <li> <m>5</m></li>
             <li> <m>6</m></li>
           </ol>
         </p>
+        </statement>
         </task>
   </activity>  
 
   <activity xml:id="Degree-polynomial-factor">
-    <task><p>Given <m>f(x)=x^4-5x^3+x^2+21x-18</m>, find all the zeros of the function with their corresponding multiplicities.  What is the degree of the function?
+    <task>
+      <statement>
+        <p>Given <m>f(x)=x^4-5x^3+x^2+21x-18</m>, find all the zeros of the function with their corresponding multiplicities.  What is the degree of the function?
       <ol marker= "A.">
         <li> <m>5</m></li>
         <li> <m>4</m></li>
         <li> <m>3</m></li>
       </ol>
     </p>
+    </statement>
     </task>
-    <task> <p> How many zeros are there in total?
+    <task> 
+      <statement>
+        <p> How many zeros are there in total?
       <ol marker= "A.">
         <li> <m>5</m></li>
         <li> <m>4</m></li>
         <li> <m>3</m></li>
       </ol>
     </p>
+  </statement>
   </task>
 </activity> 
 
 <activity xml:id="write-polynomial-given-zeros">
-  <task><p>Given <m>-1</m> is a zero with multiplicity <m>2</m>, <m>4</m> is a zero with multiplicity <m>1</m> and <m>7</m> is a zero with multiplicity <m>3</m>, write a polynomial function in factored form. 
+  <task>
+    <statement>
+      <p>Given <m>-1</m> is a zero with multiplicity <m>2</m>, <m>4</m> is a zero with multiplicity <m>1</m> and <m>7</m> is a zero with multiplicity <m>3</m>, write a polynomial function in factored form. 
 </p>
+  </statement>
   </task>
 </activity> 
 
 <activity xml:id="Complex-zeros-quadratic">
-  <task><p>Find the complex zeros for the function, <m>f(x)=x^2+16</m>.</p>
+  <task>
+    <statement>
+      <p>Find the complex zeros for the function, <m>f(x)=x^2+16</m>.</p>
+      </statement>
   </task>
 </activity> 
 <theorem>
@@ -199,7 +237,9 @@
         </image>
     </figure>
   </introduction>
-      <task> <p>Using the given graph, what are the real zeros of this function? Select all that apply.
+      <task> 
+        <statement>
+          <p>Using the given graph, what are the real zeros of this function? Select all that apply.
        <ol marker= "A."><li> 0</li>
         <li> 1</li>
         <li> -3</li>
@@ -207,37 +247,52 @@
         <li> 4</li>
         <li> -4</li></ol>
       </p>
+      </statement>
       </task>
-      <task> <p>What are the least possible multiplicities for each zero? 
+      <task> 
+        <statement>
+          <p>What are the least possible multiplicities for each zero? 
       </p>
+        </statement>
       </task>
-    <task><p>What is the least degree of the function?
+    <task>
+      <statement>
+        <p>What is the least degree of the function?
       <ol marker= "A."><li> 3</li>
         <li> 4</li>
         <li> 5</li>
         <li> 6</li></ol> </p>
+        </statement>
       </task>
-   <task> <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
-  
+   <task> 
+    <statement>
+      <p> Write the function <m>f(x)</m> in factored form using linear factors.</p>
+    </statement>
       </task>
     </activity>
     <activity xml:id="poly-degree-4">
       <introduction>
         <p>Given the function <m>f(x)=2x^4-4x^3+10x^2-16x+8</m>,</p>
       </introduction>
-      <task> <p> Find all the zeros and their corresponding multiplicities.</p>
-  
+      <task> 
+        <statement>
+          <p> Find all the zeros and their corresponding multiplicities.</p>
+        </statement>
       </task>
-      <task> <p> Write a function for the graph <m>f(x)</m> in factored form using linear factors.</p>
-  
+      <task> 
+        <statement>
+          <p> Write a function for the graph <m>f(x)</m> in factored form using linear factors.</p>
+        </statement>
       </task>
     </activity>
     <activity xml:id="poly-create">
     <introduction>
       <p>The zeros of a function are <m>x=2</m>, with multiplicity <m>1</m>, <m>x=-1</m>, with multiplicity <m>2</m> and <m>x=i</m>. </p>
     </introduction>
-    <task> <p> Given the information above, find a polynomial function with real coefficients of least degree. </p>
-
+    <task> 
+      <statement>
+        <p> Given the information above, find a polynomial function with real coefficients of least degree. </p>
+      </statement>
     </task>
     </activity>
     </subsection>

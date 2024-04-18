@@ -40,7 +40,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(x)+1</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="2">
             <li><p>shifted up 1 unit </p></li>
@@ -48,6 +49,7 @@
             <li><p> shifted down 1 unit </p></li>
             <li><p> shifted right 1 unit </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice A: shifted up 1 unit
@@ -81,7 +83,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(x)-2</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="2">
             <li><p>shifted up 2 units </p></li>
@@ -89,6 +92,7 @@
             <li><p> shifted down 2 units </p></li>
             <li><p> shifted right 2 units </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice C: shifted down 2 units
@@ -136,7 +140,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(x+1)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="2">
             <li><p>shifted up by 1 unit </p></li>
@@ -144,6 +149,7 @@
             <li><p> shifted down 1 unit </p></li>
             <li><p> shifted right 1 unit </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice B: shifted left 1 unit
@@ -177,7 +183,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(x-3)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="2">
             <li><p>shifted up by 3 units </p></li>
@@ -185,6 +192,7 @@
             <li><p> shifted down 3 units </p></li>
             <li><p> shifted right 3 units </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice D: shifted right 3 units
@@ -214,6 +222,7 @@
         </p>
       </introduction>
       <task>
+        <statement>
         <p> <m>f(x-4)+1</m> 
           <ol marker="A." cols="1">
             <li><p> shifted down 4 units </p></li>
@@ -222,6 +231,7 @@
             <li><p> shifted right 4 units </p></li>
             <li><p> shifted up 1 unit </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choices D and E: shifted right 4 units and up 1 unit
@@ -229,6 +239,7 @@
         </answer>
       </task>
       <task>
+        <statement>
         <p> <m>f(x+3)-2</m> 
           <ol marker="A." cols="1">
             <li><p> shifted down 2 units </p></li>
@@ -237,6 +248,7 @@
             <li><p> shifted right 3 units </p></li>
             <li><p> shifted up 2 unit </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choices A and B: shifted left 3 units and down 2 units
@@ -270,7 +282,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>-f(x)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> shifted down 2 units </p></li>
@@ -278,6 +291,7 @@
             <li><p> reflected over the <m>y</m>-axis </p></li>
             <li><p> shifted right 2 units </p></li>
         </ol> </p>
+      </statement>
         <answer>
           <p>
             Choice B: reflected over the <m>x</m>-axis
@@ -312,7 +326,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(-x)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> shifted down 2 units </p></li>
@@ -320,6 +335,7 @@
             <li><p> reflected over the <m>y</m>-axis </p></li>
             <li><p> shifted left 2 units </p></li>
         </ol> </p>
+      </statement>
         <answer>
           <p>
             Choice C: reflected over the <m>y</m>-axis
@@ -366,7 +382,8 @@
           
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>-f(x+2)+3</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> shifted up 2 units </p></li>
@@ -376,13 +393,15 @@
             <li><p> shifted left 3 units </p></li>
             <li><p> shifted left 2 units </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choices B, C and F: shifted left 2 units, reflected over the <m>x</m>-axis, and shifted up 3 units
           </p>
         </answer>
       </task>
-      \<task>
+      <task>
+        <statement>
         <p> Which of the following represents the graph of the transformed function <m>g(x)=-f(x+2)+3</m>?
           <ol marker="A." cols="1">
             <li><p> <image>
@@ -418,6 +437,7 @@
               </sageplot>
             </image> </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice A
@@ -456,7 +476,8 @@
         </sidebyside>
         </p>
       </introduction>
-        \<task>
+        <task>
+          <statement>
           <p> How is the graph of <m>g(x)</m> related to that of <m>f(x)</m>?
             <ol marker="A." cols="1">
               <li><p> shifted up 3 units </p></li>
@@ -466,13 +487,15 @@
               <li><p> shifted left 1 unit </p></li>
               <li><p> shifted right 6 units </p></li>
           </ol> </p>
+        </statement>
           <answer>
             <p>
               Choices A, D and : shifted left 2 units, reflected over the <m>x</m>-axis, and shifted up 3 units
             </p>
           </answer>
         </task>
-        \<task>
+        <task>
+          <statement>
           <p> Write an equation for the graphed function <m>g(x)</m> using transformations of the graph <m>f(x)</m>.
             <ol marker="A." cols="1">
               <li><p> <m>g(x)=-f(x)+3</m> </p></li>
@@ -480,6 +503,7 @@
               <li><p> <m>g(x)=f(-x+3) </m> </p></li>
               <li><p> <m>g(x)=-f(x+3) </m> </p></li>
           </ol> </p>
+          </statement>
           <answer>
             <p>
               Choice D: 
@@ -516,7 +540,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>2f(x)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> vertically stretched by a factor of 2 </p></li>
@@ -524,6 +549,7 @@
             <li><p> horizontally stretched by a factor of 2 </p></li>
             <li><p> horizontally compressed by a factor of 2 </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice A: vertically stretched by a factor of 2
@@ -560,7 +586,8 @@
         </sidebyside>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>f(2x)</m> related to that of <m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> vertically stretched by a factor of 2 </p></li>
@@ -568,6 +595,7 @@
             <li><p> horizontally stretched by a factor of 2 </p></li>
             <li><p> horizontally compressed by a factor of 2 </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice D: horizontally compressed by a factor of 2
@@ -656,7 +684,8 @@
         <p>Consider the function <m>g(x)=3\sqrt{-x}+2</m>
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> Identify the parent function <m>f(x)</m>.
           <ol marker="A." cols="2">
             <li><p> <m>f(x)=x^{2}</m> </p></li>
@@ -664,13 +693,15 @@
             <li><p> <m>f(x)=\sqrt{x}</m> </p></li>
             <li><p> <m>f(x)=x</m> </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice C: <m>f(x)=\sqrt{x}</m>
           </p>
         </answer>
       </task>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>g(x)</m> related to that of the parent function<m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> reflected over the <m>x</m>-axis </p></li>
@@ -680,6 +711,7 @@
             <li><p> vertically stretched by a factor of 3 </p></li>
             <li><p> horizontally compressed by a factor of 3 </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choices B, D, E: reflected over the <m>y</m>-axis, vertically stretched by a factor of 3, shifted up 2 units
@@ -709,7 +741,8 @@
           
         </p>
       </introduction>
-      \<task>
+      <task>
+        <statement>
         <p> Identify the parent function.
           <ol marker="A." cols="2">
             <li><p> <m>f(x)=x^{2}</m> </p></li>
@@ -717,13 +750,15 @@
             <li><p> <m>f(x)=\sqrt{x}</m> </p></li>
             <li><p> <m>f(x)=x</m> </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice A: <m>f(x)=x^{2}</m>
           </p>
         </answer>
       </task>
-      \<task>
+      <task>
+        <statement>
         <p> How is the graph of <m>g(x)</m> related to that of the parent function<m>f(x)</m>?
           <ol marker="A." cols="1">
             <li><p> reflected over the <m>x</m>-axis </p></li>
@@ -733,13 +768,15 @@
             <li><p> shifted left 2 units </p></li>
             <li><p> shifted right 2 units </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choices A, B, D: shifted left 2 units, reflected over the <m>x</m>-axis, shifted down 3 units
           </p>
         </answer>
       </task>
-      \<task>
+      <task>
+        <statement>
         <p> Write an equation to representd the transformed function <m>g(x)</m>.
           <ol marker="A." cols="1">
             <li><p> <m>g(x)=-(x-2)^{2}-3</m> </p></li>
@@ -747,6 +784,7 @@
             <li><p> <m>g(x)=(-x+2)^{2}-3</m> </p></li>
             <li><p> <m>g(x)=-(x+2)^{2}-3</m> </p></li>
         </ol> </p>
+        </statement>
         <answer>
           <p>
             Choice D: <m>g(x)=-(x+2)^2+3</m>

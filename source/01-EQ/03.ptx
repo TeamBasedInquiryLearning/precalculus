@@ -96,22 +96,27 @@
         </p>
       </introduction>
       <task>
+        <statement>
         <p> What is the distance between <m>(4,6)</m> and <m>(9,15)</m>? 
           <ol marker= "A." cols="2">
             <li> <m>10.2</m> </li>
             <li> <m> 10.3</m> </li>
             <li> <m>\sqrt{106}</m> </li>
             <li> <m>\sqrt{56}</m> </li></ol></p>
+        </statement>
         </task>
         <task>
+        <statement>
           <p> What is the distance between <m>(-2,5)</m> and <m>(-7,-1)</m>? 
             <ol marker= "A." cols="2">
               <li> <m>\sqrt{11}</m> </li>
               <li> <m> 7.8</m> </li>
               <li> <m>3.3</m> </li>
               <li> <m>\sqrt{61}</m> </li></ol></p>
+          </statement>
           </task>
           <task>
+            <statement>
               <p>
                 Suppose the line segment <m>AB</m> has one endpoint, <m>A</m>, at the origin. For which coordinate of <m>B</m> would make the line segment <m>AB</m> the longest?
                 <ol marker= "A." cols="2">
@@ -119,6 +124,7 @@
                   <li> <m> (2,-8)</m> </li>
                   <li> <m>(-6,4)</m> </li>
                   <li> <m>(-5,-5)</m> </li></ol></p>
+          </statement>
           </task>
     </activity>
 
@@ -149,28 +155,34 @@
     </image></figure>
     </introduction>
     <task>
+      <statement>
       <p> What is the midpoint of the line segment <m>AB</m>? 
         <ol marker= "A." cols="2">
           <li> <m>(16,4)</m> </li>
           <li> <m>(8,4)</m> </li>
           <li> <m>(8,8)</m> </li>
           <li> <m>(10,2)</m> </li></ol></p>
+        </statement>
       </task>
       <task>
+        <statement>
         <p> What is the midpoint of the line segment <m>AC</m>? 
           <ol marker= "A." cols="2">
             <li> <m>(6,0)</m> </li>
             <li> <m>(4,4)</m> </li>
             <li> <m>(6,4)</m> </li>
             <li> <m>(5,2)</m> </li></ol></p>
+          </statement>
         </task>
         <task>
+          <statement>
           <p> Suppose we connect the two endpoints of the two line segments together, to create the new line segment, <m>BC</m>. Can you make an educated guess to where the midpoint of <m>BC</m> is? 
             <ol marker= "A." cols="2">
               <li> <m>(10,8)</m> </li>
               <li> <m> (6,4)</m> </li>
               <li> <m>(5,4)</m> </li>
               <li> <m>(5,2)</m> </li></ol></p>
+          </statement>
           </task>
           <task>
             <statement>
@@ -196,28 +208,34 @@
         </p>
       </introduction>
       <task>
+        <statement>
         <p> What is the midpoint of the line segment with endpoints <m>(-4,5)</m> and <m>(-2,-3)</m>? 
           <ol marker= "A." cols="2">
             <li> <m>(3,1)</m> </li>
             <li> <m>(-3,1)</m> </li>
             <li> <m>(1,1)</m> </li>
             <li> <m>(1,4)</m> </li></ol></p>
+        </statement>
         </task>
         <task>
+          <statement>
         <p> What is the midpoint of the line segment with endpoints <m>(2,6)</m> and <m>(-6,-8)</m>? 
           <ol marker= "A." cols="2">
             <li> <m>(-3,-1)</m> </li>
             <li> <m>(-2,0)</m> </li>
             <li> <m>(-2,-1)</m> </li>
             <li> <m>(4,7)</m> </li></ol></p>
+        </statement>
         </task>
         <task>
+          <statement>
           <p> Suppose <m>C</m> is the midpoint of <m>AB</m> and is located at <m>(9,8)</m>. The coordinates of <m>A</m> are <m>(10,10)</m>. What are the coordinates of <m>B</m>?
             <ol marker= "A." cols="2">
               <li> <m>(9.5,9)</m> </li>
               <li> <m>(11,12)</m> </li>
               <li> <m>(18,16)</m> </li>
               <li> <m>(8,6)</m> </li></ol></p>
+          </statement>
           </task>
     </activity>
     
