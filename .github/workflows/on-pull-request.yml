@@ -17,31 +17,31 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: Build web with PreTeXt
+            - name: Build student web version with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build web-student
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Build student print version with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build print-student
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Build instructor web version with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
                   pretext-command: build web
                   project-root: "."
                   output-dir: "."
-
-            - name: Build print with PreTeXt
-              uses: siefkenj/pretext-build-action@main
-              with:
-                  pretext-command: build print
-                  project-root: "."
-                  output-dir: "."
-
-            - name: Build instructor version with PreTeXt
-              uses: siefkenj/pretext-build-action@main
-              with:
-                  pretext-command: build instructor
-                  project-root: "."
-                  output-dir: "."
                   
-            - name: Build instructor-print version with PreTeXt
+            - name: Build instructor print version with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
-                  pretext-command: build instructor-print
+                  pretext-command: build print-instructor
                   project-root: "."
                   output-dir: "."
 
