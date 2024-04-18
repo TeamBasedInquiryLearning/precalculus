@@ -133,11 +133,7 @@
         <statement>
           <p>
             Find <m>f(4)</m>.
-            <hint>
-              <p>
-                See <xref ref="remark-fn-notation"/> for a reminder of what this notation means!
-              </p>
-            </hint>
+ 
 
             <ol marker= "A.">  
               <li> <m>\frac{4}{3x-5}</m> </li>
@@ -147,6 +143,11 @@
             </ol>
           </p>
         </statement>
+          <hint>
+              <p>
+                See <xref ref="remark-fn-notation"/> for a reminder of what this notation means!
+              </p>
+          </hint>
           <answer>
             <p>
               C. 
