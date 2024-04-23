@@ -18,7 +18,7 @@
           Consider the graph of two lines.
           <image>
             <sageplot>
-              p=plot(2*x+3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue')
+              p=plot(2*x+3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue', gridlines=[[-4,-3,-2,-1,1,2,3,4],[-4,-3,-2,-1,1,2,3,4]])
               p+=plot(2*x-2,(x,-5,5),thickness=3, color='red')
               p+=text('line A', (-1, 4), fontsize=18, color='black')
               p+=text('line B', (1, -2), fontsize=18, color='black')
@@ -32,8 +32,8 @@
     
     <p> Find the slope of line A.
       <ol marker="A." cols="2">
-        <li><p>1 </p></li>
-        <li><p> 2 </p></li>
+        <li><p><m>1</m> </p></li>
+        <li><p> <m>2</m> </p></li>
         <li><p> <m>\frac{1}{2} </m> </p></li>
         <li><p> <m>-2</m> </p></li>
     </ol> </p>
@@ -103,7 +103,14 @@
 <task>
   <statement>
     <p>
-      What is the same and different about the two lines?
+      What is the same about the two lines?
+    </p>
+  </statement>
+</task>
+<task>
+  <statement>
+    <p>
+      What is different about the two lines?
     </p>
   </statement>
 </task>
@@ -112,7 +119,7 @@
 
 <remark>
   <p>
-    Notice that in <xref ref="activity-need-y"/> the lines have the same slope but different <m>y</m>-intercepts.  It is not enough to just know one piece of information about the line, you need both a slope and a point.
+    Notice that in <xref ref="activity-need-y"/> the lines have the same slope but different <m>y</m>-intercepts.  It is not enough to just know one piece of information to determine a line, you need both a slope and a point.
   </p>
 </remark>
 
@@ -137,7 +144,7 @@
         <p>
           <image>
             <sageplot>
-              p=plot(-1/3*x+1,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue')
+              p=plot(-1/3*x+1,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue', gridlines=[[-4,-3,-2,-1,1,2,3,4],[-4,-3,-2,-1,1,2,3,4]])
               p
             </sageplot>
           </image>
@@ -281,7 +288,7 @@
     <task>
       <statement>
         <p>
-          When you draw a line connecting the two points, it is not possible to find the <m>y</m>-intercept of the line exactly.  Let's use the slope-intercept form and one of the given points to solve for the <m>y</m>-intercept. 
+          When you draw a line connecting the two points, it's often hard to draw an accurate enough graph to determine the <m>y</m>-intercept of the line exactly.  Let's use the slope-intercept form and one of the given points to solve for the <m>y</m>-intercept. Try using the slope and one of the points on the line to solve the equation <m>y=mx+b</m> for <m>b</m>.
         </p>
       <p>
         <ol marker="A." cols="2">
@@ -306,7 +313,7 @@
     </task>
 </activity>
 <remark>
-  It would be nice if there was another form a the equation of a line that works for any points and does not require the <m>y</m>-intercept.
+  It would be nice if there was another form of the equation of a line that works for any points and does not require the <m>y</m>-intercept.
 </remark>
 <definition xml:id="def-point-slope">
   <statement>
@@ -321,7 +328,7 @@
 <activity xml:id="activity-point-slope-form">
   <introduction>
     <p>
-      Write the equation of each line in point-slope form.
+      Write an equation of each line in point-slope form.
       </p>
     </introduction>
     <task>
@@ -329,7 +336,7 @@
         <p>
           <image>
             <sageplot>
-              p=plot(1/3*x+2/3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue')
+              p=plot(1/3*x+2/3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue', gridlines=[[-4,-3,-2,-1,1,2,3,4],[-4,-3,-2,-1,1,2,3,4]])
               p+=point((1,1),pointsize=50,color='blue')
               p+=point((-2,0),pointsize=50,color='blue')
               p
@@ -342,12 +349,13 @@
         <li><p> <m>y-1= 3(x-1)</m> </p></li>
         <li><p> <m>y-1= \frac{1}{3}(x-1)</m> </p></li>
         <li><p> <m>y+2= \frac{1}{3}(x+2)</m> </p></li>
+        <li><p> <m>y= \frac{1}{3}(x+2)</m> </p></li>
     </ol> </p>
     
   </statement>
   <answer>
     <p>
-      Choice C: 
+      Choice C or E
     </p>
   </answer>
     </task>
@@ -382,8 +390,8 @@
       <ol marker="A." cols="1">
         <li><p> <m>y= -4x+1</m> </p></li>
         <li><p> <m>y-0=-2(x-1) </m> </p></li>
-        <li><p> <m>y-4=-4(x-2)</m> </p></li>
-        <li><p> <m>y-4=-3(x-2)</m> </p></li>
+        <li><p> <m>y+4=-4(x-2)</m> </p></li>
+        <li><p> <m>y+4=-3(x-2)</m> </p></li>
     </ol> </p>
     
   </statement>
@@ -448,7 +456,7 @@
     <task>
       <statement>
         <p>
-          Use point-slope form to find the equation of the line.
+          Use point-slope form to find an equation of the line.
         </p>
       <p>
         <ol marker="A." cols="1">
@@ -487,7 +495,7 @@
         <p>
           <image>
             <sageplot>
-              p=plot(3/4*x+2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-6,ymax=6, color='blue')
+              p=plot(3/4*x+2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-6,ymax=6, color='blue', gridlines=[[-4,-3,-2,-1,1,2,3,4],[-4,-3,-2,-1,1,2,3,4]])
               p+=point((-4,-1),pointsize=50,color='blue')
               p+=point((4,5),pointsize=50,color='blue')
               p
@@ -614,7 +622,7 @@
 <definition xml:id="def-hor-vert-lines">
   <statement>
     <p>
-      A <term>horizontal line</term> has the form <m>y=k</m> where <m>k</m> is a constant and has a slope of zero. A <term>vertical line</term> has the form <m>x=h</m> where <m>h</m> is a constant and has an undefined slope.
+      A <term>horizontal line</term> has a slope of zero and has the form <m>y=k</m> where <m>k</m> is a constant. A <term>vertical line</term> has an undefined slope and has the form <m>x=h</m> where <m>h</m> is a constant.
     </p>
   </statement>
 </definition>
