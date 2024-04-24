@@ -253,7 +253,7 @@
       <image xml:id="square-root-function">
         <sageplot>
           f(x) = sqrt(4+x)
-          p=plot(f, (x, -5, 15), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)+ point((-4,0),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+ point((0,2),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+point((12,4),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)
+          p=plot(f, (x, -5, 15), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True, gridlines=[[-10..15],[-10..10]])+ point((-4,0),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+ point((0,2),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+point((12,4),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)
           p
         </sageplot>
       </image>
@@ -346,7 +346,7 @@
     <image xml:id="AROC-linear-function">
       <sageplot>
         f(x) = 3*x-4
-        p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True, gridlines=[[-10..10],[-10..10]])
         p
       </sageplot>
     </image>
@@ -415,7 +415,7 @@
     <sageplot>
       f(x) = (1/2)*x-1
       g(x) = 4*x-3
-      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True) + point((0,-1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+ point((4,1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='red', thickness=3, detect_poles=True) + point((0,-3),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')+ point((2,5),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')
+      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True, gridlines=[[-10..15],[-10..10]]) + point((0,-1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+ point((4,1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='red', thickness=3, detect_poles=True) + point((0,-3),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')+ point((2,5),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')
       p
     </sageplot>
   </image>
@@ -487,7 +487,7 @@
       <sageplot>
         f(x) = (1/2)*x-1
         g(x) = -(1/2)*x-1
-        p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='green', thickness=3, detect_poles=True)
+        p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True, gridlines=[[-10..10],[-10..10]]) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='green', thickness=3, detect_poles=True, gridlines=[[-10..10],[-10..10]])
         p
       </sageplot>
     </image>
@@ -622,7 +622,7 @@
   <image xml:id="horizontal-line">
     <sageplot>
       f(x) = 0*x+5
-      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True, gridlines=[[-10..10],[-10..10]])
       p
     </sageplot>
   </image>
