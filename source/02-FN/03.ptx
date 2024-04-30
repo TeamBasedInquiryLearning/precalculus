@@ -59,7 +59,7 @@
           </statement>
             <answer>
               <p>
-                Choice C: <m>(-4,0)</m>
+                C
               </p>
             </answer>
         </task>
@@ -74,7 +74,7 @@
             </statement>
               <answer>
                 <p>
-                  Choices B and C: <m>(-1,0)</m> and <m>(3,0)</m>
+                  Choices B and C
                 </p>
               </answer>
           </task>
@@ -89,7 +89,7 @@
               </statement>
                 <answer>
                   <p>
-                    Choice D: <m>(0,-2)</m>
+                    D
                   </p>
                 </answer>
             </task>
@@ -104,7 +104,7 @@
                 </statement>
               <answer>
                 <p>
-                  Choice A: <m>(0,-3)</m>
+                  A
                 </p>
               </answer>
               </task>
@@ -169,7 +169,7 @@
           <image>
             <sageplot>
               f(x) = 9/8*(x-4)+4
-              p=plot(f, (x, -4, 4), ymin=-7, ymax=7, xmin=-5,xmax=5,color='blue', thickness=3,)
+              p=plot(f, (x, -4, 4), ymin=-7, ymax=7, xmin=-5,xmax=5,color='blue', thickness=3,gridlines=[[-8..8],[-8..8]])
               p+=point((4,4),pointsize=50,color='blue')
               p+=point((-4,-5),pointsize=50,color='blue')
               p
@@ -183,6 +183,11 @@
             Draw on the <m>x</m>-axis all the values in the domain.
           </p>
         </statement>
+        <answer>
+          <p>
+            Students should shade all values of <m>x</m> from <m>-4</m> to <m>4</m>. The intent here is to help students visualize that the domain consists of more than <m>x</m>-values that are integers.
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -191,12 +196,12 @@
             <ol marker= "A." cols="2">
               <li> <m>[4, -4]</m> </li>
               <li> <m>[-4, 4]</m> </li>
-              <li> <m>[-5, 4]</m> </li>
-              <li> <m>[4, -5]</m> </li></ol></p>
+              <li> <m>(-4, 4)</m> </li>
+              <li> <m>(4, -4)</m> </li></ol></p>
         </statement>
         <answer>
           <p>
-            Choice C: <m>[-5,4]</m>
+            B
           </p>
         </answer>
       </task>
@@ -206,20 +211,25 @@
             Draw on the <m>y</m>-axis all the values in the range.
           </p>
         </statement>
+        <answer>
+          <p>
+            Students should shade all values of <m>y</m> from <m>-5</m> to <m>4</m>. The intent here is to help students visualize that the range consists of more than <m>y</m>-values that are integers.
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
           <p>
             What interval represents the range you drew in part c?
             <ol marker= "A." cols="2">
-              <li> <m>[4, -4]</m> </li>
+              <li> <m>(-5, 4)</m> </li>
               <li> <m>[-4, 4]</m> </li>
               <li> <m>[-5, 4]</m> </li>
-              <li> <m>[4, -5]</m> </li></ol></p>
+              <li> <m>(4, -5)</m> </li></ol></p>
         </statement>
         <answer>
           <p>
-            Choice B: <m>[-4, 4]</m>
+            C
           </p>
         </answer>
       </task>
@@ -233,7 +243,7 @@
         <figure xml:id="graph-of-ray">
           <image>
             <sageplot>
-              p=arrow((0,4), (9,-2),xmin=-2,xmax=9,ymin=-5,ymax=6)
+              p=arrow((0,4), (9,-2),xmin=-2,xmax=9,ymin=-5,ymax=6, gridlines=[[-8..8],[-8..8]])
               p+=point((0,4),pointsize=50,color='blue')
               p
             </sageplot>
@@ -252,7 +262,7 @@
         </statement>
         <answer>
                 <p>
-                  Choice D: <m>[0,\infty)</m>
+                  D
                 </p>
               </answer>
       </task>
@@ -268,7 +278,7 @@
         </statement>
         <answer>
           <p>
-            Choice C: <m>(-\infty, 4]</m>
+            C
           </p>
         </answer>
       </task>
@@ -289,7 +299,7 @@
         <figure xml:id="graph-of-ray-with-open-endpoint">
             <image>
             <sageplot>
-              p=arrow((3,-4), (-4,8),xmin=-6,xmax=5,ymin=-6,ymax=8)
+              p=arrow((3,-4), (-4,8),xmin=-6,xmax=5,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
               p+=point((3,-4),pointsize=50,color='blue')
               p+=point((3,-4),pointsize=10,color='white',zorder=2)
               p
@@ -309,7 +319,7 @@
         </statement>
         <answer>
           <p>
-            Choice A: <m>(-\infty, 3)</m>
+            A
           </p>
         </answer>
       </task>
@@ -325,7 +335,7 @@
         </statement>
         <answer>
           <p>
-            Choice C: <m>(-4, \infty)</m>
+            C
           </p>
         </answer>
       </task>
@@ -339,7 +349,7 @@
         <figure xml:id="graph-of-nonlinear-function">
             <image>
             <sageplot>
-              p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8)
+              p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
               p+=line([(4,-5),(-1,6)],thickness=3)
               p+=line([(-1,6),(-3,1)],thickness=3)
               p+=point((5,-1),pointsize=50,color='blue')
@@ -362,7 +372,7 @@
         </statement>
         <answer>
           <p>
-            Choice D: <m>[-3,5)</m>
+            D
           </p>
         </answer>
       </task>
@@ -372,13 +382,13 @@
             What is the range of this graph?
             <ol marker= "A." cols="2">
               <li> <m>(-3, 5)</m> </li>
-              <li> <m>(-5, 7)</m> </li>
-              <li> <m>[-5, 7]</m> </li>
+              <li> <m>(-5, 6)</m> </li>
+              <li> <m>[-5, 6]</m> </li>
               <li> <m>[-3,5)</m> </li></ol></p>
         </statement>
         <answer>
           <p>
-            Choice C: <m>[-5,7]</m>
+            C
           </p>
         </answer>
       </task>
@@ -396,7 +406,7 @@
           <image>
             <sageplot>
               f(x) = (-x^2-2*x+3)
-              p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True)
+              p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True, gridlines=[[-8..8],[-8..8]])
             </sageplot>
           </image>
       </introduction>
@@ -406,6 +416,11 @@
           Where do you think the graph is increasing?
         </p>
       </statement>
+      <answer>
+        <p>
+          The function is increasing from <m>(-\infty, -1)</m>. Instructors can emphasize this by having students think about where the function is "going up." It may be helpful to also note that the function is no longer "going up" once you get to the "top". This could help students think about how to write their answer in interval notation (with parentheses and not brackets).
+        </p>
+      </answer>
       </task>
       <task>
         <statement>
@@ -419,7 +434,7 @@
         </statement>
         <answer>
           <p>
-            Choice B: <m>(-\infty, -1)</m>
+            B
           </p>
         </answer>
       </task>
@@ -429,6 +444,11 @@
         Where do you think the graph is decreasing?
         </p>
       </statement>
+      <answer>
+        <p>
+          The function is decreasing from <m>(-1, \infty)</m>. Instructors can emphasize this by having students think about where the function is "going down." It may be helpful to also note that the function is no longer "going down" once you get to the "bottom". In this case, the "bottom" does not exist...This might be a good opportunity to discuss with students how to address this when writing the range in interval notation.
+        </p>
+      </answer>
       </task>
       <task>
         <statement>
@@ -442,14 +462,14 @@
         </statement>
         <answer>
           <p>
-            Choice C: <m>(-1,\infty)</m>
+            C
           </p>
         </answer>
       </task>
       <task>
         <statement>
       <p>
-        Based on what you see on the graph, do you think this graph has any maximums or minimums?
+        Based on what you see on the graph, do you think this graph has any maxima or minima?
         </p>
         </statement>
       </task>
@@ -458,7 +478,7 @@
     <definition xml:id="def-intervals-of-increase-and-decrease-and-constant">
       <statement>
         <p>
-          As you noticed in <xref ref="finding-intervals-of-increase-and-decrease"/>, functions can increase or decrease (or even remain constant!) for a period of time. The <term>interval of increase</term> is when the value of the function <m>f(x)</m> increases with an increase in the value of <m>x</m>. The <term>interval of decrease</term> is when the value of the function <m>f(x)</m> decreases with an increase in the value of <m>x</m>. The function is constant when the <m>y</m>-values remain constant as <m>x</m> increases (also known as the <term>constant interval</term>).
+          As you noticed in <xref ref="finding-intervals-of-increase-and-decrease"/>, functions can increase or decrease (or even remain constant!) for a period of time. The <term>interval of increase</term> is when the <m>y</m>-values of the function increase as the <m>x</m>-values increase. The <term>interval of decrease</term> is when the <m>y</m>-values of the function decrease as the <m>x</m>-values increase. The function is constant when the <m>y</m>-values remain constant as <m>x</m>-values increase (also known as the <term>constant interval</term>).
         </p>
         <p>
           The easiest way to identify these intervals is to read the graph from left to right and look at what is happening to the <m>y</m>-values.
@@ -485,7 +505,7 @@
         <figure xml:id="graph-with-max-and-min-values">
             <image>
             <sageplot>
-              p=plot(spline([(-4,4),(-2,7),(2,-4),(5,10)]),(x,-4,5),thickness=3)
+              p=plot(spline([(-4,4),(-2,7),(2,-4),(5,10)]),(x,-4,5),thickness=3, gridlines=[[-8..11],[-8..11]])
               p+=point((-4,4),pointsize=50,color='blue',xmin=-7,xmax=8,ymin=-5,ymax=10)
               p+=point((5,10),pointsize=50,color='blue')
               p
@@ -505,7 +525,7 @@
         </statement>
         <answer>
           <p>
-            Choice D: <m>x=5</m>
+            D
           </p>
         </answer>
       </task>
@@ -521,7 +541,7 @@
         </statement>
         <answer>
           <p>
-            Choice A: <m>10</m>
+            A
           </p>
         </answer>
       </task>
@@ -537,7 +557,7 @@
         </statement>
         <answer>
           <p>
-            Choice C: <m>x=2</m>
+            C
           </p>
         </answer>
       </task>
@@ -553,7 +573,7 @@
         </statement>
         <answer>
           <p>
-            Choice D: <m>-4</m>
+            D
           </p>
         </answer>
       </task>
@@ -569,7 +589,7 @@
         </statement>
         <answer>
           <p>
-            Choice B: <m>x=-2</m>
+            B
           </p>
         </answer>
       </task>
@@ -585,7 +605,7 @@
         </statement>
         <answer>
           <p>
-            Choice B: <m>7</m>
+            B
           </p>
         </answer>
       </task>
@@ -601,7 +621,7 @@
         </statement>
         <answer>
           <p>
-            Choice C: <m>x=2</m>
+            C
           </p>
         </answer>
       </task>
@@ -617,7 +637,7 @@
         </statement>
         <answer>
           <p>
-            Choice D: <m>-4</m>
+            D
           </p>
         </answer>
       </task>
@@ -637,7 +657,7 @@
         <figure xml:id="graph-with-all-characteristics">
             <image>
             <sageplot>
-              p=line([(-8,4),(-2,4)],thickness=3)
+              p=line([(-8,4),(-2,4)],thickness=3, gridlines=[[-8..11],[-8..11]])
               p+=plot(spline([(-2,4.1),(-0.5,8),(2,-3),(4.9,9.4)]),(x,-2,5),thickness=3)
               p+=arrow((4.9,9.4),(5,10),thickness=3)
               p+=point((-8,4),pointsize=50,color='blue',xmin=-9,xmax=6,ymin=-5,ymax=10)
@@ -652,6 +672,11 @@
             What is the domain?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>[-8,\infty)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -659,6 +684,11 @@
             What is the range?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>[-3.5, \infty)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -666,6 +696,11 @@
             What is the <m>x</m>-intercept(s)?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>(1.25,0)</m> and <m>(3.5,0)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -673,6 +708,11 @@
             What is the <m>y</m>-intercept?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>(0, 6.5)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -680,6 +720,11 @@
             Where is the function increasing?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>(-2,-0.5)U(2.25,\infty)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -687,6 +732,11 @@
             Where is the function decreasing?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>(-0.5,2,25)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -694,6 +744,11 @@
             Where is the constant interval?
           </p>
         </statement>
+        <answer>
+          <p>
+            <m>(-8,-2)</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -701,6 +756,11 @@
             At what <m>x</m>-values do the local maxima occur?
           </p>
         </statement>
+        <answer>
+          <p>
+            At <m>x=-0,5</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -708,6 +768,11 @@
             At what <m>x</m>-values do the local minima occur?
           </p>
         </statement>
+        <answer>
+          <p>
+            At <m>x=2.25</m>
+          </p>
+        </answer>
       </task>
       <task>
         <statement>
@@ -715,6 +780,11 @@
             What are the global max and min?
           </p>
         </statement>
+        <answer>
+          <p>
+            Global minimum is <m>-3.5</m>. There is no global maximum.
+          </p>
+        </answer>
       </task>
     </activity>
     
