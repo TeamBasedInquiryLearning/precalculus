@@ -301,7 +301,7 @@
           <statement>
           <p> A line contains the point <m>(-3,-2)</m> and has slope <m>\frac{1}{5} </m>. Which of the following is the graph of that line?
           </p> 
-          <ol marker= "A.">  
+          <ol marker= "A." cols="2">  
             <li> <image>
               <sageplot>
                 f(x) = (-.2*(x+3)-2)
