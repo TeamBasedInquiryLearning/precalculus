@@ -413,7 +413,7 @@
       <sageplot>
         f(x)=sqrt(9-x^2)
         g(x)=-(sqrt(9-x^2))
-        p=plot(f, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3, detect_poles=True)+ plot(g, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3)+ plot(g, (x, -3, 3), ymin=-4, ymax=4, color='blue', thickness=3)
         p
       </sageplot>
     </image>
@@ -429,7 +429,7 @@
     <image>
       <sageplot>
         f(x) = -4*x^3+2*x^2+3
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3)
         p
       </sageplot>
     </image>
@@ -445,7 +445,7 @@
     <image>
       <sageplot>
         f(x)=5*x-1
-        p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3)
         p
       </sageplot>
     </image>
@@ -462,7 +462,7 @@
       <sageplot>
         f(x)=sqrt(x)
         g(x)=-(sqrt(x))
-        p=plot(f, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)+ plot(g, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3)+ plot(g, (x, 0, 5), ymin=-10, ymax=10, color='blue', thickness=3)
         p
       </sageplot>
     </image>

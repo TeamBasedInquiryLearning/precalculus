@@ -22,7 +22,7 @@
             <description>Quadratic function that opens upward</description>
             <sageplot>
               f(x) = (3*(x-2)^2-4)
-                p=plot(f, (x, -1, 5), ymin=-7, ymax=10, color='blue', thickness=3, detect_poles=True)
+                p=plot(f, (x, -1, 5), ymin=-7, ymax=10, color='blue', thickness=3)
             </sageplot>
           </image>
         </figure>
@@ -138,7 +138,7 @@
         <description>Quadratic function that opens downward with vertex (-1,4)</description>
         <sageplot>
           f(x) = (-x^2-2*x+3)
-          p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True)
+          p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3)
         </sageplot>
       </image>
     </figure>
@@ -176,7 +176,7 @@
           <image>
             <sageplot>
               f(x) = -2*(x+3)^2+1
-              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True) 
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3) 
               p+=text('Graph A', (0, 8), fontsize=18, color='black')
               p
             </sageplot>
@@ -184,7 +184,7 @@
           <image>
             <sageplot>
               f(x) = (x+3)^2+2
-              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3)
               p+=text('Graph B', (0, 8), fontsize=18, color='black')
               p
             </sageplot>
@@ -194,7 +194,7 @@
           <image>
             <sageplot>
               f(x) = 1*(x-2)^2-3
-              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3)
               p+=text('Graph C', (0, 8), fontsize=18, color='black')
               p
             </sageplot>
@@ -202,7 +202,7 @@
           <image>
             <sageplot>
               f(x) = -1*(x-2)^2+4
-              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3, detect_poles=True)
+              p=plot(f, (x, -7, 7), ymin=-7, ymax=7, color='blue', thickness=3)
               p+=text('Graph D', (0, 8), fontsize=18, color='black')
               p
             </sageplot>

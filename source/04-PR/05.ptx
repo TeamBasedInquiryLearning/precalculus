@@ -37,7 +37,7 @@ Use the graphs of the following polynomial functions to answer the questions bel
     <image>
       <sageplot>
         f(x) = x^4-11*x^3+42*x^2-64*x+32
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3) 
         p+=text('Graph A', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -45,7 +45,7 @@ Use the graphs of the following polynomial functions to answer the questions bel
     <image>
       <sageplot>
         f(x) = -4*x^3+2*x^2+3
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3)
         p+=text('Graph B', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -55,7 +55,7 @@ Use the graphs of the following polynomial functions to answer the questions bel
     <image>
       <sageplot>
         f(x) = x^7+2*x^3-5*x^2+2
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3) 
         p+=text('Graph C', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -63,7 +63,7 @@ Use the graphs of the following polynomial functions to answer the questions bel
     <image>
       <sageplot>
         f(x) = -2*x^4+3*x^2-5
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3)
         p+=text('Graph D', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -134,7 +134,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     <image>
       <sageplot>
         f(x) = x^4-11*x^3+42*x^2-64*x+32
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3) 
         p+=text('Graph A', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -142,7 +142,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     <image>
       <sageplot>
         f(x) = -4*x^3+2*x^2+3
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3)
         p+=text('Graph B', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -152,7 +152,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     <image>
       <sageplot>
         f(x) = x^7+2*x^3-5*x^2+2
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True) 
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3) 
         p+=text('Graph C', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -160,7 +160,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
     <image>
       <sageplot>
         f(x) = -2*x^4+3*x^2-5
-        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+        p=plot(f, (x, -5, 5), ymin=-15, ymax=15, color='blue', thickness=3)
         p+=text('Graph D', (0, 8), fontsize=18, color='black')
         p
       </sageplot>
@@ -247,7 +247,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
           <description>A polynomial function with one even and one odd multiplicity</description>
           <sageplot>
             f(x) = (x-5)*(x+1)^2
-              p=plot(f, (x, -10, 10), ymin=-40, ymax=20, color='blue', thickness=3, detect_poles=True)
+              p=plot(f, (x, -10, 10), ymin=-40, ymax=20, color='blue', thickness=3)
           </sageplot>
         </image>
       </figure>
@@ -336,7 +336,7 @@ Let's refer back to the graphs in <xref ref="PR5-activity-3"/> and look at the e
             <description>Polynomial Function</description>
             <sageplot>
               f(x) = (1*x^3-3*x-2)
-                p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+                p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3)
             </sageplot>
           </image>
         </figure>

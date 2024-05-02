@@ -306,7 +306,7 @@
               <sageplot>
                 f(x) = (-.2*(x+3)-2)
                 p=point({(-3,-2),(2,-3)},pointsize=50,color='blue')
-                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, detect_poles=True, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
                 p
               </sageplot>
             </image> </li>
@@ -314,7 +314,7 @@
               <sageplot>
                 f(x) = (.2*(x+3)-2)
                 p=point({(-3,-2),(2,-1)},pointsize=50,color='blue')
-                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, detect_poles=True, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
                 p
               </sageplot>
             </image> </li>
@@ -322,7 +322,7 @@
               <sageplot>
                 f(x) = (5*(x+3)-2)
                 p=point({(-3,-2),(-2,3)},pointsize=50,color='blue')
-                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, detect_poles=True, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
                 p
               </sageplot>
             </image> </li>
@@ -330,7 +330,7 @@
               <sageplot>
                 f(x) = (-5*(x+3)-2)
                 p=point({(-3,-2),(-2,-7)},pointsize=50,color='blue')
-                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, detect_poles=True, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+                p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
                 p
               </sageplot>
             </image> </li>

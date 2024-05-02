@@ -554,7 +554,7 @@
                 p+=parametric_plot((2,x),(x,-8,8),color='red',linestyle="--")
                 p+=parametric_plot((x,0),(x,-7,7),color='red',linestyle="--")
                 p+=text('Graph E', (0, 8), fontsize=18, color='black')
-                p
+                p 
               </sageplot>
             </image>
             <image>
