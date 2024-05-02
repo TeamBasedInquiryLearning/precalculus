@@ -346,7 +346,7 @@
             <image>
               <sageplot>
                 f(x) = (.5*(x-2)*(x-4)*(x+1)+1)
-                p=plot(f, (x, -3, 5.5), ymin=-6, ymax=12, color='blue', thickness=3, detect_poles=True, gridlines=[[-5,-4,..,6],[-5,-4,..,12]])                
+                p=plot(f, (x, -3, 5.5), ymin=-6, ymax=12, color='blue', thickness=3, gridlines=[[-5,-4,..,6],[-5,-4,..,12]])                
                 p
               </sageplot>
             </image>

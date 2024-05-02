@@ -33,7 +33,7 @@
                 <image>
                   <sageplot>
                     f(x) = -1/2*x-2
-                    p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True) 
+                    p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3) 
                     p+=text('Graph A', (2, 8), fontsize=18, color='black')
                     p
                   </sageplot>
@@ -41,7 +41,7 @@
                 <image>
                   <sageplot>
                     f(x) = (x+1)*(x-3)
-                    p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3, detect_poles=True)
+                    p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3)
                     p+=text('Graph B', (2, 8), fontsize=18, color='black')
                     p
                   </sageplot>
@@ -406,7 +406,7 @@
           <image>
             <sageplot>
               f(x) = (-x^2-2*x+3)
-              p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, detect_poles=True, gridlines=[[-8..8],[-8..8]])
+              p=plot(f, (x, -4, 2),  ymin=-1, ymax=5, color='blue', thickness=3, gridlines=[[-8..8],[-8..8]])
             </sageplot>
           </image>
       </introduction>
