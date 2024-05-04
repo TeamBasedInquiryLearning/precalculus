@@ -18,7 +18,7 @@
 
    <activity xml:id="LR-1-Investigation-of-slope">
     <introduction>
-        <p> Robert came home one day after school to a very hot house! When he got home, the temperature on the thermastat indicated that it was 85 degrees! Robert decided that was too hot for him, so he turned on the air conditioner. The table of values below indicate the temperature of his house after turning on the air conditioner.
+        <p> Robert came home one day after school to a very hot house! When he got home, the temperature on the thermostat indicated that it was 85 degrees! Robert decided that was too hot for him, so he turned on the air conditioner. The table of values below indicate the temperature of his house after turning on the air conditioner.
           <table xml:id="Time-versus-temperature">
             <tabular>
               <row header="yes" bottom="minor" >
@@ -90,7 +90,7 @@
     <task>
       <statement>
         <p>
-          If Robert wanted to know how much the temperature was decreasing by for every minute, how could he figure that out?
+          If Robert wanted to know how much the temperature was decreasing each minute, how could he figure that out?
         </p>
       </statement>
       <answer>
@@ -158,10 +158,14 @@
       </answer>
     </task>
    </activity>
+   <remark>
+    An average rate of change helps us to see and understand how a function is generally behaving. For example, in <xref ref="LR-1-Investigation-of-slope"/> and <xref ref="LR-2-Investigation-of-slope-continued"/>, we began to see how the temperature of Robert’s house was decreasing every minute the air conditioner was on. In other words, when looking at average rate of change, we are comparing how one quantity is changing with respect to something else changing.
+   </remark>
+
    <definition xml:id="def-average-rate-of-change">
     <statement>
       <p>
-        An <term>average rate of change</term> helps us to see and understand how a function is generally behaving. For example, in <xref ref="LR-1-Investigation-of-slope"/> and <xref ref="LR-2-Investigation-of-slope-continued"/>, we began to see how the temperature of Robert's house was decreasing every minute the air conditioner was on. In other words, when looking at average rate of change, we are comparing how one quantity is changing with respect to something else changing. Therefore, an average rate of change function calculates the amount of change in one item divided by the corresponding amount of change in another.
+        An <term>average rate of change</term> of a function calculates the amount of change in one item divided by the corresponding amount of change in another.
       </p>
       <p>
         To calculate the average rate of change for any function <m>f(x)</m>, we pick two points, <m>a</m> and <m>b</m>, and evaluate the function at those two points. We then find the difference between the <m>y</m>-values and <m>x</m>-values to calcuate the average rate of change:
@@ -212,12 +216,12 @@
     <task>
       <statement>
         <p>
-          Applying <xref ref="def-average-rate-of-change"/>, what is the average rate of change for when <m>x=-5</m> to <m>x=-2</m>?
+          Applying <xref ref="def-average-rate-of-change"/>, what is the average rate of change when <m>x=-5</m> to <m>x=-2</m>?
           <ol marker= "A." cols="2">
-            <li><m>-\frac{1}{7}</m></li>
+            <li><m>\frac{1}{7}</m></li>
             <li><m>-3</m></li>
             <li><m>-7</m></li>
-            <li><m>-\frac{1}{3}</m></li></ol>
+            <li><m>7</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -233,13 +237,25 @@
           <ol marker= "A." cols="2">
             <li><m>-5</m></li>
             <li><m>-3</m></li>
-            <li><m>-\frac{1}{5}</m></li>
-            <li><m>-\frac{1}{3}</m></li></ol>
+            <li><m>5</m></li>
+            <li><m>3</m></li></ol>
         </p>
       </statement>
       <answer>
         <p>
           A: <m>-5</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Does this function have a constant average rate of change?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          No. This would be a great opportunity for students to make observations of the average rate of change across different intervals.
         </p>
       </answer>
     </task>
@@ -371,7 +387,7 @@
   <task>
     <statement>
       <p>
-        What is the average rate of change on the interval <m>[-1,5]</m>?
+        What is the average rate of change on the interval <m>[-1,5]</m>? Notice that you cannot see the point at <m>x=5</m>. How could you use the equation of the line to determine the <m>y</m>-value when <m>x=5</m>?
         <ol marker= "A." cols="2">
           <li><m>3</m></li>
           <li><m>\frac{1}{3}</m></li>
@@ -401,7 +417,7 @@
 <definition xml:id="def-slope">
   <statement>
     <p>
-      The <term>slope</term> of a line is a number that represents the direction and steepness of the line. For a linear function, the slope never changes - meaning it is a constant average rate of change.
+      The <term>slope</term> of a line has a constant that represents the direction and steepness of the line. For a linear function, the slope never changes - meaning it is a constant average rate of change.
     </p>
   </statement>
 </definition>
@@ -424,43 +440,103 @@
   <statement>
     <p>
       What is the vertical distance between the two points on the red line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      C
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
     <p>
       What is the horizontal distance between the two points on the red line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      A
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
     <p>
       Using information from parts <m>a</m> and <m>b</m>, what value could we use to describe the steepness of the red line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      B. This could be a good place to discuss where <m>4</m> comes from (change of <m>y</m> over the change in <m>x</m>).
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
     <p>
       What is the vertical distance between the two points on the blue line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      A
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
     <p>
       What is the horizontal distance between the two points on the blue line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      B
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
     <p>
       Using information from parts <m>d</m> and <m>e</m>, what value could we use to describe the steepness of the blue line?
+      <ol marker= "A." cols="2">
+        <li><m>2</m></li>
+        <li><m>4</m></li>
+        <li><m>8</m></li>
+        <li><m>\frac{1}{2}</m></li></ol>
     </p>
   </statement>
+  <answer>
+    <p>
+      D. This could be a good place to discuss where <m>\frac{1}{2}</m> comes from (change of <m>y</m> over the change in <m>x</m>).
+    </p>
+  </answer>
 </task>
 <task>
   <statement>
@@ -468,13 +544,18 @@
       Which line is the steepest?
     </p>
   </statement>
+  <answer>
+    <p>
+      The red line. The slope of the red line is <m>4</m> and the slope of the blue line is <m>\frac{1}{2}</m>. Because <m>4</m> is larger than <m>\frac{1}{2}</m>, the red line is steeper. 
+    </p>
+  </answer>
 </task>
 </activity>
 
 <remark>
   The steepness, or slope, of a line can be found by the change in <m>y</m> (the vertical distance between two points on the line) divided by the change in <m>x</m> (the horizontal distance between two points on the line). Slope can be calculated as "rise over run."
   <p>
-    How steep a line is also depends on the value of the slope. The red line in <xref ref="LR-5-Compare-Slopes-of-Lines"/> has a larger value for it's slope than the blue line. Thus, the red line is steeper than the blue line.
+    Slope is a way to describe the steepness of a line. The red line in <xref ref="LR-5-Compare-Slopes-of-Lines"/> has a larger value for it's slope than the blue line. Thus, the red line is steeper than the blue line.
   </p>
 </remark>
 
@@ -505,7 +586,7 @@
     </statement>
     <answer>
       <p>
-        A: <m>\frac{1}{2}</m>
+        A
       </p>
     </answer>
   </task>
@@ -522,7 +603,7 @@
     </statement>
     <answer>
       <p>
-        C: <m>-\frac{1}{2}</m>
+        C
       </p>
     </answer>
   </task>
@@ -532,6 +613,11 @@
         How are the slopes of the lines similar?
       </p>
     </statement>
+    <answer>
+      <p>
+        Students will probably notice that both slopes have the same steepness (<m>\frac{1}{2}</m>).
+      </p>
+    </answer>
   </task>
   <task>
     <statement>
@@ -539,6 +625,11 @@
         How are the slopes of the lines different?
       </p>
     </statement>
+    <answer>
+      <p>
+        Although both slopes have the same steepness (<m>\frac{1}{2}</m>), one line has a positive slope (blue line) and the other line has a negative slope (green line).
+      </p>
+    </answer>
   </task>
 </activity>
 
@@ -556,15 +647,35 @@
     <statement>
       <p>
         Plot these points on a graph and find the slope by using "rise over run."
-      </p>
-    </statement>
+        <ol marker= "A." cols="2">
+          <li><m>\frac{1}{2}</m></li>
+          <li><m>2</m></li>
+          <li><m>-\frac{1}{2}</m></li>
+          <li><m>-2</m></li></ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          C
+        </p>
+      </answer>
   </task>
   <task>
     <statement>
       <p>
         Now calculate the slope by using the change in <m>y</m> over the change in <m>x</m>.
-      </p>
-    </statement>
+        <ol marker= "A." cols="2">
+          <li><m>\frac{1}{2}</m></li>
+          <li><m>2</m></li>
+          <li><m>-\frac{1}{2}</m></li>
+          <li><m>-2</m></li></ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          C
+        </p>
+      </answer>
   </task>
   <task>
     <statement>
@@ -572,11 +683,16 @@
         What do you notice about the slopes you got in parts <m>a</m> and <m>b</m>?
       </p>
     </statement>
+    <answer>
+      <p>
+        Students should notice that they get the same answer. Both methods can be used to find the slope.
+      </p>
+    </answer>
   </task>
 </activity>
 
 <remark>
-  We can calculate slope by finding the change in <m>y</m> and dividing by the change in <m>x</m>. Mathematically, this means that when given <m> (x_{1},y_{1})</m> and <m> (x_{2}, y_{2})</m>, <me>slope=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}</me>.
+  We can calculate slope (<m>m</m>) by finding the change in <m>y</m> and dividing by the change in <m>x</m>. Mathematically, this means that when given <m> (x_{1},y_{1})</m> and <m> (x_{2}, y_{2})</m>,  <me>m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}</me>.
 </remark>
 
 <activity xml:id="calculate-slope-using-formula">
