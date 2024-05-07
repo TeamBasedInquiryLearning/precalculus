@@ -452,7 +452,7 @@
         <sageplot>
           f(x) = (7/2*(x)+7)
           p=point({(4,-2)},pointsize=50,color='blue')
-          p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+          p+=line([(4,-8),(4,8)], xmin=-8, xmax=8, ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
           p
         </sageplot>
       </image> </p> 
@@ -593,11 +593,11 @@
           </p>  
         </statement>
         <answer>
-          <p> FIX ME! <image>
+          <p> <image>
             <sageplot>
               f(x) = (2/5*(x-4)+6)
               p=point({(-2,-7)},pointsize=50,color='blue')
-              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p+=line([(-2,-8),(-2,8)], xmin=-8,xmax=8,ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
               p
             </sageplot>
           </image> </p> 
