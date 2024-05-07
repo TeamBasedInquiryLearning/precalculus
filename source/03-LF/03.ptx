@@ -120,27 +120,6 @@
       <task>
         <statement>
           <p>
-            Let's say you are given a table that listed six points that are on the same line. How many of those points are necessary to use to graph the line?
-
-            <ol marker= "A.">  
-              <li> <p>One point is enough.</p>  </li>
-              <li> <p>Two points are enough.</p>  </li>
-              <li> <p>Three points are enough.</p>  </li>
-              <li> <p>You need to plot all six points.</p>  </li>
-              <li> <p>You can use however many you want.</p>  </li>
-              
-            </ol>
-          </p>  
-        </statement>
-        <answer>
-          <p>B </p> 
-          <p>Discussion could include pointing out that only two are <em>necessary</em>, but we can include more if we want. Also, including more is a good way to catch an error in plotting. One will stick out! </p>
-          </answer>
-      </task>
-
-      <task>
-        <statement>
-          <p>
             Graph the line given by the table below.
             <table>
               <tabular halign="right">
@@ -179,6 +158,29 @@
           </p>
         </statement>
       </task> 
+
+      <task>
+        <statement>
+          <p>
+            Let's say you are given a table that listed six points that are on the same line. How many of those points are necessary to use to graph the line?
+
+            <ol marker= "A.">  
+              <li> <p>One point is enough.</p>  </li>
+              <li> <p>Two points are enough.</p>  </li>
+              <li> <p>Three points are enough.</p>  </li>
+              <li> <p>You need to plot all six points.</p>  </li>
+              <li> <p>You can use however many you want.</p>  </li>
+              
+            </ol>
+          </p>  
+        </statement>
+        <answer>
+          <p>B </p> 
+          <p>Discussion could include pointing out that only two are <em>necessary</em>, but we can include more if we want. Also, including more is a good way to catch an error in plotting. One will stick out! </p>
+          </answer>
+      </task>
+
+
     </activity>
 
     </subsection>
@@ -336,7 +338,9 @@
             </image> </li>
           </ol>
         </statement>
-
+        <answer>
+          <p>B </p> 
+          </answer>
      
       
     
@@ -398,16 +402,272 @@
 
    <activity xml:id="activity-lf3-horiz-vert">
     <introduction>
-      <p> ACTIVITY ON HORIZONTAL AND VERTICAL LINES TO COME
+      <p> Recall from <xref ref="def-hor-vert-lines"/> that the equation of a horizontal line has the form <m>y=k</m> where <m>k</m> is a constant and a vertical line has the form <m>x=h</m> where <m>h</m> is a constant.
       </p> 
     </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Which type of line has a slope of zero?
+          <ol marker= "A.">  
+            <li> <p>horizontal</p>  </li>
+            <li> <p>vertical</p>  </li>
+                     
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          A
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Which type of line has an undefined slope?
+          <ol marker= "A.">  
+            <li> <p>horizontal</p>  </li>
+            <li> <p>vertical</p>  </li>
+                     
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          B
+        </p>
+      </answer>
+    </task>
+
+  <task>
+    <statement>
+      <p>
+        Graph the vertical line that goes through the point <m>(4,-2)</m>.
+      </p>
+    </statement>
+    <answer>
+      <p> <image>
+        <sageplot>
+          f(x) = (7/2*(x)+7)
+          p=point({(4,-2)},pointsize=50,color='blue')
+          p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+          p
+        </sageplot>
+      </image> </p> 
+      </answer>
+  </task>
+  <task>
+    <statement>
+      <p>
+        What is the equation of the vertical line through the point <m>(4,-2)</m>?
+        <ol marker= "A.">  
+          <li> <m>x=4</m> </li>
+          <li> <m>y=4</m> </li>
+          <li> <m>x=-2</m> </li>
+          <li> <m>y=-2</m> </li>        
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        A
+      </p>
+    </answer>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Graph the horizontal line that goes through the point <m>(4,-2)</m>.
+      </p>
+    </statement>
+    <answer>
+      <p> <image>
+        <sageplot>
+          f(x) = -2
+          p=point({(4,-2)},pointsize=50,color='blue')
+          p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+          p
+        </sageplot>
+      </image> </p> 
+      </answer>
+  </task>
+  <task>
+    <statement>
+      <p>
+        What is the equation of the horizontal line through the point <m>(4,-2)</m>?
+        <ol marker= "A.">  
+          <li> <m>x=4</m> </li>
+          <li> <m>y=4</m> </li>
+          <li> <m>x=-2</m> </li>
+          <li> <m>y=-2</m> </li>        
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        D
+      </p>
+    </answer>
+  </task>
     </activity>
 
     <activity xml:id="activity-lf3-fluency">
       <introduction>
-        <p> FLUENCY ACTIVITY COMBINING THE PROBLEMS ABOVE!
+        <p> Graph each line described below.
         </p> 
       </introduction>
+      <task>
+        <statement>
+          <p>
+           The line containing the points <m>(-3,4)</m> and <m>(5,-2)</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (-3/4*(x+3)+4)
+              p=point({(-3,4),(5,-2)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line whose <m>x</m>-intercept is <m>-2</m> and whose <m>y</m>-intercept is <m>7</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (7/2*(x)+7)
+              p=point({(-2,0),(0,7)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line whose slope is <m>\frac{2}{5}</m> that goes through the point <m>(4,6)</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (2/5*(x-4)+6)
+              p=point({(4,6)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line whose slope is <m>-\frac{1}{3}</m> and whose <m>y</m>-intercept is <m>-4</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (-1/3*(x)-4)
+              p=point({(0,-4)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The vertical line through the point <m>(-2,-7)</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> FIX ME! <image>
+            <sageplot>
+              f(x) = (2/5*(x-4)+6)
+              p=point({(-2,-7)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The horizontal line through the point <m>(-6,3)</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> FIX ME! <image>
+            <sageplot>
+              f(x) = 3
+              p=point({(-6,3)},pointsize=50,color='blue')
+              p+=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line with equation <m>y=-\frac{5}{3}x-6</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (-5/3*x-6)
+              p=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line with equation <m>y-5=\frac{7}{2}(x-2)</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (7/2*(x-2)+5)
+              p=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+           The line with equation <m>3x-6y=8</m>.
+          </p>  
+        </statement>
+        <answer>
+          <p> <image>
+            <sageplot>
+              f(x) = (1/2*x-(4/3))
+              p=plot(f, (x, -8, 8), ymin=-8, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])                
+              p
+            </sageplot>
+          </image> </p> 
+          </answer>
+      </task>
       </activity>
 
 
