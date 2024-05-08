@@ -211,11 +211,11 @@
          <statement>
            <p> In January, Daisy's Doughnut Shop produced <m>1000</m> doughnuts. What was their total monthy cost to run the shop?  
             <ol marker= "A.">  
-              <li> <m>$2000.25</m>  </li>
-              <li> <m>$2002.50</m>  </li>
-              <li> <m>$2025.00</m>  </li>
-              <li> <m>$2250.00</m>  </li>
-              <li> <m>$4500.00</m>  </li>
+              <li> <m>\$2000.25</m>  </li>
+              <li> <m>\$2002.50</m>  </li>
+              <li> <m>\$2025.00</m>  </li>
+              <li> <m>\$2250.00</m>  </li>
+              <li> <m>\$4500.00</m>  </li>
             </ol>
           </p>
          </statement>
@@ -331,7 +331,7 @@
         </statement>
         <answer>
           <p>
-            <m>\$2325</m>; The cost to produce <m>1300</m> doughnuts is <m>$2325</m>.
+            <m>\$2325</m>; The cost to produce <m>1300</m> doughnuts is <m>\$2325</m>.
           </p>
         </answer>
        </task>
