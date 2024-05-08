@@ -17,6 +17,7 @@
     <xi:include href="02-FN/main.ptx" />
     <xi:include href="03-LF/main.ptx" />
     <xi:include href="04-PR/main.ptx" />
+    <xi:include href="05-EL/main.ptx" />
 
 
     <!-- Include backmatter -->
