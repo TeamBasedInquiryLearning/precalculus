@@ -32,7 +32,9 @@
         </statement>
           <answer>
             <p>
-              D. (A isn't simplified, B added exponents and coefficients down the line, C is subtraction)
+              D.
+            </p> 
+            <p>A isn't simplified, B added exponents and coefficients down the line, C is subtraction
             </p>
           </answer>
       </task>
@@ -52,7 +54,9 @@
         </statement>
           <answer>
             <p>
-              B. (A is added, C didn't distribute the negative to all terms of <m>g(x)</m>, D isn't simplified )
+              B. 
+            </p>  
+            <p>A is added, C didn't distribute the negative to all terms of <m>g(x)</m>, D isn't simplified 
             </p>
           </answer>
       </task>
@@ -81,7 +85,10 @@
         </statement>
           <answer>
             <p>
-              D. (A is f(g(x)), B is <m>g(f(x))</m>, C distributed under the radical)
+              D. 
+            </p>
+            <p>
+              A is f(g(x)), B is <m>g(f(x))</m>, C distributed under the radical
             </p>
           </answer>
       </task>
@@ -102,7 +109,10 @@
         </statement>
           <answer>
             <p>
-              B. (A is g/f, C divides each term under the radical by g, D flips the fractions in C )
+              B. 
+            </p>
+            <p>
+              A is g/f, C divides each term under the radical by g, D flips the fractions in C 
             </p>
           </answer>
       </task>
@@ -174,7 +184,10 @@
         </statement>
           <answer>
             <p>
-              B. (A is multiplying, C is g(f))
+              B. 
+            </p>
+            <p>
+              A is multiplying, C is g(f)
             </p>
           </answer>
       </task>
@@ -195,7 +208,10 @@
         </statement>
           <answer>
             <p>
-              B. (these mirror the previous answer choices)
+              B. 
+            </p>
+            <p>
+              These mirror the previous answer choices.
             </p>
           </answer>
       </task>
@@ -343,7 +359,10 @@
         </statement>
           <answer>
             <p>
-              C. (B is <m>f \circ g</m>, D has a mistake in subtraction)
+              C. 
+            </p>
+            <p>
+              B is <m>f \circ g</m>, D has a mistake in subtraction
             </p>
           </answer>
       </task>
@@ -365,7 +384,10 @@
         </statement>
           <answer>
             <p>
-              E. (A ignores domain, B assumes <m>\sqrt{-4}</m> is 2, C is <m>g \circ f</m>, but ignoring domain,  D assumes <m>\sqrt{-4}</m> is -2)
+              E. 
+            </p>
+            <p>
+              A ignores domain, B assumes <m>\sqrt{-4}</m> is 2, C is <m>g \circ f</m>, but ignoring domain,  D assumes <m>\sqrt{-4}</m> is -2
             </p>
           </answer>
       </task>
@@ -401,7 +423,7 @@ Let functions <m>p</m> and <m>q</m> be given by the graphs below. </p>
 
 <image>
   <sageplot>
-    p=line([(-4,5), (-1,-1)],color="blue",thickness=3,aspect_ratio=1,xmin=-3.5,xmax=3.5,ymin=-3.5,ymax=3.5)
+    p=line([(-4,5), (-1,-1)],color="blue",thickness=3,aspect_ratio=1,xmin=-3.5,xmax=3.5,ymin=-3.5,ymax=3.5,gridlines=[[-4,-3,..,4],[-4,-3,..,4]])
     p+=line([(-1,-1),(1,0)],color="blue",thickness=3)
     p+=line([(1,0),(4,6)],color="blue",thickness=3)
     p+=line([(-3,-4),(-1,2)],color="#080",thickness=3)
