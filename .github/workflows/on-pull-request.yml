@@ -17,13 +17,10 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: Install specified CLI version
-              run: pip install -r requirements.txt
-
             - name: Build student web version with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
-                  pretext-command: --version && pip install -r requirements.txt && pretext build web-student
+                  pretext-command: --version; pip install -r requirements.txt; pretext build web-student
                   project-root: "."
                   output-dir: "."
 
