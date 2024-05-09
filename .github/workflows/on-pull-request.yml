@@ -20,7 +20,7 @@ jobs:
             - name: Build student web version with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
-                  pretext-command: --version; pip install -r requirements.txt; pretext build web-student
+                  pretext-command: build web-student
                   project-root: "."
                   output-dir: "."
 
