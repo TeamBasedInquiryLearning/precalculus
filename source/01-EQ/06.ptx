@@ -26,12 +26,15 @@
     <p>
       Technically, linear and quadratic equations are also rational equations. They are a special case where the denominator of the rational expressions is <m>1</m>. We will focus in this section on cases where the denominator is not a constant; that is, rational equations where there are variables in the denominator. 
     </p>
+    <p>
+      With variables in the denominator, there will often be values that cause the denominator to be zero. This is a problem because division by zero is undefined. Thus, we need to be sure to exclude any values that would make those denominators equal to zero. 
+    </p>
   </statement>
 </observation>
 
     <activity xml:id="activity-re-excluded-values">
       <introduction>
-        <p>        Because some of the denominators in a rational equation will have variables, we need to be sure to exclude any values that would make those denominators equal to zero. Which value(s) should be excluded as possible solutions to the following rational equations? Select all that apply.
+        <p> Which value(s) should be excluded as possible solutions to the following rational equations? Select all that apply.
       </p>
         
       </introduction>
@@ -40,7 +43,7 @@
         <statement>
           <p><me>
         \frac{2}{x+5}=\frac{x-3}{x-8}-7</me> 
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
         <li> <m>-7</m></li>
         <li> <m>-5</m></li>
         <li> <m>2</m></li>
@@ -57,7 +60,7 @@
         <statement>
         <p><me>
         \frac{x^2-6x+8}{x^2-4x+3}=0</me> 
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
           <li> <m>0</m></li>
           <li> <m>1</m></li>
         <li> <m>2</m></li>
@@ -83,7 +86,7 @@
       <task>
         <statement>
           <p>What value should be excluded as a possible solution?
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
         <li> <m>5</m></li>
         <li> <m>6</m></li>
         <li> <m>-6</m></li>
@@ -97,7 +100,7 @@
       <task>
         <statement>
           <p>To solve, we begin by clearing out the fraction involved. What can we multiply each term by that will clear the fraction?
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
         <li> <m>x-5</m></li>
         <li> <m>x-6</m></li>
         <li> <m>x+6</m></li>
@@ -142,7 +145,7 @@
       <task>
         <statement>
           <p>What values should be excluded as possible solutions?
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
         <li> <m>2</m> and <m>4</m></li>
         <li> <m>1</m> and <m>6</m></li>
         <li> <m>-1</m> and <m>-6</m></li>
@@ -260,7 +263,7 @@
       <task>
         <statement>
           <p>What values should be excluded as possible solutions? Select all that apply.
-        <ol marker= "A.">  
+        <ol marker= "A." cols="2">  
           <li> <m>0</m> </li>
           <li> <m>1</m> </li>
         <li> <m>2</m> </li>
