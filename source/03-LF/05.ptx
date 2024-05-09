@@ -28,14 +28,14 @@
          </statement>
            <answer>
              <p>
-              $<m>20.50</m> 
+              <m>\$20.50</m> 
              </p>
            </answer>
        </task>
 
        <task>
          <statement>
-           <p> After how many weeks will she have $<m>40</m> in her piggy bank?</p>
+           <p> After how many weeks will she have <m>\$40</m> in her piggy bank?</p>
          </statement>
            <answer>
              <p>
@@ -203,7 +203,7 @@
     <activity xml:id="activity-lin-model-ex2">
       <introduction>
        <p>
-         Daisy's Doughnut Shop sells delicious doughnuts. Each month, they incur a fixed cost of <m>$2000</m> for rent, insurance, and other expenses. Then, for each doughnut they produce, it costs them an additional <m>$0.25</m>.
+         Daisy's Doughnut Shop sells delicious doughnuts. Each month, they incur a fixed cost of <m>\$2000</m> for rent, insurance, and other expenses. Then, for each doughnut they produce, it costs them an additional <m>\$0.25</m>.
  
        </p>
       </introduction> 
@@ -211,11 +211,11 @@
          <statement>
            <p> In January, Daisy's Doughnut Shop produced <m>1000</m> doughnuts. What was their total monthy cost to run the shop?  
             <ol marker= "A.">  
-              <li> <m>$2000.25</m>  </li>
-              <li> <m>$2002.50</m>  </li>
-              <li> <m>$2025.00</m>  </li>
-              <li> <m>$2250.00</m>  </li>
-              <li> <m>$4500.00</m>  </li>
+              <li> <m>\$2000.25</m>  </li>
+              <li> <m>\$2002.50</m>  </li>
+              <li> <m>\$2025.00</m>  </li>
+              <li> <m>\$2250.00</m>  </li>
+              <li> <m>\$4500.00</m>  </li>
             </ol>
           </p>
          </statement>
@@ -264,23 +264,23 @@
                 </row>
                 <row halign="center">
                   <cell><m>0</m></cell>
-                  <cell><m>$2000</m></cell>
+                  <cell><m>\$2000</m></cell>
                 </row>
                 <row halign="center">
                   <cell><m>500</m></cell>
-                  <cell><m>$2125</m></cell>
+                  <cell><m>\$2125</m></cell>
                 </row>
                 <row halign="center">
                   <cell><m>1000</m></cell>
-                  <cell><m>$2250</m></cell>
+                  <cell><m>\$2250</m></cell>
                 </row>
                 <row halign="center">
                   <cell><m>1500</m></cell>
-                  <cell><m>$2375</m></cell>
+                  <cell><m>\$2375</m></cell>
                 </row>
                 <row halign="center">
                   <cell><m>2000</m></cell>
-                  <cell><m>$2500</m></cell>
+                  <cell><m>\$2500</m></cell>
                 </row>
               </tabular>
             </table> 
@@ -295,7 +295,7 @@
         </statement>
         <answer>
           <p>
-            <m>$2000</m>; It is the fixed cost that must be paid regardless.
+            <m>\$2000</m>; It is the fixed cost that must be paid regardless.
           </p>
         </answer>
        </task>
@@ -331,7 +331,7 @@
         </statement>
         <answer>
           <p>
-            <m>$2325</m>; The cost to produce <m>1300</m> doughnuts is <m>$2325</m>.
+            <m>\$2325</m>; The cost to produce <m>1300</m> doughnuts is <m>\$2325</m>.
           </p>
         </answer>
        </task>
@@ -355,7 +355,7 @@
      <activity xml:id="activity-lin-model-ex3">
       <introduction>
        <p>
-         A taxi costs <m>$5.00</m> up front, and then charges <m>$0.73</m> per mile traveled. 
+         A taxi costs <m>\$5.00</m> up front, and then charges <m>\$0.73</m> per mile traveled. 
        </p>
       </introduction> 
 
@@ -380,14 +380,14 @@
         </statement>
         <answer>
           <p>
-            <m>$14.49</m>
+            <m>\$14.49</m>
           </p>
         </answer>
       </task>
       <task>
         <statement>
           <p>
-            If the taxi ride cost <m>$11.06</m>, how many miles did it travel?
+            If the taxi ride cost <m>\$11.06</m>, how many miles did it travel?
           </p>
         </statement>
         <answer>
