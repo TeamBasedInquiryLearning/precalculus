@@ -81,7 +81,6 @@
           <p>
            Fill out the following table to represent the number of cookies left in the package after the given number of days. 
           </p>
-          <table>
             <tabular>
               <row header="yes" bottom="minor" >
                 <cell>number of days</cell> 
@@ -103,11 +102,9 @@
                 <cell><m>20</m></cell>
               </row>
             </tabular>
-          </table>  
         </statement>
         <answer>
           <p>
-            <table>
               <tabular>
                 <row header="yes" bottom="minor" >
                   <cell>number of days</cell> 
@@ -134,7 +131,6 @@
                   <cell><m>0</m></cell>
                 </row>
               </tabular>
-            </table> 
           </p>
         </answer>
        </task>
@@ -230,7 +226,6 @@
           <p>
            Fill out the following table to represent cost for producing various amounts of doughnuts. 
           </p>
-          <table>
             <tabular>
               <row header="yes" bottom="minor" >
                 <cell>number of doughnuts</cell> 
@@ -252,11 +247,8 @@
                 <cell><m>2000</m></cell>
               </row>
             </tabular>
-          </table>  
         </statement>
         <answer>
-          <p>
-            <table>
               <tabular>
                 <row header="yes" bottom="minor" >
                   <cell>number of doughnuts</cell> 
@@ -283,8 +275,6 @@
                   <cell><m>\$2500</m></cell>
                 </row>
               </tabular>
-            </table> 
-          </p>
         </answer>
        </task>
        <task>
