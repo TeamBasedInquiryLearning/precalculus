@@ -294,6 +294,12 @@
     
       </activity>
 
+      <remark>
+        <p>
+          We've been practicing evaluating functions at specific numeric values. It's also possible to evaluate a function given an expression involving variables.
+        </p>
+      </remark>
+
       <activity xml:id="activity-fn-variables">
         <introduction>
           <p> Let <m>g(x)=x^2-3x</m>. 
@@ -339,6 +345,12 @@
             </answer>
         </task>
       </activity>
+
+      <remark>
+        <p>
+          We should also be able to look at a graph of a function and evaluate it for different values of <m>x</m>. The next activity explores that.
+        </p>
+      </remark>
 
       <activity xml:id="activity-fn-graphical">
         <introduction>
@@ -440,7 +452,11 @@
       </activity>
 
       <activity xml:id="activity-fn-solving">
-        
+        <introduction>
+          <p>
+            In these activities, we are flipping the question around. This time we know what the function equals at some <m>x</m>-value, and we want to recover that <m>x</m>-value (or values!).
+          </p>
+        </introduction>
         <task>
           <statement>
             <p> Let <m>h(x)=5x+7</m>. 
@@ -470,7 +486,7 @@
       <activity xml:id="activity-fn-application">
        <introduction>
         <p>
-          Ellie has <m>\$13</m> in her piggy bank, and she gets an addition <m>\$1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
+          Ellie has <m>\$13</m> in her piggy bank, and she gets an additional <m>\$1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
         </p>
        </introduction> 
         <task>
