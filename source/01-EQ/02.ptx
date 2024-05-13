@@ -55,6 +55,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            B.
+          </p>
+        </answer>
       </task>
       
       <task>
@@ -70,6 +75,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -77,7 +87,7 @@
           <p>
             Fill in the following table using the information you've just determined about the trains' rates and times since they left the station. Some values are there to help you get started.
 
-            <table>
+            
               <tabular halign="center">
                 <row header="yes" bottom="minor" >
                   <cell> </cell> 
@@ -97,9 +107,33 @@
                   <cell> <m>t</m> </cell>
                 </row>
               </tabular>
-            </table> 
+            
           </p>
         </statement>
+        <answer>
+          <p>
+            <tabular halign="center">
+              <row header="yes" bottom="minor" >
+                <cell> </cell> 
+                <cell>rate</cell>
+                <cell>time</cell>
+                <cell>distance from station</cell>
+              </row>
+              <row>
+                <cell> eastbound train </cell> 
+                <cell> <m>75</m> </cell>
+                <cell><m>t</m> </cell>
+                <cell><m>75t</m> </cell>
+              </row>
+              <row>
+                <cell> westbound train </cell> 
+                <cell> <m>85</m> </cell>
+                <cell><m>t</m> </cell>
+                <cell><m>85t</m> </cell>
+              </row>
+            </tabular>
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -114,6 +148,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -129,6 +168,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -144,6 +188,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            B.
+          </p>
+        </answer>
       </task>
 
     </activity> 
@@ -175,6 +224,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
       
       <task>
@@ -190,6 +244,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            D.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -197,7 +256,7 @@
           <p>
             Fill in the following table using the information you've just determined about the Jalen's rates and times on each leg of his grocery store trip. Then fill in the distance column based on how distance relates to rate and time in each case.
 
-            <table>
+            
               <tabular>
                 <row header="yes" bottom="minor" >
                   <cell> </cell> 
@@ -212,9 +271,33 @@
                   <cell> car trip (going back home) </cell> 
                 </row>
               </tabular>
-            </table> 
+           
           </p>
         </statement>
+        <answer>
+          <p>
+            <tabular halign="center">
+              <row header="yes" bottom="minor" >
+                <cell> </cell> 
+                <cell>rate</cell>
+                <cell>time</cell>
+                <cell>distance covered</cell>
+              </row>
+              <row>
+                <cell> bike trip (to the store) </cell> 
+                <cell><m>r</m></cell>
+                <cell><m>\frac{1}{2}</m></cell>
+                <cell><m>\frac{1}{2}r</m></cell>
+              </row>
+              <row>
+                <cell> car trip (going back home) </cell> 
+                <cell><m>r+18</m></cell>
+                <cell><m>\frac{1}{5}</m></cell>
+                <cell><m>\frac{1}{5}(r+18)</m></cell>
+              </row>
+            </tabular>
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -230,6 +313,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            A.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -238,6 +326,11 @@
             Now plug in the expressions from your table for <m>d_b</m> and <m>d_c</m> into the equation you just found. Notice that it is a linear equation in one variable, <m>r</m>. Solve for <m>r</m>.
           </p>
         </statement>
+        <answer>
+          <p>
+           <m>r=12</m> 
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -254,6 +347,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            A.
+          </p>
+        </answer>
       </task>
 
     </activity> 
@@ -280,6 +378,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -294,6 +397,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            B.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -308,6 +416,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            B.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -324,6 +437,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            A. or C.
+          </p>
+        </answer>
       </task>
 
       <task>
@@ -339,6 +457,11 @@
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            A. or D., depending on the substitution chosen
+          </p>
+        </answer>
       </task>
       
       <task>
@@ -349,14 +472,15 @@
               <li>Ammie bought <m>2.5</m> lbs of Nerds Gummy Clusters and <m>4.5</m> lbs of Starburst Jelly Beans.</li>
               <li>Ammie bought <m>3.5</m> lbs of Nerds Gummy Clusters and <m>3.5</m> lbs of Starburst Jelly Beans.</li>
               <li>Ammie bought <m>4.5</m> lbs of Nerds Gummy Clusters and <m>2.5</m> lbs of Starburst Jelly Beans.</li>
-              <li>Ammie bought <m>5.5</m> lbs of Nerds Gummy Clusters and <m>1.5</m> lbs of Starburst Jelly Beans.</li>
-              
-              
-             
-              
+              <li>Ammie bought <m>5.5</m> lbs of Nerds Gummy Clusters and <m>1.5</m> lbs of Starburst Jelly Beans.</li> 
             </ol>
           </p>
         </statement>
+        <answer>
+          <p>
+            C.
+          </p>
+        </answer>
       </task>
 
       
@@ -369,6 +493,11 @@
         </p>
         
       </statement>
+      <answer>
+        <p>
+          <m>12</m> liters
+        </p>
+      </answer>
     </activity> 
 
     </subsection>
