@@ -16,7 +16,7 @@
     </remark>
     <activity xml:id="activity-temp-conversion">
       <introduction>
-        <p> Temperature can be measured using many different units such as Fahrenheit, Celsius, and Kelvin.  Fahrenheit is what is usually reported on the news each night in the United States, while Celsius is commonly used for scientific work. We will begin by converting between these two units.
+        <p> Temperature can be measured using many different units such as Fahrenheit, Celsius, and Kelvin.  Fahrenheit is what is usually reported on your phone's weather app, while Celsius is commonly used for scientific work. We will begin by converting between these two units.
       
           To convert from degrees Fahrenheit to Celsius use the following formula.
           <me>C=\frac{5}{9} (F-32)</me>
@@ -273,31 +273,12 @@
     
   <activity xml:id="activity-find-inverse-xy">
     <introduction>
-      <p> Let's look at an alternate method for finding an inverse by solving the function for <m>x</m> and then interchanging the <m>x</m> and <m>y</m>.
+      <p> Let's look at an alternate method for finding an inverse by solving the function for <m>x</m> in terms of <m>y</m>.
         <me>
           h(x)=\dfrac{x}{x+1}
         </me>
-    </p>
-      
+    </p> 
     </introduction>
-    <task>
-      <statement>
-        <p>
-         Interchange the variables <m>x</m> and <m>y</m>.
-         <ol marker= "A." cols="1">  
-          <li> <m>y=\frac{x}{x+1}</m></li>
-          <li> <m>x=\frac{y}{x+1}</m></li>
-          <li> <m>x=\frac{y}{y+1}</m></li>
-          <li> <m>x=\frac{x}{y+1}</m></li> 
-        </ol>
-        </p>  
-      </statement>
-    </task>
-    <answer>
-      <p>
-        Choice C: <m>x=\frac{y}{y+1}</m>
-      </p>
-    </answer>
     <task>
       <statement>
       <p>
@@ -306,42 +287,62 @@
         <li> <m>y(x+1)=x</m></li>
       <li> <m>x(x+1)=y</m></li>
       <li> <m>x(y+1)=y</m></li>
-      <li> <m>x(y+1)=x</m></li>
+      <li> <m>y(x+1)=y</m></li>
       </ol>
       </p>  
   </statement>
-  </task>
+  
   <answer>
     <p>
-      Choice C: <m>x(y+1)=y</m>
+      Choice A: <m>y(x+1)=x</m>
     </p>
   </answer>
+</task>
   <task>
     <statement>
     <p>
-     Distribute and gather the <m>y</m> terms together.
+     Distribute and gather the <m>x</m> terms together.
      <ol marker= "A." cols="1">  
-      <li> <m>yx+y=x</m></li>
+      <li> <m>yx-x=-y</m></li>
         <li> <m>x^{2}+x=y</m></li>
-        <li> <m>xy-y=-x</m></li>
+        <li> <m>xy+x=y</m></li>
         <li> <m>xy=0</m></li>  
     </ol>
     </p>  
 </statement>
-</task>
+
 <answer>
   <p>
-    Choice C: <m>x=\frac{y}{y+1}</m>
+    Choice A: <m>x=\frac{y}{y+1}</m>
   </p>
 </answer>
+</task>
+<task>
+  <statement>
+    <p>
+      Factor and solve for <m>x</m>.
+  <ol marker= "A." cols="1">  
+    <li> <m>x=\frac{-y}{y-1}</m></li>
+      <li> <m>x=\frac{y}{y-1}</m></li>
+      <li> <m>x=\frac{y}{y+1}</m></li>
+      <li> <m>x=y</m></li>  
+  </ol>
+  </p>  
+</statement>
 
+<answer>
+<p>
+  Choice A: <m>x=\frac{-y}{y-1}</m>
+</p>
+</answer>
+</task>
     <task>
       <statement>
       <p>
-       Write the inverse function, by factoring and solving for <m>y</m>.
+       Write the inverse function.
        <ol marker= "A." cols="1">  
-        <li> <m>h^{-1}(x)= \frac{x}{x-1}</m></li>
-        <li> <m>h^{-1}(x)=\frac{x}{1-x}</m></li>
+        <li> <m>h^{-1}(x)= \frac{-x}{x-1}</m></li>
+        <li> <m>h^{-1}(x)=\frac{x}{x-1}</m></li>
         <li> <m>h^{-1}(x)= \frac{-x}{1-x}</m></li>
         <li> <m>h^{-1}(x)= \frac{x+1}{x}</m></li> 
       </ol>
@@ -350,7 +351,7 @@
   </task>
   <answer>
     <p>
-      Choice B: <m>h^{-1}(x)=\frac{x}{1-x}</m>
+      Choice A: <m>h^{-1}(x)=\frac{-x}{x-1}</m>
     </p>
   </answer>
   </activity>
