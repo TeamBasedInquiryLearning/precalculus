@@ -13,13 +13,13 @@
     <title>Activities</title>
     
     <remark>
-      We begin by revisiting an activity from <xref ref="FN2"/>.
+      We begin by revisiting Activity <xref ref="activity-fn-application"/> from <xref ref="FN2"/>.
     </remark>
 
     <activity xml:id="activity-lf5-revisitFN2">
       <introduction>
        <p>
-         Ellie has <m>\$13</m> in her piggy bank, and she gets an addition <m>\$1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
+         Ellie has <m>\$13</m> in her piggy bank, and she gets an additional <m>\$1.50</m> each week for her allowance. Assuming she does not spend any money, the total amount of allowance, <m>A(w)</m>, she has after <m>w</m> weeks can be modeled by the function <me>A(w)=13+1.50w</me>. 
        </p>
       </introduction> 
        <task>
@@ -51,7 +51,7 @@
       The function in the previous activity is an example of a <term>linear model</term>. A linear model is a linear function that describes, or models, a real-life application. In this section we will build and use linear models. 
     </remark>
 
-    <activity xml:id="activity-lin-model-ex1">
+    <activity xml:id="activity-lin-model-cookies">
       <introduction>
        <p>
          Jack bought a package containing 40  cookies. Each day he takes two in his lunch to work.
@@ -196,7 +196,7 @@
      </task>
      </activity>
 
-    <activity xml:id="activity-lin-model-ex2">
+    <activity xml:id="activity-lin-model-doughnuts">
       <introduction>
        <p>
          Daisy's Doughnut Shop sells delicious doughnuts. Each month, they incur a fixed cost of <m>\$2000</m> for rent, insurance, and other expenses. Then, for each doughnut they produce, it costs them an additional <m>\$0.25</m>.
@@ -224,7 +224,7 @@
        <task>
         <statement>
           <p>
-           Fill out the following table to represent cost for producing various amounts of doughnuts. 
+           Fill out the following table to represent the cost for producing various amounts of doughnuts. 
           </p>
             <tabular>
               <row header="yes" bottom="minor" >
@@ -342,7 +342,7 @@
      </activity>
 
 
-     <activity xml:id="activity-lin-model-ex3">
+     <activity xml:id="activity-lin-model-taxi">
       <introduction>
        <p>
          A taxi costs <m>\$5.00</m> up front, and then charges <m>\$0.73</m> per mile traveled. 
@@ -388,6 +388,68 @@
       </task>
 
       </activity>
+
+      <activity xml:id="activity-lin-model-temperature">
+        <introduction>
+         <p>
+          When reporting the weather, temperature is given in degrees Fahrenheit (<m>F</m>) or degrees Celsius (C). The two scales are related linearly, which means we can find a linear model to describe their relationship. This model lets us convert between the two scales.
+         </p>
+        </introduction> 
+  
+        <task>
+          <statement>
+            <p>
+             Water freezes at <m>0</m><degree/><m>C</m> and <m>32</m><degree/><m>F</m>. Water boils at <m>100</m><degree/><m>C</m> and <m>212</m><degree/><m>F</m>. Use this information to write two ordered pairs. (Hint: Choose Celsius to be your input value, and Fahrenheit to be the output value.)
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(0,32)</m> and <m>(100,212)</m>
+            </p>
+          </answer>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Use the two points to write a linear model for this situation. Use <m>C</m> and <m>F</m> as your variables.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>F=\frac{9}{5}C+32
+              </m>
+            </p>
+          </answer>
+        </task>
+          <task>
+            <statement>
+              <p>
+                If the temperature outside is <m>25</m><degree/><m>C</m>, what is the temperature in Fahrenheit?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>77</m><degree/><m>F</m>
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                If the temperature outside is <m>50</m><degree/><m>F</m>, what is the temperature in Celsius?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>10</m><degree/><m>C</m>
+              </p>
+            </answer>
+          </task>
+        
+  
+        
+        </activity>
 
 
 
