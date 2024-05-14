@@ -347,7 +347,7 @@
     </activity>
 <remark xml:id="rem-absineq">
     <p>
-      When solving an absolute value inequality, rewrite it as compound inequality. For a positive number <m>k</m>
+      When solving an absolute value inequality, rewrite it as a compound inequality. For a positive number <m>k</m>
 
       <m>\lvert x \rvert \lt k \text{ becomes } -k \lt x \lt k</m>. 
 
