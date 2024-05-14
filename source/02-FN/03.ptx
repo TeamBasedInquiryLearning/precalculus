@@ -358,8 +358,8 @@
               p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
               p+=line([(4,-5),(-1,6)],thickness=3)
               p+=line([(-1,6),(-3,1)],thickness=3)
-              p+=point((-3,1),pointsize=50,color='blue')
-              p+=point((5,-1),pointsize=50,markeredgecolor='blue',color='white',zorder=2)
+              p+=point((-3,1),pointsize=75,color='blue')
+              p+=point((5,-1),pointsize=75,markeredgecolor='blue',color='white',zorder=2)
               p
             </sageplot>
           </image>
