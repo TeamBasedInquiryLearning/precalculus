@@ -303,7 +303,7 @@
     <remark>
       While the substitution method will always work, sometimes the resulting equations will be difficult to solve.  Let's explore a third method for solving a system of two linear equations with two variables.
     </remark>
-    <activity xml:id="LF4-elimination">
+    <activity xml:id="elimination">
       <introduction>
         <p>
           Consider the following system of equations.
@@ -386,7 +386,7 @@
         </li>
       </ol>
     </remark>
-    <activity xml:id="LF4-elimination-practice">
+    <activity xml:id="elimination-practice">
       <statement>
         <p>
           Solve the following system of equations using the elimination method.
@@ -403,7 +403,77 @@
         </answer>
       
     </activity>
-    <activity xml:id="LF4-best-method">
+
+    <activity xml:id="elimination-multiply">
+      <introduction>
+        <p>
+          Consider the following system of equations.
+          <me> \begin{cases}
+           5x-9y=6\\
+            -x+2y=-1
+          \end{cases}</me>
+          Notice that if you simply add the two equations together, it will not eliminate a variable.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            What value can you multiply the second equation by so that when you add the result to the first equation one variable cancels?
+          </p>
+          <p>
+            <ol marker="A." cols="1">
+              <li><p> <m>-1</m> and the <m>x</m> will cancel</p></li>
+              <li><p> <m>5</m> and the <m>x</m> will cancel</p></li>
+              <li><p> <m>5</m> and the <m>y</m> will cancel</p></li>
+              <li><p> <m>6</m> and the <m>y</m> will cancel</p></li>
+          </ol> </p>
+        </statement>
+        <answer>
+          <p>
+           B: Multiply the second equation by <m>5</m> and the <m>x</m> will cancel
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Perform the multiplication and add the two equations.  What is the resulting equation?
+          </p>
+          <p>
+            <ol marker="A." cols="1">
+              <li><p> <m>11y=-7</m></p></li>
+              <li><p> <m>y=1</m></p></li>
+              <li><p> <m>10x=1</m></p></li>
+              <li><p> <m>-x=0</m></p></li>
+          </ol> </p>
+        </statement>
+        <answer>
+          <p>
+            B: <m>y=1</m>
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What is the solution to the system of equations?
+          </p>
+          <p>
+            <ol marker="A." cols="1">
+              <li><p> <m>(1,3)</m></p></li>
+              <li><p> <m>(3,-1)</m></p></li>
+              <li><p> <m>(3,1)</m></p></li>
+              <li><p> <m>\left(0,\frac{1}{2} \right)</m></p></li>
+          </ol> </p>
+        </statement>
+        <answer>
+          <p>
+            C: <m>(3,1)</m>
+          </p>
+        </answer>
+      </task>
+    </activity>
+    <activity xml:id="systems-best-method">
       <introduction>
         <p>
           For each system of equations, determine which method (graphical, substitution, or elimination) might be best for solving.
@@ -473,9 +543,9 @@
         </answer>
       </task>
     </activity>
-    <activity xml:id="LF4-practice">
+    <activity xml:id="systems-practice">
         <statement> 
-          <p> Solve each of the systems of equations from <xref ref="LF4-best-method"/> using the method you chose.
+          <p> Solve each of the systems of equations from <xref ref="systems-best-method"/> using the method you chose.
           </p>
         </statement>
         <answer>
