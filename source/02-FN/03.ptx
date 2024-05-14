@@ -19,7 +19,8 @@
     <definition xml:id="def-x-and-y-intercepts">
       <statement>
         <p>
-          One of the easiest things to identify from a graph are the <term>intercepts</term>, which are points at which the graph crosses the axes. The <term><m>x</m>-intercept</term> is the point at which the graph crosses the <m>x</m>-axis and the <term><m>y</m>-intercept</term> is the point at which the graph crosses the <m>y</m>-axis. Because intercepts are points, they are typically written as an ordered pair: <m>(x,y)</m>.
+          One of the easiest things to identify from a graph are the <term>intercepts</term>, which are points at which the graph crosses the axes. 
+          An <term><m>x</m>-intercept</term> is a point at which the graph crosses the <m>x</m>-axis and a <term><m>y</m>-intercept</term> is a point at which the graph crosses the <m>y</m>-axis. Because intercepts are points, they are typically written as an ordered pair: <m>(x,y)</m>.
         </p>
       </statement>
     </definition>
