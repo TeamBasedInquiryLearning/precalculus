@@ -34,7 +34,7 @@
                   <sageplot>
                     f(x) = -1/2*x-2
                     p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3) 
-                    p+=text('Graph A', (2, 8), fontsize=18, color='black')
+                    p+=text('f(x)', (4,-2), fontsize=18, color='black')
                     p
                   </sageplot>
                 </image>
@@ -42,7 +42,7 @@
                   <sageplot>
                     f(x) = (x+1)*(x-3)
                     p=plot(f, (x, -5, 5), ymin=-10, ymax=10, color='blue', thickness=3)
-                    p+=text('Graph B', (2, 8), fontsize=18, color='black')
+                    p+=text('g(x)', (4, 1), fontsize=18, color='black')
                     p
                   </sageplot>
                 </image>
@@ -50,7 +50,7 @@
       </introduction>
       <task>
         <statement>
-        <p> What are the <m>x</m>-intercept(s) of Graph A? 
+        <p> What are the <m>x</m>-intercept(s) of <m>f(x)</m>? 
           <ol marker= "A." cols="2">
             <li> <m>(0, -4)</m> </li>
             <li> <m>(-2, 0)</m> </li>
@@ -65,7 +65,7 @@
         </task>
         <task>
           <statement>
-          <p> What are the <m>x</m>-intercept(s) of Graph B? 
+          <p> What are the <m>x</m>-intercept(s) of <m>g(x)</m>? 
             <ol marker= "A." cols="2">
               <li> <m>(0, -3)</m> </li>
               <li> <m>(-1, 0)</m> </li>
@@ -80,7 +80,7 @@
           </task>
           <task>
             <statement>
-            <p> What are the <m>y</m>-intercept(s) of Graph A? 
+            <p> What are the <m>y</m>-intercept(s) of <m>f(x)</m>? 
               <ol marker= "A." cols="2">
                 <li> <m>(0, -4)</m> </li>
                 <li> <m>(-2, 0)</m> </li>
@@ -95,7 +95,7 @@
             </task>
             <task>
               <statement>
-              <p> What are the <m>y</m>-intercept(s) of Graph B? 
+              <p> What are the <m>y</m>-intercept(s) of <m>g(x)</m>? 
                 <ol marker= "A." cols="2">
                   <li> <m>(0, -3)</m> </li>
               <li> <m>(-1, 0)</m> </li>
@@ -111,7 +111,7 @@
               <task>
                 <statement>
                   <p>
-                   Suppose you are told that a function has the following intercepts: 
+                    Sketch a graph of a function with the following intercepts: 
                    <ul>
                     <li>
                         <m>x</m>-intercepts: <m>(-2,0)</m> and <m>(6,0)</m>
@@ -120,8 +120,6 @@
                       <m>y</m>-intercept: <m>(0,4)</m>
                   </li>
                    </ul> 
-                  </p>
-                  <p>What would the graph look like?
                   </p>
                 </statement>
                   <answer>
@@ -133,12 +131,20 @@
               <task>
                 <statement>
                   <p>
-                    What would a graph look like if it had more than one <m>y</m>-intercept?
+                    Sketch a graph of a function with the following intercepts: 
+                   <ul>
+                    <li>
+                        <m>x</m>-intercept: <m>(-1,0)</m>
+                    </li>
+                    <li>
+                      <m>y</m>-intercept: <m>(0,6)</m> and <m>(0,-2)</m>
+                  </li>
+                   </ul> 
                   </p>
                 </statement>
                   <answer>
                     <p>
-                      You could draw a variety of graphs, but they all would not be functions.
+                      You could draw a variety of graphs, but they would not be functions.
                     </p>
                   </answer>
               </task>
@@ -170,8 +176,8 @@
             <sageplot>
               f(x) = 9/8*(x-4)+4
               p=plot(f, (x, -4, 4), ymin=-7, ymax=7, xmin=-5,xmax=5,color='blue', thickness=3,gridlines=[[-8..8],[-8..8]])
-              p+=point((4,4),pointsize=50,color='blue')
-              p+=point((-4,-5),pointsize=50,color='blue')
+              p+=point((4,4),pointsize=75,color='blue')
+              p+=point((-4,-5),pointsize=75,color='blue')
               p
             </sageplot>
           </image>
@@ -244,7 +250,7 @@
           <image>
             <sageplot>
               p=arrow((0,4), (9,-2),xmin=-2,xmax=9,ymin=-5,ymax=6, gridlines=[[-8..8],[-8..8]])
-              p+=point((0,4),pointsize=50,color='blue')
+              p+=point((0,4),pointsize=75,color='blue')
               p
             </sageplot>
           </image>
@@ -300,8 +306,7 @@
             <image>
             <sageplot>
               p=arrow((3,-4), (-4,8),xmin=-6,xmax=5,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
-              p+=point((3,-4),pointsize=50,color='blue')
-              p+=point((3,-4),pointsize=10,color='white',zorder=2)
+              p+=point((3,-4), pointsize=75, markeredgecolor='blue',color='white',zorder=2)
               p
             </sageplot>
           </image>
@@ -352,9 +357,8 @@
               p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
               p+=line([(4,-5),(-1,6)],thickness=3)
               p+=line([(-1,6),(-3,1)],thickness=3)
-              p+=point((5,-1),pointsize=50,color='blue')
-              p+=point((5,-1),pointsize=10,color='white',zorder=2)
               p+=point((-3,1),pointsize=50,color='blue')
+              p+=point((5,-1),pointsize=50,markeredgecolor='blue',color='white',zorder=2)
               p
             </sageplot>
           </image>
