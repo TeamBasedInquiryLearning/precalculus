@@ -13,7 +13,7 @@
     
     <title>Activities</title>
     <remark>
-      An absolute value, written <m>\lvert x \rvert</m>, is the non-negative value of <m>x</m>. If <m>x</m> is a positive number, then <m>\lvert x \rvert=x</m>. If <m>x</m> is a negative number, then <m>\lvert x \rvert=-x</m>. 
+      An absolute value, written <m>\lvert x \rvert</m>, is the non-negative value of <m>x</m>. If <m>x</m> is a positive number, then <m>\lvert x \rvert=x</m>. If <m>x</m> is a negative number, then <m>\lvert x \rvert=-x</m>. Absolute value is a way of measuring distance.
     </remark>
     <activity>
       <introduction>
@@ -57,7 +57,7 @@
     </activity>
     <activity>
       <introduction>
-        <p>Absolute value represents the distance a value is from 0 on the number line. So, <m>\lvert x-7 \rvert = 2</m> means that the expression <m>x-7</m> is 2 units away from 0. 
+        <p>Absolute value represents the distance a value is from <m>0</m> on the number line. So, <m>\lvert x-7 \rvert = 2</m> means that the expression <m>x-7</m> is <m>2</m> units away from <m>0</m>. 
         </p>
       </introduction>
       <task>
@@ -142,7 +142,7 @@
   </task>
 </activity>
 <remark>
-  Since the absolute value represents a distance, it is always a positive number. Whenever you encounter an isolated absolute value equation equal to a negative value, there will be no solution.
+  Since the absolute value represents a distance, it is always a non-negative number. Whenever you encounter an isolated absolute value equation equal to a negative value, there will be no solution.
 </remark>
 <activity>
   <introduction>
@@ -345,15 +345,15 @@
     </statement>
     </task>
     </activity>
-<definition xml:id="def-absineq">
+<remark xml:id="rem-absineq">
     <p>
-      When solving an absolute value inequality, rewrite it as compound inequalities. Assume <m>k</m> is positive.
+      When solving an absolute value inequality, rewrite it as a compound inequality. For a positive number <m>k</m>
 
       <m>\lvert x \rvert \lt k \text{ becomes } -k \lt x \lt k</m>. 
 
       <m>\lvert x \rvert \gt k \text{ becomes } x\gt k \text{ and } x\lt-k</m>.
     </p>
-</definition>
+  </remark>
 <activity>
   <introduction>
     <p>Solve the following absolute value inequalities. Write your solution in interval notation and graph on a number line.
