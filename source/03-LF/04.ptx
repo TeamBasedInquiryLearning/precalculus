@@ -117,10 +117,14 @@
 </task>
   </activity>
 
+<remark>
+  Notice that in <xref ref="LR4-investigating-parallel-lines"/> the two lines never touch. 
+</remark>
+  
 <definition xml:id="def-parallel-lines">
   <statement>
     <p>
-      Notice that in <xref ref="LR4-investigating-parallel-lines"/> the two lines never touch. These are <term>parallel lines</term> because the lines are always the same distance apart (equidistant) and will never meet. Parallel lines have the <em>same slope</em>, but different <m>y</m>-intercepts.
+      <term>Parallel lines</term> are lines that always have the same distance apart (equidistant) and will never meet. Parallel lines have the same slope, but different <m>y</m>-intercepts.
     </p>
   </statement>
 </definition>
@@ -168,7 +172,7 @@
 <task>
   <statement>
     <p>
-      Find the equation of a line parallel to <m>f(x)</m> that also passes through the point <m>(-4,2)</m>.
+      Find the equation of a line parallel to <m>f(x)</m> that passes through the point <m>(-4,2)</m>.
     </p>
   </statement>
   <answer>
@@ -261,19 +265,19 @@
 <task>
   <statement>
     <p>
-      If you were to think of slope as "rise over run," how would you write the slopes of each line?
+      If you were to think of slope as "rise over run," how would you write the slope of each line?
     </p>
   </statement>
   <answer>
     <p>
-      Line A could be written as <m>\frac{-1}{2}</m> and Line B could be written as <m>\frac{2}{1}</m>.
+      Line A could be written as <m>-\frac{1}{2}</m> and Line B could be written as <m>\frac{2}{1}</m>.
     </p>
   </answer>
 </task>
 <task>
   <statement>
     <p>
-      What do you notice is the same/different of the two lines?
+      How would you compare the slopes of the two lines?
     </p>
   </statement>
   <answer>
@@ -285,7 +289,7 @@
   </activity>
 
   <remark>
-    Notice in <xref ref="LR4-investigating-perpendicular-lines"/>, that even though the two lines have different slopes, the slopes are somewhat similar. For example, if you take the slope of Line A (<m>-\frac{1}{2}</m>) and flip and negate it, you will get the slope of Line B (<m>\frac{2}{1}</m> or just <m>2</m>).
+    Notice in <xref ref="LR4-investigating-perpendicular-lines"/>, that even though the two lines have different slopes, the slopes are somewhat similar. For example, if you take the slope of Line A <m>\left(-\frac{1}{2}\right)</m> and flip and negate it, you will get the slope of Line B <m>\left(\frac{2}{1}\right)</m>.
   </remark>
 
   <definition xml:id="def-perpendicular-lines">
@@ -339,7 +343,7 @@
    <task>
      <statement>
        <p>
-         Find the equation of a line perpendicular to <m>f(x)</m> that also passes through the point <m>(3,6)</m>.
+         Find the equation of a line perpendicular to <m>f(x)</m> that passes through the point <m>(3,6)</m>.
        </p>
      </statement>
      <answer>
@@ -399,14 +403,14 @@
     <task>
       <statement>
         <p>
-          <me>f(x)=\frac{1}{2}x+3</me>
-          <me>g(x)=-2x-1</me>
+          <me>f(x)=\frac{4}{5}x+3</me>
+          <me>g(x)=-\frac{5}{4}x-1</me>
         </p>
       </statement>
       <answer>
         <p>
-          Perpendicular. The slope of <m>f(x)</m> is <m>\frac{1}{2}</m> and the slope of <m>g(x)</m> is <m>-2</m> (and are negative reciprocals of one another).
-        </p>
+          Perpendicular. The slope of <m>f(x)</m> is <m>\frac{4}{5}</m> and the slope of <m>g(x)</m> is <m>-\frac{5}{4}</m> (and are negative reciprocals of one another).
+        </p> 
       </answer>
     </task>
    </activity>
