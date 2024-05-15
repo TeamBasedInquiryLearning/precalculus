@@ -133,14 +133,14 @@
           <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+5x+7}{x+1}</m>.</p> 
         </introduction>
        
-        <task> 
           <statement>
-            <p>Long division problem here with blanks to fill in</p> </statement>
-              <image xml:id="example-long-division">
+            <p>Long division problem here with blanks to fill in</p>
+              <image xml:id="example-long-division" width="25%">
                 <latex-image>
+                  \(
                 \begin{array}{ r *{19}{c@{}} }
                 &amp; &amp; 0 &amp; . &amp; 7 &amp; 1 &amp; 6 &amp; 2 \\ \cline{2-9}\\[-14.5pt]
-                \multicolumn{1}{r}{74\rlap{\kern4.5pt)}} &amp; 5 &amp; 3 &amp; . &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
+                \multicolumn{1}{r}{74\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 5 &amp; 3 &amp; . &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
                 &amp; 5 &amp; 1 &amp; &amp; 8 \\ \cline{2-5}
                 &amp; &amp; 1 &amp; &amp; 2 &amp; 0 \\
                 &amp; &amp; &amp; &amp; 7 &amp; 4 \\  \cline{4-6}
@@ -150,9 +150,10 @@
                 &amp; &amp; &amp; &amp; &amp; 1 &amp; 4 &amp; 8 \\  \cline{6-8}
                 &amp; &amp; &amp; &amp; &amp; &amp; 1 &amp; 2 &amp; 0
                 \end{array}
+                  \)
                 </latex-image>
                 </image>
-              </task>
+              </statement>
               </activity>
                 
       
