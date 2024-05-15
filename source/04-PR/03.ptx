@@ -14,8 +14,8 @@
     <title>Activities</title>
     <observation>
       <p>We have seen previously that we can reduce rational functions by factoring, for example
-        <me>\frac{x^2+5x+4}{x^4+3x^2+2x}=\frac{(x+1)(x+4)}{x(x+2)(x+1)}=\frac{x+4}{x(x+2)}.</me>
-        In this section, we wille explore what can we do to simplify rational functions if we are not able to 
+        <me>\frac{x^2+5x+4}{x^3+3x^2+2x}=\frac{(x+1)(x+4)}{x(x+2)(x+1)}=\frac{x+4}{x(x+2)}.</me>
+        In this section, we will explore what can we do to simplify rational functions if we are not able to 
         reduce by easily factoring?
     </p>
   </observation>
@@ -117,7 +117,7 @@
   </task>
   <task>
     <statement>
-  <p> Rewrite <m>\frac{2x+7}{x+1}=2x+\frac{?}{x+1}</m>.</p>
+  <p> Rewrite <m>\frac{2x+7}{x+1}=2+\frac{?}{x+1}</m>.</p>
     </statement>
   </task>
   <task>
@@ -127,168 +127,35 @@
   </task>
 </activity>
 
-    <activity xml:id="Long-Division-Basic">
-      
-        <task>
-          <statement>
-            <p>346 can be written as <m> 3*10^2+4*10+7</m>. This is equivalent to the polynomial <m>f(x)=3x^2+4x+7</m> for <m>f(10)</m>. <m>17</m> can be written as <m>10+7</m>, which is equivalent to the polynomial <m>f(x)=x+7</m> for <m>f(10)</m>. Use long division to find the quotient and remainder when 346 is divided by 17. 
-          <ol marker= "A.">
-            <li> quotient 20, remainder 3</li>
-            <li> quotient 6, remainder 3</li>
-            <li> quotient 6, remainder 20</li>
-            <li> quotient 20, remainder 6</li>
-            </ol></p>
-          </statement>
-          </task>
-          <task>
-            <statement>
-            <p>What is the divisor?
-              <ol marker= "A.">
-                <li> <m>3</m></li>
-                <li> <m>17</m></li>
-                <li> <m>20</m></li>
-                <li> <m>6</m></li>
-                </ol>  
-          </p> 
-        </statement>
-        </task>
-          <task>
-            <statement>
-          <p>Now write the answer as a mixed number.
-            <ol marker= "A.">
-              <li> <m>20 + \frac{3}{17}</m></li>
-              <li> <m>6 + \frac{20}{17}</m></li>
-              <li> <m>20 + \frac{6}{17}</m></li>
-              <li> <m>6 + \frac{3}{17}</m></li>
-              </ol>  
-        </p> </statement>
-      </task>
-       
-        <task> 
-          <statement>
-          <p>Is the fraction portion of the mixed number a proper or improper fraction?
-           </p>
-          </statement>
-        </task>
-      
-      <task> 
-        <statement>
-          <p>How can you check your answer?  </p>
-        </statement>
-      </task>
-    </activity>
-
-    <activity xml:id="Simplify-Rational-By-Factoring">
-      
-        <task>
-          <statement>
-            <p>Now let's try simplifying a different rational function, in a generalized format, where <m>x</m> is unknown.  
-           <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>
-          <ol marker= "A.">
-            <li> <m>x+4</m></li>
-            <li> <m>3x-1</m></li>
-            <li> <m>x-4</m></li>
-            <li> <m>3x+1</m></li>
-            </ol></p> 
-          </statement>
-        </task> 
-        
-       
-     
-    </activity>
   
-   
     <activity xml:id="Long-Division-Intro-Steps">
         <introduction>
-          <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+11x-4}{x+4}</m>.</p> 
+          <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+5x+7}{x+1}</m>.</p> 
         </introduction>
        
         <task> 
           <statement>
-            <p>What is the result when <m>3x^2</m> is divided by <m>x</m>? Place this number at the top left when doing long division.
-          <ol marker= "A.">
-            <li> <m>3</m></li>
-            <li> <m>3x</m></li>
-            <li> <m>3x^3</m></li>
-            </ol>  
-      </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Next, multiply this result by <m>x+4</m> and write this below <m>3x^2+11x-4 </m>. Be sure to line up like terms in the same column. What is the result?
-          <ol marker= "A.">
-          <li> <m>3x^2+12x</m></li>
-          <li> <m>-3x^2-12x</m></li>
-          <li> <m>3x^3+12x</m></li>
-          </ol>  </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Now subtract the like terms by placing them in the corresponding columns.
-          <ol marker= "A.">
-            <li> <m>-3x^2-x-4</m></li>
-            <li> <m>x+4</m></li>
-            <li> <m>23x-4</m></li>
-            <li> <m>-x-4</m></li>
-            </ol>  </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p> Next, divide the first term in the previous result by <m>x</m>. Write the answer on the top beside the first answer. What is the expression at the top now?
-          <ol marker= "A.">
-            <li> <m>3x^2-1</m></li>
-            <li> <m>-3x+1</m></li>
-            <li> <m>3x-1</m></li>
-            <li> <m>3x+1</m></li>
-            </ol>  </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Multiply this resulting term by <m>x+4</m> and write that answer in the proper columns of like terms. What is this result? 
-          <ol marker= "A.">
-            <li> <m>-x-4</m></li>
-            <li> <m>x+4</m></li>
-            </ol>  </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Subtract the like terms. This is the remainder. What is the remainder? 
-          <ol marker= "A.">
-            <li> <m>2x+8</m></li>
-            <li> <m>-x-4</m></li>
-            <li> <m>0</m></li>
-            </ol>
-        </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>What is the quotient? 
-          <ol marker= "A.">
-            <li> <m>3x^2+11x-4</m></li>
-            <li> <m>3x-1</m></li>
-            <li> <m>0</m></li>
-            <li> <m>x+4</m></li>
-            </ol>
-        </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>How can you check your answer? (Hint: Think of regular long division with positive integers.) </p>
-        </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>How does your answer for the quotient and remainder compare to the simplifying by factoring method? </p>
-            </statement>
-        </task>
-      </activity>
+            <p>Long division problem here with blanks to fill in</p> </statement>
+              <image xml:id="example-long-division">
+                <latex-image>
+                \begin{array}{ r *{19}{c@{}} }
+                &amp; &amp; 0 &amp; . &amp; 7 &amp; 1 &amp; 6 &amp; 2 \\ \cline{2-9}\\[-14.5pt]
+                \multicolumn{1}{r}{74\rlap{\kern4.5pt)}} &amp; 5 &amp; 3 &amp; . &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
+                &amp; 5 &amp; 1 &amp; &amp; 8 \\ \cline{2-5}
+                &amp; &amp; 1 &amp; &amp; 2 &amp; 0 \\
+                &amp; &amp; &amp; &amp; 7 &amp; 4 \\  \cline{4-6}
+                &amp; &amp; &amp; &amp; 4 &amp; 6 &amp; 0 \\
+                &amp; &amp; &amp; &amp; 4 &amp; 4 &amp; 4 \\   \cline{5-7}
+                &amp; &amp; &amp; &amp; &amp; 1 &amp; 6 &amp; 0 \\
+                &amp; &amp; &amp; &amp; &amp; 1 &amp; 4 &amp; 8 \\  \cline{6-8}
+                &amp; &amp; &amp; &amp; &amp; &amp; 1 &amp; 2 &amp; 0
+                \end{array}
+                </latex-image>
+                </image>
+              </task>
+              </activity>
+                
+      
 
       <activity xml:id="Long-Division-Missing-Terms">
         <introduction>
@@ -392,28 +259,7 @@
         <introduction>
           <p>Now use synthetic division, to find the quotient and remainder for the given rational function. <m>f(x)=\frac{x^3+2x^2-3x+4}{x-2}</m></p> 
         </introduction>
-        <task> 
-          <statement>
-            <p>What is the quotient or polynomial?
-          <ol marker= "A.">
-            <li> <m>x^2-3</m></li>
-            <li> <m>x^3+2x-3x+4</m></li>
-            <li> <m>x^2+4x+5</m></li>
-            <li> <m>5</m></li>
-            </ol>
-        </p>
-      </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>What is the remainder? <ol marker= "A.">
-          <li> <m>14</m></li>
-          <li> <m>-10</m></li>
-          <li> <m>5</m></li>
-          <li> <m>6</m></li>
-          </ol></p>
-        </statement>
-        </task>
+        
         <task> 
           <statement>
             <p>Write the rational function as a polynomial plus a proper rational function. </p>
@@ -437,3 +283,4 @@
         <p>It would be great to include videos down here, like in the Calculus book!</p>
     </subsection>
 </section>
+
