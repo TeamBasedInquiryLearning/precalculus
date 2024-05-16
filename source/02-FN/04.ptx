@@ -673,7 +673,7 @@
       <image>
         <sageplot>
           p=plot(sqrt(x),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5)
-          p+=text(r"$f(x)=\sqrt(x)$", (1, 4), fontsize=18, color='black')
+          p+=text(r"$f(x)=\sqrt{x}$", (1, 4), fontsize=18, color='black')
           p
         </sageplot>
       </image>
