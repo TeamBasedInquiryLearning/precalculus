@@ -337,7 +337,7 @@
             <li><m>3\ln x+\ln y</m></li>
             <li><m>3\ln x-\ln y</m></li>
             <li><m>3(\ln x-\ln y)</m></li>
-            <li><m>\lnx^3-\ln y</m></li></ol>
+            <li><m>\ln x^3-\ln y</m></li></ol>
         </p>
       </statement>
       <answer>
