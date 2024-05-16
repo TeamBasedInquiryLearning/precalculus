@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <section xml:id="EL5" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Properties of Logarithms (EL5) </title>
+    <title>Properties of logarithms (EL5) </title>
     <objectives>
     <ul>
       <li>
@@ -50,12 +50,12 @@
     <task>
       <statement>
         <p>
-          Take <m>log_{10}</m> of both sides of the equation you now have (remember, whatever you do to one side of the equation, you must do to the other). What is that equation?
+          Take <m>\log_{10}</m> of both sides of the equation you now have (remember, whatever you do to one side of the equation, you must do to the other). What is that equation?
           <ol marker= "A." cols="1">
-            <li><m>log_{10}(a+b)=log_{10}\left(10^{x+y}\right)</m></li>
-            <li><m>log_{10}(a*b)=log_{10}\left(10^{x+y}\right)</m></li>
-            <li><m>log_{10}(a*b)=log_{10}\left(10^{a+b}\right)</m></li>
-            <li><m>log_{10}(a+b)=log_{10}\left(10^{a+b}\right)</m></li></ol>
+            <li><m>\log_{10}(a+b)=\log_{10}\left(10^{x+y}\right)</m></li>
+            <li><m>\log_{10}(a*b)=\log_{10}\left(10^{x+y}\right)</m></li>
+            <li><m>\log_{10}(a*b)=\log_{10}\left(10^{a+b}\right)</m></li>
+            <li><m>\log_{10}(a+b)=\log_{10}\left(10^{a+b}\right)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -67,13 +67,13 @@
     <task>
       <statement>
         <p>
-          Knowing that <m>log_b(b^k)=k</m>, how could you simplify the right side of the equation?
+          Knowing that <m>\log_b(b^k)=k</m>, how could you simplify the right side of the equation?
           <aside>
-            Recall that this property was covered in Section 3 (Introduction to Logs).
+            Recall that this property was covered in Section 3 (Introduction to logs).
           </aside>
           <ol marker= "A." cols="2">
-            <li><m>log_{10}(a+b)</m></li>
-            <li><m>log_{10}(x+y)</m></li>
+            <li><m>\log_{10}(a+b)</m></li>
+            <li><m>\log_{10}(x+y)</m></li>
             <li><m>a+b</m></li>
             <li><m>x+y</m></li></ol>
         </p>
@@ -90,10 +90,10 @@
         <p>
           Recall in part a, we defined <m>10^x=a</m> and <m>10^y=b</m>. What would these look like in logarithmic form?
           <ol marker= "A." cols="2">
-            <li><m>log_{10}a=x</m></li>
-            <li><m>log_{x}a=10</m></li>
-            <li><m>log_{10}b=y</m></li>
-            <li><m>log_{y}b=10</m></li></ol>
+            <li><m>\log_{10}a=x</m></li>
+            <li><m>\log_{x}a=10</m></li>
+            <li><m>\log_{10}b=y</m></li>
+            <li><m>\log_{y}b=10</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -108,10 +108,10 @@
         <p>
           Using your solutions in part d, how can we rewrite the right side of the equation?
           <ol marker= "A." cols="1">
-            <li><m>log_{10}(a+b)=10^{a+b}</m></li>
-            <li><m>log_{10}(a*b)=log_{10}a-log_{10}b</m></li>
-            <li><m>log_{10}(a*b)=log_{10}a+log_{10}b</m></li>
-            <li><m>log_{10}(a*b)=10^x+10^y</m></li></ol>
+            <li><m>\log_{10}(a+b)=10^{a+b}</m></li>
+            <li><m>\log_{10}(a*b)=\log_{10}a-\log_{10}b</m></li>
+            <li><m>\log_{10}(a*b)=\log_{10}a+\log_{10}b</m></li>
+            <li><m>\log_{10}(a*b)=10^x+10^y</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -149,12 +149,12 @@
     <task>
       <statement>
         <p>
-          Take <m>log_{10}</m> of both sides of the equation you now have (remember, whatever you do to one side of the equation, you must do to the other). What is that equation?
+          Take <m>\log_{10}</m> of both sides of the equation you now have (remember, whatever you do to one side of the equation, you must do to the other). What is that equation?
           <ol marker= "A." cols="1">
-            <li><m>log_{10}(a-b)=log_{10}\left(10^{x-y}\right)</m></li>
-            <li><m>log_{10}\left(\frac{a}{b}\right)=log_{10}\left(10^{x-y}\right)</m></li>
-            <li><m>log_{10}\left(\frac{a}{b}\right)=log_{10}\left(10^{a+b}\right)</m></li>
-            <li><m>log_{10}(a-b)=log_{10}\left(10^{a-b}\right)</m></li></ol>
+            <li><m>\log_{10}(a-b)=\log_{10}\left(10^{x-y}\right)</m></li>
+            <li><m>\log_{10}\left(\frac{a}{b}\right)=\log_{10}\left(10^{x-y}\right)</m></li>
+            <li><m>\log_{10}\left(\frac{a}{b}\right)=\log_{10}\left(10^{a+b}\right)</m></li>
+            <li><m>\log_{10}(a-b)=\log_{10}\left(10^{a-b}\right)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -166,13 +166,13 @@
     <task>
       <statement>
         <p>
-          Knowing that <m>log_b(b^k)=k</m>, how could you simplify the right side of the equation?
+          Knowing that <m>\log_b(b^k)=k</m>, how could you simplify the right side of the equation?
           <aside>
-            Recall that this property was covered in Section 3 (Introduction to Logs).
+            Recall that this property was covered in <xref ref="EL3"/>.
           </aside>
           <ol marker= "A." cols="2">
-            <li><m>log_{10}(a-b)</m></li>
-            <li><m>log_{10}(x-y)</m></li>
+            <li><m>\log_{10}(a-b)</m></li>
+            <li><m>\log_{10}(x-y)</m></li>
             <li><m>x-y</m></li>
             <li><m>a-b</m></li></ol>
         </p>
@@ -189,10 +189,10 @@
         <p>
           Recall in part a, we defined <m>10^x=a</m> and <m>10^y=b</m>. What would these look like in logarithmic form?
           <ol marker= "A." cols="2">
-            <li><m>log_{10}a=x</m></li>
-            <li><m>log_{x}a=10</m></li>
-            <li><m>log_{10}b=y</m></li>
-            <li><m>log_{y}b=10</m></li></ol>
+            <li><m>\log_{10}a=x</m></li>
+            <li><m>\log_{x}a=10</m></li>
+            <li><m>\log_{10}b=y</m></li>
+            <li><m>\log_{y}b=10</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -207,10 +207,10 @@
         <p>
           Using your solutions in part d, how can we rewrite the right side of the equation?
           <ol marker= "A." cols="1">
-            <li><m>log_{10}(a-b)=10^{a+b}</m></li>
-            <li><m>log_{10}\left(\frac{a}{b}\right)=log_{10}a-log_{10}b</m></li>
-            <li><m>log_{10}(a-b)=log_{10}a-log_{10}b</m></li>
-            <li><m>log_{10}\left(\frac{a}{b}\right)=10^{x-y}</m></li></ol>
+            <li><m>\log_{10}(a-b)=10^{a+b}</m></li>
+            <li><m>\log_{10}\left(\frac{a}{b}\right)=\log_{10}a-\log_{10}b</m></li>
+            <li><m>\log_{10}(a-b)=\log_{10}a-\log_{10}b</m></li>
+            <li><m>\log_{10}\left(\frac{a}{b}\right)=10^{x-y}</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -224,8 +224,8 @@
    <definition xml:id="def-product-and-quotient-property-of-logs">
     <statement>
       <p>
-        The <term>product property of logarithms</term> states <me>log_{a}(m*n)=log_{a}m+log_{a}n</me>.
-        The <term>quotient property of logarithms</term> states <me>log_{a}\left(\frac{m}{n}\right)=log_{a}m-log_{a}n</me>.
+        The <term>product property of logarithms</term> states <me>\log_{a}(m*n)=\log_{a}m+\log_{a}n</me>.
+        The <term>quotient property of logarithms</term> states <me>\log_{a}\left(\frac{m}{n}\right)=\log_{a}m-\log_{a}n</me>.
         Notice that for each of these properties, the base has to be the same. 
       </p>
     </statement>
@@ -238,7 +238,7 @@
    <activity xml:id="investigate-power-property">
     <introduction>
       <p>
-        There is still one more property to consider. This activity will investigate the power property. Suppose you are given <me>log(x^3)=log(x*x*x)</me>.
+        There is still one more property to consider. This activity will investigate the power property. Suppose you are given <me>\log(x^3)=\log(x*x*x)</me>.
       </p>
     </introduction>
 
@@ -247,10 +247,10 @@
         <p>
           By applying <xref ref="def-product-and-quotient-property-of-logs"/>, how could you rewrite the right-hand side of the equation?
           <ol marker= "A." cols="1">
-            <li><m>log(3x)</m></li>
-            <li><m>log(x)-log(x)-log(x)</m></li>
-            <li><m>log(x^3)</m></li>
-            <li><m>log(x)+log(x)+log(x)</m></li></ol>
+            <li><m>\log(3x)</m></li>
+            <li><m>\log(x)-\log(x)-\log(x)</m></li>
+            <li><m>\log(x^3)</m></li>
+            <li><m>\log(x)+\log(x)+\log(x)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -265,10 +265,10 @@
         <p>
           By combining "like" terms, you can simplify the right-hand side of the equation further. What equation do you have after simplifying the right-hand side?
           <ol marker= "A." cols="1">
-            <li><m>log(x^3)=log(3x)</m></li>
-            <li><m>log(x^3)=3log(x)</m></li>
-            <li><m>log(x^3)=log(x^3)</m></li>
-            <li><m>log(x^3)=-3log(x)</m></li></ol>
+            <li><m>\log(x^3)=\log(3x)</m></li>
+            <li><m>\log(x^3)=3\log(x)</m></li>
+            <li><m>\log(x^3)=\log(x^3)</m></li>
+            <li><m>\log(x^3)=-3\log(x)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -282,7 +282,7 @@
    <definition xml:id="def-power-property">
     <statement>
       <p>
-        The <term>power property of logarithms</term> states <me>log_a(m^n)=n*log_a(m)</me>.
+        The <term>power property of logarithms</term> states <me>\log_a(m^n)=n*\log_a(m)</me>.
       </p>
     </statement>
    </definition>
@@ -296,12 +296,12 @@
     <task>
       <statement>
         <p>
-          <me>log_3\left(\frac{6}{19}\right)</me>
+          <me>\log_3\left(\frac{6}{19}\right)</me>
           <ol marker= "A." cols="1">
-            <li><m>log_36+log_319</m></li>
-            <li><m>log_3(6-19)</m></li>
-            <li><m>log_36-log_319</m></li>
-            <li><m>log_3(6+19)</m></li></ol>
+            <li><m>\log_36+\log_319</m></li>
+            <li><m>\log_3(6-19)</m></li>
+            <li><m>\log_36-\log_319</m></li>
+            <li><m>\log_3(6+19)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -314,12 +314,12 @@
     <task>
       <statement>
         <p>
-          <me>log(a*b)^2</me>
+          <me>\log(a*b)^2</me>
           <ol marker= "A." cols="1">
-            <li><m>2(loga+logb)</m></li>
-            <li><m>2loga-logb</m></li>
-            <li><m>loga+2logb</m></li>
-            <li><m>2loga+2logb</m></li></ol>
+            <li><m>2(\log a+\log b)</m></li>
+            <li><m>2\log a-\log b</m></li>
+            <li><m>\log a+2\log b</m></li>
+            <li><m>2\log a+2\log b</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -332,12 +332,12 @@
     <task>
       <statement>
         <p>
-          <me>ln\left(\frac{x^3}{y}\right)</me>
+          <me>\ln\left(\frac{x^3}{y}\right)</me>
           <ol marker= "A." cols="1">
-            <li><m>3lnx+lny</m></li>
-            <li><m>3lnx-lny</m></li>
-            <li><m>3(lnx-lny)</m></li>
-            <li><m>lnx^3-lny</m></li></ol>
+            <li><m>3\ln x+\ln y</m></li>
+            <li><m>3\ln x-\ln y</m></li>
+            <li><m>3(\ln x-\ln y)</m></li>
+            <li><m>\lnx^3-\ln y</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -349,12 +349,12 @@
     <task>
       <statement>
         <p>
-          <me>log(x*y*z^3)</me>
+          <me>\log(x*y*z^3)</me>
           <ol marker= "A." cols="1">
-            <li><m>logx+logy+3logz</m></li>
-            <li><m>logx+logy+logz^3</m></li>
-            <li><m>logx-logy-3logz</m></li>
-            <li><m>3(logx+y+z)</m></li></ol>
+            <li><m>\log x+\log y+3\log z</m></li>
+            <li><m>\log x+\log y+\log z^3</m></li>
+            <li><m>\log x-\log y-3\log z</m></li>
+            <li><m>3(\log x+y+z)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -374,12 +374,12 @@
     <task>
       <statement>
         <p>
-          <me>6log_6a+3log_6b</me>
+          <me>6\log_6 a+3\log_6 b</me>
           <ol marker= "A." cols="1">
-            <li><m>6(log_6a)+3(log_6b)</m></li>
-            <li><m>log_6a^6+log_6b^3</m></li>
-            <li><m>(log_6a)^6+(log_6b)^3</m></li>
-            <li><m>log_6\left(a^6*b^3\right)</m></li></ol>
+            <li><m>6(\log_6 a)+3(\log_6 b)</m></li>
+            <li><m>\log_6 a^6+\log_6 b^3</m></li>
+            <li><m>(\log_6 a)^6+(\log_6 b)^3</m></li>
+            <li><m>\log_6\left(a^6*b^3\right)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -392,12 +392,12 @@
     <task>
       <statement>
         <p>
-          <me>lnx-4lny</me>
+          <me>\ln x-4\ln y</me>
           <ol marker= "A." cols="1">
-            <li><m>lnx-lny^4</m></li>
-            <li><m>ln\left(\frac{x}{y^4}\right)</m></li>
-            <li><m>ln\left(\frac{x}{y}\right)^4</m></li>
-            <li><m>ln(x*y^4)</m></li></ol>
+            <li><m>\ln x-\ln y^4</m></li>
+            <li><m>\ln\left(\frac{x}{y^4}\right)</m></li>
+            <li><m>\ln\left(\frac{x}{y}\right)^4</m></li>
+            <li><m>\ln(x*y^4)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -410,12 +410,12 @@
     <task>
       <statement>
         <p>
-          <me>2(log(2x)-logy)</me>
+          <me>2(\log(2x)-\log y)</me>
           <ol marker= "A." cols="1">
-            <li><m>log\left(\frac{4x^2}{y^2}\right)</m></li>
-            <li><m>log\left(\frac{2x^2}{y^2}\right)</m></li>
-            <li><m>2*log\left(\frac{2x}{y}\right)</m></li>
-            <li><m>log\left(\frac{4x^2}{y}\right)</m></li></ol>
+            <li><m>\log\left(\frac{4x^2}{y^2}\right)</m></li>
+            <li><m>\log\left(\frac{2x^2}{y^2}\right)</m></li>
+            <li><m>2*\log\left(\frac{2x}{y}\right)</m></li>
+            <li><m>\log\left(\frac{4x^2}{y}\right)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -428,12 +428,12 @@
     <task>
       <statement>
         <p>
-          <me>log3+2log5</me>
+          <me>\log 3+2\log 5</me>
           <ol marker= "A." cols="1">
-            <li><m>log(3*5^2)</m></li>
-            <li><m>2*log75</m></li>
-            <li><m>log75</m></li>
-            <li><m>log225</m></li></ol>
+            <li><m>\log(3*5^2)</m></li>
+            <li><m>2*\log 75</m></li>
+            <li><m>\log 75</m></li>
+            <li><m>\log 225</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -452,7 +452,7 @@
     <statement>
       <p>
         The <term>change of base formula</term> is used to write a logarithm of a number with a given base as the ratio of two logarithms each with the same base that is different from the base of the original logarithm.
-        <me>log_{b}a=\frac{loga}{logb}</me>
+        <me>\log_{b}a=\frac{\log a}{\log b}</me>
       </p>
     </statement>
    </definition>
@@ -466,12 +466,12 @@
     <task>
       <statement>
         <p>
-          <m>log_230</m>
+          <m>\log_2 30</m>
           <ol marker= "A." cols="2">
             <li><m>0.204</m></li>
             <li><m>4.907</m></li>
-            <li><m>log\left(\frac{30}{2}\right)</m></li>
-            <li><m>log\left(\frac{2}{30}\right)</m></li></ol>
+            <li><m>\log\left(\frac{30}{2}\right)</m></li>
+            <li><m>\log\left(\frac{2}{30}\right)</m></li></ol>
         </p>
       </statement>
       <answer>
@@ -483,11 +483,11 @@
     <task>
       <statement>
         <p>
-          <m>log_5183</m>
+          <m>\log_5 183</m>
           <ol marker= "A." cols="2">
-            <li><m>log\left(\frac{183}{5}\right)</m></li>
+            <li><m>\log\left(\frac{183}{5}\right)</m></li>
             <li><m>0.309</m></li>
-            <li><m>log\left(\frac{5}{183}\right)</m></li>
+            <li><m>\log\left(\frac{5}{183}\right)</m></li>
             <li><m>3.237</m></li></ol>
         </p>
       </statement>
