@@ -673,7 +673,7 @@
       <image>
         <sageplot>
           p=plot(sqrt(x),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5)
-          p+=text('$f(x)=sqrt(x)$', (1, 4), fontsize=18, color='black')
+          p+=text(r"$f(x)=\sqrt{x}$", (1, 4), fontsize=18, color='black')
           p
         </sageplot>
       </image>
@@ -690,7 +690,7 @@
     <image>
       <sageplot>
         p=plot(1/x, thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, detect_poles=True)
-        p+=text('$f(x)=\frac{1}{x}$', (-2, 4), fontsize=18, color='black')
+        p+=text(r"$f(x)=\frac{1}{x}$", (-2, 4), fontsize=18, color='black')
         p
       </sageplot>
     </image>
