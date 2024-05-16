@@ -739,7 +739,7 @@
         <image>
           <sageplot>
             f(x) = 3*e^x
-            p=point([(0,3),(1,3e)],pointsize=50,color='blue')
+            p=point([(0,f(x=0)),(1,f(x=1))],pointsize=50,color='blue')
             p+=plot(f, (x, -9, 8), ymin=-2, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])
             p
           </sageplot>
