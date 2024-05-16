@@ -135,16 +135,16 @@
        
           <statement>
             <p>Now fill in the blanks for the long division problem below. </p></statement>
-              <task><image xml:id="example-long-division" width="25%">
+              <task><image xml:id="example-long-division" width="50%">
                 <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
-                &amp; [ &amp; &amp;] &amp;[ &amp; &amp;] &amp;  \\ \cline{2-9}\\[-14.5pt]
+                &amp;  &amp; ?&amp; &amp; &amp; ? &amp; &amp;  \\ \cline{2-9}\\[-14.5pt]
                 \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
-                &amp; [ &amp;  &amp;] &amp; 3 &amp;x \\ \cline{2-6}
-                &amp; &amp; &amp; [ &amp; &amp; &amp; ] &amp;7 &amp; \\
-                &amp; &amp; &amp;[ &amp;  &amp; &amp; ] &amp; [ &amp; &amp; &amp; &amp; ] &amp; \\  \cline{4-11}
-                &amp; &amp; &amp; &amp;  &amp; &amp;  &amp;[ &amp; &amp; &amp; ] &amp;  \\
+                &amp;  &amp; ? &amp; &amp; 3 &amp;x \\ \cline{2-6}
+                &amp; &amp; &amp;  &amp;? &amp; &amp;  &amp;7 &amp; \\
+                &amp; &amp; &amp; &amp; ? &amp; &amp;  &amp; ?&amp; &amp; &amp; &amp;  &amp; \\  \cline{4-11}
+                &amp; &amp; &amp; &amp;  &amp; &amp;  &amp; ? &amp; &amp; &amp; &amp;  \\
                 &amp; &amp; &amp;  &amp; &amp; &amp;  &amp; &amp; \\
                 \end{array}
                   \)
@@ -236,18 +236,63 @@
                     <task> 
                       <statement>
                         <p>Using only the coefficients of the dividend, fill in the blanks in the top row below.</p>
-                        </statement>
+                       
+                      
+                    <image xml:id="example-synthetic-division-coefficients" width="20%">
+                      <latex-image>
+                        \(
+                      \begin{array}{ r *{19}{c@{}} }
+                      &amp;  &amp; &amp; &amp; &amp; &amp; &amp;  \\ \cline{2-10}\\[-40.5pt]
+                      \multicolumn{1}{r}{\rlap{\kern4.5pt\smash{\raise.2ex\hbox{|}}}} &amp; &amp; &amp; &amp; &amp;?  &amp; &amp; ?  &amp; &amp; 7 \\
+                      &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp;\\ 
+
+
+                      \end{array}
+                        \)
+                      </latex-image>
+                      </image>
+                    </statement>
                     </task>
                     <task> 
                       <statement>
-                        <p>Find the zero of the divisor. </p>
-                        </statement>
+                        <p>Find the zero of the divisor. Put this in front of the other coefficients. </p>
+                        
+                          <image xml:id="example-synthetic-missing-divisor" width="20%">
+                            <latex-image>
+                              \(
+                                \begin{array}{ r *{19}{c@{}} }
+                                &amp;  &amp; &amp; &amp; &amp; &amp; &amp;  \\ \cline{2-10}\\[-40.5pt]
+                                \multicolumn{1}{r}{?\rlap{\kern4.5pt\smash{\raise.2ex\hbox{|}}}} &amp; &amp; &amp; &amp; &amp;?  &amp; &amp; ?  &amp; &amp; 7 \\
+                                &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp;\\ 
+          
+          
+                                \end{array}
+                              \)
+                            </latex-image>
+                            </image>
+                          </statement>
                     </task>
                     <task> 
                       <statement>
                         <p>How can we use the coefficients of the dividend and the zero of the divisor to produce the coefficients of the quotient in part b of Activity 4.3.8? </p>
+                        <image xml:id="example-synthetic-final_step" width="20%">
+                          <latex-image>
+                            \(
+                              \begin{array}{ r *{19}{c@{}} }
+                              &amp;  &amp; &amp; &amp; &amp; &amp; &amp;  \\ \cline{2-10}\\[-40.5pt]
+                              \multicolumn{1}{r}{?\rlap{\kern4.5pt\smash{\raise.2ex\hbox{|}}}} &amp; &amp; &amp; &amp; &amp; ?  &amp; &amp; ?  &amp; &amp; 7 \\
+                              &amp; &amp; &amp; &amp; &amp; &amp; &amp;? &amp; &amp; ? &amp; &amp;\\ 
+                              &amp; &amp; &amp; &amp; &amp; 3 &amp; &amp; 2 &amp; &amp;5 &amp; &amp; &amp; &amp;\\ 
+                              &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp;\\ 
+        
+        
+                              \end{array}
+                            \)
+                          </latex-image>
+                          </image>
                         </statement>
                     </task>
+                    <task> <p>How can we identify the quotient and remainder using this result from the synthetic division?</p></task>
                       
       </activity>
        
