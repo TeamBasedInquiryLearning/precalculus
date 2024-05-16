@@ -74,7 +74,7 @@
       since <m>\frac{357}{11}=30+\frac{27}{11}</m>.
     </p>
     <p>
-      Rewrite <m>27=?+\frac{?}{11}</m> as an integer plus a proper fraction.
+      Rewrite <m>\frac{27}{11}=?+\frac{?}{11}</m> as an integer plus a proper fraction.
     </p>
     </statement>
   </task>
@@ -127,40 +127,57 @@
   </task>
 </activity>
 
-  
+<remark> The divisor of a rational function is the denominator. The numerator of a rational function is called the dividend.</remark>
     <activity xml:id="Long-Division-Intro-Steps">
         <introduction>
-          <p>Now we will simplify using long division, given <m>f(x)=\frac{3x^2+5x+7}{x+1}</m>.</p> 
+          <p>Now we will simplify the rational function using long division, given <me>f(x)=\frac{3x^2+5x+7}{x+1}</me>.</p> 
         </introduction>
        
           <statement>
-            <p>Long division problem here with blanks to fill in</p>
-              <image xml:id="example-long-division" width="25%">
+            <p>Now fill in the blanks for the long division problem below. </p></statement>
+              <task><image xml:id="example-long-division" width="25%">
                 <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
-                &amp; &amp; 0 &amp; . &amp; 7 &amp; 1 &amp; 6 &amp; 2 \\ \cline{2-9}\\[-14.5pt]
-                \multicolumn{1}{r}{74\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 5 &amp; 3 &amp; . &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
-                &amp; 5 &amp; 1 &amp; &amp; 8 \\ \cline{2-5}
-                &amp; &amp; 1 &amp; &amp; 2 &amp; 0 \\
-                &amp; &amp; &amp; &amp; 7 &amp; 4 \\  \cline{4-6}
-                &amp; &amp; &amp; &amp; 4 &amp; 6 &amp; 0 \\
-                &amp; &amp; &amp; &amp; 4 &amp; 4 &amp; 4 \\   \cline{5-7}
-                &amp; &amp; &amp; &amp; &amp; 1 &amp; 6 &amp; 0 \\
-                &amp; &amp; &amp; &amp; &amp; 1 &amp; 4 &amp; 8 \\  \cline{6-8}
-                &amp; &amp; &amp; &amp; &amp; &amp; 1 &amp; 2 &amp; 0
+                &amp; [ &amp; &amp;] &amp;[ &amp; &amp;] &amp;  \\ \cline{2-9}\\[-14.5pt]
+                \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                &amp; [ &amp;  &amp;] &amp; 3 &amp;x \\ \cline{2-6}
+                &amp; &amp; &amp; [ &amp; &amp; &amp; ] &amp;7 &amp; \\
+                &amp; &amp; &amp;[ &amp;  &amp; &amp; ] &amp; [ &amp; &amp; &amp; &amp; ] &amp; \\  \cline{4-11}
+                &amp; &amp; &amp; &amp;  &amp; &amp;  &amp;[ &amp; &amp; &amp; ] &amp;  \\
+                &amp; &amp; &amp;  &amp; &amp; &amp;  &amp; &amp; \\
                 \end{array}
                   \)
                 </latex-image>
                 </image>
+              </task>
+             
+              <task> 
+                <statement>
+                  <p>What is the quotient or polynomial? </p>
               </statement>
-              </activity>
-                
-      
+              </task>
+              <task> 
+                <statement>
+                  <p>What is the remainder or proper rational function? </p>
+                  </statement>
+              </task>
+              <task> 
+                <statement>
+                  <p>What is the divisor? </p>
+                </statement>
+              </task>
+              <task> 
+                <statement>
+                  <p>Write the rational function as a polynomial plus a proper rational function.  </p>
+                  </statement>
+              </task>
+            </activity>
+       
 
       <activity xml:id="Long-Division-Missing-Terms">
         <introduction>
-          <p>Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given <m>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</m>.</p> 
+          <p>Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given <me>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</me>.</p> 
         </introduction>
        
         <task> 
@@ -192,7 +209,7 @@
 
       <activity xml:id="Long-Divison-Missing-Terms">
         <introduction>
-          <p>Using long division, find the quotient and remainder for the given rational function, <m>f(x)=\frac{3x^4-5x^2+2}{x-1}</m>.</p> 
+          <p>Using long division, find the quotient and remainder for the given rational function, <me>f(x)=\frac{3x^4-5x^2+2}{x-1}</me>.</p> 
         </introduction>
        
         <task> 
@@ -213,52 +230,31 @@
       </activity>
       <activity xml:id="Synthetic-Division-Intro">
         <introduction>
-          <p>Using synthetic division, find the quotient and remainder for the given rational function. <m>(x)=\frac{3x^2+11x-4}{x+4}</m></p> 
-        </introduction>
-       
-        <task> 
-          <statement>
-            <p>Write only the coefficients of the numerator in a row.</p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Set the denominator equal to zero and solve for x. Place this number out in front, in the far left corner. </p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Make 3 rows and copy the 1st coefficient from the top row to the bottom row. </p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Now multiply the number in the top left corner by the first coefficient and place this number under the 2nd coefficient. </p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Add the numbers in the 2nd column and write the result in the same column, third row. </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Repeat the process with the resulting number. Multiply this number by the number in the upper left corner.  Place it in the 2nd row, third column. Add the numbers in the third column and place this in the third row and column. What number did you get? 
-          <ol marker= "A.">
-            <li> <m>8</m></li>
-            <li> <m>-1</m></li>
-            <li> <m>0</m></li>
-            <li> <m>148</m></li>
-            </ol>
-            How do the numbers in the third row relate to <xref ref="Simplify-Rational-By-Factoring"/> and <xref ref="Long-Division-Intro-Steps"/>?
-        </p>
-      </statement>
-        </task>
+          <p>Synthetic division is another method for dividing rational functions, given that the divisor is a linear expression. Using synthetic division, we will now find the quotient and remainder for the given rational function, <me>f(x)=\frac{3x^2+5x+7}{x+1}</me>.</p> 
+                    </introduction>
+                   
+                    <task> 
+                      <statement>
+                        <p>Using only the coefficients of the dividend, fill in the blanks in the top row below.</p>
+                        </statement>
+                    </task>
+                    <task> 
+                      <statement>
+                        <p>Find the zero of the divisor. </p>
+                        </statement>
+                    </task>
+                    <task> 
+                      <statement>
+                        <p>How can we use the coefficients of the dividend and the zero of the divisor to produce the coefficients of the quotient in part b of Activity 4.3.8? </p>
+                        </statement>
+                    </task>
+                      
       </activity>
+       
 
-      <activity xml:id="activity-3-7">
+      <activity xml:id="Synthetic-Division-Ex1">
         <introduction>
-          <p>Now use synthetic division, to find the quotient and remainder for the given rational function. <m>f(x)=\frac{x^3+2x^2-3x+4}{x-2}</m></p> 
+          <p>Now use synthetic division, to find the quotient and remainder for the given rational function. <me>f(x)=\frac{x^3+2x^2-3x+4}{x-2}</me></p> 
         </introduction>
         
         <task> 
@@ -271,6 +267,12 @@
             <p>How can you check your answer? </p>
           </statement>
         </task>
+         
+      </activity>
+      <activity xml:id="Rational-function-polynomial-formula">
+        <introduction>
+          <p>Given that  a rational function,  <m>r(x)</m>, has numerator, <m>q(x)</m>, divisor, <m>d(x)</m> and the remainder is <m>r(x)</m>, write a general formula for a rational function as a polynomial plus a proper rational function.</p> 
+        </introduction>
          
       </activity>
     </subsection>
