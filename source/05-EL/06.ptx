@@ -544,7 +544,7 @@
             <ol marker= "A." cols="2">
               <li><m>e^4</m></li>
               <li><m>\frac{e^4}{9}</m></li>
-              <li><m>e^\left(\frac{4}{9}\right)</m></li>
+              <li><m>e^{\left(\frac{4}{9}\right)}</m></li>
               <li><m>\frac{4}{\ln9}</m></li></ol>
           </p>
         </statement>
