@@ -206,7 +206,7 @@
       <activity xml:id="logarithmic-application-2">
         <introduction>
           <p>
-            The first key on a piano keyboard corresponds to a pitch with a frequency of <m>27.5</m> cycles per second. With every successive key, going up the black and white keys, the pitch multiplies by a constant. The formula for the frequency, <m>f</m> of the pitch sounded when the <m>n</m>th note up the keyboard is played is given by <me>
+            The first key on a piano keyboard (called A_0) corresponds to a pitch with a frequency of <m>27.5</m> cycles per second. With every successive key, going up the black and white keys, the pitch multiplies by a constant. The formula for the frequency, <m>f</m> of the pitch sounded when the <m>n</m>th note up the keyboard is played is given by <me>
               n=1+12\log_2\frac{f}{27.5}
             </me>
           </p>
@@ -224,7 +224,7 @@
           </statement>
           <answer>
             <p>
-              A
+              A. This note is called A_3.
             </p>
           </answer>
         </task>
