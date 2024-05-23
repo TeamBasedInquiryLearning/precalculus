@@ -13,7 +13,9 @@
     <title>Activities</title>
     
     <remark>
-      We begin by revisiting Activity <xref ref="activity-fn-application"/> from <xref ref="FN2"/>.
+      <p>
+      We begin by revisiting <xref ref="activity-fn-application"/> from <xref ref="FN2"/>.
+      </p>
     </remark>
 
     <activity xml:id="activity-lf5-revisitFN2">
@@ -399,7 +401,12 @@
         <task>
           <statement>
             <p>
-             Water freezes at <m>0</m><degree/><m>C</m> and <m>32</m><degree/><m>F</m>. Water boils at <m>100</m><degree/><m>C</m> and <m>212</m><degree/><m>F</m>. Use this information to write two ordered pairs. (Hint: Choose Celsius to be your input value, and Fahrenheit to be the output value.)
+             Water freezes at <m>0</m><degree/><m>C</m> and <m>32</m><degree/><m>F</m>. Water boils at <m>100</m><degree/><m>C</m> and <m>212</m><degree/><m>F</m>. Use this information to write two ordered pairs. 
+             <hint>
+              <p>
+                Choose Celsius to be your input value, and Fahrenheit to be the output value.
+              </p>
+            </hint>
             </p>
           </statement>
           <answer>
@@ -446,6 +453,18 @@
               </p>
             </answer>
           </task>
+          <task>
+            <statement>
+              <p>
+                What temperature value is the same in Fahrenheit as it is in Celsius?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>-40</m><degree/><m>C=-40</m><degree/><m>F</m>
+              </p>
+            </answer>
+          </task> 
         
   
         
