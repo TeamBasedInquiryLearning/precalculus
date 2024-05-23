@@ -13,7 +13,9 @@
     <title>Activities</title>
     
     <remark>
+      <p>
       We begin by revisiting <xref ref="activity-fn-application"/> from <xref ref="FN2"/>.
+      </p>
     </remark>
 
     <activity xml:id="activity-lf5-revisitFN2">
