@@ -190,10 +190,10 @@
     </p>
   <image>
     <sageplot>
-      p=plot(2*x+3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue', gridlines=[[-4..4],[-4..4]])
+      p=plot(2*x+3,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue', gridlines=[[-4..4],[-4..4]],aspect_ratio=1)
       p+=plot(-1/2*x+1,(x,-5,5),thickness=3, color='red')
-      p+=text('Line A', (-2, 3), fontsize=18, color='black')
-      p+=text('Line B', (-2, -3), fontsize=18, color='black')
+      p+=text('Line A', (-2.5, 3), fontsize=18, color='red')
+      p+=text('Line B', (-1.8, -3), fontsize=18, color='blue')
       p
     </sageplot>
   </image>
