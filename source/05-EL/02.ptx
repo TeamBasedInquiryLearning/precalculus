@@ -456,7 +456,7 @@
       </p>
       <aside>
         <p>
-            Remember, exponential functions are only defined when <m>b>0</m> and <m>b\neq 1</m> as we saw in INCLUDE REFERENCE TO DEFINITION IN PREVIOUS SECTION!
+            Remember, exponential functions are only defined when <m>b>0</m> and <m>b\neq 1</m> as we saw in <xref ref="def-exp-func"/>.
         </p>
       </aside>
     </remark>
