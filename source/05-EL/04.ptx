@@ -12,7 +12,7 @@
     <subsection>
     <title>Activities</title>
 
-    <activity xml:id="activity-exp-graphs-intro">
+    <activity xml:id="activity-log-graphs-intro">
       <introduction>
         <p> Consider the function <m>g(x)=\log_2 x</m>. 
         </p> 
