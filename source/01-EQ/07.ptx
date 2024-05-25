@@ -18,30 +18,32 @@
     </introduction>
     <task>
       <statement>
-      <p> First, move all terms to one side. Then factor the quadratic function, <me>f(x)=x^2-4x-32</me>.
+      <p> How can we graphically solve the inequality above? What are the values on the <m> x-axis</m> where the shading begins and ends? Shade on the x-axis where the inequality is a true statement.
         <ol marker="A." cols="1">
-          <li><p><m>(x-4)(x+8)</m> </p></li>
-          <li><p> <m>(x-8)(x+4)</m> </p></li>
-          <li><p> <m>(x-8)(x-4)</m> </p></li>
-          <li><p> <m>(x+8)(x+4)</m></p></li>
+          <li><p><m>-8,4,</m> </p></li>
+          <li><p> <m>-4,8</m> </p></li>
+          <li><p> <m>4,8</m> </p></li>
+          <li><p> <m>-8,-4</m></p></li>
       </ol> </p>
     </statement>
     </task>
     <task>
       <statement>
-        <p> Now set each factor <m>=0</m> and solve for <m>x</m>. These are the <m>x</m> intercepts.   
-        <ol marker="A." cols="1">
-          <li><p><m>-8</m>, <m>-4</m></p></li>
-          <li><p> <m>8</m>, <m>4</m> </p></li>
-          <li><p> <m>-8</m>, <m>4</m> </p></li>
-          <li><p> <m>8</m>, <m>-4</m></p></li>
-      </ol> </p>
+      <p> How do these values from part <m>(a)</m> relate to the quadratic function, <me>f(x)=x^2-4x-32</me>?
+        </p>
     </statement>
     </task>
     <task>
       <statement>
-      <p> Create a number line and place the values from each factor on this number line. We will now test all <m>3</m> intervals between the <m>2</m> values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
-      <ol marker="A." cols="1">
+      <p> How can we find the <m>x-intercepts</m> algebraically for the quadratic function, <me>f(x)=x^2-4x-32</me>?
+       </p>
+    </statement>
+    </task>
+    <task>
+      <statement>
+      <p> When we graph the quadratic function, <me>f(x)=x^2-4x-32</me>, where is the function above the <m>x-axis</m>? 
+        
+    <ol marker="A." cols="1">
         <li><p> <m>x \gt 8</m>, <m>x \lt -4</m></p></li>
         <li><p><m>x \gt -8</m>, <m>x \gt -4</m></p></li>
         <li><p> <m>x \lt 8</m>, <m>x \lt 4</m> </p></li>
@@ -52,7 +54,7 @@
   </task>
   <task>
     <statement>
-    <p> Write the intervals using interval notation.
+    <p> Now use interval notation to write your answers from part <m>(d)</m>.
     <ol marker="A." cols="1">
       <li><p><m>(-8,4)</m></p></li>
       <li><p> <m>( 4,8)</m></p></li>
@@ -62,10 +64,23 @@
   </ol> </p>
 </statement>
 </task>
+  <task>
+    <statement>
+    <p> How can we check if these intervals are correct or not?
+       </p>
+</statement>
+</task>
+<task>
+  <statement>
+  <p> How can we check algebraically if the quadratic function in part <m>(b)</m> is positive or negative?
+     </p>
+</statement>
+</task>
   </activity>
+  <remark> A sign chart is a number line representing the <m>x-axis</m> that can be used to show where a function is positive or negative.</remark>
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
     <introduction>
-      <p>Solve the quadratic inequality <me>5x^2+63 \lt 52x</me>.
+      <p>Solve the quadratic inequality algebraically<me>5x^2+63 \lt 52x</me>.
       </p>
     </introduction>
     <task>
@@ -110,18 +125,7 @@
     </introduction>
     <task>
       <statement>
-      <p> First, move all terms to one side. Then find the common denominator and combine to one simplified fraction. 
-        <ol marker="A." cols="1">
-          <li><p><m>\frac{12x+31}{x+4}</m> </p></li>
-          <li><p> <m>\frac{12x-31}{x+4}</m> </p></li>
-          <li><p> <m>\frac{-2x+31}{x+4}</m> </p></li>
-          <li><p> <m>\frac{-2x-31}{x+4}</m></p></li>
-      </ol> </p>
-    </statement>
-    </task>
-    <task>
-      <statement>
-        <p> Now set both the numerator and denominator <m>=0</m> and solve for <m>x</m>. These are the partition values to place on the number line for testing intervals.   
+      <p> How can we use technology to solve the inequality above? What are the values on the <m> x-axis</m> where the shading begins and ends? Shade on the x-axis where the inequality is a true statement.
         <ol marker="A." cols="1">
           <li><p><m>-\frac{31}{2},-4</m> </p></li>
           <li><p> <m>\frac{31}{2},-4</m> </p></li>
@@ -132,35 +136,51 @@
     </task>
     <task>
       <statement>
-      <p> Create a number line and place the values from each factor on this number line. We will now test all intervals between the <m>2</m> values to see if we get a positive or a negative result. Record these signs in the intervals and shade the desired result. This is called a sign chart. We want only the intervals that are <m> \gt 0</m>, i.e. positive.
-      <ol marker="A." cols="1">
-        <li><p> <m>x \gt -\frac{31}{2}</m>,<m>x \lt -4</m></p></li>
-        <li><p><m>x \gt \frac{31}{2}</m>,<m>x \lt -4</m></p></li>
-        <li><p> <m>x \gt -\frac{31}{2}</m>,<m>x \lt 4</m> </p></li>
-        <li><p> <m>x \lt \frac{31}{2}</m>,<m>x \gt 4</m> </p></li>
-        
-    </ol> </p>
+      <p> Combine the following and simplify to one rational expression <me>\frac{5x-3}{x+4} - 7</me>. 
+        <ol marker="A." cols="1">
+          <li><p><m>\frac{12x+31}{x+4}</m> </p></li>
+          <li><p> <m>\frac{12x-31}{x+4}</m> </p></li>
+          <li><p> <m>\frac{-2x+31}{x+4}</m> </p></li>
+          <li><p> <m>\frac{-2x-31}{x+4}</m></p></li>
+      </ol> </p>
+    </statement>
+    </task>
+    <task>
+      <statement>
+      <p> How do these values from part <m>(a)</m> relate to the numerator and the denominator of the combined rational function in part <m>(b)</m>? 
+        </p>
+    </statement>
+    </task>   
+<task>
+      <statement>
+      <p> How can we test the solution we found in part <m>(a)</m> and the <m>x-axis</m>? </p>
   </statement>
   </task>
-  <task>
+<task>
     <statement>
-    <p> Write the intervals using interval notation.
+    <p> For what values is the original inequality a true statement?  
+  <ol marker="A." cols="1">
+    <li><p> <m>x \gt -\frac{31}{2}</m>,<m>x \lt -4</m></p></li>
+    <li><p><m>x \gt \frac{31}{2}</m>,<m>x \lt -4</m></p></li>
+    <li><p> <m>x \gt -\frac{31}{2}</m>,<m>x \lt 4</m> </p></li>
+    <li><p> <m>x \lt \frac{31}{2}</m>,<m>x \gt 4</m> </p></li>
+</ol> </p>
+</statement>
+</task>
+<task>
+    <statement>
+    <p> How can we express the answers to part <m>(e)</m> for the rational inequality using interval notation?
     <ol marker="A." cols="1">
       <li><p><m>\left(-\frac{31}{2},4\right)</m></p></li>
       <li><p> <m>(4,8)</m></p></li>
       <li><p> <m>(-\infty,-4)\cup(8,\infty)</m></p></li>
-      <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>
-      
+      <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>    
   </ol> </p>
 </statement>
 </task>
-    <task>
-      <statement>
-      <p> How can we confirm visually that our solution is correct?
-         </p>
-    </statement>
-    </task>
+   
   </activity>
+  <Remark>The values on the <m>x-axis</m> where a function is equal to zero or undefined are called partition values.</remark>
 
   <activity xml:id="rational-inequality-both-sides">
     <introduction>
@@ -180,7 +200,8 @@
     </task>
     <task>
       <statement>
-      <p> When do we include the partition values in the answer with a bracket?
+      <p> 
+        Compare the interval notation from Activity 1.7.5 to the interval notation for this activity. When do we include the partition values in the answer with a bracket?
          </p>
     </statement>
     </task>
