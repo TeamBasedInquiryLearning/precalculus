@@ -171,10 +171,10 @@
         To calculate the average rate of change for any function <m>f(x)</m>, we pick two points, <m>a</m> and <m>b</m>, and evaluate the function at those two points. We then find the difference between the <m>y</m>-values and <m>x</m>-values to calcuate the average rate of change:
 
         <aside>
-          <p>Recall that we can use function notation to describe <m>x</m>- and <m>y</m>-values. <m>f(b)</m>, for instance represents the <m>y</m>-value when plugging in a value of <m>b</m> (or <m>x</m>). </p>
+          <p>Recall that we can use function notation to describe <m>x</m>- and <m>y</m>-values. <m>f(b)</m>, for instance represents the <m>y</m>-value when plugging in a value for <m>x</m> (or <m>b</m>). </p>
         </aside>
 
-        <me>\frac{f(b)-f(a)}{b-a}</me>
+        <me>\frac{f(b)-f(a)}{b-a}</me>.
       </p>
     </statement>
    </definition>
@@ -417,7 +417,7 @@
 <definition xml:id="def-slope">
   <statement>
     <p>
-      The <term>slope</term> of a line has a constant that represents the direction and steepness of the line. For a linear function, the slope never changes - meaning it is a constant average rate of change.
+      The <term>slope</term> of a line has a constant that represents the direction and steepness of the line. For a linear function, the slope never changes - meaning it has a constant average rate of change.
     </p>
   </statement>
 </definition>
@@ -431,7 +431,7 @@
     <sageplot>
       f(x) = (1/2)*x-1
       g(x) = 4*x-3
-      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3,  gridlines=[[-10..15],[-10..10]]) + point((0,-1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10)+ point((4,1),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='red', thickness=3) + point((0,-3),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')+ point((2,5),size=40,xmin=-10,xmax=15,ymin=-10,ymax=10, color='red')
+      p=plot(f, (x, -10, 10), ymin=-10, ymax=10, color='blue', thickness=3,  gridlines=[[-10..10],[-10..10]]) + point((0,-1),size=40,xmin=-10,xmax=10,ymin=-10,ymax=10)+ point((4,1),size=40,xmin=-10,xmax=10,ymin=-10,ymax=10) + plot(g, (x, -10, 10), ymin=-10, ymax=10, color='red', thickness=3) + point((0,-3),size=40,xmin=-10,xmax=10,ymin=-10,ymax=10, color='red')+ point((2,5),size=40,xmin=-10,xmax=10,ymin=-10,ymax=10, color='red')
       p
     </sageplot>
   </image>
@@ -449,7 +449,7 @@
   </statement>
   <answer>
     <p>
-      C
+      C 
     </p>
   </answer>
 </task>
