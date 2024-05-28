@@ -84,6 +84,11 @@
       Write your solution in terms of the price of admission for children and adults.
     </p>
   </statement>
+  <answer>
+    <p>
+      The child admission price is $24.50 and the adult admission price is $15.25.
+    </p>
+  </answer>
 </task>
 
 </activity>
@@ -150,7 +155,7 @@
 <activity xml:id="LF7-money">
   <introduction>
     <p>
-      A couple has a total household income of $104,000. The wife earns $16,000 less than twice what the husband earns. How much does the wife earn?
+      A couple has a total household income of <m>\$104,000</m>. The wife earns <m>\$16,000</m> less than twice what the husband earns. How much does the wife earn?
     </p>
   </introduction>
   <task>
@@ -194,17 +199,17 @@
       </p>
       <p>
         <ol marker= "A.">  
-          <li>The wife earns $29,300.</li>
-          <li>The wife earns $40,000.</li>
-          <li>The wife earns $64,000.</li>
-          <li>The wife earns $74,600.</li>
+          <li>The wife earns <m>\$29,300</m>.</li>
+          <li>The wife earns <m>\$40,000</m>.</li>
+          <li>The wife earns <m>\$64,000</m>.</li>
+          <li>The wife earns <m>\$74,600</m>.</li>
 
         </ol>
       </p>
     </statement>
     <answer>
       <p>
-        C: $64,000
+        C: <m>\$64,000</m>
       </p>
     </answer>
   </task>
@@ -212,7 +217,7 @@
 <activity>
   <introduction>
     <p>
-      Kenneth currently sells suits for company A at a salary of  $22,000  plus a  $10  commission for each suit sold. Company B offers him a position with a salary of $28,000  plus a  $4  commission for each suit sold. How many suits would Kenneth need to sell for the options to be equal?
+      Kenneth currently sells suits for Company A at a salary of  <m>\$22,000</m>  plus a  <m>\$10</m>  commission for each suit sold. Company B offers him a position with a salary of <m>\$28,000</m>  plus a  <m>\$4</m>  commission for each suit sold. How many suits would Kenneth need to sell for the options to be equal?
     </p>
   </introduction>
     <task>
@@ -223,7 +228,12 @@
       </statement>
       <answer>
         <p>
-          100 suits
+          <me>\begin{cases}
+           y=10x+22000 \\
+           y=4x+28000
+           \end{cases}</me>
+
+          1000 suits
         </p>
       </answer>
     </task>

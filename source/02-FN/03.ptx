@@ -358,8 +358,10 @@
               p=line([(5,-1), (4,-5)],thickness=3,xmin=-6,xmax=8,ymin=-6,ymax=8, gridlines=[[-8..8],[-8..8]])
               p+=line([(4,-5),(-1,6)],thickness=3)
               p+=line([(-1,6),(-3,1)],thickness=3)
+
               p+=point((-3,1),pointsize=75,color='blue')
               p+=point((5,-1),pointsize=75,markeredgecolor='blue',color='white',zorder=2)
+
               p
             </sageplot>
           </image>
@@ -497,7 +499,7 @@
           The <term>maximum value</term>, or <term>global maximum</term>, of a graph is the point where the <m>y</m>-coordinate has the largest value. The <term>minimum value</term>, or <term>global minimum</term> is the point on the graph where the <m>y</m>-coordinate has the smallest value.
         </p>
         <p>
-          Graphs can also have <term>relative/local maximums</term> and <term>relative/local minimums</term>. A relative maximum point is a point where the function changes direction from increasing to decreasing (making that point a "hill" in the graph). Similarly, a relative minimum point is a point where the function changes direction from decreasing to increasing (making that point a "valley" in the graph).
+          Graphs can also have <term>relative/local maximums</term> and <term>relative/local minimums</term>. A relative maximum point is a point where the function value (i.e, <m>y</m>-value) is larger than all others in some neighborhood around the point. Similarly, a relative minimum point is a point where the function value (i.e, <m>y</m>-value) is smaller than all others in some neighborhood around the point.
         </p>
       </statement>
     </definition>
@@ -653,6 +655,69 @@
       <p> Also, note that in <xref ref="distinguish-between-max-and-min"/>, a local minimum is also a global minimum.
       </p>
     </remark>
+
+    <activity xml:id="extension-activity-investigating-minima">
+<introduction>
+  <p>
+    Sometimes, it is not always clear what the maxima or minima are or if they exist. Consider the following graph of <m>f(x)</m>:
+  </p>
+  <image>
+    <sageplot>
+      f(x) = abs(1*x)
+      p=plot(f, (x, -5, 5), ymin=-5, ymax=5, color='blue', thickness=3) 
+      p+=point((0,0), pointsize=75, markeredgecolor='blue',color='white',zorder=3)
+      p+=point((0,1),pointsize=75,color='blue')
+      p
+    </sageplot>
+  </image>
+</introduction>
+<task>
+  <statement>
+    <p>
+      What is the value of <m>f(0)</m>?
+      <ol marker= "A." cols="1">
+        <li> <m>1</m> </li>
+        <li> <m>0</m> </li>
+        <li> There is no relative minimum </li></ol></p>
+  </statement>
+  <answer>
+    <p>
+      A
+    </p>
+  </answer>
+</task>
+
+<task>
+  <statement>
+    <p>
+      What is the relative minimum of <m>f(x)</m>?
+      <ol marker= "A." cols="1">
+        <li> <m>1</m> </li>
+        <li> <m>0</m> </li>
+        <li> There is no relative minimum </li></ol></p>
+  </statement>
+  <answer>
+    <p>
+      C
+    </p>
+  </answer>
+</task>
+<task>
+  <statement> 
+    <p>
+      What is the global minimum of <m>f(x)</m>?
+      <ol marker= "A." cols="1">
+        <li> <m>1</m> </li>
+        <li> <m>0</m> </li>
+        <li> There is no global minimum </li></ol></p>
+  </statement>
+  <answer>
+    <p>
+      C
+    </p>
+  </answer>
+</task>
+    </activity>
 
     <activity xml:id="find-all-characteristics">
       <introduction>

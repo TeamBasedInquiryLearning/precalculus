@@ -214,6 +214,11 @@
   </task>
 </activity>
 <activity>
+  <introduction>
+    <p>
+      Let's consider what happens to the inequality when the variable has a negative coefficient.
+    </p>
+  </introduction>
   <task>
     <statement>
     <p> Which of these values is a solution of the inequality <m>-x\lt 8</m>?
@@ -305,6 +310,7 @@
 </task>
 </activity>
 <remark>
+  
   You can treat solving linear inequalities, just like solving an equation.  The one exception is when you multiply or divide by a negative value, reverse the inequality symbol.
 </remark>
 <activity>
@@ -466,6 +472,27 @@
 <remark>
   Solving a compound linear inequality, uses the same methods as a single linear inequality ensuring that you perform the same operations on all three parts. Alternatively, you can break the compound inquality up into two and solve separately.
 </remark>
+<activity>
+  <introduction>
+    <p>
+      Solve the following inequalities. Express your solution in interval notation and graphically on a number line.
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        <m>8 \lt -3x-1 \le 11</m>
+      </p>
+  </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        <m> -6 \le \frac{x-12}{4} \lt -2</m>
+      </p>
+  </statement>
+  </task>
+</activity>
 
     </subsection>
 
