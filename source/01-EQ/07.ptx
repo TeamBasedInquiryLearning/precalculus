@@ -180,7 +180,7 @@
 </task>
    
   </activity>
-  <Remark>The values on the <m>x-axis</m> where a function is equal to zero or undefined are called partition values.</remark>
+  <remark>The values on the <m>x-axis</m> where a function is equal to zero or undefined are called partition values.</remark>
 
   <activity xml:id="rational-inequality-both-sides">
     <introduction>
