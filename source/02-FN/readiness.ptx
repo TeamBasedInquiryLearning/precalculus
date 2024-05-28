@@ -67,14 +67,16 @@
             <ul>
                 <li>
                     <p>Review:</p>
-                    <ul><li><p><url href="https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane/cc-6th-coordinate-plane/e/identifying_points_1">Graph points</url></p></li>
+                    <ul>
                         <li><p><url href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:algebra-overview-history/v/descartes-and-cartesian-coordinates">Create table</url></p></li>
                     </ul>
-                    
+                </li>  
                 <li>
                     <p>Practice: </p>
-                </li>
-             </ul>
+                    <ul><li><p><url href="https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane/cc-6th-coordinate-plane/e/identifying_points_1">Graph points</url></p></li>
+                    </ul>
+                    </li>
+            </ul>
         </li>
         <li>
             <p>Combine like terms. </p>
