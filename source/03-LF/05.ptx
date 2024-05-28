@@ -402,13 +402,13 @@
           <statement>
             <p>
              Water freezes at <m>0</m><degree/><m>C</m> and <m>32</m><degree/><m>F</m>. Water boils at <m>100</m><degree/><m>C</m> and <m>212</m><degree/><m>F</m>. Use this information to write two ordered pairs. 
-             <hint>
+            </p>
+          </statement>
+          <hint>
               <p>
                 Choose Celsius to be your input value, and Fahrenheit to be the output value.
               </p>
-            </hint>
-            </p>
-          </statement>
+          </hint>
           <answer>
             <p>
               <m>(0,32)</m> and <m>(100,212)</m>
