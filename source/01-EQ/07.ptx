@@ -131,6 +131,7 @@
           <li><p> <m>\left(\frac{7}{5},9\right)</m></p></li>
       </ol> 
     </statement>
+    <answer><p>D.</p></answer>
   </activity>
 
   <activity xml:id="quadratic-inequality-coeff-greater-than-or-equal-0">
@@ -144,6 +145,7 @@
           <li><p> <m>(-\infty,3]\cup[5,\infty)</m></p></li>
       </ol> 
     </statement>
+    <answer><p>A.</p></answer>
   </activity>
 
   <activity xml:id="rational-inequality-greater-than-0">
