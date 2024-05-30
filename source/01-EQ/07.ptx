@@ -95,7 +95,31 @@
 </task>
 </activity>
 
-  <remark> A sign chart is a number line representing the <m>x</m>-axis that can be used to show where a function is positive or negative.</remark>
+<definition xml:id="def-sign-chart"> 
+  <p>A <term>sign chart</term> is a number line representing the <m>x</m>-axis that shows where a 
+  function is positive or negative. Instead of shading, which can be ambiguous, it is often decorated with 
+  a '+' or a '-' to indicate which regions are positive or negative.  For example, a sign chart for
+  <m>f(x)=x^2-4x-32</m> is below.
+  </p>
+   <figure xml:id="fig-sign-chart">
+   <image xml:id="sign-chart-example">
+    <latex-image>
+      \begin{tikzpicture}[scale=5]
+      \draw[&lt;-&gt;, thick] (-1.1,0) -- (1.1,0);
+      \foreach \x/\xtext in {-1/-10,-0.8/-8,-0.6/-6,-0.4/-4,-0.2/-2,0/0,0.2/2,0.4/4,0.6/6,0.8/8, 1/10}
+      \draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+      \draw[thick,red,dashed] (-0.4,-0.16) -- (-0.4,0.16);
+      \draw[thick,red,dashed] (0.8,-0.16) -- (0.8,0.16);
+      \node[above] at (0.2,0.02) {\Large \bf $-$};
+      \node[above] at (1,0.02) {\Large \bf $+$};
+      \node[above] at (-0.7,0.02) {\Large \bf $+$};
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+  <caption> A sign chart for the function <m>f(x)=x^2-4-32</m>.</caption>
+</figure>
+</definition>
+
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
     <introduction>
       <p>Solve the quadratic inequality algebraically<me>5x^2+63 \lt 52x</me>.
