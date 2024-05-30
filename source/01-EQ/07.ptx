@@ -11,72 +11,90 @@
   </objectives>
   <subsection>
     <title>Activities</title>
+
+  <remark>
+    <p>In <xref ref="EQ5"/> and <xref ref="EQ6"/> we learned how to solve quadratic and rational equations.  In this section, we use these skills
+      to solve quadratic and rational <em>inequalities</em>.
+    </p>
+  </remark>
+
+
   <activity xml:id="quadratic-inequality-coeff-greater-than">
     <introduction>
-      <p>Recall that when solving a quadratic equation, you can first try to factor the quadratic. Solving inequalities will require multiple steps. Solve the quadratic inequality <me>x^2-4x \gt 32</me>.
-      </p>
+      <p>Consider the quadratic inequality <me>x^2-4x-32\gt0</me>.</p>
     </introduction>
     <task>
       <statement>
-      <p> How can we graphically solve the inequality above? What are the values on the <m>x</m>-axis where the shading begins and ends? Shade on the <m>x</m>-axis where the inequality is a true statement.
-        <ol marker="A." cols="1">
-          <li><p><m>-8,4,</m> </p></li>
-          <li><p> <m>-4,8</m> </p></li>
-          <li><p> <m>4,8</m> </p></li>
-          <li><p> <m>-8,-4</m></p></li>
-      </ol> </p>
+        <p>Use a graphing utility to graph the function <m>f(x)=x^2-4x-32</m>.  Which part of the graph represents where <m>x^2-4x-32\gt0</m>?</p>
     </statement>
+    <answer>
+      <image xml:id="quadratic-graph-inequality">
+        <sageplot>
+          f(x)=x^2-4*x-32
+          p=plot(f,xmin=-10,xmax=10,ymin=-40,ymax=40,color="blue",thickness=3,gridlines=[[-10..10],[-40,-35..40]])
+          p+=polygon([[8,0],[10,0],[10,45],[8,45]],color='blue',alpha=0.2,aspect_ratio="automatic")
+          p+=polygon([[-4,0],[-10,0],[-10,45],[-4,45]],color='blue',alpha=0.2,aspect_ratio="automatic")
+          p
+        </sageplot>
+      </image>
+    </answer>
     </task>
     <task>
       <statement>
-      <p> How do these values from part <m>(a)</m> relate to the quadratic function, <me>f(x)=x^2-4x-32</me>?
+      <p>Which pieces of information about <m>f(x)=x^2-4x-32</m> were needed to answer part (a)?</p>
+      <ol marker="A.">
+        <li>The <m>y</m>-intercept</li>
+        <li>The <m>x</m>-intercepts</li>
+        <li>The minimum value</li>
+      </ol>
+    </statement>
+    <answer><p>B.</p></answer>
+    </task>
+    <task>
+      <statement>
+      <p> Use algebra to find the <m>x</m>-intercepts of <m>f(x)=x^2-4x-32</m> and mark them on a number line.
+        Then, shade the part of the number line where <m>x^2-4x-32>0</m>.
         </p>
+        <image xml:id="quad-ineq-number-line">
+          <latex-image>
+            \begin{tikzpicture}[scale=5]
+\draw[&lt;-&gt;, thick] (-1.1,0) -- (1.1,0);
+\foreach \x/\xtext in {-1/-10,-0.8/-8,-0.6/-6,-0.4/-4,-0.2/-2,0/0,0.2/2,0.4/4,0.6/6,0.8/8, 1/10}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\end{tikzpicture}
+          </latex-image>
+      </image>
     </statement>
+    <answer>
+      <p>
+        <image xml:id="quad-ineq-number-line-shaded">
+        <latex-image>
+            \begin{tikzpicture}[scale=5]
+\draw[&lt;-&gt;, thick] (-1.1,0) -- (1.1,0);
+\foreach \x/\xtext in {-1/-10,-0.8/-8,-0.6/-6,-0.4/-4,-0.2/-2,0/0,0.2/2,0.4/4,0.6/6,0.8/8, 1/10}
+\draw[thick] (\x,0.5pt) -- (\x,-0.5pt) node[below] {\xtext};
+\fill[opacity = 0.2, blue,rounded corners=1ex] (-1.1,-.16ex) -- (-0.4, -.16ex) -- (-0.4, .16ex) -- (-1.1,.16ex) -- cycle;
+\fill[opacity = 0.2, blue,rounded corners=1ex] (1.1,-.16ex) -- (0.8, -.16ex) -- (0.8, .16ex) -- (1.1,.16ex) -- cycle;
+\end{tikzpicture}
+          </latex-image>
+        </image>
+        </p>
+    </answer>
     </task>
-    <task>
-      <statement>
-      <p> How can we find the <m>x</m>-intercepts algebraically for the quadratic function, <me>f(x)=x^2-4x-32</me>?
-       </p>
-    </statement>
-    </task>
-    <task>
-      <statement>
-      <p> When we graph the quadratic function, <me>f(x)=x^2-4x-32</me>, where is the function above the <m>x</m>-axis? 
-        
-    <ol marker="A." cols="1">
-        <li><p> <m>x \gt 8</m>, <m>x \lt -4</m></p></li>
-        <li><p><m>x \gt -8</m>, <m>x \gt -4</m></p></li>
-        <li><p> <m>x \lt 8</m>, <m>x \lt 4</m> </p></li>
-        <li><p> <m>x \lt -8</m>, <m>x \gt 4</m> </p></li>
-        
-    </ol> </p>
-  </statement>
-  </task>
   <task>
     <statement>
-    <p> Now use interval notation to write your answers from part <m>(d)</m>.
+    <p> Now use interval notation to express where <m>x^2-4x-32>0</m>.
     <ol marker="A." cols="1">
-      <li><p><m>(-8,4)</m></p></li>
-      <li><p> <m>( 4,8)</m></p></li>
+      <li><p><m>(-4,8)</m></p></li>
+      <li><p> <m>[ -4,8]</m></p></li>
       <li><p> <m>(-\infty,-4)\cup(8,\infty)</m></p></li>
-      <li><p> <m>(-\infty,-8)\cup(4,\infty)</m> </p></li>
-      
+      <li><p> <m>(-\infty,-4]\cup[8,\infty)</m> </p></li>
   </ol> </p>
 </statement>
+<answer><p>C.</p></answer>
 </task>
-  <task>
-    <statement>
-    <p> How can we check if these intervals are correct or not?
-       </p>
-</statement>
-</task>
-<task>
-  <statement>
-  <p> How can we check algebraically if the quadratic function in part <m>(b)</m> is positive or negative?
-     </p>
-</statement>
-</task>
-  </activity>
+</activity>
+
   <remark> A sign chart is a number line representing the <m>x</m>-axis that can be used to show where a function is positive or negative.</remark>
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
     <introduction>
