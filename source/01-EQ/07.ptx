@@ -116,18 +116,14 @@
       \end{tikzpicture}
     </latex-image>
   </image>
-  <caption> A sign chart for the function <m>f(x)=x^2-4-32</m>.</caption>
+  <caption> A sign chart for the function <m>f(x)=x^2-4x-32</m>.</caption>
 </figure>
 </definition>
 
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
-    <introduction>
+    <statement>
       <p>Solve the quadratic inequality algebraically<me>5x^2+63 \lt 52x</me>.
-      </p>
-    </introduction>
-    <task>
-      <statement>
-        <p>Write the solution using interval notation.</p>
+        Write your solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p><m>\left(-9,-\frac{7}{5}\right)</m> </p></li>
           <li><p> <m>\left(-\infty,\frac{7}{5}\right)\cup\left(9,\infty\right)</m> </p></li>
@@ -135,31 +131,21 @@
           <li><p> <m>\left(\frac{7}{5},9\right)</m></p></li>
       </ol> 
     </statement>
-    </task>
   </activity>
+
   <activity xml:id="quadratic-inequality-coeff-greater-than-or-equal-0">
-    <introduction>
+    <statement>
       <p>Solve the inequality <me>-2x^2-10x-10 \ge 6x+20</me>.
-      </p>
-    </introduction>
-    <task>
-      <statement>
-      <p> Write the solution using interval notation.
+       Write your solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p><m>[-5,-3]</m> </p></li>
           <li><p> <m>(-\infty,-5]\cup[-3,\infty)</m> </p></li>
           <li><p> <m>[3,5]</m> </p></li>
           <li><p> <m>(-\infty,3]\cup[5,\infty)</m></p></li>
-      </ol> </p>
+      </ol> 
     </statement>
-    </task>
-    <task>
-      <statement>
-      <p> How can we confirm visually that our solution is correct?
-         </p>
-    </statement>
-    </task>
   </activity>
+
   <activity xml:id="rational-inequality-greater-than-0">
     <introduction>
       <p>Solve the rational inequality <me>\frac{5x-3}{x+4} \gt 7</me>.
