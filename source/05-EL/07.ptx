@@ -59,7 +59,7 @@
       <task>
         <statement>
           <p>
-            According to the function given, if Mr. Abacus leaves his coffee on his desk all day, what will the coffee eventually cool to? (Hint: Think about what happens to the function as <m>x\to \infty</m>.)
+            According to the function given, if Mr. Abacus leaves his coffee on his desk all day, what will the coffee eventually cool to?
             <ol marker= "A." cols="2">
               <li><m>90</m><degree/><m>C</m></li>
               <li><m>70</m><degree/><m>C</m></li>
@@ -67,6 +67,7 @@
               <li><m>0</m><degree/><m>C</m></li></ol>
           </p>
         </statement>
+        <hint><p>Think about what happens to the function as <m>x\to \infty</m>.</p></hint>
         <answer>
           <p>
             C
