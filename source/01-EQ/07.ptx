@@ -18,7 +18,7 @@
     </introduction>
     <task>
       <statement>
-      <p> How can we graphically solve the inequality above? What are the values on the <m> x-axis</m> where the shading begins and ends? Shade on the x-axis where the inequality is a true statement.
+      <p> How can we graphically solve the inequality above? What are the values on the <m>x</m>-axis where the shading begins and ends? Shade on the <m>x</m>-axis where the inequality is a true statement.
         <ol marker="A." cols="1">
           <li><p><m>-8,4,</m> </p></li>
           <li><p> <m>-4,8</m> </p></li>
@@ -41,7 +41,7 @@
     </task>
     <task>
       <statement>
-      <p> When we graph the quadratic function, <me>f(x)=x^2-4x-32</me>, where is the function above the <m>x-axis</m>? 
+      <p> When we graph the quadratic function, <me>f(x)=x^2-4x-32</me>, where is the function above the <m>x</m>-axis? 
         
     <ol marker="A." cols="1">
         <li><p> <m>x \gt 8</m>, <m>x \lt -4</m></p></li>
@@ -77,7 +77,7 @@
 </statement>
 </task>
   </activity>
-  <remark> A sign chart is a number line representing the <m>x-axis</m> that can be used to show where a function is positive or negative.</remark>
+  <remark> A sign chart is a number line representing the <m>x</m>-axis that can be used to show where a function is positive or negative.</remark>
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
     <introduction>
       <p>Solve the quadratic inequality algebraically<me>5x^2+63 \lt 52x</me>.
@@ -125,7 +125,7 @@
     </introduction>
     <task>
       <statement>
-      <p> How can we use technology to solve the inequality above? What are the values on the <m> x-axis</m> where the shading begins and ends? Shade on the x-axis where the inequality is a true statement.
+      <p> How can we use technology to solve the inequality above? What are the values on the <m>x</m>-axis where the shading begins and ends? Shade on the <m>x</m>-axis where the inequality is a true statement.
         <ol marker="A." cols="1">
           <li><p><m>-\frac{31}{2},-4</m> </p></li>
           <li><p> <m>\frac{31}{2},-4</m> </p></li>
@@ -153,7 +153,7 @@
     </task>   
 <task>
       <statement>
-      <p> How can we test the solution we found in part <m>(a)</m> and the <m>x-axis</m>? </p>
+      <p> How can we test the solution we found in part <m>(a)</m> and the <m>x</m>-axis? </p>
   </statement>
   </task>
 <task>
@@ -180,7 +180,7 @@
 </task>
    
   </activity>
-  <remark>The values on the <m>x-axis</m> where a function is equal to zero or undefined are called partition values.</remark>
+  <remark>The values on the <m>x</m>-axis where a function is equal to zero or undefined are called partition values.</remark>
 
   <activity xml:id="rational-inequality-both-sides">
     <introduction>
