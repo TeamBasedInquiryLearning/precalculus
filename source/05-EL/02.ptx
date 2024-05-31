@@ -367,6 +367,7 @@
               <sageplot>
                 f(x) = (.5)^x
                 p=point([(-2,4),(-1,2),(0,1),(1,.5),(2,.25)],pointsize=50,color='blue')
+                p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
                 p+=plot(f, (x, -9, 8), ymin=-2, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])
                 p
               </sageplot>
@@ -631,6 +632,7 @@
               <sageplot>
                 f(x) = (4)^x
                 p=point([(-2,1/8),(-1,1/4),(0,1),(1,4),(2,16)],pointsize=50,color='blue')
+                p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
                 p+=plot(f, (x, -9, 8), ymin=-2, ymax=20, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,20]])
                 p
               </sageplot>
@@ -655,6 +657,7 @@
                 <sageplot>
                   f(x) = (4)^x +1
                   p=point([(-2,9/8),(-1,5/4),(0,2),(1,5),(2,17)],pointsize=50,color='blue')
+                  p+=line([(-9,1),(9,1)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
                   p+=plot(f, (x, -9, 8), ymin=-2, ymax=20, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,20]])
                   p
                 </sageplot>
@@ -664,6 +667,7 @@
                   <sageplot>
                     f(x) = (4)^(-x)
                     p=point([(2,1/8),(1,1/4),(0,1),(-1,4),(-2,16)],pointsize=50,color='blue')
+                    p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
                     p+=plot(f, (x, -9, 8), ymin=-2, ymax=20, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,20]])
                     p
                   </sageplot>
@@ -673,6 +677,7 @@
                   <sageplot>
                     f(x) = (4)^(x+1)
                     p=point([(-3,1/8),(-2,1/4),(-1,1),(0,4),(1,16)],pointsize=50,color='blue')
+                    p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
                     p+=plot(f, (x, -9, 8), ymin=-2, ymax=20, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,20]])
                     p
                   </sageplot>
@@ -682,6 +687,7 @@
                   <sageplot>
                     f(x) = -4^(x)
                     p=point([(-2,-1/8),(-1,-1/4),(0,-1),(1,-4),(2,-16)],pointsize=50,color='blue')
+                    p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3) 
                     p+=plot(f, (x, -9, 8), ymin=-20, ymax=2, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-20,-19,..,2]])
                     p
                   </sageplot>
@@ -826,6 +832,7 @@
           <sageplot>
             f(x) = e^(x)
             p=point([(0,1),(1,e)],pointsize=50,color='blue')
+            p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
             p+=plot(f, (x, -9, 8), ymin=-2, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])
             p
           </sageplot>
@@ -853,6 +860,7 @@
           <sageplot>
             f(x) = e^(x-2)
             p=point([(2,1),(3,e)],pointsize=50,color='blue')
+            p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
             p+=plot(f, (x, -9, 8), ymin=-2, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])
             p
           </sageplot>
@@ -881,6 +889,7 @@
           <sageplot>
             f(x) = -1*3*e^x
             p=point([(0,f(x=0)),(1,f(x=1))],pointsize=50,color='blue')
+            p+=line([(-9,0),(9,0)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
             p+=plot(f, (x, -9, 8), ymin=-10, ymax=2, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-10,-9,..,2]])
             p
           </sageplot>
@@ -908,6 +917,7 @@
           <sageplot>
             f(x) = e^(-x)-4
             p=point([(0,f(x=0)),(-1,f(x=-1))],pointsize=50,color='blue')
+            p+=line([(-9,-4),(9,-4)], linestyle="--", color='red',xmin=-8, xmax=8, ymin=-8, ymax=8, thickness=3)
             p+=plot(f, (x, -9, 8), ymin=-6, ymax=8, color='blue', thickness=3, gridlines=[[-8,-7,..,8],[-8,-7,..,8]])
             p
           </sageplot>
