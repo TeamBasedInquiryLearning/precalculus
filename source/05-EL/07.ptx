@@ -102,7 +102,7 @@
         <task>
           <statement>
             <p>
-              How many days does it take until <m>2,500</m> people have viewed this video?
+              How many days does it take until <m>2{,}500</m> people have viewed this video?
               <ol marker= "A." cols="2">
                 <li><m>18</m> days</li>
                 <li><m>156</m> days</li>
@@ -380,7 +380,7 @@
     <activity xml:id="compound-interest">
       <introduction>
         <p>
-          A <m>529</m> Plan is a college-savings plan that allows relatives to invest money to pay for a child's future college tuition; the account grows tax-free. Lily currently has $<m>10,000</m> and opens a <m>529</m> account that will earn <m>6</m>% compounded semi-annually. 
+          A <m>529</m> Plan is a college-savings plan that allows relatives to invest money to pay for a child's future college tuition; the account grows tax-free. Lily currently has $<m>10{,}000</m> and opens a <m>529</m> account that will earn <m>6</m>% compounded semi-annually. 
         </p>
       </introduction>
       <task>
@@ -388,10 +388,10 @@
           <p>
             Which equation could we use to determine how much money Lily will have for her granddaughter after <m>t</m> years?
             <ol marker= "A." cols="1">
-              <li><m>A(t)=10,000\left(1+\frac{6}{2}\right)^{2t}</m></li>
-              <li><m>A(t)=10,000\left(1+\frac{0.06}{2}\right)^{2t}</m></li>
-              <li><m>A(t)=10,000\left(1+\frac{6}{\frac{1}{2}}\right)^{\frac{1}{2}t}</m></li>
-              <li><m>A(t)=10,000\left(1+\frac{0.06}{2}\right)^{18}</m></li></ol>
+              <li><m>A(t)=10{,}000\left(1+\frac{6}{2}\right)^{2t}</m></li>
+              <li><m>A(t)=10{,}000\left(1+\frac{0.06}{2}\right)^{2t}</m></li>
+              <li><m>A(t)=10{,}000\left(1+\frac{6}{\frac{1}{2}}\right)^{\frac{1}{2}t}</m></li>
+              <li><m>A(t)=10{,}000\left(1+\frac{0.06}{2}\right)^{18}</m></li></ol>
           </p>
         </statement>
         <answer>
@@ -405,10 +405,10 @@
           <p>
             To the nearest dollar, how much will Lily have in the account in <m>10</m> years?
             <ol marker= "A." cols="2">
-              <li>$<m>106,090</m></li>
-              <li>$<m>103,000</m></li>
-              <li>$<m>13,439</m></li>
-              <li>$<m>18,061</m></li></ol>
+              <li>$<m>106{,}090</m></li>
+              <li>$<m>103{,}000</m></li>
+              <li>$<m>13{,}439</m></li>
+              <li>$<m>18{,}061</m></li></ol>
           </p>
         </statement>
         <answer>
@@ -420,7 +420,7 @@
       <task>
         <statement>
           <p>
-            How many years will it take Lily to have $<m>40,000</m> in the account for her granddaughter? Round to the nearest tenth.
+            How many years will it take Lily to have $<m>40{,}000</m> in the account for her granddaughter? Round to the nearest tenth.
             <ol marker= "A." cols="2">
               <li><m>23.4</m> years</li>
               <li><m>46.9</m> years</li>
@@ -445,12 +445,12 @@
       <task>
         <statement>
           <p>
-            Kathy plans to purchase a car that depreciates (loses value) at a rate of <m>14</m>% per year.  The initial cost of the car is $<m>21,000</m>.  Which equation represents the value, <m>v</m>, of the car after <m>3</m> years?
+            Kathy plans to purchase a car that depreciates (loses value) at a rate of <m>14</m>% per year.  The initial cost of the car is $<m>21{,}000</m>.  Which equation represents the value, <m>v</m>, of the car after <m>3</m> years?
             <ol marker= "A." cols="2">
-              <li><m>v=21,000(0.14)^3</m></li>
-              <li><m>v=21,000(0.86)^3</m></li>
-              <li><m>v=21,000(1.14)^3</m></li>
-              <li><m>v=21,000(0.86)(3)</m></li></ol>
+              <li><m>v=21{,}000(0.14)^3</m></li>
+              <li><m>v=21{,}000(0.86)^3</m></li>
+              <li><m>v=21{,}000(1.14)^3</m></li>
+              <li><m>v=21{,}000(0.86)(3)</m></li></ol>
           </p>
         </statement>
         <answer>
@@ -462,12 +462,12 @@
       <task>
         <statement>
           <p>
-            Mr. Smith invested $<m>2,500</m> in a savings account that earns <m>3</m>% interest compounded annually.  He made no additional deposits or withdrawals.  Which expression can be used to determine the number of dollars in this account at the end of <m>4</m> years?
+            Mr. Smith invested $<m>2{,}500</m> in a savings account that earns <m>3</m>% interest compounded annually.  He made no additional deposits or withdrawals.  Which expression can be used to determine the number of dollars in this account at the end of <m>4</m> years?
             <ol marker= "A." cols="2">
-              <li><m>2,500(1+0.03)^4</m></li>
-              <li><m>2,500(1+0.3)^4</m></li>
-              <li><m>2,500(1+0.04)^3</m></li>
-              <li><m>2,500(1+0.4)^3</m></li></ol>
+              <li><m>2{,}500(1+0.03)^4</m></li>
+              <li><m>2{,}500(1+0.3)^4</m></li>
+              <li><m>2{,}500(1+0.04)^3</m></li>
+              <li><m>2{,}500(1+0.4)^3</m></li></ol>
           </p>
         </statement>
         <answer>
@@ -495,12 +495,12 @@
       <task>
         <statement>
           <p>
-            A person invested $<m>1,000</m> in an account earning <m>10</m>% per year compounded continuously. How much was in the account at the end of one year?
+            A person invested $<m>1{,}000</m> in an account earning <m>10</m>% per year compounded continuously. How much was in the account at the end of one year?
           </p>
         </statement>
         <answer>
           <p>
-            $<m>1,105.17</m>
+            $<m>1{,}105.17</m>
           </p>
         </answer>
       </task>
