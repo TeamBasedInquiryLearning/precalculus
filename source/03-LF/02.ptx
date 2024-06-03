@@ -626,6 +626,30 @@
     </p>
   </statement>
 </definition>
+<definition xml:id="standard-form-line">
+  <statement>
+    <p>
+      The equation of a line can also be written in <term>standard form</term>.  Standard form looks like <m>Ax+By=C</m>.  
+    </p>
+  </statement>
+</definition>
+<remark>
+  It is possible to rearrange a line written in standard form to slope-intercept form, by solving for <m>y</m>.
+</remark>
+<activity xml:id="act-standard-form">
+    <statement>
+      <p>
+        Given a line in standard form 
+        <me>5x+4y=2.</me>
+        Find the slope and <m>y</m>-intercept of the line.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Slope: <m>-\frac{5}{4}</m> <m>y</m>-intercept: <m>\frac{2}{5}</m>
+      </p>
+    </answer>
+</activity>
 
     </subsection>
 
