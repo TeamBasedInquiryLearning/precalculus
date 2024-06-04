@@ -13,7 +13,7 @@
     <title>Activities</title>
 
     <remark>
-      Linear functions have a constant rate of change - that is a constant change in output for every change in input. Let's consider functions which do not fit this model - those which grow more rapidly and change by a varying amount for every change in input.
+      Linear functions have a constant rate of change - that is a constant change in output for every change in input. Let's consider functions which do not fit this model - those which grow more rapidly and and change by a varying amount for every change in input.
     </remark>
     <activity xml:id="act-job-expvslog">
       <introduction>
@@ -27,112 +27,6 @@
         Make a table representing how much money you will be paid each month for the first two years from the first job - paying <m>\$10,000</m> per month. 
       </p>
     </statement>
-    <answer>
-      <p>
-        <tabular halign="right">
-          <row header="yes" bottom="minor" >
-            <cell> month</cell>
-            <cell>Job 1</cell>
-          </row>
-          <row>
-            <cell><m>1</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>2</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>3</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>4</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>5</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>6</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>7</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>8</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>9</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>10</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>11</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>12</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>13</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>14</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>15</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>16</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>17</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>18</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>19</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>20</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>21</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>22</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>23</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-          <row>
-            <cell><m>24</m></cell>
-            <cell><m>10,000</m></cell>
-          </row>
-        </tabular>
-      </p>
-    </answer>
   </task>
   <task>
     <statement>
@@ -140,112 +34,6 @@
         Make a table representing how much money you will be paid each month for the first two years from the second job - paying <m>\$0.01</m> the first month and doubling every month after.
       </p>
     </statement>
-    <answer>
-      <p>
-        <tabular halign="right">
-          <row header="yes" bottom="minor" >
-            <cell> month</cell>
-            <cell>Job 2</cell>
-          </row>
-          <row>
-            <cell><m>1</m></cell>
-            <cell><m>0.01</m></cell>
-          </row>
-          <row>
-            <cell><m>2</m></cell>
-            <cell><m>0.02</m></cell>
-          </row>
-          <row>
-            <cell><m>3</m></cell>
-            <cell><m>0.04</m></cell>
-          </row>
-          <row>
-            <cell><m>4</m></cell>
-            <cell><m>0.08</m></cell>
-          </row>
-          <row>
-            <cell><m>5</m></cell>
-            <cell><m>0.16</m></cell>
-          </row>
-          <row>
-            <cell><m>6</m></cell>
-            <cell><m>0.32</m></cell>
-          </row>
-          <row>
-            <cell><m>7</m></cell>
-            <cell><m>0.64</m></cell>
-          </row>
-          <row>
-            <cell><m>8</m></cell>
-            <cell><m>1.28</m></cell>
-          </row>
-          <row>
-            <cell><m>9</m></cell>
-            <cell><m>2.56</m></cell>
-          </row>
-          <row>
-            <cell><m>10</m></cell>
-            <cell><m>5.12</m></cell>
-          </row>
-          <row>
-            <cell><m>11</m></cell>
-            <cell><m>10.24</m></cell>
-          </row>
-          <row>
-            <cell><m>12</m></cell>
-            <cell><m>20.48</m></cell>
-          </row>
-          <row>
-            <cell><m>13</m></cell>
-            <cell><m>40.96</m></cell>
-          </row>
-          <row>
-            <cell><m>14</m></cell>
-            <cell><m>81.92</m></cell>
-          </row>
-          <row>
-            <cell><m>15</m></cell>
-            <cell><m>163.84</m></cell>
-          </row>
-          <row>
-            <cell><m>16</m></cell>
-            <cell><m>327.68</m></cell>
-          </row>
-          <row>
-            <cell><m>17</m></cell>
-            <cell><m>655.36</m></cell>
-          </row>
-          <row>
-            <cell><m>18</m></cell>
-            <cell><m>1,310.72</m></cell>
-          </row>
-          <row>
-            <cell><m>19</m></cell>
-            <cell><m>2,621.24</m></cell>
-          </row>
-          <row>
-            <cell><m>20</m></cell>
-            <cell><m>5,242.88</m></cell>
-          </row>
-          <row>
-            <cell><m>21</m></cell>
-            <cell><m>10,485.76</m></cell>
-          </row>
-          <row>
-            <cell><m>22</m></cell>
-            <cell><m>20.971.52</m></cell>
-          </row>
-          <row>
-            <cell><m>23</m></cell>
-            <cell><m>41.943.04</m></cell>
-          </row>
-          <row>
-            <cell><m>24</m></cell>
-            <cell><m>83,886.08</m></cell>
-          </row>
-        </tabular>
-      </p>
-    </answer>
   </task>
   <task>
     <statement>
@@ -255,7 +43,7 @@
     </statement>
     <answer>
       <p>
-        Job 1 is earning <m>\$10,000</m> per month.  Job 2 is earning <m>\$20.48</m> per month.
+        Job 1 is earning <m>\$10,0000</m> per month.  Job 2 is earning <m>\$40.96</m> per month.
       </p>
     </answer>
   </task>
@@ -267,7 +55,7 @@
     </statement>
     <answer>
       <p>
-        Job 1 is earning <m>\$10,000</m> per month.  Job 2 is earning <m>\$1,310.72</m> per month.
+        Job 1 is earning <m>\$10,0000</m> per month.  Job 2 is earning <m>\$2621.44</m> per month.
       </p>
     </answer>
   </task>
@@ -279,13 +67,13 @@
     </statement>
     <answer>
       <p>
-        Yes! After 21 months, Job 1 is earning <m>\$10,000</m> per month.  Job 2 is earning <m>\$10,485.76</m> per month.
+        Yes! After 20 months, Job 1 is earning <m>\$10,0000</m> per month.  Job 2 is earning <m>\$10,485.76</m> per month.
       </p>
     </answer>
   </task>
     </activity>
     <remark>
-      This idea of a function that grows very rapidly by a factor, ratio, or percent each time, like the second job in <xref ref="act-job-expvslog"/>,  is considered exponential growth. 
+      This idea of function that grows very rapidly by a factor, ratio, or percent each time, like the second job in <xref ref="act-job-expvslog"/>,  is considered exponential growth. 
     </remark>
     <definition xml:id="def-exp-func">
       <statement>
@@ -483,7 +271,7 @@
     <task>
       <statement>
         <p>
-           How do the values in the tables compare? 
+           How do the values in the table compare? 
         </p>
       </statement>
       <answer>
@@ -537,7 +325,7 @@
     <activity xml:id="act-create-equation">
       <introduction>
         <p>
-          To begin creating equations for exponential functions using <m>a</m> and <m>b</m>, let's compare a linear function and an exponential function. The tables show outputs for two different functions <m>r</m> and <m>s</m> that correspond to equally spaced input.
+          To begin to creating equations for exponential functions using <m>a</m> and <m>b</m>, let's compare a linear function and an exponential function. The tables show outputs for two different functions <m>r</m> and <m>s</m> that correspond to equally spaced input.
 
       <sidebyside>
             
@@ -643,6 +431,18 @@
   <task>
     <statement>
       <p>
+          What is the initial value of the exponential function?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>12</m>
+      </p>
+    </answer>
+  </task>
+  <task>
+    <statement>
+      <p>
         What is the ratio of consecutive outputs in the exponential function?
         <ol marker= "A." cols="2">
           <li> <m>\frac{4}{3}</m> </li>
@@ -658,11 +458,6 @@
       </p>
     </answer>
   </task>
-  <aside>
-    <p>
-      Remember to find the common ration, divide consecutive terms.
-    </p>
-  </aside>
   
     </activity>
     <remark>
@@ -673,64 +468,19 @@
       <introduction>
         <p>
           Find an equation for an exponential function passing through the points <m>(0,4)</m> and <m>(1,6)</m>.
+          <ol marker= "A." cols="2">
+            <li> <m>f(x)=6\left( \frac{3}{2} \right)^x</m> </li>
+            <li> <m>f(x)=4\left( 6 \right)^x</m> </li>
+            <li> <m>f(x)=4\left( \frac{2}{3} \right)^x</m> </li>
+            <li> <m>f(x)=4\left( \frac{3}{2} \right)^x</m></li>
+          </ol>
         </p>
       </introduction>
-          <task>
-            <statement>
-              <p>
-                Find the initial value.
-                <ol marker= "A." cols="2">
-                  <li> <m>0</m> </li>
-                  <li> <m>4</m> </li>
-                  <li> <m>1</m> </li>
-                  <li> <m>6</m></li>
-                </ol>
-              </p>
-            </statement>
-            <answer>
-              <p>
-                B
-              </p>
-            </answer>
-          </task>
-          <task>
-            <statement>
-              <p>
-                Find the common ratio.
-                <ol marker= "A." cols="2">
-                  <li> <m>\frac{3}{2}</m> </li>
-                  <li> <m>6</m> </li>
-                  <li> <m>\frac{2}{3}</m> </li>
-                  <li> <m>\frac{1}{6}</m></li>
-                </ol>
-              </p>
-            </statement>
-            <answer>
-              <p>
-                A
-              </p>
-            </answer>
-          </task>
-          <task>
-            <statement>
-              <p>
-                Find the equation.
-                <ol marker= "A." cols="2">
-                  <li> <m>f(x)=6\left( \frac{3}{2} \right)^x</m> </li>
-                  <li> <m>f(x)=4\left( 6 \right)^x</m> </li>
-                  <li> <m>f(x)=4\left( \frac{2}{3} \right)^x</m> </li>
-                  <li> <m>f(x)=4\left( \frac{3}{2} \right)^x</m></li>
-                </ol>
-              </p>
-            </statement>
-            <answer>
-              <p>
-                D: <m>f(x)=4\left( \frac{3}{2} \right)^x</m>
-              </p>
-            </answer>
-          </task>
-   
-      
+      <answer>
+        <p>
+          D: <m>f(x)=4\left( \frac{3}{2} \right)^x</m>
+        </p>
+      </answer>
     </activity>
     <remark>
       Often times when considering applications of exponential functions, we think of things growing or decaying at a continuous rate.  When this occurs, the base of the exponential function takes on a special form.
@@ -738,7 +488,7 @@
     <definition xml:id="def-number-e">
       <statement>
         <p>
-          The letter <term><m>e</m></term> represents an irrational number and is used as a base for many real-world exponential models. To work with base <m>e</m>, we use the approximation, <m>e \approx 2.718282</m>.  It can also be found on most calculators.
+          The letter <term><m>e</m></term> represents an irrational number and is used as a base for many real-world exponential models. To work with base e, we use the approximation, <m>e \approx 2.718282</m>.  It can also be found on most calculators.
         </p>
       </statement>
     </definition>
@@ -753,16 +503,10 @@
           <p>
             <m>f(x)=-2e^{x}-2</m> for <m>f(-2)</m>
           </p>
-          <ol marker= "A." cols="2">
-            <li> <m>-0.0366</m> </li>
-            <li> <m>-2.2707</m> </li>
-            <li> <m>-1.7293</m> </li>
-            <li> <m>-16.778</m></li>
-          </ol>
         </statement>
         <answer>
           <p>
-            B 
+            <m>-2.2707</m>
           </p>
         </answer>
       </task>
@@ -770,17 +514,11 @@
         <statement>
           <p>
             <m>f(x)=\frac{1}{3}e^{x+1}</m> for <m>f(-1)</m>
-            <ol marker= "A." cols="2">
-              <li> <m>1</m> </li>
-              <li> <m>0</m> </li>
-              <li> <m>1.122</m> </li>
-              <li> <m>\frac{1}{3}</m></li>
-            </ol>
           </p>
         </statement>
         <answer>
           <p>
-            D
+            <m>\frac{1}{3}</m>
           </p>
         </answer>
       </task>
@@ -859,7 +597,7 @@
       <task>
         <statement>
           <p>
-            Fill in the table of values for <m>g(x)</m>.
+            Fill in the table of values for <m>f(x)</m>.
             <tabular halign="right">
               <row header="yes" bottom="minor" >
                 <cell> <m>x</m></cell>
