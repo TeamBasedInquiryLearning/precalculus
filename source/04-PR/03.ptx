@@ -238,7 +238,7 @@
                         <p>Using only the coefficients of the dividend, fill in the blanks in the top row below.</p>
                        
                       
-                    <image xml:id="example-synthetic-division-coefficients" width="30%">
+                    <image xml:id="example-1-synthetic-division-coefficients" width="30%">
                       <latex-image>
                         \begin{tikzpicture}[x=1.1em, y=1.1em]
                           \draw[black!10] (-1,-1) rectangle (3,2);
