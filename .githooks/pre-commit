@@ -1,0 +1,8 @@
+#!/bin/bash
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "main" ]; then
+  echo "Do not commit directly to the main branch. Instead, create a new branch and commit there."
+  exit 1
+fi
