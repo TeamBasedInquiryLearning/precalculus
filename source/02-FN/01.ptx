@@ -496,10 +496,10 @@
         </li>
       </ul>
     </p>
+  </statement>
     <answer>
      If <m>x=4</m>, <m>y</m> could be <m>-2</m> or <m>2</m>. Given that there are two outputs for a given <m>x</m>, then <m>x=y^2</m> is not a function.
     </answer>
-  </statement>
   </task>
   
 <task>
@@ -517,10 +517,10 @@
       </li>
     </ul>
   </p>
+  </statement>
   <answer>
     If <m>x=4</m>, <m>y=50</m>. For every input (<m>x</m>-value), there is exactly one output (<m>y</m>-value) so <m>y=3x^2+2</m> is a function.
   </answer>
-  </statement>
 </task>
 
 <task>
@@ -538,10 +538,10 @@
       </li>
     </ul>
   </p>
+</statement>
   <answer>
     If <m>x=4</m>, <m>y</m> could be <m>-3</m> or <m>3</m>. Given that there are two outputs for a given <m>x</m>, then <m>x^2+y^2=25</m> is not a function.
   </answer>
-</statement>
 </task>
 
 <task>
@@ -559,20 +559,20 @@
       </li>
     </ul>
   </p>
+</statement>
   <answer>
     If <m>x=4</m>, <m>y=-19</m>. For every input (<m>x</m>-value), there is exactly one output (<m>y</m>-value) so <m>y=-4x-3</m> is a function.
   </answer>
-</statement>
 </task>
 <task>
   <statement>
     <p>
       How can you look at an equation to determine whether or not it is a function?
     </p>
+  </statement>
     <answer>
       Students may have different answers. Ideally, you want students to see that they can check whether a given relation is a function in more than one way. They can test values (as this activity did by leading them to plug in values) or by using the vertical line test on a graph.
     </answer>
-  </statement>
 </task>
 </activity>
 

@@ -410,27 +410,27 @@
           Consider the following system of equations.
           <me> \begin{cases}
            5x-9y=6\\
-            -x+2y=-1
+            -10x+4y=2
           \end{cases}</me>
-          Notice that if you simply add the two equations together, it will not eliminate a variable.
+          Notice that if you simply add the two equations together, it will not eliminate a variable. Substitution will also be difficult since it involves fractions.
         </p>
       </introduction>
       <task>
         <statement>
           <p>
-            What value can you multiply the second equation by so that when you add the result to the first equation one variable cancels?
+            What value can you multiply the first equation by so that when you add the result to the second equation one variable cancels?
           </p>
           <p>
             <ol marker="A." cols="1">
               <li><p> <m>-1</m> and the <m>x</m> will cancel</p></li>
-              <li><p> <m>5</m> and the <m>x</m> will cancel</p></li>
-              <li><p> <m>5</m> and the <m>y</m> will cancel</p></li>
-              <li><p> <m>6</m> and the <m>y</m> will cancel</p></li>
+              <li><p> <m>2</m> and the <m>x</m> will cancel</p></li>
+              <li><p> <m>3</m> and the <m>y</m> will cancel</p></li>
+              <li><p> <m>-2</m> and the <m>y</m> will cancel</p></li>
           </ol> </p>
         </statement>
         <answer>
           <p>
-           B: Multiply the second equation by <m>5</m> and the <m>x</m> will cancel
+           B: Multiply the second equation by <m>2</m> and the <m>x</m> will cancel
           </p>
         </answer>
       </task>
@@ -441,15 +441,15 @@
           </p>
           <p>
             <ol marker="A." cols="1">
-              <li><p> <m>11y=-7</m></p></li>
-              <li><p> <m>y=1</m></p></li>
-              <li><p> <m>10x=1</m></p></li>
-              <li><p> <m>-x=0</m></p></li>
+              <li><p> <m>-5y=8</m></p></li>
+              <li><p> <m>-14y=14</m></p></li>
+              <li><p> <m>-14y=8</m></p></li>
+              <li><p> <m>-5x=4</m></p></li>
           </ol> </p>
         </statement>
         <answer>
           <p>
-            B: <m>y=1</m>
+            B: <m>-14y=14</m>
           </p>
         </answer>
       </task>
@@ -460,10 +460,10 @@
           </p>
           <p>
             <ol marker="A." cols="1">
-              <li><p> <m>(1,3)</m></p></li>
-              <li><p> <m>(3,-1)</m></p></li>
-              <li><p> <m>(3,1)</m></p></li>
-              <li><p> <m>\left(0,\frac{1}{2} \right)</m></p></li>
+              <li><p> <m>(-1,-1.6)</m></p></li>
+              <li><p> <m>(-1,-0.6)</m></p></li>
+              <li><p> <m>(-0.6,-1)</m></p></li>
+              <li><p> <m>(-1.6,-1)</m></p></li>
           </ol> </p>
         </statement>
         <answer>

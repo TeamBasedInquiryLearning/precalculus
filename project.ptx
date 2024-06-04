@@ -12,9 +12,7 @@
       format="html" 
       publication="instructor.ptx"
       deploy-dir="2024/instructor">
-      <stringparams 
-        commentary="yes"
-        debug.project.number="the-way-it-should-be"/>
+      <stringparams debug.project.number="the-way-it-should-be"/>
     </target>    
     <target 
       name="web-student" 
@@ -28,9 +26,7 @@
       publication="instructor.ptx"
       output-filename="TBIL-Precalculus-2024-Instructor-Version.pdf"
       deploy-dir="2024/pdf">
-      <stringparams 
-        commentary="yes"
-        debug.project.number="the-way-it-should-be"/>
+      <stringparams debug.project.number="the-way-it-should-be"/>
     </target> 
     <target
       name="print-student" 
