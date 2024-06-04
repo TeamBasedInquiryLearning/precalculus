@@ -86,7 +86,7 @@
   </statement>
   <answer>
     <p>
-      The child admission price is $24.50 and the adult admission price is $15.25.
+      The child admission price is <m>\$24.50</m> and the adult admission price is <m>\$15.25</m>.
     </p>
   </answer>
 </task>
@@ -95,7 +95,7 @@
 <activity xml:id="LF7-candy-mix">
   <introduction>
     <p> Let's revisit another application we've encountered before in <xref ref="EQ2"/>, <xref ref="activity-la-candymixture"/>.</p>
-    <p> Ammie's favorite snack to share with friends is candy salad, which is a mixture of different types of candy. Today she chooses to mix Nerds Gummy Clusters, which cost $8.38 per pound, and Starburst Jelly Beans, which cost $7.16 per pound. If she makes seven pounds of candy salad and spends a total of $55.61, how many pounds of each candy did she buy?   </p>
+    <p> Ammie's favorite snack to share with friends is candy salad, which is a mixture of different types of candy. Today she chooses to mix Nerds Gummy Clusters, which cost $8.38 per pound, and Starburst Jelly Beans, which cost <m>\$7.16</m> per pound. If she makes seven pounds of candy salad and spends a total of <m>\$55.61</m>, how many pounds of each candy did she buy?   </p>
   </introduction>
   <task> 
       <statement>
@@ -155,7 +155,7 @@
 <activity xml:id="LF7-money">
   <introduction>
     <p>
-      A couple has a total household income of <m>\$104,000</m>. The wife earns <m>\$16,000</m> less than twice what the husband earns. How much does the wife earn?
+      A couple has a total household income of <m>\$104{,}000</m>. The wife earns <m>\$16{,}000</m> less than twice what the husband earns. How much does the wife earn?
     </p>
   </introduction>
   <task>
@@ -199,31 +199,29 @@
       </p>
       <p>
         <ol marker= "A.">  
-          <li>The wife earns <m>\$29,300</m>.</li>
-          <li>The wife earns <m>\$40,000</m>.</li>
-          <li>The wife earns <m>\$64,000</m>.</li>
-          <li>The wife earns <m>\$74,600</m>.</li>
+          <li>The wife earns <m>\$29{,}300</m>.</li>
+          <li>The wife earns <m>\$40{,}000</m>.</li>
+          <li>The wife earns <m>\$64{,}000</m>.</li>
+          <li>The wife earns <m>\$74{,}600</m>.</li>
 
         </ol>
       </p>
     </statement>
     <answer>
       <p>
-        C: <m>\$64,000</m>
+        C: <m>\$64{,}000</m>
       </p>
     </answer>
   </task>
 </activity>
 <activity>
-  <introduction>
+  <statement>
     <p>
-      Kenneth currently sells suits for Company A at a salary of  <m>\$22,000</m>  plus a  <m>\$10</m>  commission for each suit sold. Company B offers him a position with a salary of <m>\$28,000</m>  plus a  <m>\$4</m>  commission for each suit sold. How many suits would Kenneth need to sell for the options to be equal?
+      Kenneth currently sells suits for Company A at a salary of  <m>\$22{,}000</m>  plus a  <m>\$10</m>  commission for each suit sold. Company B offers him a position with a salary of <m>\$28{,}000</m>  plus a  <m>\$4</m>  commission for each suit sold. How many suits would Kenneth need to sell for the options to be equal?
     </p>
-  </introduction>
-    <task>
-      <statement>
-        <p>
-          Set-up and solve a system of equations to represent the situation.
+
+    <p>
+    Set-up and solve a system of equations to represent the situation.
         </p>
       </statement>
       <answer>
@@ -236,7 +234,7 @@
           1000 suits
         </p>
       </answer>
-    </task>
+
 </activity>
 
     </subsection>
