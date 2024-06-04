@@ -481,7 +481,7 @@
     </task>
 </activity>
 <remark>
-  Notice that it was possible to use either point to find an equation of the line in point-slope form.  BUT when rewritten in slope-intercept form the equation is unique.
+  Notice that it was possible to use either point to find an equation of the line in point-slope form.  But, when rewritten in slope-intercept form the equation is unique.
 </remark>
 
 <activity xml:id="activity-line-eq">
@@ -495,7 +495,7 @@
         <p>
           <image>
             <sageplot>
-              p=plot(3/4*x+2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-6,ymax=6, color='blue', gridlines=[[-4,-3,-2,-1,1,2,3,4],[-4,-3,-2,-1,1,2,3,4]])
+              p=plot(3/4*x+2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-6,ymax=6, color='blue', gridlines=[[-6,-5,-4,-3,-2,-1,1,2,3,4,5,6],[-4,-3,-2,-1,1,2,3,4]])
               p+=point((-4,-1),pointsize=50,color='blue')
               p+=point((4,5),pointsize=50,color='blue')
               p
@@ -596,7 +596,7 @@
         <p>
           <image>
             <sageplot>
-              p=plot(-2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, color='blue')
+              p=plot(-2,(x,-5,5),thickness=3, xmin=-5,xmax=5,ymin=-5,ymax=5, gridlines=[[-6,-5,-4,-3,-2,-1,1,2,3,4,5,6],[-4,-3,-2,-1,1,2,3,4]],color='blue')
               p
             </sageplot>
           </image>
@@ -626,6 +626,30 @@
     </p>
   </statement>
 </definition>
+<definition xml:id="standard-form-line">
+  <statement>
+    <p>
+      The equation of a line can also be written in <term>standard form</term>.  Standard form looks like <m>Ax+By=C</m>.  
+    </p>
+  </statement>
+</definition>
+<remark>
+  It is possible to rearrange a line written in standard form to slope-intercept form, by solving for <m>y</m>.
+</remark>
+<activity xml:id="act-standard-form">
+    <statement>
+      <p>
+        Given a line in standard form 
+        <me>5x+4y=2.</me>
+        Find the slope and <m>y</m>-intercept of the line.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        Slope: <m>-\frac{5}{4}</m> <m>y</m>-intercept: <m>\frac{2}{5}</m>
+      </p>
+    </answer>
+</activity>
 
     </subsection>
 
