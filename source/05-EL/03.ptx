@@ -97,7 +97,7 @@
   <task>
     <statement>
       <p>
-        Why does <m>P</m> have an inverse function?
+        Do you think P will have an inverse function? Why or why not?
       </p>
     </statement>
     <answer>
@@ -109,7 +109,7 @@
   <task>
     <statement>
       <p>
-        Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>, such that <m>y=P(t)</m> is the same as <m>t=L(y)</m>.  In words, this means that <m>L</m> reverses the process of raising to the power of 10, telling us the power to whichwe need to raise 10 to produce a desired result.
+        Since <m>P</m> has an inverse function, we know there exists some other function, say <m>L</m>, such that <m>y=P(t)</m> is the same as <m>t=L(y)</m>.  In words, this means that <m>L</m> reverses the process of raising to the power of 10, telling us the <em>power</em> to which we need to raise 10 to produce a desired result.
         
         Fill in the table of values for <m>L(y)</m>.
         <tabular halign="right">
@@ -214,7 +214,7 @@
       The <term>base <m>b</m> logarithm</term> of a number is the exponent we must raise <m>b</m> to get that number. We represent this function as <m>y=\log_b(x)</m>.
     </p>
     <p>
-      We read the logarithmic expression as "“The logarithm with base <m>b</m> of <m>x</m> is equal to <m>y</m>," or "log base <m>b</m> of <m>x</m> is <m>y</m>."
+      We read the logarithmic expression as "The logarithm with base <m>b</m> of <m>x</m> is equal to <m>y</m>," or "log base <m>b</m> of <m>x</m> is <m>y</m>."
     </p>
   </statement>
 </definition>
@@ -357,7 +357,7 @@
   <task>
     <statement>
       <p>
-        Consider the logarithm, <m>\log_{3}(9)</m>.  If we want to evalaute this, which question should you try and solve?
+        Consider the logarithm <m>\log_{3}(9)</m>.  If we want to evaluate this, which question should you try and solve?
         <ol marker= "A." cols="1">
           <li> To what exponent must <m>9</m> be raised in order to get <m>3</m>? </li>
           <li> What exponent must be raised to the third in order to get <m>9</m>? </li>
@@ -499,13 +499,13 @@
   <p>There are some logarithms that occur so often, we sometimes write them without noting the base.  They are the common logarithm and the natural logarithm.
   </p>
   <p>
-    A common logarithm is a logarithm with base <m>10</m> and is written without a base.
+    The common logarithm is a logarithm with base <m>10</m> and is written without a base.
     <me>
       \log_{10}(x)=\log (x)
     </me>
   </p>
   <p>
-    A natural logarithm is a logarithm with base <m>e</m> and has its own notation.
+    The natural logarithm is a logarithm with base <m>e</m> and has its own notation.
     <me>
       \log_{e}(x)=\ln (x)
     </me>
