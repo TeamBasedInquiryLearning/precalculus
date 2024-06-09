@@ -614,7 +614,11 @@ p
       </activity>
 
       <activity xml:id="activity-log-e">
-  
+        <introduction>
+          <p>
+            Consider the function <m>f(x)=\ln(x)</m>.
+          </p>
+        </introduction>
         <task>
           <statement>
             <p>
@@ -701,7 +705,7 @@ p
 
       <activity xml:id="activity-log-graphs-fluency">
         <introduction>
-          <p> Graph each of the following logarithmic functions. Include any asymptotes with a dotted line. State the domain, the range, and the equation of the asymptote
+          <p> Graph each of the following logarithmic functions. Include any asymptotes with a dotted line. State the domain, the range, and the equation of the asymptote.
           </p> 
         </introduction>
   

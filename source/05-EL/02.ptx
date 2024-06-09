@@ -820,7 +820,12 @@
     </activity>
 
     <activity xml:id="activity-exp-e">
-  
+      <introduction>
+        <p>
+          Consider the function <m>f(x)=e^{x}</m>.
+        </p>
+      </introduction>
+
   <task>
     <statement>
       <p>
