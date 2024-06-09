@@ -287,13 +287,13 @@
         <statement>
           <p>
             <m>\log_3(x-6)=\log_9x</m>
-            <hint>
+          </p>
+        </statement>
+        <hint>
               <p>
                 Use the change of base formula to rewrite <m>\log_9x</m> so that it has a base of <m>3</m>.
               </p>
-            </hint>
-          </p>
-        </statement>
+        </hint>
         <answer>
           <p>
             <m>x=9</m>
