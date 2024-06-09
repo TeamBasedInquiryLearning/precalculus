@@ -276,6 +276,43 @@
         </answer>
       </task>
     </activity>
+
+    <activity xml:id="solving-log-equations-with-different-bases">
+      <introduction>
+        <p>
+          In some cases, you will get equations with logs of different bases. Apply properties of logarithms to solve the following logarithmic equations.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>\log_3(x-6)=\log_9x</m>
+          </p>
+        </statement>
+        <hint>
+              <p>
+                Use the change of base formula to rewrite <m>\log_9x</m> so that it has a base of <m>3</m>.
+              </p>
+        </hint>
+        <answer>
+          <p>
+            <m>x=9</m>
+          </p>
+        </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\log_2x=\log_8(4x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=0</m> and <m>x=2</m> 
+            </p>
+          </answer>
+        </task>
+    </activity>
     <activity xml:id="solving-exponential-equations-by-converting">
       <introduction>
         <p>
@@ -564,14 +601,14 @@
     </activity>
 
     <remark>
-      Notice in <xref ref="solving-by-like-bases"/>, it is much faster to set the exponents equal to one another. Make sure to check that the bases are equal BEFORE you set the exponents equal! And if the bases are not equal, you might have to use properties of exponents to help you get the bases to be the same.
+      Notice in <xref ref="solving-by-like-bases"/>, it is much faster to set the exponents equal to one another. Make sure to check that the bases are equal <em>before</em> you set the exponents equal! And if the bases are not equal, you might have to use properties of exponents to help you get the bases to be the same.
     </remark>
 
     <definition xml:id="def-one-to-one-property-of-exponentials">
       <statement>
         <p>
           When you are given an exponential equation with the same bases on both sides, you can simply set the exponents equal to one another and solve. This is known as the <term>one-to-one property of exponentials</term>. 
-        </p>
+        </p> 
       </statement>
     </definition>
 
