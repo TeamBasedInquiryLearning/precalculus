@@ -21,9 +21,13 @@
         <p>
           A coffee is sitting on Mr. Abacus's desk cooling. It cools according to the function <m>T = 70(0.80)^x + 20</m>, where <m>x</m> is the time elapsed in minutes and <m>T</m> is the temperature in degrees Celsius. 
         </p>
+        <aside>
+          Newton's Law of Heating and Cooling states that the temperature of a body changes at a rate proportional to the difference in temperature between the body and its surroundings. In this case, we will be oberving what happens to the temperature of Mr. Abacus's coffee as it's temperature adjusts to its surroundings.
+        </aside>
       </introduction>
+    
       <task>
-        <statement>
+        <statement> 
           <p>
             What is the initial temperature of Mr. Abacus's coffee?
             <ol marker= "A." cols="2">
@@ -189,7 +193,7 @@
       <activity xml:id="logarithmic-application-1">
         <introduction>
           <p>
-            Suppose <m>f(x) = 28.9 + 1.3\log (x + 1)</m> models salinity of ocean water to depths of <m>1000</m> meters at a certain latitude, where <m>x</m> is the depth in meters and <m>f(x)</m> is in grams of salt per kilogram of seawater. (Note that salinity is expressed in the unit g/kg, which is often written as ppt (part per thousand) or ‰ (permil).)
+            The concentration of salt in ocean water, called salinity, varies as you go deeper in the ocean. Suppose <m>f(x) = 28.9 + 1.3\log (x + 1)</m> models salinity of ocean water to depths of <m>1000</m> meters at a certain latitude, where <m>x</m> is the depth in meters and <m>f(x)</m> is in grams of salt per kilogram of seawater. (Note that salinity is expressed in the unit g/kg, which is often written as ppt (part per thousand) or ‰ (permil).)
           </p>
         </introduction>
         <task>
@@ -231,10 +235,13 @@
       <activity xml:id="logarithmic-application-2">
         <introduction>
           <p>
-            The first key on a piano keyboard (called A_0) corresponds to a pitch with a frequency of <m>27.5</m> cycles per second. With every successive key, going up the black and white keys, the pitch multiplies by a constant. The formula for the frequency, <m>f</m> of the pitch sounded when the <m>n</m>th note up the keyboard is played is given by <me>
+            The first key on a piano keyboard (called <m>A_0</m>) corresponds to a pitch with a frequency of <m>27.5</m> cycles per second. With every successive key, going up the black and white keys, the pitch multiplies by a constant. The formula for the frequency, <m>f</m> of the pitch sounded when the <m>n</m>th note up the keyboard is played is given by <me>
               n=1+12\log_2\frac{f}{27.5}
             </me>
           </p>
+          <aside>
+            The equal tempered scale is the common musical scale used for the tuning of pianos and other instruments of relatively fixed scale. This is a <m>12</m>-tone equal temperament, but there are many other temperaments.
+          </aside>
         </introduction>
         <task>
           <statement>
@@ -380,7 +387,7 @@
     <activity xml:id="compound-interest">
       <introduction>
         <p>
-          A <m>529</m> Plan is a college-savings plan that allows relatives to invest money to pay for a child's future college tuition; the account grows tax-free. Lily currently has $<m>10{,}000</m> and opens a <m>529</m> account that will earn <m>6</m>% compounded semi-annually. 
+          A <m>529</m> Plan is a college-savings plan that allows relatives to invest money to pay for a child's future college tuition; the account grows tax-free. Lily currently has $<m>10{,}000</m> and opens a <m>529</m> account that will earn <m>6 \%</m> compounded semi-annually.
         </p>
       </introduction>
       <task>
@@ -445,14 +452,14 @@
       <task>
         <statement>
           <p>
-            Kathy plans to purchase a car that depreciates (loses value) at a rate of <m>14</m>% per year.  The initial cost of the car is $<m>21{,}000</m>.  Which equation represents the value, <m>v</m>, of the car after <m>3</m> years?
+            Kathy plans to purchase a car that depreciates (loses value) at a rate of <m>14 \%</m> per year.  The initial cost of the car is $<m>21{,}000</m>.  Which equation represents the value, <m>v</m>, of the car after <m>3</m> years?
             <ol marker= "A." cols="2">
               <li><m>v=21{,}000(0.14)^3</m></li>
               <li><m>v=21{,}000(0.86)^3</m></li>
               <li><m>v=21{,}000(1.14)^3</m></li>
-              <li><m>v=21{,}000(0.86)(3)</m></li></ol>
+              <li><m>v=21{,}000(0.86)(3)</m></li></ol> 
           </p>
-        </statement>
+        </statement> 
         <answer>
           <p>
             B
@@ -462,7 +469,7 @@
       <task>
         <statement>
           <p>
-            Mr. Smith invested $<m>2{,}500</m> in a savings account that earns <m>3</m>% interest compounded annually.  He made no additional deposits or withdrawals.  Which expression can be used to determine the number of dollars in this account at the end of <m>4</m> years?
+            Mr. Smith invested $<m>2{,}500</m> in a savings account that earns <m>3 \%</m> interest compounded annually.  He made no additional deposits or withdrawals.  Which expression can be used to determine the number of dollars in this account at the end of <m>4</m> years? 
             <ol marker= "A." cols="2">
               <li><m>2{,}500(1+0.03)^4</m></li>
               <li><m>2{,}500(1+0.3)^4</m></li>
@@ -495,7 +502,7 @@
       <task>
         <statement>
           <p>
-            A person invested $<m>1{,}000</m> in an account earning <m>10</m>% per year compounded continuously. How much was in the account at the end of one year?
+            A person invested $<m>1{,}000</m> in an account earning <m>10 \%</m> per year compounded continuously. How much was in the account at the end of one year?
           </p>
         </statement>
         <answer>
@@ -507,12 +514,12 @@
       <task>
         <statement>
           <p>
-            Radon-222 decays at a continuous rate of <m>17.3</m>% per day. How much will <m>100</m> mg of Radon-222 decay to in <m>3</m> days?
+            Radon-222 decays at a continuous rate of <m>17.3 \%</m> per day. How much will <m>100</m> mg of Radon-222 decay to in <m>3</m> days?
           </p>
         </statement>
         <answer>
           <p>
-            <m>59.51</m> mg
+            <m>59.51</m> mg 
           </p>
         </answer>
       </task>
