@@ -306,59 +306,26 @@
         <p>Note that in <xref ref="long-division-activity-1"/> and <xref ref="Long-Division-Intro-Steps"/> we performed the same computations, but just organized our work a little differently.</p>
       </remark>
 
-      <activity xml:id="Long-Division-Missing-Terms">
-        <introduction>
-          <p>Using long division, find the quotient and remainder for the given rational function. If there are any missing terms, use 0 as a place holder. Rewrite the function as a polynomial plus a proper rational function, given <me>f(x)=\frac{3x^5-5x^2+2}{x^2+x-1}</me>.</p> 
-        </introduction>
-       
-        <task> 
-          <statement>
-            <p>What is the quotient or polynomial? </p>
+      <activity>
+        <statement>
+          <p>Rewrite <m>\frac{x^2+1}{x-1}</m> as a polynomial plus a proper rational function.</p>
         </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>What is the remainder or proper rational function? </p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>What is the divisor? </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>Write the rational function as a polynomial plus a proper rational function.  </p>
-            </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>How can you check your answer? (Hint: Think of regular long division with positive integers.) </p>
-            </statement>
-        </task>
+        <hint><p>Note that <m>x^2+1=x^2+0x+1</m>.</p></hint>
+        <answer><p><m>x+1+\frac{3}{x-1}</m>.</p></answer>
       </activity>
 
-      <activity xml:id="Long-Divison-Missing-Terms">
-        <introduction>
-          <p>Using long division, find the quotient and remainder for the given rational function, <me>f(x)=\frac{3x^4-5x^2+2}{x-1}</me>.</p> 
-        </introduction>
-       
-        <task> 
-          <statement>
-            <p>What is the quotient or polynomial? </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>What is the remainder or proper rational function? </p>
-          </statement>
-        </task>
-        <task> 
-          <statement>
-            <p>How can you check your answer? </p>
-          </statement>
-        </task>
+      <activity>
+        <statement>
+          <p>Rewrite <m>\frac{3x^5-5x^2+2}{x^2+x-1}</m> as a polynomial plus a proper rational function.</p> 
+        </statement>
       </activity>
+
+      <activity>
+        <statement>
+          <p>Rewrite <m>frac{3x^4-5x^2+2}{x-1}</m> as a polynomial plus a proper rational function.</p> 
+        </statement>
+      </activity>
+      
       <activity xml:id="Synthetic-Division-Intro">
         <introduction>
           <p>Synthetic division is another method for dividing rational functions, given that the divisor is a linear expression. Using synthetic division, we will now find the quotient and remainder for the given rational function, <me>f(x)=\frac{3x^2+5x+7}{x+1}</me>.</p> 
