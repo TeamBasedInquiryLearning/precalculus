@@ -17,7 +17,7 @@
    
   <remark>
     Recall that <m>\log_b M=\log_b N</m> if and only if <m>M=N</m>. In addition, because exponentials and logarithms are inverses, we also know that <m>\log_b(b^{k})=k</m>.
-    Then, according to the law of exponents, we know that: <me>x^a \cdot x^b=x^{a+b}</me>
+    In addition, according to the law of exponents, we know that: <me>x^a \cdot x^b=x^{a+b}</me>
       <me>\frac{x^a}{x^b}=x^{a-b}</me>
       <me>\left(x^a\right)^b=x^{a \cdot b}</me> 
       
@@ -51,7 +51,7 @@
     <task>
       <statement>
         <p>
-          Recall from <xref ref="EL3"/> that <m>\log_b M=log_b N</m> if and only if <m>M=N</m>. Use this property to apply the logarithm to both sides of the rewritten equation from part a. What is that equation?
+          Recall from <xref ref="EL3"/> that <m>\log_b M=\log_b N</m> if and only if <m>M=N</m>. Use this property to apply the logarithm to both sides of the rewritten equation from part a. What is that equation?
           <ol marker= "A." cols="1">
             <li><m>\log_{10}(a+b)=\log_{10}\left(10^{x+y}\right)</m></li>
             <li><m>\log_{10}(a \cdot b)=\log_{10}\left(10^{x+y}\right)</m></li>
@@ -166,7 +166,7 @@
     <task>
       <statement>
         <p>
-          Recall from <xref ref="EL3"/> that <m>\log_b M=log_b N</m> if and only if <m>M=N</m>. Use this property to apply the logarithm to both sides of the rewritten equation from part a. What is that equation?
+          Recall from <xref ref="EL3"/> that <m>\log_b M=\log_b N</m> if and only if <m>M=N</m>. Use this property to apply the logarithm to both sides of the rewritten equation from part a. What is that equation?
           <ol marker= "A." cols="1">
             <li><m>\log_{10}(a-b)=\log_{10}\left(10^{x-y}\right)</m></li>
             <li><m>\log_{10}\left(\frac{a}{b}\right)=\log_{10}\left(10^{x-y}\right)</m></li>
@@ -479,6 +479,78 @@
 
    <remark>
     You might have noticed that a scientific calculator has only "log" and "ln" buttons (because those are the most common bases we use), but not all logs have base 10 or e as their bases.
+   </remark>
+
+   <activity xml:id="exploring-change-of-base">
+    <introduction>
+      <p>
+        Suppose you wanted to find the value of <m>\log_53</m> in your calculator but you do not know how to input a base other than <m>10</m> or <m>e</m> (i.e., you only have the "log" and "ln" buttons on your calculator). Let's explore another helpful tool that can help us find the value of <m>\log_53</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Let's start with the general statement, <m>\log_ba=x</m>. How can we rewrite this logarithmic equation into an exponential equation?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>b^x=a</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Now take the log of both sides of your equation and apply the power property of logarithms to bring the exponent down. What equation do you have now?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>x \cdot \log b=\log a</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Solve for <m>x</m>. What does <m>x</m> equal?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>x=\frac{\log a}{\log b}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Recall that when we started, we defined <m>x=\log_ba</m>. Substitute <m>\log_ba</m> into your equation you got in part c for <m>x</m>. What is the resulting equation?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>\log_ba=\frac{\log a}{\log b}</m>
+        </p>
+      </answer>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Apply what you got in part d to find the value of <m>\log_53</m>. What is the approximate value of <m>\log_53</m>?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>\log_53</m> is approximately <m>0.683</m>
+        </p>
+      </answer>
+    </task>
+   </activity>
+
+   <remark>
+    Notice in <xref ref="exploring-change-of-base"/>, we were able to calculate <m>\log_53</m> using logs of base <m>10</m>. You should now be able to find the value of a logarithm of any base!
    </remark>
 
    <definition xml:id="def-change-of-base">
