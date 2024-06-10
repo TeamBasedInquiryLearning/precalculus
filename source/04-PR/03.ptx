@@ -302,6 +302,7 @@
                           </image>
                         </statement>
                     </task>
+                    <task><statement>
          <image xml:id="example-synthetic-division-coefficients" width="30%">
                       <latex-image>
                         \begin{tikzpicture}[x=1.1em, y=1.1em]
@@ -325,7 +326,7 @@
                       <statement>
                         <p>Find the zero of the divisor. Put this in front of the other coefficients. </p>
                         
-                          <image xml:id="example-synthetic-missing-divisor" width="30%">
+                          <image xml:id="example-synthetic-missing-divisor-2" width="30%">
                             <latex-image>
                               \begin{tikzpicture}[x=1.1em, y=1.1em]
                                 \draw[black!10] (-1,-1) rectangle (3,2);
@@ -347,7 +348,7 @@
                     <task> 
                       <statement>
                         <p>How can we use the coefficients of the dividend and the zero of the divisor to produce the coefficients of the quotient in part b of Activity 4.3.8? </p>
-                        <image xml:id="example-synthetic-final_step" width="30%">
+                        <image xml:id="example-synthetic-final_step-2" width="30%">
                           <latex-image>
                             \begin{tikzpicture}[x=1.1em, y=1.1em]
                               \draw[black!10] (-1,-1) rectangle (3,2);
