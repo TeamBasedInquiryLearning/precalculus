@@ -42,7 +42,7 @@
 
     <observation>
       <p>When dealing with an improper fraction such as <m>\frac{32}{7}</m>, it is sometimes useful to rewrite this
-        as an integer plus an improper fraction <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
+        as an integer plus an improper fraction, e.g. <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
         useful to rewrite an improper rational function as the sum of a polynomial and a proper rational function, such 
         as <m>\frac{x^3+x}{x^2+4}=x-\frac{3x}{x^2+4}</m>.
       </p>
@@ -130,12 +130,27 @@
 <remark> The divisor of a rational function is the denominator. The numerator of a rational function is called the dividend.</remark>
     <activity xml:id="Long-Division-Intro-Steps">
         <introduction>
-          <p>Now we will simplify the rational function using long division, given <me>f(x)=\frac{3x^2+5x+7}{x+1}</me>.</p> 
+          <p>Next we will use the notation of long division to rewrite the rational function  <m>\frac{3x^2+5x+7}{x+1}</m> as a 
+            polynomial plus a proper rational function.</p> 
         </introduction>
        
-          <statement>
-            <p>Now fill in the blanks for the long division problem below. </p></statement>
-              <task><image xml:id="example-long-division" width="50%">
+              <task>
+                <statement>
+                <p> First, let's use long division notation to write the quotient.</p>
+                <image xml:id="example-long-division-setup" width="50%">                
+                  <latex-image>
+                  \(
+                \begin{array}{ r *{19}{c@{}} }
+                &amp; &amp; ? &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                \cline{2-9}\\[-14.5pt]
+                \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                \end{array}
+                \)
+                </latex-image>
+                </image>
+                <p>What do we need to multiply <m>x+1</m> by so that it would have the same leading term
+                  as <m>3x^2+5x+7</m>?</p>
+                <!--<image xml:id="existing-example">
                 <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
@@ -149,31 +164,147 @@
                 \end{array}
                   \)
                 </latex-image>
-                </image>
-              </task>
-             
-              <task> 
-                <statement>
-                  <p>What is the quotient or polynomial? </p>
+                </image>-->
               </statement>
+              <answer>
+                <image xml:id="example-long-division-step-1" width="50%">
+                <latex-image>
+                  \(
+                \begin{array}{ r *{19}{c@{}} }
+                &amp;3 &amp; x &amp;  &amp;  &amp; &amp;  &amp; &amp;  \\  
+                \cline{2-9}\\[-14.5pt]
+                \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                \end{array}
+                \)
+                </latex-image>
+                </image>
+              </answer>
               </task>
-              <task> 
+              <task>
                 <statement>
-                  <p>What is the remainder or proper rational function? </p>
-                  </statement>
-              </task>
-              <task> 
-                <statement>
-                  <p>What is the divisor? </p>
+                <p>Now to rewrite <m>3x^2+5x+7</m> as <m>3x(x+1)+?</m>, place the product <m>3x(x+1)</m> below and subtract.</p>
+                <image xml:id="example-long-division-step-2" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp; 3 &amp; x &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; ? &amp;  &amp; +  &amp; ? &amp;  \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
                 </statement>
+              <answer>
+                <image xml:id="example-long-division-step-3" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp;3 &amp; x &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; 2 &amp; x &amp; +  &amp; 7 &amp;  \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
+              </answer>
               </task>
-              <task> 
+
+              <task>
                 <statement>
-                  <p>Write the rational function as a polynomial plus a proper rational function.  </p>
-                  </statement>
+                  <p>Now focusing on <m>2x+7</m>, what do we need to multiply <m>x+1</m> by so that it would have the same leading term as <m>2x+7</m>?</p>
+                  <image xml:id="example-long-division-step-4" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp;3 &amp; x &amp;+ &amp;?  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; 2 &amp; x &amp; +  &amp; 7 &amp;  \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
+                </statement>
+                <answer>
+                  <image xml:id="example-long-division-step-5" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; 2 &amp; x &amp; +  &amp; 7 &amp;  \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
+                </answer>
+              </task>
+              <task>
+                <statement>
+                  <p>Now, subtract <m>2(x+1)</m> to finish the long division.</p>
+                  <image xml:id="example-long-division-step-6" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; 2 &amp; x &amp; +  &amp; 7 &amp;  \\
+                  &amp; &amp; &amp; &amp; ? &amp;  &amp;+ &amp; ? &amp; \\
+                  \cline{5-9}
+                  &amp; &amp; &amp; &amp;  &amp;  &amp; &amp; ? &amp; \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
+                </statement>
+                <answer>                  
+                <image xml:id="example-long-division-step-7" width="50%">
+                  <latex-image>
+                    \(
+                  \begin{array}{ r *{19}{c@{}} }
+                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  \cline{2-9}\\[-14.5pt]
+                  \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
+                  &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
+                  \cline{2-6} 
+                  &amp;  &amp; &amp;  &amp; 2 &amp; x &amp; +  &amp; 7 &amp;  \\
+                  &amp; &amp; &amp; &amp; 2 &amp; x &amp;+ &amp; 2 &amp; \\
+                  \cline{5-9}
+                  &amp; &amp; &amp; &amp;  &amp;  &amp; &amp; 5 &amp; \\
+                  \end{array}
+                  \)
+                  </latex-image>
+                  </image> 
+                </answer>
+              </task>
+              <task>
+                <statement>
+                <p>This long division calculation has shown that <me>3x^2+5x+7 = (x+1)(3x+2)+5</me>.  
+                  Use this to rewrite <m>\frac{3x^2+5x+7}{x+1}</m> as a polynomial plus a proper rational function.</p>
+                </statement>
+                <answer>
+                  <p><m>\frac{3x^2+5x+7}{x+1} = 3x+2+\frac{5}{x+1}</m></p>
+                </answer>
               </task>
             </activity>
-       
+      <remark>
+        <p>Note that in <xref ref="long-division-activity-1"/> and <xref ref="Long-Division-Intro-Steps"/> we performed the same computations, but just organized our work a little differently.</p>
+      </remark>
 
       <activity xml:id="Long-Division-Missing-Terms">
         <introduction>
