@@ -60,11 +60,11 @@
     <task>
       <statement>
       <p>Now we will carefully redo this process in a way that we can generalize to rational functions.  
-      Note that we can rewrite <m>357</m> as <m>357=3*10^2+5*10+7</m>, and <m>11</m> as <m>11=1*10+1</m>. 
+      Note that we can rewrite <m>357</m> as <m>357=3\cdot10^2+5\cdot10+7</m>, and <m>11</m> as <m>11=1\cdot10+1</m>. 
       By comparing the leading terms in these expansions, we see that to knock off the leading term of <m>357</m>, we need to
-      multiply <m>11</m> by <m>3*10^1</m>.
+      multiply <m>11</m> by <m>3\cdot10^1</m>.
     </p>
-    <p>Using the fact that <m>357=11*30+27</m>, rewrite <m>\frac{357}{11}</m> as <m>\frac{357}{11}=30+\frac{?}{11}</m>.
+    <p>Using the fact that <m>357=11\cdot30+27</m>, rewrite <m>\frac{357}{11}</m> as <m>\frac{357}{11}=30+\frac{?}{11}</m>.
     </p>
       </statement>
   </task>
