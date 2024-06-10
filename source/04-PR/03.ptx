@@ -127,7 +127,6 @@
   </task>
 </activity>
 
-<remark> The divisor of a rational function is the denominator. The numerator of a rational function is called the dividend.</remark>
     <activity xml:id="Long-Division-Intro-Steps">
         <introduction>
           <p>Next we will use the notation of long division to rewrite the rational function  <m>\frac{3x^2+5x+7}{x+1}</m> as a 
