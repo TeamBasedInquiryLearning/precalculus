@@ -504,13 +504,13 @@
         Let's use this fact to update <xref ref="def-exp-func"/>.
       </p>
     </remark>
-    <definition xml:id="def-exp-growvsdec">
+    <remark xml:id="remark-exp-growvsdec">
       <statement>
         <p>
           An exponential function of the form <m>f(x)=ab^{x}</m> will grow (or increase) if <m>b \gt 1</m> and decay (or decrease) if <m>0\lt b \lt 1</m>.
         </p>
       </statement>
-    </definition>
+    </remark>
     <activity xml:id="exp-growth-or-decay">
       <introduction>
         <p>
@@ -740,16 +740,19 @@
    
       
     </activity>
-    <remark>
-      Often times when considering applications of exponential functions, we think of things growing or decaying at a continuous rate.  When this occurs, the base of the exponential function takes on a special form.
-    </remark>
-    <definition xml:id="def-number-e">
+    
+    <remark xml:id="def-number-e">
       <statement>
         <p>
-          The letter <term><m>e</m></term> represents an irrational number and is used as a base for many real-world exponential models. To work with base <m>e</m>, we use the approximation, <m>e \approx 2.718282</m>.  It can also be found on most calculators.
+          The letter <term><m>e</m></term> represents an irrational number and is used as a base for many real-world exponential models. To work with base <m>e</m>, we use the approximation, <m>e \approx 2.718282</m>.  It can also be found on most calculators. 
+        </p> 
+      </statement> 
+      <aside>
+        <p> See <xref ref="compound-interest"/> for a more detailed derivation of <m>e</m>.
         </p>
-      </statement>
-    </definition>
+      </aside>
+      
+    </remark>
     <activity xml:id="act-evaluate-base-e">
       <introduction>
         <p>
