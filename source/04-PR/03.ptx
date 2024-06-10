@@ -487,12 +487,7 @@
         </task>
          
       </activity>
-      <activity xml:id="Rational-function-polynomial-formula">
-        <introduction>
-          <p>Given that  a rational function,  <m>r(x)</m>, has numerator, <m>q(x)</m>, divisor, <m>d(x)</m> and the remainder is <m>r(x)</m>, write a general formula for a rational function as a polynomial plus a proper rational function.</p> 
-        </introduction>
-         
-      </activity>
+
     </subsection>
 
     <exercises>
