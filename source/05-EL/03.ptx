@@ -507,7 +507,7 @@
   </p>
   <p>
     The <term> natural logarithm</term> is a logarithm with base <m>e</m> and has its own notation. <aside>
-      <p>Recall the number <m>e</m> was defined in <xref ref="def-number-e"/> </p>
+      <p>Recall the number <m>e</m> was introduced in <xref ref="remark-number-e"/> </p>
     </aside>
     <me>
       \log_{e}(x)=\ln (x)
