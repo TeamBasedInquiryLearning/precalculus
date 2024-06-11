@@ -41,13 +41,23 @@
         </li>
         <li>
              
-                <p> Evaluate an expression with one variable at a particular value.  </p>
+                <p> Evaluate an expression with one variable.  </p>
             <ul>
                 
                 <li>
                     <p>Review and Practice: <url href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:intro-variables/e/evaluating_expressions_1">Khan Academy</url></p>
                 </li>
             </ul>
+        </li>
+        <li>     
+                <p> Solving an equation for a variable.  </p>
+            <ul>
+                
+                <li>
+                    <p>Review and Practice: <url href="https://www.khanacademy.org/math/algebra-home/alg-basic-eq-ineq/alg-old-school-equations/v/solving-for-a-variable">Khan Academy</url></p>
+                </li>
+            </ul>
+        </li>
         <li>
             <p>Apply order of operations. </p>
             <ul>
