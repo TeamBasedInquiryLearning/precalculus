@@ -62,3 +62,12 @@ jobs:
               with:
                   name: website
                   path: output/stage
+
+            - name: Publish to Cloudflare
+              uses: cloudflare/pages-action@v1
+              with:
+                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  projectName: precalculus-beta-20240616
+                  directory: output/stage
+                  gitHubToken: ${{ secrets.GITHUB_TOKEN }}
