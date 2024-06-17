@@ -493,6 +493,7 @@
       </p>
     </remark>
 
+    <exercise><webwork><statement><p>2+2=<var name="4" width="5"/></p></statement></webwork></exercise>
     <activity xml:id="continuous">
       <introduction>
         <p>
