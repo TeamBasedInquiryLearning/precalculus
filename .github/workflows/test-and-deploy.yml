@@ -5,8 +5,8 @@ on:
         branches: ["*"]
 jobs:
     build:
-        container:
-            image: oscarlevin/pretext:full
+        runs-on: ubuntu-latest
+        container: oscarlevin/pretext:full
 
         steps:
             - name: Checkout source
