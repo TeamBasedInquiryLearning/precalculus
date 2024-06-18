@@ -67,6 +67,8 @@ jobs:
               with:
                   name: website
                   path: output/stage
+    deploy:
+        runs-on: ubuntu-latest
 
             - name: Publish to Cloudflare
               uses: cloudflare/pages-action@v1
