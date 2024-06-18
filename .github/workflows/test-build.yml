@@ -6,8 +6,9 @@ on:
 
 jobs:
     build:
-        using: docker
-        image: oscarlevin/pretext:full
+        using: "docker"
+        # Use the docker file based on $inputs.features
+        image: Dockerfile
 
         steps:
             - name: Checkout source
