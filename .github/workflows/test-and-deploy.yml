@@ -69,6 +69,7 @@ jobs:
                   path: output/stage
     deploy:
         runs-on: ubuntu-latest
+        needs: build
 
         steps:
             - name: Download artifact
