@@ -6,7 +6,7 @@ import os
 #     print("regenerating images")
 # else:
 #     print("skipping images")
-generated_images = False
+generate_images = False
 os.chdir("exercises")
 b = Bank()
 b.generate_exercises(images=generate_images)

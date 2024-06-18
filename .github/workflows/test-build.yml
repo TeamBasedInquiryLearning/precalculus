@@ -5,18 +5,17 @@ on:
         branches: ["*"]
 
 jobs:
-    # This job builds the book. You can download the resulting build "artifact" by
-    # navigating to your actions manager in Github, selecting this run, and clicking
-    # "download artifact" on the "website" artifact.
     build:
-        runs-on: ubuntu-latest
+        using: docker
+        image: oscarlevin/pretext:full
 
         steps:
             - name: Checkout source
               uses: actions/checkout@v4
 
             - name: run checkit
-              run: python scripts/bank/build.py
+              run: |
+                python scripts/bank/build.py
 
             # - name: Build student web version with PreTeXt
             #   uses: siefkenj/pretext-build-action@main
