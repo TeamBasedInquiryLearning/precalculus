@@ -3,6 +3,12 @@ on:
     # Runs on pull requests
     pull_request:
         branches: ["*"]
+    # Runs on pushes to main
+    push:
+        branches: ["main"]
+    # Runs on demand
+    workflow_dispatch:
+
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -13,60 +19,30 @@ jobs:
               uses: actions/checkout@v4
 
             - name: install deps
-              run: |
-                pip install -r requirements.txt
+              run: pip install -r requirements.txt
 
-            - name: run checkit
-              run: |
-                python scripts/bank/build.py
+            - name: build checkit
+              run: python scripts/bank/build.py
 
-            # - name: Build student web version with PreTeXt
-            #   uses: siefkenj/pretext-build-action@main
-            #   with:
-            #       pretext-command: build web-student
-            #       project-root: "."
-            #       output-dir: "."
-
-            # - name: Build student print version with PreTeXt
-            #   uses: siefkenj/pretext-build-action@main
-            #   with:
-            #       pretext-command: build print-student
-            #       project-root: "."
-            #       output-dir: "."
-
-            # - name: Build instructor web version with PreTeXt
-            #   uses: siefkenj/pretext-build-action@main
-            #   with:
-            #       pretext-command: build web
-            #       project-root: "."
-            #       output-dir: "."
-                  
-            # - name: Build instructor print version with PreTeXt
-            #   uses: siefkenj/pretext-build-action@main
-            #   with:
-            #       pretext-command: build print-instructor
-            #       project-root: "."
-            #       output-dir: "."
-
-            # - name: Build slides with PreTeXt
-            #   uses: siefkenj/pretext-build-action@main
-            #   with:
-            #       pretext-command: build slides
-            #       project-root: "."
-            #       output-dir: "."
-
-            - name: Stage with PreTeXt
-              uses: siefkenj/pretext-build-action@main
-              with:
-                  pretext-command: deploy --stage-only
-                  project-root: "."
-                  output-dir: "."
+            - name: build web-student
+              run: pretext build web-student
+            - name: build print-student
+              run: pretext build web-instructor
+            - name: build web-instructor
+              run: pretext build web
+            - name: build print-instructor
+              run: pretext build print-instructor
+            - name: build slides
+              run: pretext build slides
+            - name: stage builds
+              run: pretext deploy --stage-only
 
             - name: Bundle output/stage as artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: website
+                  name: deploy
                   path: output/stage
+
     deploy:
         runs-on: ubuntu-latest
         needs: build
@@ -75,13 +51,13 @@ jobs:
             - name: Download artifact
               uses: actions/download-artifact@v4
               with:
-                  name: website
-                  path: website
+                  name: deploy
+                  path: deploy
             - name: Publish to Cloudflare
               uses: cloudflare/pages-action@v1
               with:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                   projectName: precalculus-beta-20240616
-                  directory: website
+                  directory: deploy
                   gitHubToken: ${{ secrets.GITHUB_TOKEN }}
