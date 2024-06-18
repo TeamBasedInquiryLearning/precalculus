@@ -12,6 +12,10 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
+            - name: install deps
+              run: |
+                pip install -r requirements.txt
+
             - name: run checkit
               run: |
                 python scripts/bank/build.py
