@@ -577,7 +577,7 @@
 </activity>
 
 <remark>
-  Notice that <xref ref="FN1-determine-if-function-from-equation"/> shows that equations with a <m>y^2</m> term generally do not define functions.
+  Notice that <xref ref="FN1-determine-if-function-from-equation"/> shows that equations with a <m>y^2</m> term generally do not define functions. This is because when you take the square root of a value, there should be two solutions. For example, the square root of <m>4</m> is <m>2</m> and <m>-2</m>. 
 </remark>
 
 <activity xml:id="FN1-determine-domain-from-equation-square-root">
