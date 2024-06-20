@@ -189,7 +189,7 @@
       Draw the solution to <m>\lvert x-7 \rvert \le 2</m> on the number line. 
     <ol marker="A." cols="1">
       <li><p> 
-        <image>
+        <image xml:id="eq4-image-xm7le2">
             <latex-image>
               \begin{tikzpicture}[scale=7]
 \draw[->, thick] (-0.1,0) -- (1.1,0);
