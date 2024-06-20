@@ -22,7 +22,10 @@ jobs:
               run: pip install -r requirements.txt
 
             - name: build checkit
-              run: python scripts/bank/build.py
+              run: |
+                python scripts/bank/build.py
+                mkdir output/2024/exercises
+                mv -r exercises/docs/* output/2024/exercises
 
             - name: build deploy targets
               run: pretext build --deploys
