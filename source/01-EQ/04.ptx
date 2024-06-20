@@ -203,7 +203,7 @@
         </image>
     </p></li>
     <li><p> 
-      <image>
+      <image xml:id="eq4-image-xm7le2-2">
           <latex-image>
             \begin{tikzpicture}[scale=7]
 \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -217,7 +217,7 @@
       </image>
   </p></li>
   <li><p> 
-    <image>
+    <image xml:id="eq4-image-xm7le2-3">
         <latex-image>
           \begin{tikzpicture}[scale=7]
 \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -231,7 +231,7 @@
     </image>
 </p></li>
 <li><p> 
-  <image>
+  <image xml:id="eq4-image-xm7le2-4">
       <latex-image>
         \begin{tikzpicture}[scale=7]
 \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -282,7 +282,7 @@
       <p> Solve the two inequalities found in part (b). Write the solution in interval notation and graph on the number line.
         <ol marker="A." cols="1">
           <li><p><m>(-\infty,7] \cup [9,\infty)</m> 
-            <image>
+            <image xml:id="eq4-image-safasfewafd">
               <latex-image>
                 \begin{tikzpicture}[scale=7]
   \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -297,7 +297,7 @@
           </image>
           </p></li>
           <li><p><m>(-\infty,5] \cup [9,\infty)</m> 
-            <image>
+            <image xml:id="eq4-image-safasfewafd-2">
               <latex-image>
                 \begin{tikzpicture}[scale=7]
   \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -312,7 +312,7 @@
           </image>
           </p></li>
           <li><p><m>(-\infty,5] \cup [7,\infty)</m> 
-            <image>
+            <image xml:id="eq4-image-safasfewafd-3">
               <latex-image>
                 \begin{tikzpicture}[scale=7]
   \draw[->, thick] (-0.1,0) -- (1.1,0);
@@ -327,7 +327,7 @@
           </image>
           </p></li>
           <li><p><m>(-\infty,2] \cup [7,\infty)</m> 
-            <image>
+            <image xml:id="eq4-image-safasfewafd-4">
               <latex-image>
                 \begin{tikzpicture}[scale=7]
   \draw[->, thick] (-0.1,0) -- (1.1,0);
