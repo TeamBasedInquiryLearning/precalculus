@@ -1,2 +1,2 @@
-pretext == 2.4.1
+pretext == 2.4.2.dev20240620024621
 checkit-dashboard == 0.2.6
