@@ -21,16 +21,13 @@ jobs:
             - name: install deps
               run: pip install -r requirements.txt
 
-            - name: build checkit
-              run: |
-                python scripts/bank/build.py
-                mkdir output/2024/exercises
-                mv -r exercises/docs/* output/2024/exercises
-
             - name: build deploy targets
               run: pretext build --deploys
             - name: stage deployment
               run: pretext deploy --stage-only
+
+            - name: build checkit
+              run: python scripts/bank/build.py
 
             - name: Bundle output/stage as artifact
               uses: actions/upload-artifact@v4

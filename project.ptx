@@ -42,7 +42,7 @@
       xsl="slides.xsl"
       output-filename="TBIL-Precalculus-2024-slides.pdf"
       deploy-dir="2024/pdf">
-      <stringparams debug.project.number="the-way-it-should-be"/>\
+      <stringparams debug.project.number="the-way-it-should-be"/>
     </target>
   </targets>
 </project>
