@@ -243,7 +243,7 @@
     <definition xml:id="def-fn5-composition"> 
   		<statement>
   			<p>
-  				Give the functions <m>f(x)</m> and <m>g(x)</m>, we define the <term>composition of <m>f</m> and <m>g</m></term> to be the new function <m>h(x)</m> given by 
+  				Given the functions <m>f(x)</m> and <m>g(x)</m>, we define the <term>composition of <m>f</m> and <m>g</m></term> to be the new function <m>h(x)</m> given by 
   				<me>
   					h(x) = f(g(x))
   				</me>.

@@ -576,8 +576,8 @@
 </task>
 </activity>
 
-<remark>
-  Notice that <xref ref="FN1-determine-if-function-from-equation"/> shows that equations with a <m>y^2</m> term generally do not define functions.
+<remark xml:id="FN01-remark-square-nonfunction">
+  Notice that <xref ref="FN1-determine-if-function-from-equation"/> shows that equations with a <m>y^2</m> term generally do not define functions. This is because to solve for a squared variable, you must consider both positive and negative inputs. For example, both <m>2^2=4</m> and <m>(-2)^2=4</m>.
 </remark>
 
 <activity xml:id="FN1-determine-domain-from-equation-square-root">

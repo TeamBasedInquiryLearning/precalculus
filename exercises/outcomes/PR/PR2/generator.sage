@@ -47,7 +47,7 @@ class Generator(BaseGenerator):
             maxheight = q(maxtime)
             return {
                 scenario:True,
-                "q": q(x),
+                "q": q(t),
                 "maxtime": round(maxtime,1),
                 "maxheight": maxheight,
                 "c": c,
