@@ -43,7 +43,7 @@
 
     <observation>
       <p>When dealing with an improper fraction such as <m>\frac{32}{7}</m>, it is sometimes useful to rewrite this
-        as an integer plus an improper fraction, e.g. <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
+        as an integer plus a proper fraction, e.g. <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
         useful to rewrite an improper rational function as the sum of a polynomial and a proper rational function, such 
         as <m>\frac{x^3+x}{x^2+4}=x-\frac{3x}{x^2+4}</m>.
       </p>
