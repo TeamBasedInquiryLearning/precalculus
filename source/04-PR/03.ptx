@@ -15,7 +15,7 @@
     <observation>
       <p>We have seen previously that we can reduce rational functions by factoring, for example
         <me>\frac{x^2+5x+4}{x^3+3x^2+2x}=\frac{(x+1)(x+4)}{x(x+2)(x+1)}=\frac{x+4}{x(x+2)}.</me>
-        In this section, we will explore what can we do to simplify rational functions if we are not able to 
+        In this section, we will explore the question: what can we do to simplify rational functions if we are not able to 
         reduce by easily factoring?
     </p>
   </observation>
