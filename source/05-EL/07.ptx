@@ -485,7 +485,7 @@
       </task>
     </activity>
 
-    <activity xml:id="introducing-e">
+    <activity xml:id="activity-introducing-e">
       <introduction>
         <p>
           Suppose you want to invest <m>$100</m> in a banking account that has a <m>100 \%</m> interest rate. Let's investigate what would happen to the amount of money you have at the end of one year in the account with varying compounding periods. Use the formula, <m> A(t)=P\left(1+\frac{r}{n}\right)^{nt} </m>, to help you solve the following problems.
