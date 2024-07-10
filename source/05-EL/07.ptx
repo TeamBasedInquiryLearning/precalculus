@@ -643,7 +643,7 @@
     </activity>
 
     <observation>
-      In <xref ref="introducing-e"/>, we can see that as the value of <m>n</m> increases, the factor by which the money increased by tended toward the value of <m>2.71</m>. This value is a significant mathematical constant and is denoted by the symbol <m>e</m>. It is approximately equal to <m>2.718</m>.
+      In <xref ref="activity-introducing-e"/>, we can see that as the value of <m>n</m> increases, the factor by which the money increased by tended toward the value of <m>2.71</m>. This value is a significant mathematical constant and is denoted by the symbol <m>e</m>. It is approximately equal to <m>2.718</m>.
     </observation>
 
     <remark>
