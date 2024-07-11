@@ -83,7 +83,7 @@
     <!-- {{#cost}} -->
     <intro>
         <p>
-            Suppose that in the cost per unit to produce <m>x</m> {{widgetname}} is <m>C(x)=
+            Suppose that the cost per unit to produce <m>x</m> {{widgetname}} is <m>C(x)=
             \${{q}}</m>.
         </p>
     </intro>
