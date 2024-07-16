@@ -15,7 +15,7 @@
     <observation>
       <p>We have seen previously that we can reduce rational functions by factoring, for example
         <me>\frac{x^2+5x+4}{x^3+3x^2+2x}=\frac{(x+1)(x+4)}{x(x+2)(x+1)}=\frac{x+4}{x(x+2)}.</me>
-        In this section, we will explore what can we do to simplify rational functions if we are not able to 
+        In this section, we will explore the question: what can we do to simplify rational functions if we are not able to 
         reduce by easily factoring?
     </p>
   </observation>
@@ -43,7 +43,7 @@
 
     <observation>
       <p>When dealing with an improper fraction such as <m>\frac{32}{7}</m>, it is sometimes useful to rewrite this
-        as an integer plus an improper fraction, e.g. <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
+        as an integer plus a proper fraction, e.g. <m>\frac{32}{7}=4+\frac{4}{7}</m>.  Similarly, it will sometimes be
         useful to rewrite an improper rational function as the sum of a polynomial and a proper rational function, such 
         as <m>\frac{x^3+x}{x^2+4}=x-\frac{3x}{x^2+4}</m>.
       </p>
@@ -62,7 +62,7 @@
                   <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
-                &amp;3 &amp; 2 &amp;   \\  
+                &amp; &amp;3  &amp;2   \\  
                 \cline{2-4}\\[-14.5pt]
                 \multicolumn{1}{r}{11\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;5 &amp;7  \\
                 &amp; 3&amp;3 &amp;  \\
@@ -181,7 +181,7 @@
                   <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
-                &amp; &amp; ? &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                &amp; &amp;  &amp; &amp; ? &amp; &amp;  &amp; &amp;  \\  
                 \cline{2-9}\\[-14.5pt]
                 \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                 \end{array}
@@ -211,7 +211,7 @@
                 <latex-image>
                   \(
                 \begin{array}{ r *{19}{c@{}} }
-                &amp;3 &amp; x &amp;  &amp;  &amp; &amp;  &amp; &amp;  \\  
+                &amp; &amp;  &amp;  &amp; 3 &amp;x &amp;  &amp; &amp;  \\  
                 \cline{2-9}\\[-14.5pt]
                 \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                 \end{array}
@@ -227,7 +227,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp; 3 &amp; x &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                  &amp;  &amp;  &amp; &amp; 3 &amp; x &amp;  &amp; &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
@@ -243,7 +243,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp;3 &amp; x &amp; &amp;  &amp; &amp;  &amp; &amp;  \\  
+                  &amp; &amp;  &amp; &amp; 3 &amp;x  &amp;  &amp; &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
@@ -263,7 +263,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp;3 &amp; x &amp;+ &amp;?  &amp; &amp;  &amp; &amp;  \\  
+                  &amp; &amp;  &amp; &amp;3  &amp;x &amp; + &amp;? &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
@@ -279,7 +279,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  &amp; &amp;  &amp; &amp; 3  &amp;x &amp; + &amp;2 &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
@@ -298,7 +298,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  &amp; &amp;  &amp; &amp;3  &amp;x &amp; + &amp;2 &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
@@ -317,7 +317,7 @@
                   <latex-image>
                     \(
                   \begin{array}{ r *{19}{c@{}} }
-                  &amp;3 &amp; x &amp;+ &amp;2  &amp; &amp;  &amp; &amp;  \\  
+                  &amp; &amp;  &amp; &amp; 3 &amp;x &amp; + &amp; 2 &amp;  \\  
                   \cline{2-9}\\[-14.5pt]
                   \multicolumn{1}{r}{(x+1)\rlap{\kern4.5pt\smash{\raise.2ex\hbox{)}}}} &amp; 3 &amp;x^2 &amp;+ &amp;5 &amp;x &amp;+ &amp; 7 \\
                   &amp; 3 &amp; x^2 &amp; + &amp; 3 &amp; x &amp; &amp; &amp;  \\
