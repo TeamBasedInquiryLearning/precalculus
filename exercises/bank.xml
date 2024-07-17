@@ -23,11 +23,20 @@ I can graph quadratic functions and identify their axis of symmetry and maximum 
 I can use quadratic models to solve an application problem and establish conclusions.
             </description>
         </outcome>
-        
+
         <outcome>
-            <title>Division of Polynomials</title>
+            <title>Graphs of Polynomial Functions</title>
             <slug>PR3</slug>
             <path>outcomes/PR/PR3</path>
+            <description>
+ I can find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.
+
+            </description>
+        </outcome>
+        <outcome>
+            <title>Division of Polynomials</title>
+            <slug>PR4</slug>
+            <path>outcomes/PR/PR4</path>
             <description>
 I can rewrite a rational function as a polynomial plus a proper rational function.
             </description>
@@ -35,22 +44,14 @@ I can rewrite a rational function as a polynomial plus a proper rational functio
         
         <outcome>
             <title>Zeros of Polynomial Functions</title>
-            <slug>PR4</slug>
-            <path>outcomes/PR/PR4</path>
+            <slug>PR5</slug>
+            <path>outcomes/PR/PR5</path>
             <description>
  I can determine the zeros of a given polynomial function, write a polynomial function given information about its zeros and their multiplicities, and I can use the Factor Theorem.
             </description>
         </outcome>
         
-        <outcome>
-            <title>Graphs of Polynomial Functions</title>
-            <slug>PR5</slug>
-            <path>outcomes/PR/PR5</path>
-            <description>
- I can find the intercepts, estimated locations of maxima and minima, and end behavior of a polynomial function, and use this information to sketch the graph.
 
-            </description>
-        </outcome>
         
         <outcome>
             <title>Graphs of Rational Functions</title>
