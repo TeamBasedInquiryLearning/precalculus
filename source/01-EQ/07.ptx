@@ -166,9 +166,23 @@
     </task>
     <task>
       <statement>
-      <p> Use a graphing utility to graph the function <m>g(x)=\frac{4x+3}{x+2}-x</m>.  
-        Which part of the graph represents where <m>\frac{4x+3}{x+2}-x\gt0</m>?</p> 
+      <p> 
+        Use a graphing utility to graph the function <m>g(x)=\frac{4x+3}{x+2}-x</m>.  
+        Which part of the graph represents where <m>\frac{4x+3}{x+2}-x\gt0</m>? 
+        Write your answer in interval notation.
+      </p> 
     </statement>
+    <answer>
+      <image>
+        <sageplot>
+          f(x) = (4*x+3)/(x+2)-x
+          fill_opt = {'fillcolor': 'blue', 'thickness': 0}
+          p=plot(f,(x,-1,3),fill=True,**fill_opt)+plot(f,(x,-7,-2),fill=True,**fill_opt)+plot(f, (x, -7, 7), ymin=-15, ymax=15, color='blue', thickness=3, detect_poles=True)
+          p
+        </sageplot>
+      </image>
+      <p>The graph is above the <m>x</m>-axis on the interval <m>(-\infty, -2) \cup (-1,3)</m>.</p>
+    </answer>
     </task>
     <task>
       <statement>
@@ -184,12 +198,12 @@
     </task>
     <task>
       <statement>
-      <p> How do these values you found in part (b) relate to the numerator and the denominator 
+      <p> How does the interval you found in part (b) relate to the numerator and the denominator 
         of the combined rational function in part (c)? 
         </p>
     </statement>
     <hint><p>Factor the numerator.</p></hint>
-    <answer><p>The places where the numerator or denominator vanishes are the potential places where the sign can change.</p></answer> 
+    <answer><p>The places where the numerator or denominator are zero are the potential places where the sign can change.</p></answer> 
     </task>   
 <task>
     <statement>
@@ -207,10 +221,10 @@
     <statement>
     <p> How can we express the answers to part (e) for the rational inequality using interval notation?</p>
     <ol marker="A." cols="1">
-      <li><m>\left(-\infty,-2\right) \cup (-1,3)</m></li>
+      <li><m>\left(1,3\right) </m></li>
       <li><m>\left(-2,-1\right) \cup (3,\infty)</m></li>
       <li><m>\left(-2,-1\right) </m></li>
-      <li><m>\left(1,3\right) </m></li>
+      <li><m>\left(-\infty,-2\right) \cup (-1,3)</m></li>
   </ol>
 </statement>
 <answer><p>A.</p></answer>
