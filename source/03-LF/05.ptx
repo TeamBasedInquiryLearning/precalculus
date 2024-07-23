@@ -470,6 +470,79 @@
         
         </activity>
 
+        <activity xml:id="activity-two-lin-models">
+          <introduction>
+           <p>
+            Erin needs to print t-shirts for her company retreat. She has found two businesses that produce quality shirts, but they have different pricing structures. Shirts-R-Us requires a <m>$60</m> set up fee, then charges <m>$7</m> for each shirt produced. Graphix! has no set up fee and charges <m>$8.50</m> per shirt produced.
+           </p>
+          </introduction> 
+    
+          <task>
+            <statement>
+              <p>
+               Write a linear function <m>S(x)</m> that models the pricing structure for producing <m>x</m> shirts at Shirts-R-Us.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>S(x)=60+7x</m>
+              </p>
+            </answer>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+               Write a linear function <m>G(x)</m> that models the pricing structure for producing <m>x</m> shirts at Graphix!.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>G(x)=8.50x</m>
+              </p>
+            </answer>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+               At which business would it be less expensive to buy 1 shirt? 10 shirts? 100 shirts? Explain your reasoning.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                One shirt: <m>S(1) = 67</m> and <m>G(1)=8.50</m>, so less expensive at Graphix!.
+              </p>
+              <p>
+                Ten shirts: <m>S(10) = 130</m> and <m>G(10)=85</m>, so less expensive at Graphix!.
+              </p>
+              <p>
+                100 shirts: <m>S(100) = 760</m> and <m>G(100)=850</m>, so less expensive at Shirts-R-Us.
+              </p>
+            </answer>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+              It depended on how many shirts were needed to determine which business was less expensive. For what range of number of shirts should Erin choose Shirts-R-Us and for what range should she choose Graphix!?
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Try finding where the cost is the same at both businesses. And looking at a graph may help as well!
+              </p>
+          </hint>
+            <answer>
+              <p>
+                The businesses charge the same amount to produce <m>40</m> shirts. For less, choose Graphix! For more, choose Shirts-R-Us.
+              </p>
+            </answer>
+          </task>
+  
+          
+          </activity>
+
 
 
 
