@@ -12,7 +12,9 @@
     <subsection>
     <title>Activities</title>
     
-    <observation>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. </observation>
+    <observation>Quadratic functions have many different applications in the real world. For example, say we want to identify a point at which the maximum profit or minimum cost occurs. Before we can interpret some of these situations, however, we will first need to understand how to read the graphs of quadratic functions to locate these least and greatest values. 
+       
+    </observation>
 
     <activity xml:id="PR1-activity-1">
         <introduction>
@@ -148,8 +150,14 @@
     
     <definition xml:id="vertex-form-of-a-quadratic-function">
       <statement>
-        <p> The maximum or minimum of a quadratic function is also known as its <term>vertex</term>. The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <me>f(x)=a(x-h)^2+k</me>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola.</p>  
-          <p> Vertex form can be used to identify the <term>axis of symmetry</term>, also known as the line of symmetry (the line that makes the shape of an object symmetrical). For a quadratic function, the axis of symmetry always passes through the vertex <m>(h,k)</m> and so <m>x = h</m> is the axis of symmetry. <idx><h>quadratic function</h><h>axis of symmetry from vertex form</h></idx>
+        <p> The point at which a quadratic function has a maximum or minimum value is called the <term>vertex</term>. The <term>vertex form</term> <idx><h>quadratic function</h><h>vertex form</h></idx> of a quadratic function is given by <me>f(x)=a(x-h)^2+k</me>, where <m>(h, k)</m> is the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from vertex form</h></idx> of the parabola.</p>  
+      </statement>
+    </definition>
+
+    <definition xml:id="aos-quadratic-function">
+      <statement>
+        
+          <p> The <term>axis of symmetry</term><idx><h>quadratic function</h><h>axis of symmetry</h></idx>, also known as the line of symmetry, is the line that makes the shape of an object symmetrical. For a quadratic function, the axis of symmetry always passes through the vertex <m>(h,k)</m> and so is the vertical line <m>x = h</m>. 
         </p>
       </statement>
     </definition>
@@ -189,10 +197,15 @@
   <definition xml:id="standard-form-of-a-quadratic-function">
     <statement>
       <p> The <term>standard form</term> <idx><h>quadratic function</h><h>standard form</h></idx> of a quadratic function is given by <me>f(x)=ax^2+bx+c</me>, where <m>a, b </m>, and <m> c </m> are real coefficients.</p>
-      <p> Just as with the vertex form of a quadratic, we can use the standard form of a quadratic to find the <term>axis of symmetry</term> <idx><h>quadratic function</h><h>axis of symmetry from standard form</h></idx> and the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from standard form</h></idx>by using the values of <m>a, b </m>, and <m> c </m>. Given the standard form of a quadratic, the axis of symmetry is <m> x=\frac {-b}{2a}</m> and has a vertex at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
-      </p>
     </statement>
   </definition>
+
+  <observation xml:id="standard-form-aos">
+    <statement>
+      <p> Just as with the vertex form of a quadratic, we can use the standard form of a quadratic to find the <term>axis of symmetry</term> <idx><h>quadratic function</h><h>axis of symmetry</h></idx> and the <term>vertex</term> <idx><h>quadratic function</h><h>vertex from standard form</h></idx>by using the values of <m>a, b </m>, and <m> c </m>. Given the standard form of a quadratic, the axis of symmetry is the vertical line <m> x=\frac {-b}{2a}</m> and the vertex is at the point <m> (\frac{-b}{2a},f(\frac{-b}{2a}))</m>.
+      </p>
+    </statement>
+  </observation>
 
   <activity xml:id="PR1-activity-3">
     <introduction>
