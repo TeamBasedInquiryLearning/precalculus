@@ -40,7 +40,7 @@
       </activity>
       
       <theorem xml:id="thm-remainder">
-        <title>Remainer Theorem</title> 
+        <title>Remainder Theorem</title> 
         <statement> 
           <p> If a polynomial <m>p(x)</m> is divided by <m>x-a</m> then the remainder is equal to <m>p(a)</m>.</p>
         </statement>
