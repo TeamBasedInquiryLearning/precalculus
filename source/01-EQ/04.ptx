@@ -351,7 +351,7 @@
 
       <m>\lvert x \rvert \lt k \text{ becomes } -k \lt x \lt k</m>. 
 
-      <m>\lvert x \rvert \gt k \text{ becomes } x\gt k \text{ and } x\lt-k</m>.
+      <m>\lvert x \rvert \gt k \text{ becomes } x\gt k \text{ or } x\lt-k</m>.
     </p>
 </definition>
 <activity>
