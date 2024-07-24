@@ -253,7 +253,7 @@
     <task>
       <statement>
         <p>
-          Use the graph and the Rational Root Theorem, to find the rational zeros of <m>f(x)</m>.
+          Use the graph and the Rational Root Theorem (<xref ref="thm-rational-root"/>) to find the rational zeros of <m>f(x)</m>.
         </p>
       </statement>
     </task>
