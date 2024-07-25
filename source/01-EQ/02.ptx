@@ -366,7 +366,7 @@
 
     <activity xml:id="activity-la-candymixture">
       <introduction>
-        <p> Ammie's favorite snack to share with friends is candy salad, which is a mixture of different types of candy. Today she chooses to mix Nerds Gummy Clusters, which cost <m>$8.38</m> per pound, and Starburst Jelly Beans, which cost <m>$7.16</m> per pound. If she makes seven pounds of candy salad and spends a total of <m>$55.61</m>, how many pounds of each candy did she buy?   </p>
+        <p> Ammie's favorite snack to share with friends is candy salad, which is a mixture of different types of candy. Today she chooses to mix Nerds Gummy Clusters, which cost <m>\$8.38</m> per pound, and Starburst Jelly Beans, which cost <m>\$7.16</m> per pound. If she makes seven pounds of candy salad and spends a total of <m>\$55.61</m>, how many pounds of each candy did she buy?   </p>
         
       </introduction>
 
