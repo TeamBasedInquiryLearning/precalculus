@@ -336,11 +336,7 @@
         <statement>
           <p>
             Our goal was to determine the distance between Jalen's house and the grocery store. Solving for <m>r</m> did not tell us that distance, but it did get us one step closer. Use that value to help you determine the distance between his house and the store, and write your answer using the context of the problem. 
-            <hint>
-              <p>
-                Can you find an expression involving <m>r</m> that we made that represents that distance?
-              </p>
-            </hint>
+
             <ol marker= "A.">  
               <li>The grocery store is <m>6</m> miles away from Jalen's house. </li>
               <li>The grocery store is <m>8</m> miles away from Jalen's house. </li>
@@ -351,6 +347,11 @@
             </ol>
           </p>
         </statement>
+        <hint>
+          <p>
+            Can you find an expression involving <m>r</m> that we made that represents that distance?
+          </p>
+        </hint>
         <answer>
           <p>
             A
@@ -430,12 +431,7 @@
       <task>
         <statement>
           <p> We are almost ready to solve, but we have two variables in our weight equation and our cost equation. We will get the cost equation to one variable by using the weight equation as a substitution. Which of the following is a way to express one variable in terms of the other?
-            <hint>
-              <p>
-                More than one answer may be correct here!
-              </p>
-            </hint>
-           
+
             <ol marker= "A.">  
               <li>If <m>N</m> is the total weight of the Nerds Gummy Clusters, then <m>7-N</m> could represent the weight of the Starburst Jelly Beans.</li>
               <li>If <m>N</m> is the total weight of the Nerds Gummy Clusters, then <m>7+N</m> could represent the weight of the Starburst Jelly Beans.</li>
@@ -446,6 +442,11 @@
             </ol>
           </p>
         </statement>
+        <hint>
+          <p>
+            More than one answer may be correct here!
+          </p>
+        </hint>
         <answer>
           <p>
             A or C
@@ -456,11 +457,6 @@
       <task>
         <statement>
           <p> Plug your expressions in to the total cost equation.
-            <hint>
-              <p>
-                More than one of these may be correct!
-              </p>
-            </hint> 
            
             <ol marker= "A.">  
               <li><m>8.38N+7.16(7-N)=55.61</m></li>
@@ -471,6 +467,11 @@
             </ol>
           </p>
         </statement>
+        <hint>
+          <p>
+            More than one of these may be correct!
+          </p>
+        </hint> 
         <answer>
           <p>
             A or D, depending on the substitution chosen.
