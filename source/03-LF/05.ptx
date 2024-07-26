@@ -473,7 +473,7 @@
         <activity xml:id="activity-two-lin-models">
           <introduction>
            <p>
-            Erin needs to print t-shirts for her company retreat. She has found two businesses that produce quality shirts, but they have different pricing structures. Shirts-R-Us requires a <m>$60</m> set up fee, then charges <m>$7</m> for each shirt produced. Graphix! has no set up fee and charges <m>$8.50</m> per shirt produced.
+            Erin needs to print t-shirts for her company retreat. She has found two businesses that produce quality shirts, but they have different pricing structures. Shirts-R-Us requires a <m>\$60</m> set up fee, then charges <m>\$7</m> for each shirt produced. Graphix! has no set up fee and charges <m>\$8.50</m> per shirt produced.
            </p>
           </introduction> 
     

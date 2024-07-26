@@ -202,7 +202,7 @@
       </activity>
       <activity>
         <introduction>
-          <p>The unit price of an item affects its supply and demand. That is, if the unit price increases, the demand for the item will usually decrease. For example, an online streaming service currently has <m>84</m> million subscribers at a monthly charge of <m>$6</m>. Market research has suggested that if the owners raise the price to <m>$8</m>, they would lose <m>4</m> million subscribers. Assume that subscriptions are linearly related to the price.
+          <p>The unit price of an item affects its supply and demand. That is, if the unit price increases, the demand for the item will usually decrease. For example, an online streaming service currently has <m>84</m> million subscribers at a monthly charge of <m>\$6</m>. Market research has suggested that if the owners raise the price to <m>\$8</m>, they would lose <m>4</m> million subscribers. Assume that subscriptions are linearly related to the price.
             
           </p>
         </introduction>
