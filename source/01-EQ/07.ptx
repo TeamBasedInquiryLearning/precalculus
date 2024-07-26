@@ -167,7 +167,7 @@
         <sageplot>
           f(x) = (x+3)/(x-2)
           fill_opt = {'fillcolor': 'blue', 'thickness': 0}
-          p=plot(f,(x,-3,2),fill=True,**fill_opt)
+          p=plot(f,(x,-3,2),fill=True,**fill_opt,ymin=-15,ymax=15)+plot(f,(x,-5,5),thickness=3,detect_poles=True)
           p
         </sageplot>
       </image>
