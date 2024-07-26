@@ -29,6 +29,11 @@
               Use polynomial division from <xref ref="PR4"/> to divide <m>f(x)</m> by <m>x-2</m>. What is the remainder?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>9</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -36,6 +41,11 @@
               Find <m>f(2)</m>. What do you notice?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>f(2)=9</m> Remainder and value are the same
+            </p>
+          </answer>
         </task>
       </activity>
       
@@ -57,6 +67,11 @@
               Divide <m>f(x)</m> by <m>x-3</m>. What is the remainder?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -64,6 +79,11 @@
               Find <m>f(3)</m>. What do you notice?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>f(3)=0</m> When value is 0 there is no remainder
+            </p>
+          </answer>
         </task>
       </activity>
       
@@ -88,7 +108,7 @@
         <task>
           <statement>
             <p>
-              We already know from <xref ref="motivate-factor-theorem"/> that <m>x-3</m> is a factor of the polynomial <m>f(x)</m>. Use division to express <m>f(x)</m> as <m>(x-3)*q(x)</m>, where <m>q(x)</m> is a quadratic function.
+              We already know from <xref ref="motivate-factor-theorem"/> that <m>x-3</m> is a factor of the polynomial <m>f(x)</m>. Use division to express <m>f(x)</m> as <m>(x-3)\cdot q(x)</m>, where <m>q(x)</m> is a quadratic function.
             </p>
             <ol marker= "A.">
               <li> <m>q(x)=x^2-2x-3</m></li>
@@ -97,6 +117,11 @@
               <li> <m>q(x)=x^2+4x-5</m></li>
             </ol>
           </statement>
+          <answer>
+            <p>
+              D
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -112,6 +137,11 @@
               <li> <m>1</m></li>
             </ol>
           </statement>
+          <answer>
+            <p>
+              B and F
+            </p>
+          </answer>
         </task>
       </activity>
     
@@ -131,6 +161,11 @@
               Graph the function. According to the graph, what value(s) seem to be zeros?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>-4</m> and <m>-2</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -138,6 +173,11 @@
               Use the Remainder Theorem to confirm that your guesses are actually zeros.
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>f(-4)=0</m> and <m>f(-2)=0</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -145,6 +185,11 @@
               Now use these zeros along with polynomial division to rewrite the function as <m>f(x)=(x-a)(x-b)q(x)</m> where <m>a</m> and <m>b</m> are zeros and <m>q(x)</m> is the remaining quadratic function.
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>(x+4)(x+2)(18x^2-41x+21)</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -152,6 +197,11 @@
               Solve the quadratic <m>q(x)</m> to find the remaining zeros.
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>\dfrac{3}{2}</m> and <m>\dfrac{7}{9}</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -159,6 +209,11 @@
               List all zeros of <m>f(x)</m>.
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>-4, -2, \dfrac{7}{9}, \dfrac{3}{2}</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -166,6 +221,11 @@
               Rewrite <m>f(x)</m> as a product of linear factors.
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>(x+4)(x+2)(2x-3)(9x-7)</m>
+            </p>
+          </answer>
         </task>
         
       </activity>
@@ -186,6 +246,11 @@
           What are the roots of this quadratic?
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\dfrac{5}{2}</m> and <m>\dfrac{8}{3}</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -193,6 +258,11 @@
           What do you notice about these roots in relation to the factors of <m>a=6</m> and <m>c=40</m> in <m>f(x)=6x^2-31x+40</m>?
         </p>
       </statement>
+      <answer>
+        <p>
+          The numerator is a factor of <m>c</m> and the denominator is a factor of <m>a</m>.
+        </p>
+      </answer>
     </task>
    </activity>
    
@@ -220,6 +290,11 @@
           List the factors of the constant term.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\pm 8, \pm 4, \pm 2 \pm 1</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -227,6 +302,11 @@
           List the factors of the leading coefficient.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\pm 5, \pm 1</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -234,6 +314,11 @@
           Use parts (a) and (b) to list all the possible rational roots.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\pm 8, \pm 4, \pm 2 \pm 1, \pm \dfrac{8}{5}, \pm \dfrac{4}{5}, \pm \dfrac{2}{5}, \pm \dfrac{1}{5}</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -241,6 +326,11 @@
           Use the Remainder Theorem to determine at least one root of <m>f(x)</m>.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\dfrac{2}{5}</m>
+        </p>
+      </answer>
     </task>
    </activity>
 
@@ -256,6 +346,11 @@
           Use the graph and the Rational Root Theorem (<xref ref="thm-rational-root"/>) to find the rational zeros of <m>f(x)</m>.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>1</m> and <m>-\dfrac{5}{6}</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -263,6 +358,11 @@
           Use the roots, along with the Factor Theorem, to simplify the polynomial into linear and quadratic factors.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>(6x+5)(x-1)(x^2+x+1)</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -270,6 +370,11 @@
           Find the zeros of the quadratic factor.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\dfrac{-1\pm \sqrt{3}}{2}</m>
+        </p>
+      </answer>
     </task>
     <task>
       <statement>
@@ -277,6 +382,11 @@
           List the roots of the polynomial.
         </p>
       </statement>
+      <answer>
+        <p>
+          <m>\dfrac{-1+ \sqrt{3}}{2}, \dfrac{-1- \sqrt{3}}{2}, 1, </m> and <m>-\dfrac{5}{6}</m>
+        </p>
+      </answer>
     </task>
    </activity>
 <remark>
@@ -342,7 +452,7 @@
           <li><m>6</m></li>
         </ol>
       </statement>
-      <answer><p><m>5</m></p></answer>
+      <answer><p>D</p></answer>
     </task>
     <task>
       <statement>
