@@ -407,6 +407,19 @@
     <answer>
       <p>
         <m>x \ge -2</m>, <m>[-2,\infty]</m>
+        <image>
+          <sageplot>
+            P = arrow((0,0),(10,0),color="black", width=1, arrowsize=1, aspect_ratio=1)
+            P += arrow((0,0),(-10,0),color="black", width=1, arrowsize=1)
+            for i in range(-9,10):
+              P += line([(i,-0.2),(i,0.2)],color="black")
+              P += text(f"${i}$", (i,-0.6),color="black")
+            P+= arrow((-2,0),(10,0),color="#0088ff", width=3, arrowsize=3)
+            P += text("[", (-2,0), color="#0088ff", fontsize=16)
+            P.axes(False)
+            P
+          </sageplot>
+        </image>
       </p>
     </answer>
     </task>
@@ -419,6 +432,20 @@
     <answer>
       <p>
         <m>x \gt -13</m>, <m>(-13,\infty)</m>
+        <image>
+        <sageplot>
+          P = arrow((0,0),(20,0),color="black", width=1, arrowsize=1, aspect_ratio=1)
+          P += arrow((0,0),(-20,0),color="black", width=1, arrowsize=1)
+          for i in range(-19,20):
+            P += line([(i,-0.2),(i,0.2)],color="black")
+          for i in range(-9,10):
+            P += text(f"${2*i}$", (2*i,-0.6),color="black")
+          P+= arrow((-13,0),(20,0),color="#0088ff", width=3, arrowsize=3)
+          P += text("(", (-13,0), color="#0088ff", fontsize=16)
+          P.axes(False)
+          P
+        </sageplot>
+      </image>
       </p>
     </answer>
   </task>
@@ -431,6 +458,19 @@
   <answer>
     <p>
       <m>x \le \dfrac{7}{3}</m>, <m>\left(-\infty, \dfrac{7}{3} \right)</m>
+      <image>
+      <sageplot>
+        P = arrow((0,0),(10,0),color="black", width=1, arrowsize=1, aspect_ratio=1)
+        P += arrow((0,0),(-10,0),color="black", width=1, arrowsize=1)
+        for i in range(-9,10):
+          P += line([(i,-0.2),(i,0.2)],color="black")
+          P += text(f"${i}$", (i,-0.6),color="black")
+        P+= arrow((7/3,0),(-10,0),color="#0088ff", width=3, arrowsize=3)
+        P += text("]", (7/3,0), color="#0088ff", fontsize=16)
+        P.axes(False)
+        P
+      </sageplot>
+      </image>
     </p>
   </answer>
 </task>
@@ -607,6 +647,19 @@
   <answer>
     <p>
       <m>-4 \le x \lt -3</m>, <m>[-4,-3)</m>
+      <image>
+        <sageplot>
+          P = arrow((-10,0),(10,0),color="black", width=1, arrowsize=1, aspect_ratio=1,head=2)
+          for i in range(-9,10):
+            P += line([(i,-0.2),(i,0.2)],color="black")
+            P += text(f"${i}$", (i,-0.6),color="black")
+          P+= line([(-4,0),(-3,0)],color="#0088ff", thickness=3)
+          P += text("[", (-4,0), color="#0088ff", fontsize=16)
+          P += text(")", (-3,0), color="#0088ff", fontsize=16)
+          P.axes(False)
+          P
+        </sageplot>
+      </image>
     </p>
   </answer>
   </task>
@@ -619,6 +672,19 @@
   <answer>
     <p>
       <m>-12 \le x \lt 4</m>, <m>[-12,4)</m>
+      <image>
+        <sageplot>
+          P = arrow((-14,0),(13,0),color="black", width=1, arrowsize=1, aspect_ratio=1,head=2)
+          for i in range(-13,13):
+            P += line([(i,-0.2),(i,0.2)],color="black")
+            P += text(f"${i}$", (i,-0.6),color="black")
+          P+= line([(-12,0),(4,0)],color="#0088ff", thickness=3)
+          P += text("[", (-12,0), color="#0088ff", fontsize=16)
+          P += text(")", (4,0), color="#0088ff", fontsize=16)
+          P.axes(False)
+          P
+        </sageplot>
+      </image>
     </p>
   </answer>
   </task>

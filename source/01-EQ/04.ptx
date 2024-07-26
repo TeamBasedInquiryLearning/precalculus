@@ -447,6 +447,19 @@
   <answer>
     <p>
       <m>-\dfrac{14}{3} \lt x \lt 2</m>, <m>\left( -\dfrac{14}{3}, 2 \right)</m>
+      <image>
+        <sageplot>
+          P = arrow((-10,0),(10,0),color="black", width=1, arrowsize=1, aspect_ratio=1,head=2)
+          for i in range(-9,10):
+            P += line([(i,-0.2),(i,0.2)],color="black")
+            P += text(f"${i}$", (i,-0.6),color="black")
+          P+= line([(-14/3,0),(2,0)],color="#0088ff", thickness=3)
+          P += text("(", (-14/3,0), color="#0088ff", fontsize=16)
+          P += text(")", (2,0), color="#0088ff", fontsize=16)
+          P.axes(False)
+          P
+        </sageplot>
+      </image>
     </p>
   </answer>
   </task>
@@ -458,6 +471,20 @@
     <answer>
       <p>
         <m>x \lt 5</m> and <m>x \gt 9</m>, <m>(-\infty, 5) \cup (9, \infty)</m>
+        <image>
+          <sageplot>
+            P = arrow((-10,0),(10,0),color="black", width=1, arrowsize=1, aspect_ratio=1,head=2)
+            for i in range(-9,10):
+              P += line([(i,-0.2),(i,0.2)],color="black")
+              P += text(f"${i}$", (i,-0.6),color="black")
+            P+= arrow((5,0),(-10,0),color="#0088ff", width=3,arrowsize=3)
+            P+= arrow((9,0),(10,0),color="#0088ff", width=3,arrowsize=3)
+            P += text(")", (5,0), color="#0088ff", fontsize=16)
+            P += text("(", (9,0), color="#0088ff", fontsize=16)
+            P.axes(False)
+            P
+          </sageplot>
+        </image>
       </p>
     </answer>
   </task>
