@@ -121,17 +121,37 @@
 </definition>
 
   <activity xml:id="quadratic-inequality-coeff-less-than-0">
-    <statement>
-      <p>Solve the quadratic inequality algebraically<me>2x^2-28 \lt 10x</me>.
-        Write your solution using interval notation.</p>
+    <introduction>
+      <p>Solve the quadratic inequality algebraically<me>2x^2-28 \lt 10x</me>.</p>
+    </introduction>
+    <task>
+      <statement>
+        <p>Write your solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p> <m>\left(-\infty,-2\right)\cup\left(7,\infty\right)</m> </p></li>
           <li><p> <m>\left(-\infty,-7\right)\cup\left(2,\infty\right)</m> </p></li>
           <li><p> <m>\left(-7,2\right)</m> </p></li>
           <li><p> <m>\left(-2,7\right)</m></p></li>
-      </ol> 
-    </statement>
-    <answer><p>D.</p></answer>
+        </ol> 
+      </statement>
+      <answer><p>D.</p></answer>
+    </task>
+    <task>
+      <statement>
+      <p>Draw a number line representing your solution.</p>
+      </statement>
+    <answer>
+      <image>
+        <sageplot>
+          import TBILPrecal
+          p = TBILPrecal.numberline_plot()
+          p += TBILPrecal.inequality_plot(start=-2,end=7)
+          p.axes(False)
+          p
+        </sageplot>
+      </image>
+    </answer>
+    </task>
   </activity>
 
   <activity xml:id="quadratic-inequality-coeff-greater-than-or-equal-0">
