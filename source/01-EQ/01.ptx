@@ -406,7 +406,7 @@
     </statement>
     <answer>
       <p>
-        <m>x \ge -2</m>
+        <m>x \ge -2</m>, <m>[-2,\infty]</m>
       </p>
     </answer>
     </task>
@@ -418,7 +418,7 @@
     </statement>
     <answer>
       <p>
-        <m>x \gt -13</m>
+        <m>x \gt -13</m>, <m>(-13,\infty)</m>
       </p>
     </answer>
   </task>
@@ -430,7 +430,7 @@
   </statement>
   <answer>
     <p>
-      <m>x \le \frac{7}{3}</m>
+      <m>x \le \dfrac{7}{3}</m>, <m>\left(-\infty, \dfrac{7}{3} \right)</m>
     </p>
   </answer>
 </task>
@@ -606,7 +606,7 @@
   </statement>
   <answer>
     <p>
-      <m>-4 \le x \lt -3</m>
+      <m>-4 \le x \lt -3</m>, <m>[-4,-3)</m>
     </p>
   </answer>
   </task>
@@ -618,7 +618,7 @@
   </statement>
   <answer>
     <p>
-      <m>-12 \le x \lt 4</m>
+      <m>-12 \le x \lt 4</m>, <m>[-12,4)</m>
     </p>
   </answer>
   </task>
