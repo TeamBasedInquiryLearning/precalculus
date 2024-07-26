@@ -75,7 +75,7 @@
             </statement>
               <answer>
                 <p>
-                  Choices B and C
+                  B and C
                 </p>
               </answer>
           </task>
@@ -125,7 +125,7 @@
                 </statement>
                   <answer>
                     <p>
-                      Answers will vary.
+                      Answers will vary. Students should make sure that their sketch is a function.
                     </p>
                   </answer>
               </task>
@@ -199,7 +199,7 @@
       <task>
         <statement>
           <p>
-            What interval represents the domain you drew in part a?
+            What interval represents the domain you drew in part (a)?
             <ol marker= "A." cols="2">
               <li> <m>[4, -4]</m> </li>
               <li> <m>[-4, 4]</m> </li>
@@ -227,7 +227,7 @@
       <task>
         <statement>
           <p>
-            What interval represents the range you drew in part c?
+            What interval represents the range you drew in part (c)?
             <ol marker= "A." cols="2">
               <li> <m>(-5, 4)</m> </li>
               <li> <m>[-4, 4]</m> </li>
@@ -479,6 +479,11 @@
         Based on what you see on the graph, do you think this graph has any maxima or minima?
         </p>
         </statement>
+        <answer>
+          <p>
+            The intent here is for students to visually see there that the graph reaches a high point (i.e., the maximum). To extend this thinking, instructors could also ask students to draw a sketch (or discuss) when a graph would have a minimum.
+          </p>
+        </answer>
       </task>
     </activity>
 
@@ -593,12 +598,12 @@
       <task>
         <statement>
           <p>
-            At what value of <m>x</m> is there a local maximum?
+            At approximately what value of <m>x</m> is there a local maximum?
             <ol marker= "A." cols="2">
-              <li> <m>x=-4</m> </li>
-              <li> <m>x=-2</m> </li>
-              <li> <m>x=2</m> </li>
-              <li> <m>x=5</m> </li></ol></p>
+              <li> <m>x \approx -4</m> </li>
+              <li> <m>x \approx -2</m> </li>
+              <li> <m>x \approx 2</m> </li>
+              <li> <m>x \approx 5</m> </li></ol></p>
         </statement>
         <answer>
           <p>
@@ -625,12 +630,12 @@
       <task>
         <statement>
           <p>
-            At what value of <m>x</m> is there a local minimum?
+            At approximately what value of <m>x</m> is there a local minimum?
             <ol marker= "A." cols="2">
-              <li> <m>x=-4</m> </li>
-              <li> <m>x=-2</m> </li>
-              <li> <m>x=2</m> </li>
-              <li> <m>x=5</m> </li></ol></p>
+              <li> <m>x \approx -4</m> </li>
+              <li> <m>x \approx -2</m> </li>
+              <li> <m>x \approx 2</m> </li>
+              <li> <m>x \approx 5</m> </li></ol></p>
         </statement>
         <answer>
           <p>
@@ -657,7 +662,7 @@
     </activity>
 
     <remark>
-      Notice that in <xref ref="distinguish-between-max-and-min"/>, there are two ways we talk about max and min. We might want to know the location of where the max or min are (i.e., determining at which <m>x</m>-value the max or min occurs at) or we might want to know what the max or min value are (i.e., the <m>y</m>-value). 
+      Notice that in <xref ref="distinguish-between-max-and-min"/>, there are two ways we talk about max and min. We might want to know the location of where the max or min are (i.e., determining at which <m>x</m>-value the max or min occurs at) or we might want to know what the max or min values are (i.e., the <m>y</m>-value). 
       <p> Also, note that in <xref ref="distinguish-between-max-and-min"/>, a local minimum is also a global minimum.
       </p>
     </remark>
@@ -810,7 +815,7 @@
         </statement>
         <answer>
           <p>
-            <m>(-0.5,2,25)</m>
+            <m>(-0.5,2.25)</m>
           </p>
         </answer>
       </task>
@@ -834,7 +839,7 @@
         </statement>
         <answer>
           <p>
-            At <m>x=-0,5</m>
+            <m>x=-0.5</m>
           </p>
         </answer>
       </task>
@@ -846,7 +851,7 @@
         </statement>
         <answer>
           <p>
-            At <m>x=2.25</m>
+            <m>x=2.25</m>
           </p>
         </answer>
       </task>
