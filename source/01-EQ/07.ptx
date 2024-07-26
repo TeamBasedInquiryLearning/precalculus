@@ -148,6 +148,42 @@
     <answer><p>A.</p></answer>
   </activity>
 
+  <activity xml:id="activity-rational-inequality-0">
+    <introduction>
+      <p>
+        Consider the rational inequality <me> \frac{x+3}{x-2} \leq 0.</me>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+      <p> 
+        Use a graphing utility to graph the function <m>f(x)=\dfrac{x+3}{x-2}</m>.  
+        Which part of the graph represents where <m>\dfrac{x+3}{x-2}\leq 0</m>? 
+        Write your answer in interval notation.
+      </p> 
+      </statement>
+    <answer>
+      <image>
+        <sageplot>
+          f(x) = (x+3)/(x-2)
+          fill_opt = {'fillcolor': 'blue', 'thickness': 0}
+          p=plot(f,(x,-3,2),fill=True,**fill_opt)
+          p
+        </sageplot>
+      </image>
+      <p>The graph is below the <m>x</m>-axis on the interval <m>[-3,2)</m>.</p>
+    </answer>
+  </task>
+  <task>
+    <statement>
+    <p> How does the interval you found in part (a) relate to the numerator and the denominator 
+      of the function <m>f(x)=\dfrac{x+3}{x-2}</m>? 
+      </p>
+  </statement>
+  <answer><p>The places where the numerator or denominator are zero are the potential places where the sign can change.</p></answer> 
+  </task>   
+  </activity>
+
   <activity xml:id="activity-rational-inequality-1">
     <introduction>
       <p>Consider the rational inequality <me>\frac{4x+3}{x+2} \gt x</me>.
