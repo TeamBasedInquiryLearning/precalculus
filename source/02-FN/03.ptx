@@ -803,7 +803,7 @@
         </statement>
         <answer>
           <p>
-            <m>(-2,-0.5)U(2.25,\infty)</m>
+            <m>(-2,-0.5)\cup(2.25,\infty)</m>
           </p>
         </answer>
       </task>
