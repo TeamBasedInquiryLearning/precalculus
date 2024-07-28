@@ -696,12 +696,13 @@ xml:id="intro-to-multiplicities">
     <answer>
       <p>
         One such graph is
-        <figure width="100%" xml:id="PR1-polynomial">
-          <image xml:id="PR1-polynomial-image">
+        <figure width="100%" xml:id="PR1-polynomial-2">
+          <image xml:id="PR1-polynomial-image-2">
             <description>Polynomial Function</description>
             <sageplot>
               f(x) = 1*x^5-9*x^4+24*x^3-20*x^2
-                p=plot(f, (x, -5, 10), ymin=-100, ymax=10, color='blue', thickness=3)
+              p=plot(f, (x, -5, 10), ymin=-100, ymax=10, color='blue', thickness=3)
+              p
             </sageplot>
           </image>
         </figure>
