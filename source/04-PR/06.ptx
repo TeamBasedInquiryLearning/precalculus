@@ -735,7 +735,7 @@
    
     </activity> 
 
-<!-- the following activity is from Active Prelude to Calculus: Exercise 9 
+<!-- the following activity is adapted from Active Prelude to Calculus: Exercise 9 
 https://activecalculus.org/prelude/sec-poly-rational-features.html#ez-poly-rational-features-multiplicities -->
 
     <activity xml:id="activity-rf-holes-extension">
@@ -749,27 +749,47 @@ https://activecalculus.org/prelude/sec-poly-rational-features.html#ez-poly-ratio
           <m>\displaystyle r(x) = \frac{x^2-16}{x+4}</m>
         </p>
       </statement>
+      <answer>
+        <p>
+          Hole when <m>x=-4</m>.
+        </p>
+      </answer>
       </task>
       <task>
         <statement>
         <p>
-          <m>\displaystyle s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x - 6}</m>
+          <m>\displaystyle s(x) = \frac{(x-2)^2(x+3)}{x^2 - 5x + 6}</m>
         </p>
       </statement>
+      <answer>
+        <p>
+          Hole when <m>x=2</m>. The graph near <m>x=2</m> behaves like <m>x=2</m> is a root with odd multiplicity.
+        </p>
+      </answer>
       </task>
       <task>
         <statement>
         <p>
-          <m>\displaystyle u(x) = \frac{(x-2)^3(x+3)}{(x^2 - 5x - 6)(x-7)}</m> 
+          <m>\displaystyle u(x) = \frac{(x-2)^3(x+3)}{x^2 - 5x + 6}</m> 
         </p>
       </statement>
+      <answer>
+        <p>
+          Hole when <m>x=2</m>. The graph near <m>x=2</m> behaves like <m>x=2</m> is a root with even multiplicity.
+        </p>
+      </answer>
       </task>
       <task>
         <statement>
         <p>
-          <m>\displaystyle w(x) = \frac{x^2 + x - 6}{(x^2 + 5x + 6)(x+3)}</m>
+          <m>\displaystyle w(x) = \frac{(x-2)(x+3)}{(x^2 - 5x + 6)^2}</m>
         </p>
       </statement>
+      <answer>
+        <p>
+          Vertical asymptote at <m>x=2</m>. 
+        </p>
+      </answer>
       </task>
     </activity> 
 
@@ -786,6 +806,11 @@ https://activecalculus.org/prelude/sec-poly-rational-features.html#ez-poly-ratio
           <li><m>r(x)</m> has neither a hole nor an asymptote at <m>x=3</m>.</li>
         </ol>
       </statement>
+      <answer>
+        <p>
+          C
+        </p>
+      </answer>
     </activity>
 
     <!-- Extension question regarding holes -->
