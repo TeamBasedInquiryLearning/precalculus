@@ -407,12 +407,12 @@
         Based on your observations in parts (a) and (b), what do you think will be the average rate of change on the interval <m>[5,25]</m>?
       </p>
     </statement>
-  </task>
   <answer>
     <p>
       The average rate of change is <m>3</m>. Based on the previous parts, it shows that the average rate of change does not change for this function.
     </p>
   </answer>
+  </task>
   </activity>
 
   <remark>
