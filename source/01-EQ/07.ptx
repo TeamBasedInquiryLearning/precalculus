@@ -160,7 +160,7 @@
     </introduction>
     <task>
     <statement>
-       Write your solution using interval notation.</p>
+       <p>Write your solution using interval notation.</p>
         <ol marker="A." cols="1">
           <li><p><m>[-5,-3]</m> </p></li>
           <li><p> <m>(-\infty,-5]\cup[-3,\infty)</m> </p></li>
