@@ -1,3 +1,7 @@
+# ARCHIVED
+
+This project is now part of <https://github.com/TeamBasedInquiryLearning/library>
+
 # TBIL Precalculus
 This is an in-development resource
 for teaching precalculus using
